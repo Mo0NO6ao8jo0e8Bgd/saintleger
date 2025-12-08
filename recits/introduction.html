@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Introductions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<!-- HEADER et MENU -->
+<div id="header"></div>
+<div id="menu"></div>
+
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    <a href="../index.html">Accueil</a> &gt; 
+    <a href="index.html">Récits</a> &gt; 
+    Titre du récit
+</div>
+
+<!-- Contenu du récit -->
+<div class="content">
+    <h2>Introductions</h2>
+    <p>Bonjour à tous,</p>
+<p>Il y a bien longtemps, ma grand-mère m’a confié les papiers de notre
+famille Saint-Léger. Je les relis aujourd’hui.</p>
+<p>Il y a presque 200 ans, Philippe, notre aïeul a écrit à son fils pour
+raconter sa vie : comment il a traversé la Révolution française et la
+chute de la monarchie, les guerres sous Napoléon, la Restauration ;
+comment il a été le point de départ de nos générations d’industriels
+avec son usine rue des Tours à Lille ; comment il s’est engagé en
+politique en fervent défenseur républicain.</p>
+<p>Il y a 200 ans, il a écrit à son fils, qui l’a transmis à son fils et
+au fils de son fils … et 5 générations plus tard à ma grand-mère, et
+quelques générations plus tard, à chacun d’entre vous.</p>
+<p>Sur la route, d’autres aïeuls, ont participer à ce que nous
+sommes.</p>
+<p>L’histoire est longue. Je vous propose de vous la raconter,
+progressivement, étape par étape.</p>
+<p>Pour vous situer : Claude Saint-Léger et Anny Wattinne (ma Bonne
+maman) ont eu 5 enfants : Thérèse, Nicole, Francine, Denis et Chantal.
+Ils sont aujourd’hui vos parents, grands parents ou arrière grands
+parents.</p>
+<p><embed src="Pictures/1000EFCA0000684800006848F9860972.pdf"
+style="width:17cm;height:17cm" /></p>
+<p>Ma grand-mère a rassemblé beaucoup de documents sur le commandant
+Saint-Léger, son mari, qui est mort à la fin de la seconde guerre
+mondiale, la laissant seule, avec 5 enfants en bas âge (entre 4 et 9
+ans). Je terminerai par son histoire …</p>
+<p>Je vais remonter le temps en suivant la lignée Saint-Léger jusqu’à
+Philippe. Qu’on porte son nom ou pas, nous sommes tous originaire de
+cette lignée :</p>
+<ul>
+<li>Claude est le fils d’André Saint-Léger et Marguerite Delemer
+(résistance pendant la 1° guerre mondiale)</li>
+<li>André (qui a acheté, et vendu, le château de Hermaville) est le fils
+de Georges Saint-Léger et Amélie Longhaye</li>
+<li>Georges est le fils de Victor Saint-Léger et Clémence Mariage (dont
+le grand-père, Pierre Bonte a été maire de Lille)</li>
+<li>Victor est le fils de Philippe Saint-Léger et Adélaïde Sapin</li>
+<li>Philippe sera notre point de départ</li>
+</ul>
+<p>Je vous parlerai aussi des autres branches, notamment celle d’Anny
+Wattinne, qui jouait, avec ses frères, avec les enfants du roi des
+Belges, Albert 1° ; du château de Biez à Pecq (en Belgique) que son père
+à reconstruit.</p>
+<p>Évidemment, je m’excuse par avance si je commets des erreurs et je
+les corrigerai.<br />
+Je suis intéressé par toute informations (récits d’aïeuls, arbre
+généalogique, photos, …). Je mettrai tout à disposition de la famille
+dès que ce sera bien organisé, en version numérique, dans un format
+résistant au temps.</p>
+<p>A bientôt pour le prochain épisode avec Philippe Saint-Léger</p>
+
+    <!-- Exemple d'image -->
+    <!-- <img src="exemple.jpg" alt="Description de l'image"> -->
+
+    <a class="back-link" href="index.html">← Retour à la liste des récits</a>
+</div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<script>
+async function loadHTML(id, url) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+}
+loadHTML("header", "../partials/header.html");
+loadHTML("menu", "../partials/menu.html");
+loadHTML("footer", "../partials/footer.html");
+</script>
+
+</body>
+</html>
+

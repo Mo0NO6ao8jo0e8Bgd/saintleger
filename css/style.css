@@ -1,0 +1,110 @@
+/* ---- GLOBAL ---- */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Roboto, sans-serif;
+    background: #f7f7f7;
+    color: #333;
+}
+
+/* ---- HEADER ---- */
+header {
+    background: linear-gradient(135deg, #4b79a1, #283e51);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 4px solid #1c2a35;
+}
+header h1 { margin: 0; font-size: 2.8rem; }
+header p { margin: 10px 0 0; opacity: 0.9; }
+
+/* ---- MENU PRINCIPAL ---- */
+nav { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; padding: 30px; }
+.menu-item {
+    background: white;
+    border-radius: 12px;
+    width: 170px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #283e51;
+    border: 2px solid #d0d7de;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.2s;
+}
+.menu-item:hover {
+    transform: translateY(-4px);
+    background: #eef3f7;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* ---- FIL D'ARIANE ---- */
+.breadcrumb {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    color: #555;
+}
+.breadcrumb a { text-decoration: none; color: #4b79a1; }
+.breadcrumb a:hover { text-decoration: underline; }
+
+/* ---- CONTENU ---- */
+.content { max-width: 800px; margin: 0 auto; padding: 30px 20px; }
+h2 { margin-top: 0; font-size: 1.8rem; border-left: 6px solid #4b79a1; padding-left: 12px; }
+p { line-height: 1.6; margin: 14px 0; }
+img { max-width: 100%; height: auto; margin: 14px 0; border-radius: 6px; }
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 16px;
+    background: #283e51;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+.back-link:hover { background: #4b79a1; }
+
+/* ---- FOOTER ---- */
+footer {
+    text-align: center;
+    padding: 12px;
+    background: #3c4a56;
+    color: #fff;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+footer a { color: #fff; text-decoration: underline; }
+
+h3 {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    border-left: 4px solid #4b79a1;
+    padding-left: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+blockquote {
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-left: 4px solid #4b79a1;
+    background: #eef3f7;
+    color: #333;
+    border-radius: 4px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 14px 0;
+    border-radius: 6px;
+}
+

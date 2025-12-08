@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Récits – Famille Saint-Léger / Wattinne</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<!-- HEADER et MENU via JS -->
+<div id="header"></div>
+<div id="menu"></div>
+
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    <a href="../index.html">Accueil</a> &gt; 
+    Récits
+</div>
+
+<!-- Contenu : liste des récits -->
+<div class="content">
+    <h2>Liste des récits</h2>
+    <ul>
+        <li><a href="introduction.html">Introduction</a></li>
+        <li><a href="d-ou-vient-le-nom-saint-leger.html">D'où vient le nom Saint-Léger</a></li>
+        <li><a href="d-agnes-wattinne-a-hugues-capet.html">D'Agnès Wattinne à Hugues Capet</a></li>
+        <li><a href="philippe-saint-leger.html">Philippe Saint-Léger</a></li>
+        <li><a href="victor-saint-leger.html">Victor Saint-Léger</a></li>
+        <li><a href="branche-bonte-pollet.html">La branche Bonte-Pollet</a></li>
+        <li><a href="georges-saint-leger.html">Georges Saint-Léger</a></li>
+        <li><a href="andre-saint-leger.html">André Saint-Léger</a></li>
+        <li><a href="claude-saint-leger-1ere-guerre-mondiale.html">Claude Saint-Léger - 1° guerre mondiale</a></li>
+        <li><a href="claude-saint-leger-entre-deux-guerres.html">Claude Saint-Léger - entre deux guerres</a></li>
+        <li><a href="claude-saint-leger-2eme-guerre-mondiale.html">Claude Saint-Léger - 2° guerre mondiale</a></li>
+    </ul>
+</div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<script>
+async function loadHTML(id, url) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+}
+loadHTML("header", "../partials/header.html");
+loadHTML("menu", "../partials/menu.html");
+loadHTML("footer", "../partials/footer.html");
+</script>
+
+</body>
+</html>
+

@@ -1,20 +1,34 @@
+NOM DE DOMAINE
+Gandi
+
+HEBERGEMENT
+- sur OVH-start, mais non, car il faut prendre un abonnement plus élevé pour pouvoir avoir un nom de domaine extérieur
+- du coup, j'installe chez Github, mais ce n'est pas Apache, il ne sait 
+
 HEBERGEMENT SUR SERVEUR
 https://chatgpt.com/share/68ce9ef7-c82c-800b-b4cb-5820c6422945
 
 FUSION D'IMAGES
 convert *.jpg Manuscrit.pdf
 
-CONTACTS
-Herve Gauci (ami de Patrick) : +33 6 68 43 23 33, hervegauci@gmail.com
-- contacté beaucoup de cousin : Sud, Tunisie, Malte
-- photos, documents : 1000-1500 photos anciennes. Recoupement de photos, ...
-- classement sur ordi. Production d'un énorme album, rassemblé par famille, par date. Avec les annecdotes.
-- beaucoup question son père, sur la guerre d'Algérie
-- un livre d'un oncle
+SITE INTERNET
+- un site internet sur la généalogie et l'histoire de la famille. Public : ma famille. Diffusion : réduite
+- rubriques : Accueil, Récits, Photos, Arbres et roues, Individus, 
+- contenu : pages html pour les récits, photos, documents pdf, navigation dans des dossiers et fichiers pour les individus (30 dossiers + sous doussiers)
+- mise à jour : relativement fixe. Mise à jour par FTP ou Git.
+- technologies : html, css, flash. Pas de base de données, pas de php.
+- hébergement chez GitHub, nom de domaine chez Gandi. URL : https://saintleger.org/
 
-- peu m'aider à chercher des infos militaire : "mémoire des hommes" (14-18, 39-45)
-- listing avec toutes les questions
-- préservation des documents, en classeurs
-- https://gallica.bnf.fr/ : nom prenom, ou prenom nom, ou avec des fautes
-- https://www.memoiredeshommes.sga.defense.gouv.fr
-- documents anciens : éviter l'humidité, éviter la pliure, mettre dans des lutins, à l'abris de la lumière, pochette en papier d'archive
+OUTILS
+- Convertir .odt en html : pandoc input.odt -o output.html
+- diaporama des photos : Lightbox2
+- Affichage des dossiers : il faut un index.html pour chaque dossier.
+- Email en page “Contact” sans spam :<script>
+    const u = "arnaud";
+    const d = "saintleger.org";
+    document.write("<a href='mailto:"+u+"@"+d+"'>"+u+"@"+d+"</a>");
+    </script>
+- Page “Méthodologie” : comment tu sources (AD59, AD62…)
+    comment tu gères les incertitudes
+    commentaires sur les documents utilisés
+    distinctions entre “certain”, “probable”, “hypothèse”
