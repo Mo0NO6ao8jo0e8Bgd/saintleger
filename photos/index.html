@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Photos - Famille Saint-Léger / Wattinne</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css?v=1">
+
+    <!-- GLightbox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+</head>
+<body>
+
+<!-- HEADER et MENU inclus -->
+<div id="header"></div>
+<div id="menu"></div>
+
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    <a href="../index.html">Accueil</a> &gt; Photos
+</div>
+
+<!-- Contenu principal -->
+<div class="content">
+    <h2>Galerie de photos familiales</h2>
+    <p>Explorez nos albums de photos de famille. Cliquez sur les miniatures pour les voir en grand et naviguer dans l’album.</p>
+
+    <div class="photo-gallery">
+
+        <!-- Album 1 -->
+        <div class="album">
+            <h3>Années 1914-1918</h3>
+            <a href="1914-1918/1912 ou 1913 Hardelot 3.jpg" class="glightbox" data-gallery="album1" title="1912 ou 1913 Hardelot">
+                <img src="1914-1918/1912 ou 1913 Hardelot 3-mini.jpg" alt="1912 ou 1913 Hardelot">
+            </a>
+            <br>
+            <a href="1914-1918/1913 Bleriot - HardelotVilla des Cavrois (gauche) - Villa sans soucis (droite) - Viers Jean sans peur. Cavroi.jpg" class="glightbox" data-gallery="album1" title="1913 Blériot - HardelotVilla des Cavrois (gauche) - Villa sans soucis (droite)">
+                <img src="1914-1918/1913 Bleriot - HardelotVilla des Cavrois (gauche) - Villa sans soucis (droite) - Viers Jean sans peur. Cavroi-mini.jpg" alt="1913 Blériot - HardelotVilla des Cavrois (gauche) - Villa sans soucis (droite)">
+            </a>
+            <br>
+            <a href="1914-1918/Eugène Wattinne (n. 1875).jpg" class="glightbox" data-gallery="album1" title="Eugène Wattinne">
+                <img src="1914-1918/Eugène Wattinne (n. 1875)-mini.jpg" alt="Eugène Wattinne">
+            </a>
+            <br>
+            <a href="1914-1918/Son Hispano, carrossée en ambulance.jpg" class="glightbox" data-gallery="album1" title="Son Hispano, carrossée en ambulance">
+                <img src="1914-1918/Son Hispano, carrossée en ambulance-mini.jpg" alt="Son Hispano, carrossée en ambulance">
+            </a>
+        </div>
+
+        <!-- Ajouter d’autres albums ici -->
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<!-- JS pour partials et Lightbox -->
+<script>
+async function loadHTML(id, url) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+}
+loadHTML("header", "../partials/header.html");
+loadHTML("menu", "../partials/menu.html");
+loadHTML("footer", "../partials/footer.html");
+</script>
+
+<!-- GLightbox JS -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+const lightbox = GLightbox({
+    selector: '.glightbox',
+    touchNavigation: true,
+    loop: true,
+    autoplayVideos: false
+});
+</script>
+
+</body>
+</html>
+

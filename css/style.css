@@ -130,3 +130,45 @@ footer a { color: #fff; text-decoration: underline; }
 strong { font-weight: bold; }
 em { font-style: italic; }
 
+/* ---- GALERIE PHOTOS ---- */
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+}
+
+.photo-gallery img {
+    width: 200px; /* miniatures fixes */
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.photo-gallery img:hover {
+    transform: scale(1.05);
+}
+
+.album {
+    margin-bottom: 30px;
+}
+
+.album h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* ---- RESPONSIVE ---- */
+@media (max-width: 600px) {
+    .photo-gallery img {
+        width: 100%; /* miniatures prennent toute la largeur sur mobile */
+    }
+    nav {
+        gap: 10px;
+    }
+    .menu-item {
+        width: 140px;
+        padding: 16px;
+        font-size: 1rem;
+    }
+}
+

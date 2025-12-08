@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Arbres & Roues - Famille Saint-Léger / Wattinne</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css?v=1">
+</head>
+<body>
+
+<!-- HEADER et MENU -->
+<div id="header"></div>
+<div id="menu"></div>
+
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    <a href="../index.html">Accueil</a> &gt; Arbres & Roues
+</div>
+
+<!-- Contenu principal -->
+<div class="content">
+    <h2>Arbres et roues des ancêtres</h2>
+    <p>Voici quelques représentations de notre arbre généalogique et des roues des ancêtres. Cliquez sur les images pour les agrandir.</p>
+
+    <!-- Exemple d’arbre ou roue -->
+    <div class="tree-gallery">
+        <p><a href="Roue asc. 9G fratrie SAINT-LÉGER-WATTINNE.html" target="_blank">
+            <img src="images/arbre-famille-mini.jpg" alt="Arbre des ascendants de la famille Saint-Léger / Wattinne">
+        </a></p>
+        <p><a href="Arbre desc. 33gen. fratrie CAPET-.html" target="_blank">
+            <img src="images/roue-hugues-capet-mini.jpg" alt="Arbre de la lignée entre Agnès Wattinne et Hugues Capet">
+        </a></p>
+        <!-- Ajouter d’autres arbres/roues ici -->
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<!-- JS pour inclure header, menu et footer -->
+<script>
+async function loadHTML(id, url) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+}
+loadHTML("header", "../partials/header.html");
+loadHTML("menu", "../partials/menu.html");
+loadHTML("footer", "../partials/footer.html");
+</script>
+
+</body>
+</html>
+
