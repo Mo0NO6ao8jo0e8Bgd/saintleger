@@ -1,24 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Famille Saint-Léger / Wattinne — Individus</title>
-    <link rel="stylesheet" href="../css/style.css?v=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Famille Saint-Léger / Wattinne — Individus</title>
+  <link rel="stylesheet" href="../css/style.css?v=1">
 </head>
 <body>
 
 <!-- HEADER -->
 <div id="header"></div>
-<script>
-  loadHTML("header", "../partials/header.html");
-</script>
 
 <!-- MENU PRINCIPAL -->
 <div id="menu"></div>
-<script>
-  loadHTML("menu", "../partials/menu.html");
-</script>
 
 <!-- FIL D'ARIANE -->
 <div class="breadcrumb">
@@ -32,9 +26,6 @@
 
     <!-- MENU INDIVIDUS -->
     <div id="menu-individus"></div>
-    <script>
-      loadHTML("menu-individus", "../partials/menu-individus.html");
-    </script>
 
     <!-- BACK LINK -->
     <a href="../recits/index.html" class="back-link">← Retour à la liste des récits</a>
@@ -42,7 +33,25 @@
 
 <!-- FOOTER -->
 <div id="footer"></div>
+
+<!-- SCRIPT DE CHARGEMENT DES PARTIALS -->
 <script>
+  function loadHTML(id, url) {
+    fetch(url)
+      .then(response => {
+        if (!response.ok) throw new Error("HTTP error " + response.status);
+        return response.text();
+      })
+      .then(data => {
+        document.getElementById(id).innerHTML = data;
+      })
+      .catch(err => console.error("Erreur chargement partial:", err));
+  }
+
+  // Chargement des partials
+  loadHTML("header", "../partials/header.html");
+  loadHTML("menu", "../partials/menu.html");
+  loadHTML("menu-individus", "../partials/menu-individus.html");
   loadHTML("footer", "../partials/footer.html");
 </script>
 
