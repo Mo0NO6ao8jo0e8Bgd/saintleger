@@ -17,8 +17,14 @@ header {
 header h1 { margin: 0; font-size: 2.8rem; }
 header p { margin: 10px 0 0; opacity: 0.9; }
 
-/* ---- MENU PRINCIPAL ---- */
-nav { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; padding: 30px; }
+/* ---- MENU PRINCIPAL (gros boutons) ---- */
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
 .menu-item {
     background: white;
     border-radius: 12px;
@@ -51,8 +57,19 @@ nav { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; paddin
 .breadcrumb a:hover { text-decoration: underline; }
 
 /* ---- CONTENU ---- */
-.content { max-width: 800px; margin: 0 auto; padding: 30px 20px; }
-h2 { margin-top: 0; font-size: 1.8rem; border-left: 6px solid #4b79a1; padding-left: 12px; }
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+    border-left: 6px solid #4b79a1;
+    padding-left: 12px;
+}
+
 p { line-height: 1.6; margin: 14px 0; }
 
 /* ---- MODIFICATIONS DEMANDÉES ---- */
@@ -81,18 +98,23 @@ img {
     border: 2px solid #ccc; /* bordure */
 }
 
-/* ---- BACK LINK ---- */
+/* ---- BACK LINK (gros bouton) ---- */
 .back-link {
     display: inline-block;
     margin-top: 20px;
-    padding: 10px 16px;
+    padding: 14px 20px;       /* bouton plus grand */
     background: #283e51;
     color: white;
     text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
     border-radius: 8px;
-    transition: background 0.2s;
+    transition: background 0.2s, transform 0.2s;
 }
-.back-link:hover { background: #4b79a1; }
+.back-link:hover {
+    background: #4b79a1;
+    transform: translateY(-2px);
+}
 
 /* ---- FOOTER ---- */
 footer {
