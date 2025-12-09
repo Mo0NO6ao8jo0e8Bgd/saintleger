@@ -7,15 +7,26 @@ body {
 }
 
 /* ---- HEADER ---- */
+/* ---- HEADER ---- */
 header {
     background: linear-gradient(135deg, #4b79a1, #283e51);
     color: white;
-    padding: 40px 20px;
+    padding: 25px 20px;      /* ↓ au lieu de 40px */
     text-align: center;
     border-bottom: 4px solid #1c2a35;
 }
-header h1 { margin: 0; font-size: 2.8rem; }
-header p { margin: 10px 0 0; opacity: 0.9; }
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;       /* ↓ au lieu de 2.8rem */
+}
+
+header p {
+    margin: 8px 0 0;
+    opacity: 0.9;
+    font-size: 1rem;         /* ↓ légèrement */
+}
+
 
 /* ---- MENU PRINCIPAL (gros boutons) ---- */
 nav {
