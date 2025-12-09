@@ -2,36 +2,66 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Famille Saint-Léger – Accueil</title>
+    <title>Informations</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-   <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css?v=1">
 </head>
-
 <body>
 
-<header>
-    <h1>Famille Saint-Léger</h1>
-    <p>Généalogie, récits familiaux et archives</p>
-</header>
+<!-- HEADER et MENU inclus -->
+<div id="header"></div>
+<div id="menu"></div>
 
-<nav>
-    <a class="menu-item" href="recits/index.html">📘 Récits</a>
-    <a class="menu-item" href="photos/index.html">📷 Photos</a>
-    <a class="menu-item" href="arbres/index.html">🌳 Arbres & Roues</a>
-    <a class="menu-item" href="individus/index.html">👤 Individus</a>
-</nav>
-
-<div class="content">
-    <h2>Bienvenue</h2>
-    <p>
-        Rédaction en cours ... TOTO
-    </p>
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    <a href="../index.html">Accueil</a> &gt; Informations
 </div>
 
-<footer>
-    © 2025 — Famille Saint-Léger · <a href="contact.html">Contact</a> · <a href="methodologie.html">Méthodologie</a>
-</footer>
+<!-- Contenu principal -->
+<div class="content">
+    <h2>Informations</h2>
+    <p>En cours de rédaction</p>
+
+</div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<!-- JS pour partials et Lightbox -->
+<script>
+// Loader complet (identique aux autres pages)
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
+}
+
+// Activation du lien mail dans le footer
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return;
+    const link = document.createElement("a");
+    link.href = "mailto:arnaudsaintleger@gmail.com";
+    link.textContent = "Contact";
+    el.replaceWith(link);
+}
+
+// Chargement des partials
+loadHTML("header", "../partials/header.html");
+loadHTML("menu", "../partials/menu.html");
+loadHTML("footer", "../partials/footer.html", activateEmailLink);
+</script>
+
+<!-- GLightbox JS -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+const lightbox = GLightbox({
+    selector: '.glightbox',
+    touchNavigation: true,
+    loop: true,
+    autoplayVideos: false
+});
+</script>
 
 </body>
 </html>
