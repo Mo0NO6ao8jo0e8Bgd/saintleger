@@ -55,6 +55,16 @@ nav {
     background: #eef3f7;
     box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
+.menu-item.inactive {
+    color: #999;
+    cursor: not-allowed;
+    text-decoration: none;
+}
+
+.menu-item.inactive:hover {
+    background-color: #fff0f0;
+    border: 1px solid #ffaaaa;
+}
 
 /* ---- FIL D'ARIANE ---- */
 .breadcrumb {

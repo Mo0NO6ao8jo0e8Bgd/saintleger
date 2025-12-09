@@ -1,32 +1,28 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Famille Saint-Léger / Wattinne — Individus</title>
-  <link rel="stylesheet" href="../css/style.css?v=1">
+    <meta charset="UTF-8">
+    <title>Individus des différentes branches</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
-<!-- HEADER -->
+<!-- HEADER et MENU -->
 <div id="header"></div>
-
-<!-- MENU PRINCIPAL -->
 <div id="menu"></div>
 
-<!-- FIL D'ARIANE -->
+<!-- Fil d’Ariane -->
 <div class="breadcrumb">
-    Accueil > Individus
+    <a href="../index.html">Accueil</a> &gt; 
+    Individus des différentes branches
 </div>
 
-<!-- CONTENU PRINCIPAL -->
+<!-- Contenu -->
 <div class="content">
     <h2>Individus des différentes branches</h2>
-    <p>Bienvenue dans l'annuaire des individus. Cliquez sur un nom pour accéder aux documents, photos et informations correspondantes.</p>
 
-    <!-- MENU INDIVIDUS -->
-    <nav>
-
+<nav>
 <span class="menu-item inactive">BONTE Pierre-Joseph (1774)</span>
 <span class="menu-item inactive">BONTE Pierre-Joseph (1779)</span>
 <span class="menu-item inactive">BONTE Ursule Joseph (1784)</span>
@@ -42,12 +38,12 @@
 <span class="menu-item inactive">POLLET Rose Blanche (1783)</span>
 <span class="menu-item inactive">PROUVOST Albert (1909)</span>
 <span class="menu-item inactive">ROUX Madeleine - Delle (1920)</span>
-<a class="menu-item" href="SAINT-LEGER André (1870)/index.html">SAINT-LEGER André (1870)</a>
-<a class="menu-item" href="SAINT-LEGER Claude (1897)/index.html">SAINT-LEGER Claude (1897)</a>
+<a class="menu-item" href="SAINT-LEGER André (1870).html">SAINT-LEGER André (1870)</a>
+<a class="menu-item" href="SAINT-LEGER Claude (1897).html">SAINT-LEGER Claude (1897)</a>
 <span class="menu-item inactive">SAINT-LEGER Denis (1835)</span>
 <span class="menu-item inactive">SAINT-LEGER Francine (1926)</span>
 <span class="menu-item inactive">SAINT-LEGER Georges (1844)</span>
-<a class="menu-item" href="SAINT-LEGER Philippe (1787)/index.html">SAINT-LEGER Philippe (1787)</a>
+<a class="menu-item" href="SAINT-LEGER Philippe (1787).html">SAINT-LEGER Philippe (1787)</a>
 <span class="menu-item inactive">SAINT-LEGER Philippe (1904)</span>
 <span class="menu-item inactive">SAINT-LEGER Pierre Joseph (1756)</span>
 <span class="menu-item inactive">SAINT-LEGER Victor (1818)</span>
@@ -56,52 +52,36 @@
 <span class="menu-item inactive">WATTINNE Eugène (1875)</span>
 <span class="menu-item inactive">WATTINNE Eugène (1903)</span>
 <span class="menu-item inactive">WATTINNE Eugène-Henri-Joseph (1849)</span>
-
-    </nav>
-
-    <!-- BACK LINK -->
-    <a href="../recits/index.html" class="back-link">← Retour à la liste des récits</a>
+</nav>
+    
 </div>
 
 <!-- FOOTER -->
 <div id="footer"></div>
 
-<!-- SCRIPT DE CHARGEMENT DES PARTIALS -->
 <script>
-  function loadHTML(id, url) {
-    return fetch(url)
-      .then(response => {
-        if (!response.ok) throw new Error("HTTP error " + response.status);
-        return response.text();
-      })
-      .then(data => {
-        document.getElementById(id).innerHTML = data;
-      })
-      .catch(err => console.error("Erreur chargement partial:", err));
-  }
+// Version complète du loader
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
+}
 
-  // Chargement des partials
-  Promise.all([
-    loadHTML("header", "../partials/header.html"),
-    loadHTML("menu", "../partials/menu.html"),
-    loadHTML("menu-individus", "../partials/menu-individus.html"),
-    loadHTML("footer", "../partials/footer.html")
-  ]).then(() => {
-    // Une fois que footer.html est bien injecté :
-    const user = "arnaudsaintleger";
-    const domain = "gmail.com";
-    const email = user + "@" + domain;
+// Activation du mail dans le footer
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return;
+    const link = document.createElement("a");
+    link.href = "mailto:arnaudsaintleger@gmail.com";
+    link.textContent = "Contact";
+    el.replaceWith(link);
+}
 
-    const span = document.getElementById("email-contact");
-    if (span) {
-      const link = document.createElement("a");
-      link.href = "mailto:" + email;
-      link.textContent = "Contact";
-      span.replaceWith(link);
-    }
-  });
+// Chargement des partials
+loadHTML("header", "../partials/header.html");
+loadHTML("menu", "../partials/menu.html");
+loadHTML("footer", "../partials/footer.html", activateEmailLink);
 </script>
-
 
 </body>
 </html>

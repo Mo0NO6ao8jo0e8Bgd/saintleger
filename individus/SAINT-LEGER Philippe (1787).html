@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>SAINT-LEGER Philippe (1787)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<!-- HEADER et MENU -->
+<div id="header"></div>
+<div id="menu"></div>
+
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    <a href="../index.html">Accueil</a> &gt; 
+    SAINT-LEGER Philippe (1787)
+</div>
+
+<!-- Contenu -->
+<div class="content">
+    <h2>SAINT-LEGER Philippe (1787)</h2>
+
+    <h3>web</h3>
+    Autobiographie de Phiippe Saint-Léger écrite en 1855 - manuscrit.pdf<a class="doc-btn" href="SAINT-LEGER Philippe (1787)/web/Autobiographie de Phiippe Saint-Léger écrite en 1855 - manuscrit.pdf" target="_blank">📎 Lire</a><br>
+    
+</div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<script>
+// Version complète du loader
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
+}
+
+// Activation du mail dans le footer
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return;
+    const link = document.createElement("a");
+    link.href = "mailto:arnaudsaintleger@gmail.com";
+    link.textContent = "Contact";
+    el.replaceWith(link);
+}
+
+// Chargement des partials
+loadHTML("header", "../partials/header.html");
+loadHTML("menu", "../partials/menu.html");
+loadHTML("footer", "../partials/footer.html", activateEmailLink);
+</script>
+
+</body>
+</html>
+
