@@ -1,191 +1,141 @@
-#!/bin/bash
-# Copie dans saintleger.org les Genealogie/Individus avec les fichiers _web
-# Dossier source
-SOURCE_DIR="/home/arnaud/Documents/Genealogie/Individus"
-# Dossier de destination
-DEST_DIR="/home/arnaud/Documents/Genealogie/saintleger.org/individus"
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Récits – Famille Saint-Léger / Wattinne</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
 
-# Vérifie que le dossier source existe
-if [ ! -d "$SOURCE_DIR" ]; then
-    echo "Le dossier source $SOURCE_DIR n'existe pas."
-    exit 1
-fi
+<!-- HEADER et MENU -->
+<div id="header"></div>
+<div id="menu"></div>
 
-# Crée le dossier de destination s'il n'existe pas
-mkdir -p "$DEST_DIR"
-rm -r "$DEST_DIR"/*
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    <a href="../index.html">Accueil</a> &gt; 
+    Récits
+</div>
 
-# Parcourt chaque dossier dans le dossier source
-for individual_dir in "$SOURCE_DIR"/*/; do
-    # Vérifie que c'est bien un dossier
-    [ -d "$individual_dir" ] || continue
+<!-- Contenu -->
+<div class="content">
+    <h2>Les récits de ...</h2>
+
+    <p>Philippe a été le fondateur de l'histoire de la famille. Vous allez plonger à travers les générations. 
+    Philippe a ensuite inspiré André, Agnès, Alain, Christophe et moi-même. On commence par les récits plus récents et plus accessible. </p>
     
-    # Récupère le nom du dossier
-    dir_name=$(basename "$individual_dir")
+    <p>Je vous conseille d'ouvrir ou d'imprimer une roue de l'arbre généalogique pour vous y retrouver facilement :
+    <a class="doc-btn" href="../arbres/Roue asc. 9G fratrie SAINT-LÉGER-WATTINNE.html" target="_blank">📖 Lire</a>
+    <a class="doc-btn" href="../arbres/roue 6 gen Claude.pdf" target="_blank">📖 Imprimer</a>
+    </p>
     
-    # Exclure le dossier "Divers"
-    if [ "$dir_name" = "Divers" ]; then
-        echo "Exclusion du dossier 'Divers'"
-        continue
-    fi
     
-    # Crée le dossier correspondant dans la destination
-    dest_individual_dir="$DEST_DIR/$dir_name"
-    mkdir -p "$dest_individual_dir"
+    <h3>Arnaud Saint-Léger en 2025</h3>
+
+    <div class="doc-card"><div class="doc-title">Introduction</div>
+      <div class="doc-buttons"><a class="doc-btn" href="introduction.html">📖 Lire</a></div>
+    </div>
     
-    # Parcourir tous les sous-dossiers
-    for subdir in "$individual_dir"/*/; do
-        [ -d "$subdir" ] || continue
-        
-        subdir_name=$(basename "$subdir")
-        dest_subdir="$dest_individual_dir/$subdir_name"
-        
-        # Créer un fichier temporaire avec la liste des fichiers
-        temp_file_list=$(mktemp)
-        find "$subdir" -maxdepth 1 -type f \( -name "*_web.pdf" -o -name "*_web.png" \) > "$temp_file_list"
-        
-        # Lire le fichier ligne par ligne
-        while IFS= read -r file; do
-            if [ -n "$file" ]; then
-                if [ ! -d "$dest_subdir" ]; then
-                    mkdir -p "$dest_subdir"
-                fi
-                cp "$file" "$dest_subdir/"
-                echo "  Copie de $(basename "$file") dans $dir_name/$subdir_name"
-            fi
-        done < "$temp_file_list"
-        
-        rm "$temp_file_list"
-    done
-done
-
-echo "Copie dans saintleger.org les Genealogie/Individus avec les fichiers _web : DONE"
-
-######################
-
-# Création du fichier individus/index.html
-
-# Répertoire source
-SOURCE_DIR="/home/arnaud/Documents/Genealogie/saintleger.org/individus"
-TEMPLATE_FILE="/home/arnaud/Documents/Genealogie/saintleger.org/template.html"
-OUTPUT_FILE="${SOURCE_DIR}/index.html"
-
-# Copier le template vers index.html
-cp "$TEMPLATE_FILE" "$OUTPUT_FILE"
-
-# Fichier temporaire pour le contenu
-TEMP_CONTENT=$(mktemp)
-
-# Générer le contenu des liens
-for dir in "$SOURCE_DIR"/*/; do
-    # Extraire le nom du dossier (sans le chemin complet)
-    nom_dossier=$(basename "$dir")
+    <div class="doc-card"><div class="doc-title">Philippe Saint-Léger</div>
+      <div class="doc-buttons"><a class="doc-btn" href="philippe-saint-leger.html">📖 Lire</a></div>
+    </div>
     
-    # Vérifier si le dossier contient des fichiers
-    if [ -z "$(ls -A "$dir")" ]; then
-        # Dossier vide - lien inactif
-        echo "<span class=\"menu-item inactive\">$nom_dossier</span>" >> "$TEMP_CONTENT"
-    else
-        # Dossier non vide - lien actif
-        echo "<a class=\"menu-item\" href=\"$nom_dossier.html\">$nom_dossier</a>" >> "$TEMP_CONTENT"
-    fi
-done
+    <div class="doc-card"><div class="doc-title">Victor Saint-Léger</div>
+      <div class="doc-buttons"><a class="doc-btn" href="victor-saint-leger.html">📖 Lire</a></div>
+    </div>
+    
+    <div class="doc-card"><div class="doc-title">La branche Bonte-Pollet</div>
+      <div class="doc-buttons"><a class="doc-btn" href="branche-bonte-pollet.html">📖 Lire</a></div>
+    </div>
+    
+    <div class="doc-card"><div class="doc-title">Georges Saint-Léger</div>
+      <div class="doc-buttons"><a class="doc-btn" href="georges-saint-leger.html">📖 Lire</a></div>
+    </div>
+    
+    <div class="doc-card"><div class="doc-title">André Saint-Léger</div>
+      <div class="doc-buttons"><a class="doc-btn" href="andre-saint-leger.html">📖 Lire</a></div>
+    </div>
+    
+    <div class="doc-card"><div class="doc-title">Claude Saint-Léger - 1° guerre mondiale</div>
+      <div class="doc-buttons"><a class="doc-btn" href="claude-saint-leger-1ere-guerre-mondiale.html">📖 Lire</a></div>
+    </div>
+    
+    <div class="doc-card"><div class="doc-title">Claude Saint-Léger - entre deux guerres</div>
+      <div class="doc-buttons"><a class="doc-btn" href="claude-saint-leger-entre-deux-guerres.html">📖 Lire</a></div>
+    </div>
+    
+    <div class="doc-card"><div class="doc-title">D'où vient le nom Saint-Léger ?</div>
+      <div class="doc-buttons"><a class="doc-btn" href="d-ou-vient-le-nom-saint-leger.html">📖 Lire</a></div>
+    </div>
+    
+    <div class="doc-card"><div class="doc-title">On remonte à Hugues Capet, premier roi des Francs</div>
+      <div class="doc-buttons"><a class="doc-btn" href="d-agnes-wattinne-a-hugues-capet.html">📖 Lire</a></div>
+    </div>
 
-# Remplacer MON_TITRE
-sed -i "s/MON_TITRE/Individus des différentes branches/g" "$OUTPUT_FILE"
+    <h3>Christophe Obry et le Colonel Philippe Grard</h3>
+    
+    <div class="doc-card"><div class="doc-title">Hommage à un Français libre... rallié en 1915!</div><div class="doc-buttons">
+        <a class="doc-btn" href="Recit de Christophe OBRY et colonel Grard 2010 Dans le journal de la France - Claude Saint-Léger.html">📖 Lire</a>
+    </div></div>
 
-# Créer le contenu avec la balise nav
-TEMP_NAV=$(mktemp)
-echo "<nav>" > "$TEMP_NAV"
-cat "$TEMP_CONTENT" >> "$TEMP_NAV"
-echo "</nav>" >> "$TEMP_NAV"
+    <h3>Agnès Wattinne vers 1985</h3>
+    
+    <div class="doc-card"><div class="doc-title">Claude Saint-Léger</div><div class="doc-buttons">
+        <a class="doc-btn" href="Claude Saint-Léger par Agnès.html">📖 Lire</a>
+    </div></div>
+    
+    <div class="doc-card"><div class="doc-title">Anny (Agnès Wattinne) et Claude Saint-Léger</div><div class="doc-buttons">
+        <a class="doc-btn" href="Anny et Claude Saint-Léger par Agnès (Anny).html">📖 Lire</a>
+    </div></div>
+    
+    <div class="doc-card"><div class="doc-title">André Saint-Léger et Marguerite Delemer</div><div class="doc-buttons">
+        <a class="doc-btn" href="Lettre d'Agnès au sujet d'André et Marguerite (1985).html">📖 Lire</a>
+    </div></div>
 
-# Remplacer MON_CONTENU avec le contenu généré
-sed -i "/MON_CONTENU/r $TEMP_NAV" "$OUTPUT_FILE"
-sed -i "/MON_CONTENU/d" "$OUTPUT_FILE"
+    <h3>André Saint-Léger en 1947</h3>
+    
+    <div class="doc-card"><div class="doc-title">Georges, Victor, Philippe, les grands Pères Longhaye et Bonte-Pollet</div><div class="doc-buttons">
+        <a class="doc-btn" href="de-Andre-saint-leger.html">📖 Lire</a>
+        <a class="doc-btn" href="../individus/SAINT-LEGER André (1870)/Récits/1947-08-20 Mémoires d'André Saint-Léger_web.pdf" target="_blank">📎</a>
+    </div></div>
 
-# Nettoyer
-rm "$TEMP_NAV"
-rm "$TEMP_CONTENT"
+    <h3>Philippe Saint-Léger en 1855</h3>
+    
+    <div class="doc-card"><div class="doc-title">A Victor, après ma mort. Pour lui seul. (1855)</div><div class="doc-buttons">
+        <a class="doc-btn" href="de-philippe-saint-leger.html">📖 Lire</a>
+        <a class="doc-btn" href="../individus/SAINT-LEGER Philippe (1787)/Récits/1855 Mémoires de Philipe Saint-Léger_web.pdf" target="_blank">📎</a>
+    </div></div>
+    
+</div>
 
-echo "✓ Création du fichier individus/index.html : $OUTPUT_FILE"
-echo "✓ Nombre de dossiers traités : $(grep -c 'menu-item' "$OUTPUT_FILE")"
+<!-- FOOTER -->
+<div id="footer"></div>
 
-##################
+<script>
+// Version complète du loader
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
+}
 
-# Les fichiers HTML par individus
+// Activation du mail dans le footer
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return;
+    const link = document.createElement("a");
+    link.href = "mailto:arnaudsaintleger@gmail.com";
+    link.textContent = "Contact";
+    el.replaceWith(link);
+}
 
-# Répertoire source
-SOURCE_DIR="/home/arnaud/Documents/Genealogie/saintleger.org/individus"
-TEMPLATE_FILE="/home/arnaud/Documents/Genealogie/saintleger.org/template.html"
+// Chargement des partials
+loadHTML("header", "../partials/header.html");
+loadHTML("menu", "../partials/menu.html");
+loadHTML("footer", "../partials/footer.html", activateEmailLink);
+</script>
 
-# Parcourir tous les dossiers dans le répertoire
-for dir in "$SOURCE_DIR"/*/; do
-    # Extraire le nom du dossier (sans le chemin complet)
-    nom_dossier=$(basename "$dir")
-    
-    # Fichier HTML à créer dans le dossier parent (individus/)
-    html_file="${SOURCE_DIR}/${nom_dossier}.html"
-    
-    # Copier le template
-    cp "$TEMPLATE_FILE" "$html_file"
-    
-    # Générer le contenu dynamique
-    contenu=""
-    
-    # D'abord, lister les fichiers à la racine du dossier
-    for file in "$dir"*; do
-        if [ -f "$file" ]; then
-            nom_fichier=$(basename "$file")
-            contenu="${contenu}    $nom_fichier<a class=\"doc-btn\" href=\"${nom_dossier}/$nom_fichier\" target=\"_blank\">📎 Lire</a><br>\n"
-        fi
-    done
-    
-    # Ensuite, parcourir les sous-dossiers
-    for subdir in "$dir"*/; do
-        if [ -d "$subdir" ]; then
-            sous_dossier=$(basename "$subdir")
-            contenu="${contenu}    <h3>$sous_dossier</h3>\n"
-            
-            # Lister les fichiers dans ce sous-dossier
-            fichiers_trouves=false
-            for file in "$subdir"*; do
-                if [ -f "$file" ]; then
-                    fichiers_trouves=true
-                    nom_fichier=$(basename "$file")
-                    contenu="${contenu}    <a class=\"doc-btn\" href=\"${nom_dossier}/$sous_dossier/$nom_fichier\" target=\"_blank\">📎 $nom_fichier</a><br>\n"
-                fi
-            done
-            
-            # Si aucun fichier trouvé dans ce sous-dossier, afficher un message
-            if [ "$fichiers_trouves" = false ]; then
-                contenu="${contenu}    <p><em>Aucun fichier dans ce dossier</em></p>\n"
-            fi
-        fi
-    done
-    
-    # Si aucun contenu, afficher un message
-    if [ -z "$contenu" ]; then
-        contenu="    <p>Aucun document disponible.</p>\n"
-    fi
-    
-    # Remplacer MON_TITRE par le nom du dossier
-    sed -i "s/MON_TITRE/$nom_dossier/g" "$html_file"
-    
-    # Remplacer le placeholder du contenu
-    # Créer un fichier temporaire avec le contenu
-    temp_content=$(mktemp)
-    printf '%b' "$contenu" > "$temp_content"
-    
-    # Remplacer MON_CONTENU avec le contenu du fichier
-    sed -i "/MON_CONTENU/r $temp_content" "$html_file"
-    sed -i "/MON_CONTENU/d" "$html_file"
-    
-    # Nettoyer
-    rm "$temp_content"
-    
-    echo "✓ Créé : $html_file"
-done
+</body>
+</html>
 
-echo ""
-echo "Terminé ! Les fichiers HTML par individus ont été générés."
