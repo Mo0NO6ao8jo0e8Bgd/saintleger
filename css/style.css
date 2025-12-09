@@ -316,4 +316,9 @@ em { font-style: italic; }
     cursor: not-allowed;
     text-decoration: none;
 }
+css.doc-title-plain {
+    flex: 1;
+    color: #333;
+    /* Pas de ::before avec emoji */
+}
 
