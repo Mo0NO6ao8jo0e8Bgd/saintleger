@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>SAINT-LEGER Pierre Joseph (1756)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<!-- HEADER et MENU -->
+<div id="header"></div>
+<div id="menu"></div>
+<!-- Fil d'Ariane -->
+<div class="breadcrumb">
+    <a href="../../index.html">Accueil</a> &gt; 
+    <a href="../index.html">Individu</a> &gt; 
+SAINT-LEGER Pierre Joseph (1756)
+</div>
+<div class="content">
+    <p>Aucun document disponible.</p>
+    <a class="back-link" href="../index.html">← Retour à la liste des individus</a>
+</div>
+<!-- FOOTER -->
+<div id="footer"></div>
+<script>
+async function loadHTML(id, url) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+}
+loadHTML("header", "../../partials/header.html");
+loadHTML("menu", "../../partials/menu.html");
+loadHTML("footer", "../../partials/footer.html");
+</script>
+</body>
+</html>
