@@ -34,7 +34,7 @@ nav {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 30px;
+    padding: 10px;
 }
 .menu-item {
     background: white;
