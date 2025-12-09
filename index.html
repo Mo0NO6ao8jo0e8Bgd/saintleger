@@ -29,8 +29,7 @@
     </ul>
     <p>La navigation est accessible via le menu ci-dessus. Bon voyage dans le temps !</p>
     
-    <img src="photos/accueil.jpg"" />
-
+    <img src="photos/accueil.jpg" />
 </div>
 
 <!-- FOOTER -->
@@ -38,13 +37,30 @@
 
 <!-- JS pour inclure header, menu et footer -->
 <script>
-async function loadHTML(id, url) {
+// Nouvelle fonction loadHTML avec callback possible
+async function loadHTML(id, url, callback) {
     const res = await fetch(url);
     document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
 }
+
+// Fonction pour transformer le "Contact" en lien mail
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return; // sécurité
+
+    const email = "arnaudsaintleger@gmail.com";
+    const link = document.createElement("a");
+    link.href = "mailto:" + email;
+    link.textContent = "Contact";
+
+    el.replaceWith(link);
+}
+
+// Chargement des 3 parties, avec callback pour le footer
 loadHTML("header", "partials/header.html");
 loadHTML("menu", "partials/menu.html");
-loadHTML("footer", "partials/footer.html");
+loadHTML("footer", "partials/footer.html", activateEmailLink);
 </script>
 
 </body>
