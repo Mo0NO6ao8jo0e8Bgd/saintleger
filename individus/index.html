@@ -37,7 +37,7 @@
 <!-- SCRIPT DE CHARGEMENT DES PARTIALS -->
 <script>
   function loadHTML(id, url) {
-    fetch(url)
+    return fetch(url)
       .then(response => {
         if (!response.ok) throw new Error("HTTP error " + response.status);
         return response.text();
@@ -49,11 +49,27 @@
   }
 
   // Chargement des partials
-  loadHTML("header", "../partials/header.html");
-  loadHTML("menu", "../partials/menu.html");
-  loadHTML("menu-individus", "../partials/menu-individus.html");
-  loadHTML("footer", "../partials/footer.html");
+  Promise.all([
+    loadHTML("header", "../partials/header.html"),
+    loadHTML("menu", "../partials/menu.html"),
+    loadHTML("menu-individus", "../partials/menu-individus.html"),
+    loadHTML("footer", "../partials/footer.html")
+  ]).then(() => {
+    // Une fois que footer.html est bien injecté :
+    const user = "arnaudsaintleger";
+    const domain = "gmail.com";
+    const email = user + "@" + domain;
+
+    const span = document.getElementById("email-contact");
+    if (span) {
+      const link = document.createElement("a");
+      link.href = "mailto:" + email;
+      link.textContent = "Contact";
+      span.replaceWith(link);
+    }
+  });
 </script>
+
 
 </body>
 </html>

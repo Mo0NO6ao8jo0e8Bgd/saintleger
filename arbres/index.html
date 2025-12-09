@@ -49,15 +49,40 @@
 
 <!-- JS pour inclure header, menu et footer -->
 <script>
-async function loadHTML(id, url) {
-    const res = await fetch(url);
-    document.getElementById(id).innerHTML = await res.text();
+function loadHTML(id, url) {
+    return fetch(url)
+        .then(res => {
+            if (!res.ok) throw new Error("HTTP " + res.status);
+            return res.text();
+        })
+        .then(html => {
+            document.getElementById(id).innerHTML = html;
+        })
+        .catch(err => console.error("Erreur chargement partial:", err));
 }
-loadHTML("header", "../partials/header.html");
-loadHTML("menu", "../partials/menu.html");
-loadHTML("footer", "../partials/footer.html");
+
+// Chargement asynchrone des partials
+Promise.all([
+    loadHTML("header", "../partials/header.html"),
+    loadHTML("menu", "../partials/menu.html"),
+    loadHTML("footer", "../partials/footer.html")
+]).then(() => {
+    // Une fois le footer chargé, on transforme "Contact"
+    const user = "arnaudsaintleger";
+    const domain = "gmail.com";
+    const email = user + "@" + domain;
+
+    const span = document.getElementById("email-contact");
+    if (span) {
+        const link = document.createElement("a");
+        link.href = "mailto:" + email;
+        link.textContent = "Contact";
+        span.replaceWith(link);
+    }
+});
 </script>
 
 </body>
 </html>
+
 

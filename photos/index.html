@@ -30,21 +30,26 @@
         <!-- Album 1 -->
         <div class="album">
             <h3>Années 1914-1918</h3>
+
             <a href="1914-1918/1912 ou 1913 Hardelot 3.jpg" class="glightbox" data-gallery="album1" title="1912 ou 1913 Hardelot">
                 <img src="1914-1918/1912 ou 1913 Hardelot 3-mini.jpg" alt="1912 ou 1913 Hardelot">
             </a>
             <br>
+
             <a href="1914-1918/1913 Bleriot - HardelotVilla des Cavrois (gauche) - Villa sans soucis (droite) - Viers Jean sans peur. Cavroi.jpg" class="glightbox" data-gallery="album1" title="1913 Blériot - HardelotVilla des Cavrois (gauche) - Villa sans soucis (droite)">
                 <img src="1914-1918/1913 Bleriot - HardelotVilla des Cavrois (gauche) - Villa sans soucis (droite) - Viers Jean sans peur. Cavroi-mini.jpg" alt="1913 Blériot - HardelotVilla des Cavrois (gauche) - Villa sans soucis (droite)">
             </a>
             <br>
+
             <a href="1914-1918/Eugène Wattinne (n. 1875).jpg" class="glightbox" data-gallery="album1" title="Eugène Wattinne">
                 <img src="1914-1918/Eugène Wattinne (n. 1875)-mini.jpg" alt="Eugène Wattinne">
             </a>
             <br>
+
             <a href="1914-1918/Son Hispano, carrossée en ambulance.jpg" class="glightbox" data-gallery="album1" title="Son Hispano, carrossée en ambulance">
                 <img src="1914-1918/Son Hispano, carrossée en ambulance-mini.jpg" alt="Son Hispano, carrossée en ambulance">
             </a>
+
         </div>
 
         <!-- Ajouter d’autres albums ici -->
@@ -56,13 +61,27 @@
 
 <!-- JS pour partials et Lightbox -->
 <script>
-async function loadHTML(id, url) {
+// Loader complet (identique aux autres pages)
+async function loadHTML(id, url, callback) {
     const res = await fetch(url);
     document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
 }
+
+// Activation du lien mail dans le footer
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return;
+    const link = document.createElement("a");
+    link.href = "mailto:arnaudsaintleger@gmail.com";
+    link.textContent = "Contact";
+    el.replaceWith(link);
+}
+
+// Chargement des partials
 loadHTML("header", "../partials/header.html");
 loadHTML("menu", "../partials/menu.html");
-loadHTML("footer", "../partials/footer.html");
+loadHTML("footer", "../partials/footer.html", activateEmailLink);
 </script>
 
 <!-- GLightbox JS -->
