@@ -86,7 +86,7 @@ p { line-height: 1.6; margin: 14px 0; }
 /* ---- MODIFICATIONS DEMANDÉES ---- */
 h3 {
     margin: 20px 0px 10px 0px;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     text-decoration: underline; /* souligné */
     border-left: none;           /* suppression bordure gauche */
     padding-left: 0;
