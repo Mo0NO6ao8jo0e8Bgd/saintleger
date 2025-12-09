@@ -235,3 +235,71 @@ em { font-style: italic; }
     }
 }
 
+/* ---- Légendes de photos ---- */
+/* Conteneur principal pour les figures */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Style pour chaque figure (photo + légende) */
+.figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 10px;
+    height: 560px; /* 512px image + légende */
+    box-sizing: border-box;
+}
+
+/* Style pour les images */
+.figure img {
+    width: 100%;
+    height: 512px;
+    object-fit: cover; /* Remplit l'espace sans déformation */
+    display: block;
+    border-radius: 4px;
+}
+
+/* Style pour les légendes */
+.figure-caption {
+    background-color: #eee;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 8px 12px;
+    margin-top: auto; /* Aligne la légende en bas */
+    border-radius: 0 0 4px 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Adaptation pour mobile */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .figure {
+        width: 100%; /* Pleine largeur sur mobile */
+        max-width: 100%;
+        height: auto; /* Hauteur automatique pour s'adapter à l'image */
+        margin-bottom: 20px;
+    }
+
+    .figure img {
+        height: auto; /* Hauteur naturelle de l'image */
+        width: 100%; /* Pleine largeur */
+        max-height: 300px; /* Limite la hauteur pour éviter les images trop grandes */
+        object-fit: contain; /* Affiche l'image entièrement */
+    }
+}
+
+
+

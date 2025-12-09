@@ -5,6 +5,31 @@
     <title>Famille Saint-Léger / Wattinne</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css?v=1">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images côte à côte</title>
+    <style>
+        .container {
+            display: flex;          /* Affiche les éléments en ligne (côte à côte) */
+            gap: 10px;             /* Espace entre les images */
+            justify-content: center; /* Centre les images horizontalement */
+            flex-wrap: wrap;        /* Permet le retour à la ligne si nécessaire */
+        }
+
+        .container img {
+            width: 100%;           /* Largeur maximale de l'image */
+            max-width: 400px;      /* Largeur maximale pour éviter qu'elles soient trop grandes */
+            height: auto;          /* Garde les proportions */
+        }
+
+        /* Media query pour mobile (écran < 768px) */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column; /* Empile les images verticalement */
+                align-items: center;     /* Centre les images horizontalement */
+            }
+        }
+    </style>
 </head>
 <body>
 
@@ -20,16 +45,21 @@
 <!-- Contenu principal -->
 <div class="content">
     <h2>Bienvenue sur le site de la Famille Saint-Léger / Wattinne</h2>
-    <p>Ce site retrace l'histoire et la généalogie de notre famille. Vous y trouverez :</p>
-    <ul>
-        <li>Les récits familiaux et biographies</li>
-        <li>Photos et documents historiques</li>
-        <li>Arbres généalogiques et roues des ancêtres</li>
-        <li>Fiches individuelles de chaque membre</li>
-    </ul>
-    <p>La navigation est accessible via le menu ci-dessus. Bon voyage dans le temps !</p>
+    <p><b>Philippe est né en 1787</b>, juste avant la révolution française. Par son travail, son engagement politique et son investissement industriel, il a changé sa destinée. Non seulement la sienne, mais aussi la destinée et l'histoire de la famille sur des générations ! </p>
+    <p>4 générations plus tard, <b>Claude</b>, fut un héro de la 1° et de la 2 guerre mondiale et un grand industriel, comme ses pères.</p>
+    <p>Leur histoire, ainsi que l'histoire des branches qui sont venues enrichir notre famille à chaque mariage, vient fonder et nourrir notre propre histoire. Ce sont ces histoires que je vous invite à découvrir sur ce site, dédié à la famille.</p>
     
-    <img src="photos/accueil.jpg" />
+    
+    <div class="container">
+      <div class="figure">
+        <img src="photos/Philippe.png" alt="Philippe Saint-Léger">
+        <p class="figure-caption">Philippe Saint-Léger</p>
+      </div>
+      <div class="figure">
+        <img src="photos/Claude.png" alt="Claude Saint-Léger, Thérès, Francine, Nicole">
+        <p class="figure-caption">Claude Saint-Léger, Thérès, Francine, Nicole</p>
+      </div>
+    </div>
 </div>
 
 <!-- FOOTER -->
