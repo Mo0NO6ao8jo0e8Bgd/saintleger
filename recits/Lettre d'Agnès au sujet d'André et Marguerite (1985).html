@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>André Saint-Léger (1870 – 1952)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<!-- HEADER et MENU -->
+<div id="header"></div>
+<div id="menu"></div>
+
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    <a href="../index.html">Accueil</a> &gt; 
+    <a href="index.html">Récits</a> &gt; 
+    André Saint-Léger (1870 – 1952)
+</div>
+
+<!-- Contenu du récit -->
+<div class="content">
+    <h2>André Saint-Léger (1870 – 1952)</h2>
+<p>Par Anny Saint-Léger, en 1985</p>
+<p>Mon beau père Saint-Léger naquit à Tournai car on entendait le canon
+à Lille. Napoléon III se battait avec les Prussiens et capitule à Sedan
+le 25 Septembre 1870.</p>
+<p>Il avait un frère Pierre et une ravissante sœur Marthe qui épousa
+Lucien Crépy.</p>
+<p>Il se maria vers 1895 avec Marguerite Delemer. </p>
+<p>Mon beau père était très aimable mais très orgueilleux et vaniteux.
+Il se faisait appeler le Comte Saint-Léger, peignait des armoiries sur
+les portes de ses carrosses.</p>
+<p>Il avait une très belle maison 107 rue Royale à Lille et toujours de
+très belles voitures à chevaux, un break, une victoria, un coupé.</p>
+<p><img src="Pictures/Lettre d'Agnès au sujet d'André et Marguerite (1985)/1.png"
+style="width:17cm;height:8.624cm" /></p>
+<p>Il avait une usine et son frère Pierre une autre usine à la
+Madeleine, lin et coton. Elles existent toujours et font partie de la
+Société Agache.</p>
+<p>Après la guerre, ces deux usines furent vendues à M. Agache et mon
+beau père fut administrateur des Etablisements Agache ainsi que
+Claude.</p>
+<p>Vers 1922, mes beaux parents achetèrent une belle propriété près
+d’Arras, à Hermaville.</p>
+<p>Il y avait un château, une ferme et un bois. Ma belle mère organisait
+de très belles chasses. En 1934 environ, tout fut revendu car mon beau
+père dilapidait toute sa fortune avec des femmes dans les bars.</p>
+<p>Ma belle mère et Claude n’ont rien pu faire. </p>
+<p>Mon beau père était d’un caractère faible. Vers 1940 on lui retira la
+signature des Etablissements Agache. Il finit sa vie à Paris, à l’hôtel.
+On lui envoyait de l’argent tous les mois.</p>
+
+<h2>Marguerite Delemer ( - 28/08/1953)</h2>
+<p>Ma belle mère naquît je crois à Chauny dans l’Aisne. Son père, Adolph
+Delemer, aurait été blessé au poumon pendant la guerre de 1870 et il
+était tuberculeux. Il avait 3 enfants : Léon, Marguerite et Geneviève,
+qui épousa Louis de la Valette.</p>
+<p>Ma belle mère était très jeune quand son père mourut. Elle n’allait
+jamais en classe, et resta avec sa mère et des grands mères au Château
+de Rouge près de Chauny.</p>
+<p>Elle lisait beaucoup, retenant tout et était très cultivée.</p>
+<p>Son frère Léon passa plusieurs examens de grandes écoles et termina
+comme ingénieur des Ponts et Chaussés. Il eut 5 enfants dont 4
+moururent, ainsi que sa femme. Je crois qu’il était aussi tuberculeux,
+mais il vécu assez longtemps. Je l’ai bien connu, c’était un
+phénomène.</p>
+<p>Ma belle mère se maria très jeune. Elle eut beaucoup de succès car
+elle était très intelligente.</p>
+<p>Elle jouait au golf, elle chassait. Et pour aller chez son ami
+Edouard Delesalle près de Fort Mahon, elle allait en voiture à chevaux
+avec relais de chevaux à Hesdin.</p>
+<p>A partir de Montreuil, il n’y avait plus que des chemins de
+sable.</p>
+<p>Elle était très sévère avec ses deux enfants ainés : Claude et Annie
+et très faible avec Philippe qui naquit 7 ans après les autres.</p>
+<p>Philippe fut habillé en fille avec des robes en dentelles jusqu’à
+l’âge de 5 ans.</p>
+<p>Ma belle mère passait 2 mois à Cannes chaque hiver. Elle s’occupe de
+fonder l’Institut Pasteur de Lille et était très amie avec le Dr
+Calmette et Guérin qui isolèrent le bacille de la tuberculose et mirent
+au point le B.C.G. (Bacille Calmette et Guérin).</p>
+<p>Pendant la guerre 14-18 ma belle mère est restée à Lille. Elle avait
+été obligée de loger un général allemand, ce qui ne l’empêcha pas de
+faire de l’espionnage. Elle aidait les jeunes à s’évader, elle faisait
+passer des lettres et des renseignements sur l’emplacement des canons et
+les mouvements de troupes.</p>
+<p>Elle fut arrêtée et emmenée prisonnière à Holzminden en Allemagne, 6
+mois je crois. Elle revint très fatiguée et commença à avoir des
+périodes de dépression.</p>
+<p>En 1918, elle s’occupa de la reconstruction des cités ouvrières, puis
+de l’installation à Hermaville.</p>
+<p>La conduite de mon beau père la rendit malade et elle fit de fréquent
+séjours à Divonne avec une infirmière (NDLR : Divonne-les-Bains (dans
+l’Ain) est une station thermale).</p>
+<p>Elle mourut en 1953. Elle a connu Alain Thieffry.</p>
+
+    <!-- Exemple d'image -->
+    <!-- <img src="exemple.jpg" alt="Description de l'image"> -->
+
+    <a class="back-link" href="index.html">← Retour à la liste des récits</a>
+</div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<script>
+async function loadHTML(id, url) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+}
+loadHTML("header", "../partials/header.html");
+loadHTML("menu", "../partials/menu.html");
+loadHTML("footer", "../partials/footer.html");
+</script>
+
+</body>
+</html>
+
