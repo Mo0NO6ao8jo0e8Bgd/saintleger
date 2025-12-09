@@ -195,7 +195,7 @@ em { font-style: italic; }
 
 .doc-title {
     font-size: 1.05rem;
-    font-weight: 600;
+    /* ----font-weight: 600;---- */
     margin: 0;
 }
 
