@@ -18,13 +18,13 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 1.0rem;       /* ↓ au lieu de 2.8rem */
+    font-size: 1.4rem;       /* ↓ au lieu de 2.8rem */
 }
 
 header p {
     margin: 0px 0 0;
     opacity: 0.5;
-    font-size: 1rem;         /* ↓ légèrement */
+    font-size: 0,8rem;         /* ↓ légèrement */
 }
 
 
