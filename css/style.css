@@ -172,3 +172,42 @@ em { font-style: italic; }
     }
 }
 
+.doc-card {
+    border: 1px solid #ccc;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.doc-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.doc-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.doc-btn {
+    padding: 6px 10px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    background: #1a4d7a;
+    color: white;
+    border-radius: 6px;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.doc-btn:hover {
+    background: #163f63;
+}
+
+
