@@ -210,4 +210,17 @@ em { font-style: italic; }
     background: #163f63;
 }
 
+/* ---- VERSION MOBILE ---- */
+@media (max-width: 600px) {
+    .menu-item {
+        width: 130px;        /* au lieu de 170px */
+        padding: 14px;       /* moins haut */
+        font-size: 0.95rem;  /* texte légèrement plus petit */
+    }
+
+    nav {
+        gap: 14px;           /* réduit l’espace entre les boutons */
+        padding: 20px 10px;
+    }
+}
 
