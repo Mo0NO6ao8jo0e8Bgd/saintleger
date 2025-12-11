@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>MON_TITRE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../css/style.css">
+</head>
+<body>
+
+<!-- HEADER et MENU -->
+<div id="header"></div>
+<div id="menu"></div>
+
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    <a href="../../../index.html">Accueil</a> &gt; 
+    MON_TITRE
+</div>
+
+<!-- Contenu -->
+<div class="content">
+    <h2>MON_TITRE</h2>
+
+    MON_CONTENU
+    
+</div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<script>
+// Version complète du loader
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
+}
+
+// Activation du mail dans le footer
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return;
+    const link = document.createElement("a");
+    link.href = "mailto:arnaudsaintleger@gmail.com";
+    link.textContent = "Contact";
+    el.replaceWith(link);
+}
+
+// Chargement des partials
+loadHTML("header", "../../../partials/header.html");
+loadHTML("menu", "../../../partials/menu.html");
+loadHTML("footer", "../../../partials/footer.html", activateEmailLink);
+</script>
+
+</body>
+</html>
+
