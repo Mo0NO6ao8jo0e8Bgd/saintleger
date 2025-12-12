@@ -40,20 +40,25 @@
 
         <!-- Album 1 -->
         <div class="album">
-        <!-- Miniature visible pour le premier album -->
-            <h3>1914-1918 - Eugêne Wattinne, Villa Sans soucis</h3>
-        <a href="#" class="glightbox-Hardelot">
-            <img src="Hardelot/mini.jpg" alt="1914-1918 - Eugêne Wattinne, Villa Sans soucis">
-        </a>
+          <!-- Miniature visible pour le premier album -->
+              <h3>1914-1918 - Eugêne Wattinne, Villa Sans soucis</h3>
+          <a href="#" class="glightbox-WATTINNEEugène">
+              <img src="../individus/WATTINNE Eugène (1875)/Photos/mini_web.jpg" alt="1914-1918 - Eugène Wattinne, Villa Sans soucis">
+          </a>
+          
+          <!-- Miniature visible pour le premier album -->
+              <h3>1914-1918 - Madelaine Droulers</h3>
+          <a href="#" class="glightbox-DROULERSMadelaine">
+              <img src="../individus/DROULERS Madelaine (1883)/Photos/mini_web.jpg" alt="1914 (vers) Madelaine Droulers et ses enfants : Anny, Francis et Eugène Wattine_web">
+          </a>
 
-        <!-- Miniature visible pour le deuxième album -->
-            <h3>1937 - Claude Saint Léger</h3>
-        <a href="#" class="glightbox-Claude">
-            <img src="../individus/SAINT-LEGER Claude (1897)/Photos/mini_web.jpeg" alt="1937 - Claude Saint Léger">
-        </a>
+          <!-- Miniature visible pour le deuxième album -->
+              <h3>1937 - Claude Saint Léger</h3>
+          <a href="#" class="glightbox-SAINTLEGERClaude">
+              <img src="../individus/SAINT-LEGER Claude (1897)/Photos/mini_web.jpg" alt="1937 - Claude Saint Léger">
+          </a>
 
         </div>
-
         <!-- Ajouter d’autres albums ici -->
     </div>
 </div>
@@ -90,47 +95,59 @@ loadHTML("footer", "../partials/footer.html", activateEmailLink);
 <!-- GLightbox JS -->
 <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 <script>
-const lightbox = GLightbox({
-    selector: '.glightbox',
-    touchNavigation: true,
-    loop: true,
-    autoplayVideos: false
-});
+
 
 <!-- JS pour partials et Lightbox -->
     // Premier album
-    const Hardelot = GLightbox({
+    const WATTINNEEugène = GLightbox({
         elements: [
-            {href: 'Hardelot/1912 ou 1913 Hardelot 3.jpg', title: 'Hardelot'},
-            {href: 'Hardelot/1913 Bleriot - HardelotVilla des Cavrois (gauche) - Villa sans soucis (droite) - Viers Jean sans peur. Cavroi.jpg', title: '1913 Bleriot - Hardelot Villa des Cavrois (gauche) - Villa sans soucis (droite) '},
-            {href: 'Hardelot/Eugène Wattinne (n. 1875).jpg', title: 'Eugène Wattinne (n. 1875)'},
-            {href: 'Hardelot/Son Hispano, carrossée en ambulance.jpg', title: 'L\'Hispano d\'Eugêne, carrossée en ambulance'}
+            {href: '../individus/WATTINNE Eugène (1875)/Photos/1912-1913 Hardelot 2_web.jpg', title: 'Hardelot'},
+            {href: '../individus/WATTINNE Eugène (1875)/Photos/1912-1913 Hardelot_web.jpg', title: 'Hardelot'},
+            {href: '../individus/WATTINNE Eugène (1875)/Photos/1913 Blériot. A gauche, villa des Cavrois, à droite, villa Sans Soucis d\'Eugène Wattine père_web.jpg', title: '1913 Blériot. A gauche, villa des Cavrois, à droite, villa Sans Soucis d\'Eugène Wattine père'},
+            {href: '../individus/WATTINNE Eugène (1875)/Photos/1913 L\'hispano d\'Eugène Wattinne_web.jpg', title: '1913 L\'hispano d\'Eugène Wattinne_web.jpg'},
+            {href: '../individus/WATTINNE Eugène (1875)/Photos/1914-1918 La Hispano d\'Eugène Wattine recarossée en ambulance_web.jpg', title: '1914-1918 La Hispano d\'Eugène Wattine recarossée en ambulance'},
+            {href: '../individus/WATTINNE Eugène (1875)/Photos/1914-1918 Les soupes populaires pendant la guerre_web.jpg', title: '1914-1918 Les soupes populaires pendant la guerre'},
+            {href: '../individus/WATTINNE Eugène (1875)/Photos/1918 (vers) Eugène Wattinne_web.jpg', title: '1918 (vers) Eugène Wattinne'},
+            {href: '../individus/WATTINNE Eugène (1875)/Photos/Hardelot, char à voile_web.jpg', title: 'Hardelot, char à voile'},
+        ],
+        loop: true,
+        touchNavigation: true
+    });
+    
+    const DROULERSMadelaine = GLightbox({
+        elements: [
+            {href: '../individus/DROULERS Madelaine (1883)/Photos/1913 (vers) L\'auto de ma mère (Madelaine Droulers)_web.jpg', title: '1913 (vers) L\'auto de ma mère (Madelaine Droulers)'},
+            {href: '../individus/DROULERS Madelaine (1883)/Photos/1914 (vers) Madelaine Droulers, Anny, Francis et Eugène Wattine_web.jpg', title: '1914 (vers) Madelaine Droulers, Anny, Francis et Eugène Wattine'}
         ],
         loop: true,
         touchNavigation: true
     });
 
     // Deuxième album
-    const Claude = GLightbox({
+    const SAINTLEGERClaude = GLightbox({
         elements: [
-            {href: '../individus/SAINT-LEGER Claude (1897)/Photos/1937 - Claude et Denis_web.jpeg', title: 'Photo 1 - 1920'},
-            {href: '../individus/SAINT-LEGER Claude (1897)/Photos/photo en commandant_web.jpeg', title: 'Photo 2 - 1920'},
-            {href: '../individus/SAINT-LEGER Claude (1897)/Photos/photo identite1_web.jpeg', title: 'Photo 3 - 1920'},
-            {href: '../individus/SAINT-LEGER Claude (1897)/Photos/photo identite2_web.jpeg', title: 'Photo 3 - 1920'}
+            {href: '../individus/SAINT-LEGER Claude (1897)/Photos/1937 - Claude et Denis_web.jpeg', title: '1937 - Claude et Denis'},
+            {href: '../individus/SAINT-LEGER Claude (1897)/Photos/photo en commandant_web.jpeg', title: 'photo en commandant'},
+            {href: '../individus/SAINT-LEGER Claude (1897)/Photos/1944 Claude quelques mois avant sa mort, Denis et Chantal_web.jpg', title: '1944 Claude quelques mois avant sa mort, Denis et'},
         ],
         loop: true,
         touchNavigation: true
     });
 
     // Déclenchement au clic sur la miniature
-    document.querySelector('.glightbox-Hardelot').addEventListener('click', function(e){
+    document.querySelector('.glightbox-WATTINNEEugène').addEventListener('click', function(e){
         e.preventDefault(); // empêche le # href par défaut
-        Hardelot.open();
+        WATTINNEEugène.open();
     });
 
-    document.querySelector('.glightbox-Claude').addEventListener('click', function(e){
+    document.querySelector('.glightbox-DROULERSMadelaine').addEventListener('click', function(e){
         e.preventDefault();
-        Claude.open();
+        DROULERSMadelaine.open();
+    });
+
+    document.querySelector('.glightbox-SAINTLEGERClaude').addEventListener('click', function(e){
+        e.preventDefault();
+        SAINTLEGERClaude.open();
     });
 </script>
 
