@@ -1,6 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPY5DZ4740"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YPY5DZ4740');
+    </script>
+    
+    <meta charset="UTF-8">
+    <title>1916-1917 Carnet de route militaire - Claude Saint-Léger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../css/style.css">
+</head>
+<body>
+
+<!-- HEADER et MENU -->
+<div id="header"></div>
+<div id="menu"></div>
+
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    <a href="../../../index.html">Accueil</a> &gt; 
+    1916-1917 Carnet de route militaire - Claude Saint-Léger
+</div>
+
+<!-- Contenu -->
+<div class="content">
+    <h2>1916-1917 Carnet de route militaire - Claude Saint-Léger</h2>
+
 <h3 id="carnet-de-route-militaire-par-claude-saint-léger">Carnet de
-route militaire<br />
-par Claude Saint-Léger</h3>
+route militaire, par Claude Saint-Léger</h3>
 <p>24 août 1915 : Évadé de LILLE, en août 1915, il avait traversé à la
 nage la frontière Belge-Hollandaise pour rejoindre la France par
 l’Angleterre</p>
@@ -43,3 +76,38 @@ une tranchée ou un poste ennemi, récolter des renseignements)</p>
 a subi ou été exposé à des attaques chimiques (gaz). Très courant sur le
 front de l’Aisne après 1915-16 : usage de gaz moutarde ou gaz
 asphyxiants par les Allemands et les Français.)</p>
+
+<a class="back-link" href="javascript:history.back()">Retour</a>
+    
+</div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<script>
+// Version complète du loader
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
+}
+
+// Activation du mail dans le footer
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return;
+    const link = document.createElement("a");
+    link.href = "mailto:arnaudsaintleger@gmail.com";
+    link.textContent = "Contact";
+    el.replaceWith(link);
+}
+
+// Chargement des partials
+loadHTML("header", "../../../partials/header.html");
+loadHTML("menu", "../../../partials/menu.html");
+loadHTML("footer", "../../../partials/footer.html", activateEmailLink);
+</script>
+
+</body>
+</html>
+
