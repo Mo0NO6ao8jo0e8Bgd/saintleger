@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPY5DZ4740"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YPY5DZ4740');
+    </script>
+    
+    <meta charset="UTF-8">
+    <title>Correspondance de Victor Saint-Léger et Henri de Lacaze-Duthiers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../css/style.css">
+</head>
+<body>
+
+<!-- HEADER et MENU -->
+<div id="header"></div>
+<div id="menu"></div>
+
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    <a href="../../../index.html">Accueil</a> &gt; 
+    Correspondance de Victor Saint-Léger et Henri de Lacaze-Duthiers
+</div>
+
+<!-- Contenu -->
+<div class="content">
+    <h2>Correspondance de Victor Saint-Léger et Henri de Lacaze-Duthiers</h2>
+
+<p><strong>Mon cher ami,</strong><br />
+</p>
+<p>___ de « vivez » __ lorsqu’en rentrant un matin chez moi d’un voyage
+de quelques jours à Paris, j’ouvrais votre lettre d’hier qui qui
+m’apprenait que vous y étiez en même temps que moi. Je vous m’a__ ou
+moins __ d’un voyage que je ne vous revois au milieu de Novembre. N__ le
+un vieux f___ p___ de repro__, puisque vous en avez vous même à me
+« fournir ». Je n’ai moi d’autres excuses que les aff__ et peut être
+l_f__ d’écrire.</p>
+<p>Bien que je me permettais quelques r__irés de bonheur au __iez du fin
+ce livre annoncé, et ___ _ ou de l’égoïsme dans notre amitié les plus
+sincères, je me félicitais par </p>
+<p>Lille, 31 8_ 1863</p>
+<p>Depuis le 29 août, en rentrant ce matin chez moi d’un voyage de 19
+jours à Paris, j’ai attendu votre retour et bien qu’on ne répondît que
+vous y étiez, je m’étais toujours promis de vous écrire avant de vous
+revoir. J’ai eu un voyage et aussi mon séjour dans au milieu de
+[novembre]. Votre [vieille] amitié, jointe à ce que vous m’aviez annoncé
+à mon arrivée...</p>
+<p>Bien que je me fusse attendu à y voir des choses au sujet du [feu et
+de l’hiver] avec vous, et comme il y a des préparatifs pour mes amitiés
+les plus sincères, le me...</p>
+    
+</div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<script>
+// Version complète du loader
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
+}
+
+// Activation du mail dans le footer
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return;
+    const link = document.createElement("a");
+    link.href = "mailto:arnaudsaintleger@gmail.com";
+    link.textContent = "Contact";
+    el.replaceWith(link);
+}
+
+// Chargement des partials
+loadHTML("header", "../../../partials/header.html");
+loadHTML("menu", "../../../partials/menu.html");
+loadHTML("footer", "../../../partials/footer.html", activateEmailLink);
+</script>
+
+</body>
+</html>
+
