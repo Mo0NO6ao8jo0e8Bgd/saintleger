@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPY5DZ4740"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YPY5DZ4740');
+    </script>
+    
+    <meta charset="UTF-8">
+    <title>Récit d'Anny au sujet de ses études d'infirmière</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../css/style.css">
+</head>
+<body>
+
+<!-- HEADER et MENU -->
+<div id="header"></div>
+<div id="menu"></div>
+
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    <a href="../../../index.html">Accueil</a> &gt; 
+    Récit d'Anny au sujet de ses études d'infirmière
+</div>
+
+<!-- Contenu -->
+<div class="content">
+    <h2>Récit d'Anny au sujet de ses études d'infirmière</h2>
+
+<p>Par Anny Saint-Léger, en 1985</p>
+<h1 id="divers">Divers</h1>
+<p>Quand j’ai fais mes études d’infirmière en 1925, on soignait les
+malades de la façon suivante : </p>
+<p>Si quelqu’un avait une congestion cérébrale, il fallait immédiatement
+lui entailler le lobe de l’oreille pour faire saigner, puis envoyer
+quelqu’un chez un pharmacien chercher des sangsues et en mettre sur les
+tempes.</p>
+<p>On pouvait aussi mettre une cuillère de moutarde dans la bouche.</p>
+<p>Et les « picots » dans l’eau très chaude.</p>
+<p>Pour les bronchites il fallait mettre des ventouses dans le dos. Si
+on n’avait pas sous la main des verres à ventouses il fallait prendre
+des verres à vin.</p>
+<p>Si un bébé avait une forte fièvre il fallait l’envelopper dans des
+serviettes éponge trempées dans de l’eau très froide, et les changer
+toutes les 5 minutes. C’est un excellent remède, la fièvre baisse
+vite.</p>
+<p>Il n’y avait pas de médicaments tout fait. Les docteurs faisaient une
+ordonnance et le pharmacien faisait des cachets ou une potion</p>
+    
+</div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<script>
+// Version complète du loader
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
+}
+
+// Activation du mail dans le footer
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return;
+    const link = document.createElement("a");
+    link.href = "mailto:arnaudsaintleger@gmail.com";
+    link.textContent = "Contact";
+    el.replaceWith(link);
+}
+
+// Chargement des partials
+loadHTML("header", "../../../partials/header.html");
+loadHTML("menu", "../../../partials/menu.html");
+loadHTML("footer", "../../../partials/footer.html", activateEmailLink);
+</script>
+
+</body>
+</html>
+

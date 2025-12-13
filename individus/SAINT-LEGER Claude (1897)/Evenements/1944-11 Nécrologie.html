@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPY5DZ4740"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YPY5DZ4740');
+    </script>
+    
+    <meta charset="UTF-8">
+    <title>1944-11 Nécrologie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../css/style.css">
+</head>
+<body>
+
+<!-- HEADER et MENU -->
+<div id="header"></div>
+<div id="menu"></div>
+
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    <a href="../../../index.html">Accueil</a> &gt; 
+    1944-11 Nécrologie
+</div>
+
+<!-- Contenu -->
+<div class="content">
+    <h2>1944-11 Nécrologie</h2>
+
+<p><strong>FUNÉRAILLES</strong></p>
+<p>Lundi, à 10 h. 30, ont eu lieu, en l’église du Sacré-Cœur, les
+funérailles de M. le Commandant Claude Saint-Léger, Chevalier de la
+Légion d’honneur, Croix de guerre 1914-18, décédé en service commandé à
+Arras.</p>
+<p>Le deuil était conduit par M. Denis Saint-Léger, fils du défunt,
+accompagné de Mgr Régent, aumônier du 1er Corps d’armée.</p>
+<p>Un détachement du 43e R.I., en armes, rendit les honneurs.</p>
+<p>Les fanions des Anciens Combattants de Pérenchies, du 16e B.C.P. et
+de la Mutuelle des Chasseurs avaient pris place dans le chœur.</p>
+<p>Parmi les personnalités présentes, citons MM. Gentille, préfet de la
+Somme, et M. le préfet de l’Oise, Mme Verlomme et Mlle, les colonels
+Chaulet, représentant le général Deligne, Dupian, directeur du service
+du Matériel de la 1re Région, le lieutenant-colonel Léon, de la mission
+de liaison.</p>
+<p>Après l’absoute, chantée par Mgr Régent, le corps fut conduit au
+cimetière de La Madeleine où eut lieu l’inhumation.</p>
+    
+</div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<script>
+// Version complète du loader
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
+}
+
+// Activation du mail dans le footer
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return;
+    const link = document.createElement("a");
+    link.href = "mailto:arnaudsaintleger@gmail.com";
+    link.textContent = "Contact";
+    el.replaceWith(link);
+}
+
+// Chargement des partials
+loadHTML("header", "../../../partials/header.html");
+loadHTML("menu", "../../../partials/menu.html");
+loadHTML("footer", "../../../partials/footer.html", activateEmailLink);
+</script>
+
+</body>
+</html>
+
