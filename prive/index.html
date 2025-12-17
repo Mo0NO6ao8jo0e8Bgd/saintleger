@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPY5DZ4740"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YPY5DZ4740');
+    </script>
+    
+    <meta charset="UTF-8">
+    <title>Famille Saint-Léger / Wattinne</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css?v=1">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            display: flex;          /* Affiche les éléments en ligne (côte à côte) */
+            gap: 10px;             /* Espace entre les images */
+            justify-content: center; /* Centre les images horizontalement */
+            flex-wrap: wrap;        /* Permet le retour à la ligne si nécessaire */
+        }
+
+        .container img {
+            width: 100%;           /* Largeur maximale de l'image */
+            max-width: 400px;      /* Largeur maximale pour éviter qu'elles soient trop grandes */
+            height: auto;          /* Garde les proportions */
+        }
+
+        /* Media query pour mobile (écran < 768px) */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column; /* Empile les images verticalement */
+                align-items: center;     /* Centre les images horizontalement */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- HEADER et MENU -->
+<div id="header"></div>
+<div id="menu"></div>
+
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    Accueil
+</div>
+
+<!-- Contenu principal -->
+<div class="content">
+    <h2>Vous êtes sur la page un peu privé du site</h2>
+    <p>Voici les roues généalogiques descendantes, avec toutes vos cousines et cousins ;-)</p>
+    
+    
+    <div class="doc-card"><div class="doc-title">Roue des ascendants de Claude et Agnès</div><div class="doc-buttons">
+        <a class="doc-btn" href="Roue asc. 6G fratrie SAINT-LÉGER-WATTINNE.html" target="_blank">📎 Roue des ascendants</a>
+    </div></div></div>
+    
+    <div class="doc-card"><div class="doc-title">Roue des descendants de Claude et Agnès</div><div class="doc-buttons">
+        <a class="doc-btn" href="Roue desc. 9G fratrie SAINT-LÉGER-.html" target="_blank">📎 Roues des descendants</a>
+    </div></div></div>
+    
+    <div class="doc-card"><div class="doc-title">Roue des enfants de Claude et Agnès</div><div class="doc-buttons">
+        <a class="doc-btn" href="Roue desc. 9G Thérèse.html" target="_blank">📎 Thérèse</a>
+        <a class="doc-btn" href="Roue desc. 9G Nicole.html" target="_blank">📎 Nicole</a>
+        <a class="doc-btn" href="Roue desc. 9G Francine.html" target="_blank">📎 Francine</a>
+        <a class="doc-btn" href="Roue desc. 9G Denis.html" target="_blank">📎 Denis</a>
+        <a class="doc-btn" href="Roue desc. 9G Chantal.html" target="_blank">📎 Chantal</a>
+    </div></div></div>
+    
+    
+    
+  <a class="back-link" href="recits/index.html">Liste des récits</a>
+</div>
+
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<!-- JS pour inclure header, menu et footer -->
+<script>
+// Nouvelle fonction loadHTML avec callback possible
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
+}
+
+// Fonction pour transformer le "Contact" en lien mail
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return; // sécurité
+
+    const email = "arnaudsaintleger@gmail.com";
+    const link = document.createElement("a");
+    link.href = "mailto:" + email;
+    link.textContent = "Contact";
+
+    el.replaceWith(link);
+}
+
+// Chargement des 3 parties, avec callback pour le footer
+loadHTML("header", "partials/header.html");
+loadHTML("menu", "partials/menu.html");
+loadHTML("footer", "partials/footer.html", activateEmailLink);
+</script>
+
+</body>
+</html>
+
