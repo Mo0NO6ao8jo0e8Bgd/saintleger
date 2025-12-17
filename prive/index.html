@@ -11,34 +11,11 @@
       gtag('config', 'G-YPY5DZ4740');
     </script>
     
-    <meta charset="UTF-8">
-    <title>Famille Saint-Léger / Wattinne</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/style.css?v=1">
     
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .container {
-            display: flex;          /* Affiche les éléments en ligne (côte à côte) */
-            gap: 10px;             /* Espace entre les images */
-            justify-content: center; /* Centre les images horizontalement */
-            flex-wrap: wrap;        /* Permet le retour à la ligne si nécessaire */
-        }
-
-        .container img {
-            width: 100%;           /* Largeur maximale de l'image */
-            max-width: 400px;      /* Largeur maximale pour éviter qu'elles soient trop grandes */
-            height: auto;          /* Garde les proportions */
-        }
-
-        /* Media query pour mobile (écran < 768px) */
-        @media (max-width: 768px) {
-            .container {
-                flex-direction: column; /* Empile les images verticalement */
-                align-items: center;     /* Centre les images horizontalement */
-            }
-        }
-    </style>
+    <meta charset="UTF-8">
+    <title>Page privé - Famille Saint-Léger / Wattinne</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css?v=1">
 </head>
 <body>
 
@@ -48,7 +25,7 @@
 
 <!-- Fil d’Ariane -->
 <div class="breadcrumb">
-    Accueil
+    <a href="../index.html">Accueil</a> &gt; Page privé
 </div>
 
 <!-- Contenu principal -->
@@ -73,43 +50,47 @@
         <a class="doc-btn" href="Roue desc. 9G Chantal.html" target="_blank">📎 Chantal</a>
     </div></div></div>
     
-    
-    
-  <a class="back-link" href="recits/index.html">Liste des récits</a>
 </div>
-
 
 <!-- FOOTER -->
 <div id="footer"></div>
 
 <!-- JS pour inclure header, menu et footer -->
 <script>
-// Nouvelle fonction loadHTML avec callback possible
-async function loadHTML(id, url, callback) {
-    const res = await fetch(url);
-    document.getElementById(id).innerHTML = await res.text();
-    if (callback) callback();
+function loadHTML(id, url) {
+    return fetch(url)
+        .then(res => {
+            if (!res.ok) throw new Error("HTTP " + res.status);
+            return res.text();
+        })
+        .then(html => {
+            document.getElementById(id).innerHTML = html;
+        })
+        .catch(err => console.error("Erreur chargement partial:", err));
 }
 
-// Fonction pour transformer le "Contact" en lien mail
-function activateEmailLink() {
-    const el = document.getElementById("email-contact");
-    if (!el) return; // sécurité
+// Chargement asynchrone des partials
+Promise.all([
+    loadHTML("header", "../partials/header.html"),
+    loadHTML("menu", "../partials/menu.html"),
+    loadHTML("footer", "../partials/footer.html")
+]).then(() => {
+    // Une fois le footer chargé, on transforme "Contact"
+    const user = "arnaudsaintleger";
+    const domain = "gmail.com";
+    const email = user + "@" + domain;
 
-    const email = "arnaudsaintleger@gmail.com";
-    const link = document.createElement("a");
-    link.href = "mailto:" + email;
-    link.textContent = "Contact";
-
-    el.replaceWith(link);
-}
-
-// Chargement des 3 parties, avec callback pour le footer
-loadHTML("header", "partials/header.html");
-loadHTML("menu", "partials/menu.html");
-loadHTML("footer", "partials/footer.html", activateEmailLink);
+    const span = document.getElementById("email-contact");
+    if (span) {
+        const link = document.createElement("a");
+        link.href = "mailto:" + email;
+        link.textContent = "Contact";
+        span.replaceWith(link);
+    }
+});
 </script>
 
 </body>
 </html>
+
 
