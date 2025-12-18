@@ -327,4 +327,8 @@ footer a {
 .content ul li {
     margin-bottom: 10px;
 }
+.decalage {
+    text-indent: 2em; /* Décalage par défaut */
+    margin-bottom: 0;
+}
 
