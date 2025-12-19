@@ -332,3 +332,35 @@ footer a {
     margin-bottom: 0;
 }
 
+        .genealogy-grid {
+            display: grid;
+            grid-template-columns: 1fr 0.4fr 1fr;
+            gap: 4px;
+            padding: 4px;
+            background-color: white;
+        }
+
+        .cell {
+            padding: 4px;
+        }
+        .homme {
+            background-color: #add8e6;
+            display: block;
+            padding: 6px;
+            border-radius: 8px;
+            font-size: 0.9em;
+            box-sizing: border-box;
+            height: 100%;
+        }
+        .femme {
+            background-color: #ffb6c1;
+            display: block;
+            padding: 6px;
+            border-radius: 8px;
+            font-size: 0.9em;
+            box-sizing: border-box;
+            height: 100%;
+        }
+        .homme strong, .femme strong {
+            font-size: 1.1em;
+        }
