@@ -40,11 +40,17 @@
 .mariage-header { grid-column: 1 / -1; text-align: center; margin-bottom: 0px; }
 .mariage-header-left { text-align: center; margin-bottom: 3px; font-size: 0.9em; }
 .mariage-header-right { text-align: center; margin-bottom: 3px; font-size: 0.9em; }
-.enfants-row { grid-column: 1 / -1; margin-top: 0px; padding: 3px; background-color: #f5f5f5; border-radius: 4px; text-align: center; }
-.homme { display: inline-block; width: 100%; padding: 8px 12px; background-color: #E3F2FD; border-radius: 4px; box-sizing: border-box; }
-.femme { display: inline-block; width: 100%; padding: 8px 12px; background-color: #FCE4EC; border-radius: 4px; box-sizing: border-box; }
-.individu-homme { display: inline-block; width: 100%; padding: 8px 12px; border: 4px solid #2E5C8A; background-color: #E3F2FD; border-radius: 4px; box-sizing: border-box; }
-.individu-femme { display: inline-block; width: 100%; padding: 8px 12px; border: 4px solid #C2185B; background-color: #FCE4EC; border-radius: 4px; box-sizing: border-box; }
+.enfants-row { grid-column: 1 / -1; margin-top: 0px; padding: 3px; background-color: #ffffff; border-radius: 4px; text-align: center; }
+.homme { display: inline-block; width: 100%; padding: 8px 12px; background-color: #E3F2FD; border-radius: 4px; box-sizing: border-box; text-decoration: none; color: inherit; }
+.femme { display: inline-block; width: 100%; padding: 8px 12px; background-color: #FCE4EC; border-radius: 4px; box-sizing: border-box; text-decoration: none; color: inherit; }
+.individu-homme { display: inline-block; width: 100%; padding: 8px 12px; border: 4px solid #2E5C8A; background-color: #E3F2FD; border-radius: 4px; box-sizing: border-box; text-decoration: none; color: inherit; }
+.individu-femme { display: inline-block; width: 100%; padding: 8px 12px; border: 4px solid #C2185B; background-color: #FCE4EC; border-radius: 4px; box-sizing: border-box; text-decoration: none; color: inherit; }
+.homme:hover, .femme:hover, .individu-homme:hover, .individu-femme:hover { opacity: 0.8; cursor: pointer; }
+.enfant-homme { display: inline-block; padding: 5px 10px; margin: 3px; background-color: #E3F2FD; color: #2E5C8A; font-weight: bold; text-decoration: none; border-radius: 4px; width: 80%; }
+.enfant-femme { display: inline-block; padding: 5px 10px; margin: 3px; background-color: #FCE4EC; color: #C2185B; font-weight: bold; text-decoration: none; border-radius: 4px; width: 80%; }
+.enfant-homme:hover, .enfant-femme:hover { opacity: 0.8; cursor: pointer; }
+.enfant-no-link-homme { display: inline-block; padding: 5px 10px; margin: 3px; background-color: #E3F2FD; color: #2E5C8A; width: 80%; border-radius: 4px; }
+.enfant-no-link-femme { display: inline-block; padding: 5px 10px; margin: 3px; background-color: #FCE4EC; color: #C2185B; width: 80%; border-radius: 4px; }
 .enfants-list { line-height: 1.8; }
 .parent-block { padding: 5px; }
 </style>
@@ -53,47 +59,47 @@
     <div class="cell cell-left">
         <div class="parent-block">
             <div class="mariage-header-left">&nbsp;</div>
-            <span class="homme">
+            <a href="SAINT-LEGER Victor (1818).html" class="homme">
                 <strong>Victor SAINT-LÉGER</strong>
 <br>13/04/1818 – 20/01/1872
-            </span><br>
-            <span class="femme">
+            </a><br>
+            <a href="MARIAGE Clemence (1825).html" class="femme">
                 <strong>Clémence MARIAGE</strong>
 <br>01/03/1825 – 23/05/1909
-            </span>
+            </a>
         </div>
     </div>
     <div class="cell cell-right">
         <div class="parent-block">
             <div class="mariage-header-right">&nbsp;</div>
-            <span class="homme">
+            <a href="LONGHAYE Auguste (1812).html" class="homme">
                 <strong>Auguste LONGHAYE</strong>
 <br>01/01/1812 – 01/01/1878
-            </span><br>
-            <span class="femme">
-                <strong>Virginie WEGHE</strong>
+            </a><br>
+            <a href="WEGHE Virginie (1825).html" class="femme">
+                <strong>Virginie VAN DE WEGHE</strong>
 <br>01/01/1825 – 01/01/1904
-            </span>
+            </a><br>
         </div>
     </div>
     <div class="mariage-header">Mariés le 04/12/1869</div>
     <div class="cell cell-left">
-        <span class="homme">
+        <a href="SAINT-LEGER Georges (1844).html" class="homme">
             <strong>Georges SAINT-LÉGER</strong><br>
             04/02/1844 – 06/09/1899
-        </span>
+        </a>
     </div>
     <div class="cell cell-right">
-        <span class="individu-femme">
+        <a href="LONGHAYE Amelie (1850).html" class="individu-femme">
             <strong>Amélie LONGHAYE</strong><br>
             04/07/1850 – 06/05/1936
-        </span>
+        </a>
     </div>
     <div class="enfants-row">
         <div class="enfants-list">
-            André (29/09/1870 – 01/01/1947)<br>
-            Pierre (1871)<br>
-            Marthe (22/01/1875 – 26/06/1966)<br>
+            <a href="SAINT-LEGER Andre (1870).html" class="enfant-homme">André (29/09/1870 – 01/01/1947)</a><br>
+            <a href="SAINT-LEGER Pierre (1871).html" class="enfant-homme">Pierre (1871)</a><br>
+            <a href="SAINT-LEGER Marthe (1875).html" class="enfant-femme">Marthe (22/01/1875 – 26/06/1966)</a><br>
         </div>
     </div>
 </div>
