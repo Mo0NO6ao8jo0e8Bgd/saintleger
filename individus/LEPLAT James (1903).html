@@ -33,46 +33,47 @@
     <h2>LEPLAT James (1903)</h2>
 
 <style>
-.genealogy-grid { display: grid; grid-template-columns: 40% 20% 40%; gap: 10px; margin: 20px 0; }
+.genealogy-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 20px 0; }
 .cell { padding: 10px; }
-.cell:nth-child(3n+1) { text-align: right; }
-.cell:nth-child(3n) { text-align: left; }
+.cell-left { text-align: right; }
+.cell-right { text-align: left; }
+.mariage-header { grid-column: 1 / -1; text-align: center; font-weight: bold; margin-bottom: 2px; }
+.enfants-row { grid-column: 1 / -1; margin-top: 2px; padding: 10px; background-color: #f5f5f5; border-radius: 4px; text-align: center; }
 .homme { display: inline-block; width: 100%; padding: 8px 12px; background-color: #E3F2FD; border-radius: 4px; box-sizing: border-box; }
 .femme { display: inline-block; width: 100%; padding: 8px 12px; background-color: #FCE4EC; border-radius: 4px; box-sizing: border-box; }
 .individu-homme { display: inline-block; width: 100%; padding: 8px 12px; border: 4px solid #2E5C8A; background-color: #E3F2FD; border-radius: 4px; box-sizing: border-box; }
 .individu-femme { display: inline-block; width: 100%; padding: 8px 12px; border: 4px solid #C2185B; background-color: #FCE4EC; border-radius: 4px; box-sizing: border-box; }
-.enfants { margin: 10px 0 0 0; padding: 8px; font-size: 0.9em; line-height: 1.6; }
+.enfants-list { line-height: 1.8; }
 </style>
 <div class="genealogy-grid">
-    <!-- Père -->
-    <div class="cell">
+    <div class="mariage-header">&nbsp;</div>
+    <div class="cell cell-left">
         <span class="homme">
             <strong>Emile Joseph LEPLAT</strong><br>
             31/10/1832 – 05/02/1917
         </span>
     </div>
-    <div class="cell"></div>
-    <!-- Mère -->
-    <div class="cell">
+    <div class="cell cell-right">
         <span class="femme">
             <strong>Elisabeth &quot;Clara&quot; Marie WHELAN</strong><br>
             24/04/1834 – 01/06/1890
         </span>
     </div>
-    <!-- Individu -->
-    <div class="cell">
+    <div class="mariage-header">&nbsp;</div>
+    <div class="cell cell-left">
         <span class="individu-homme">
             <strong>James (père) LEPLAT</strong><br>
         </span>
     </div>
-    <div class="cell"></div>
-    <div class="cell">
+    <div class="cell cell-right">
         <span class="femme">
             <strong>Marie Anne LORTHIOIS</strong><br>
-            <div class="enfants">
-                James Henri Joseph LEPLAT (01/01/1903 – 01/01/1997)<br>
-            </div>
         </span>
+    </div>
+    <div class="enfants-row">
+        <div class="enfants-list">
+            James Henri Joseph LEPLAT (01/01/1903 – 01/01/1997)<br>
+        </div>
     </div>
 </div>
 
