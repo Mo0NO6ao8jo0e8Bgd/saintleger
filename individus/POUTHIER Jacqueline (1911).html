@@ -15,6 +15,10 @@
     <title>POUTHIER Jacqueline (1911)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../../css/style.css">
+    
+    <!-- glightbox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    
 </head>
 <body>
 
@@ -33,8 +37,27 @@
     <h2>POUTHIER Jacqueline (1911)</h2>
 
     <div style="text-align:center; margin: 1em 0;">
-        <img src="POUTHIER Jacqueline (1911)/Photos/mini_web.jpg" alt="Photo de POUTHIER Jacqueline (1911)" style="max-width:100%; height:auto;">
+        <a href="#" class="glightbox-POUTHIERJacqueline1911">
+            <img src="POUTHIER Jacqueline (1911)/Photos/mini_web.jpg" alt="Photos de POUTHIER Jacqueline (1911)" style="max-width:100%; height:auto; cursor:pointer; border: 2px solid #ddd; border-radius: 4px;">
+        </a>
+        <p style="font-size:0.9em; color:#666; margin-top:0.5em;">📷 Cliquez pour voir 7 photo(s)</p>
     </div>
+
+    <script>
+    const lightboxPOUTHIERJacqueline1911 = GLightbox({
+        elements: [
+            {href: 'POUTHIER Jacqueline (1911)/Photos/1947-10 1_web.jpg', title: '1947-10 1'},
+            {href: 'POUTHIER Jacqueline (1911)/Photos/1947-10 2_web.jpg', title: '1947-10 2'},
+            {href: 'POUTHIER Jacqueline (1911)/Photos/1956-08 Moutie au Touquet_web.jpg', title: '1956-08 Moutie au Touquet'},
+            {href: 'POUTHIER Jacqueline (1911)/Photos/1960-08 Le Dahut_web.jpg', title: '1960-08 Le Dahut'},
+            {href: 'POUTHIER Jacqueline (1911)/Photos/1961-08 Dahut (Moutie CyrilSL SoniaSL)_web.jpg', title: '1961-08 Dahut (Moutie CyrilSL SoniaSL)'},
+            {href: 'POUTHIER Jacqueline (1911)/Photos/1964-01 Les Leplats, Flipots et Saint Leger (à Wasquehal), depuis la gauche, Cyril, Arnaud,Sonia, Cédric, Marina,  ..._web.jpg', title: '1964-01 Les Leplats, Flipots et Saint Leger (à Wasquehal), depuis la gauche, Cyril, Arnaud,Sonia, Cédric, Marina,  ...'},
+            {href: 'POUTHIER Jacqueline (1911)/Photos/1966-09 Wasquehal (Moutie, Marie-Claire, Françoise, Nana, Caroline, Katy)_web.jpg', title: '1966-09 Wasquehal (Moutie, Marie-Claire, Françoise, Nana, Caroline, Katy)'}
+        ],
+        loop: true,
+        touchNavigation: true
+    });
+    </script>
 
 <style>
 .genealogy-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 20px 0; border: 1px solid #ccc; border-radius: 8px; padding: 10px; }
@@ -152,6 +175,10 @@ loadHTML("header", "../../../partials/header3.html");
 loadHTML("menu", "../../../partials/menu3.html");
 loadHTML("footer", "../../../partials/footer3.html", activateEmailLink);
 </script>
+
+
+<!-- glightbox -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 
 </body>
 </html>

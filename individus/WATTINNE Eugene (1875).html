@@ -15,6 +15,10 @@
     <title>WATTINNE Eugene (1875)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../../css/style.css">
+    
+    <!-- glightbox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    
 </head>
 <body>
 
@@ -33,8 +37,35 @@
     <h2>WATTINNE Eugene (1875)</h2>
 
     <div style="text-align:center; margin: 1em 0;">
-        <img src="WATTINNE Eugene (1875)/Photos/mini_web.jpg" alt="Photo de WATTINNE Eugene (1875)" style="max-width:100%; height:auto;">
+        <a href="#" class="glightbox-WATTINNEEugene1875">
+            <img src="WATTINNE Eugene (1875)/Photos/mini_web.jpg" alt="Photos de WATTINNE Eugene (1875)" style="max-width:100%; height:auto; cursor:pointer; border: 2px solid #ddd; border-radius: 4px;">
+        </a>
+        <p style="font-size:0.9em; color:#666; margin-top:0.5em;">📷 Cliquez pour voir 15 photo(s)</p>
     </div>
+
+    <script>
+    const lightboxWATTINNEEugene1875 = GLightbox({
+        elements: [
+            {href: 'WATTINNE Eugene (1875)/Photos/1849 Extrait de journal - Enterrement d'Eugène Wattinne_web.jpg', title: '1849 Extrait de journal - Enterrement d'Eugène Wattinne'},
+            {href: 'WATTINNE Eugene (1875)/Photos/1904 Eugène et Anny Wattine - Le Biez, Pecq_web.jpg', title: '1904 Eugène et Anny Wattine - Le Biez, Pecq'},
+            {href: 'WATTINNE Eugene (1875)/Photos/1904 Eugène et Anny Wattine, Loulou Droulers - Le Biez, Pecq_web.jpg', title: '1904 Eugène et Anny Wattine, Loulou Droulers - Le Biez, Pecq'},
+            {href: 'WATTINNE Eugene (1875)/Photos/1907 (vers) Anny Wattinne sur l'âne, Eugêne Wattinne conduit, les enfants Droulers à l'arrière, à Pecq_web.jpg', title: '1907 (vers) Anny Wattinne sur l'âne, Eugêne Wattinne conduit, les enfants Droulers à l'arrière, à Pecq'},
+            {href: 'WATTINNE Eugene (1875)/Photos/1912-1913 Hardelot 2_web.jpg', title: '1912-1913 Hardelot 2'},
+            {href: 'WATTINNE Eugene (1875)/Photos/1912-1913 Hardelot_web.jpg', title: '1912-1913 Hardelot'},
+            {href: 'WATTINNE Eugene (1875)/Photos/1913 Blériot. A gauche, villa des Cavrois, à droite, villa Sans Soucis d'Eugène Wattine père_web.jpg', title: '1913 Blériot. A gauche, villa des Cavrois, à droite, villa Sans Soucis d'Eugène Wattine père'},
+            {href: 'WATTINNE Eugene (1875)/Photos/1913 L'hispano d'Eugène Wattinne_web.jpg', title: '1913 L'hispano d'Eugène Wattinne'},
+            {href: 'WATTINNE Eugene (1875)/Photos/1914-1918 La Hispano d'Eugène Wattine recarossée en ambulance_web.jpg', title: '1914-1918 La Hispano d'Eugène Wattine recarossée en ambulance'},
+            {href: 'WATTINNE Eugene (1875)/Photos/1914-1918 Les soupes populaires pendant la guerre_web.jpg', title: '1914-1918 Les soupes populaires pendant la guerre'},
+            {href: 'WATTINNE Eugene (1875)/Photos/1916 Eugène Wattinne_web.jpg', title: '1916 Eugène Wattinne'},
+            {href: 'WATTINNE Eugene (1875)/Photos/1918 (vers) Eugène Wattinne_web.jpg', title: '1918 (vers) Eugène Wattinne'},
+            {href: 'WATTINNE Eugene (1875)/Photos/1927 Eugène Wattinne, faire part de décès_web.jpg', title: '1927 Eugène Wattinne, faire part de décès'},
+            {href: 'WATTINNE Eugene (1875)/Photos/Hardelot, char à voile_web.jpg', title: 'Hardelot, char à voile'},
+            {href: 'WATTINNE Eugene (1875)/Photos/Hardelot - mer_web.jpg', title: 'Hardelot - mer'}
+        ],
+        loop: true,
+        touchNavigation: true
+    });
+    </script>
 
 <style>
 .genealogy-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 20px 0; border: 1px solid #ccc; border-radius: 8px; padding: 10px; }
@@ -154,6 +185,10 @@ loadHTML("header", "../../../partials/header3.html");
 loadHTML("menu", "../../../partials/menu3.html");
 loadHTML("footer", "../../../partials/footer3.html", activateEmailLink);
 </script>
+
+
+<!-- glightbox -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 
 </body>
 </html>

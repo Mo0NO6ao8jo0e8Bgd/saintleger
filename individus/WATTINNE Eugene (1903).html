@@ -15,6 +15,10 @@
     <title>WATTINNE Eugene (1903)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../../css/style.css">
+    
+    <!-- glightbox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    
 </head>
 <body>
 
@@ -31,6 +35,23 @@
 <!-- Contenu -->
 <div class="content">
     <h2>WATTINNE Eugene (1903)</h2>
+
+    <div style="text-align:center; margin: 1em 0;">
+        <a href="#" class="glightbox-WATTINNEEugene1903">
+            <img src="WATTINNE Eugene (1903)/Photos/mini_web.jpg" alt="Photos de WATTINNE Eugene (1903)" style="max-width:100%; height:auto; cursor:pointer; border: 2px solid #ddd; border-radius: 4px;">
+        </a>
+        <p style="font-size:0.9em; color:#666; margin-top:0.5em;">📷 Cliquez pour voir 1 photo(s)</p>
+    </div>
+
+    <script>
+    const lightboxWATTINNEEugene1903 = GLightbox({
+        elements: [
+            {href: 'WATTINNE Eugene (1903)/Photos/1922 La Bugatti d'Eugêne Wattinne_web.jpg', title: '1922 La Bugatti d'Eugêne Wattinne'}
+        ],
+        loop: true,
+        touchNavigation: true
+    });
+    </script>
 
 <style>
 .genealogy-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 20px 0; border: 1px solid #ccc; border-radius: 8px; padding: 10px; }
@@ -124,6 +145,10 @@ loadHTML("header", "../../../partials/header3.html");
 loadHTML("menu", "../../../partials/menu3.html");
 loadHTML("footer", "../../../partials/footer3.html", activateEmailLink);
 </script>
+
+
+<!-- glightbox -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 
 </body>
 </html>

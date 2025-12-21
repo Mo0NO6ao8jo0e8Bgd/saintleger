@@ -15,6 +15,10 @@
     <title>STREET Jeanne (1888)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../../css/style.css">
+    
+    <!-- glightbox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    
 </head>
 <body>
 
@@ -33,8 +37,21 @@
     <h2>STREET Jeanne (1888)</h2>
 
     <div style="text-align:center; margin: 1em 0;">
-        <img src="STREET Jeanne (1888)/Photos/mini_web.jpg" alt="Photo de STREET Jeanne (1888)" style="max-width:100%; height:auto;">
+        <a href="#" class="glightbox-STREETJeanne1888">
+            <img src="STREET Jeanne (1888)/Photos/mini_web.jpg" alt="Photos de STREET Jeanne (1888)" style="max-width:100%; height:auto; cursor:pointer; border: 2px solid #ddd; border-radius: 4px;">
+        </a>
+        <p style="font-size:0.9em; color:#666; margin-top:0.5em;">📷 Cliquez pour voir 1 photo(s)</p>
     </div>
+
+    <script>
+    const lightboxSTREETJeanne1888 = GLightbox({
+        elements: [
+            {href: 'STREET Jeanne (1888)/Photos/Mita de Mita_web.jpg', title: 'Mita de Mita'}
+        ],
+        loop: true,
+        touchNavigation: true
+    });
+    </script>
 
 <style>
 .genealogy-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 20px 0; border: 1px solid #ccc; border-radius: 8px; padding: 10px; }
@@ -130,6 +147,10 @@ loadHTML("header", "../../../partials/header3.html");
 loadHTML("menu", "../../../partials/menu3.html");
 loadHTML("footer", "../../../partials/footer3.html", activateEmailLink);
 </script>
+
+
+<!-- glightbox -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 
 </body>
 </html>
