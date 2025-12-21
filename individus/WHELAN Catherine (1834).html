@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPY5DZ4740"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YPY5DZ4740');
+    </script>
+    
+    <meta charset="UTF-8">
+    <title>WHELAN Catherine (1834)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../css/style.css">
+</head>
+<body>
+
+<!-- HEADER et MENU -->
+<div id="header"></div>
+<div id="menu"></div>
+
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    <a href="../../../index.html">Accueil</a> &gt; 
+    WHELAN Catherine (1834)
+</div>
+
+<!-- Contenu -->
+<div class="content">
+    <h2>WHELAN Catherine (1834)</h2>
+
+    <div style="text-align:center; margin: 1em 0;">
+        <img src="WHELAN Catherine (1834)/Photos/mini_web.jpg" alt="Photo de WHELAN Catherine (1834)" style="max-width:100%; height:auto;">
+    </div>
+
+    <h3>Photos</h3>
+    <div class="doc-card"><span>WHELAN Catherine</span><div class="doc-buttons"><a class="doc-btn" href="WHELAN Catherine (1834)/Photos/WHELAN Catherine_web.jpg" target="_blank">📎 Source</a></div></div>
+    <div class="doc-card"><span>mini</span><div class="doc-buttons"><a class="doc-btn" href="WHELAN Catherine (1834)/Photos/mini_web.jpg" target="_blank">📎 Source</a></div></div>
+    
+</div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<script>
+// Version complète du loader
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
+}
+
+// Activation du mail dans le footer
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return;
+    const link = document.createElement("a");
+    link.href = "mailto:arnaudsaintleger@gmail.com";
+    link.textContent = "Contact";
+    el.replaceWith(link);
+}
+
+// Chargement des partials
+loadHTML("header", "../../../partials/header3.html");
+loadHTML("menu", "../../../partials/menu3.html");
+loadHTML("footer", "../../../partials/footer3.html", activateEmailLink);
+</script>
+
+</body>
+</html>
+
