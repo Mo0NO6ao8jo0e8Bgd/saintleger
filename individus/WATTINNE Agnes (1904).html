@@ -43,18 +43,6 @@
         <p style="font-size:0.9em; color:#666; margin-top:0.5em;">📷 Cliquez pour voir 3 photo(s)</p>
     </div>
 
-    <script>
-    const lightboxWATTINNEAgnes1904 = GLightbox({
-        elements: [
-            {href: 'WATTINNE Agnes (1904)/Photos/1923 Anny, fiancée_web.jpg', title: '1923 Anny, fiancée'},
-            {href: 'WATTINNE Agnes (1904)/Photos/1985_02 Anny : Affectueux baisers à mes petits enfants_web.jpg', title: '1985_02 Anny : Affectueux baisers à mes petits enfants'},
-            {href: 'WATTINNE Agnes (1904)/Photos/L'immeuble 228 rue Nationale, Lille, qui a remplacé la maison de Claude et Anny_web.jpg', title: 'L'immeuble 228 rue Nationale, Lille, qui a remplacé la maison de Claude et Anny'}
-        ],
-        loop: true,
-        touchNavigation: true
-    });
-    </script>
-
 <style>
 .genealogy-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 20px 0; border: 1px solid #ccc; border-radius: 8px; padding: 10px; }
 .cell { padding: 3px; }
@@ -141,6 +129,20 @@
     <div class="doc-card"><span>Claude Saint-Léger par Agnès</span><div class="doc-buttons"><a class="doc-btn" href="WATTINNE Agnes (1904)/Récits/Claude Saint-Léger par Agnès.html">📖 Lire</a></div></div>
     <div class="doc-card"><span>Anny et Claude Saint-Léger par Agnès (Anny)</span><div class="doc-buttons"><a class="doc-btn" href="WATTINNE Agnes (1904)/Récits/Anny et Claude Saint-Léger par Agnès (Anny).html">📖 Lire</a></div></div>
     <div class="doc-card"><span>Lettre d'Agnès au sujet d'André</span><div class="doc-buttons"><a class="doc-btn" href="WATTINNE Agnes (1904)/Récits/Lettre d'Agnès au sujet d'André.html">📖 Lire</a></div></div>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const lightboxWATTINNEAgnes1904 = GLightbox({
+            elements: [
+                {href: 'WATTINNE Agnes (1904)/Photos/1923 Anny, fiancée_web.jpg', title: '1923 Anny, fiancée'},
+                {href: 'WATTINNE Agnes (1904)/Photos/1985_02 Anny : Affectueux baisers à mes petits enfants_web.jpg', title: '1985_02 Anny : Affectueux baisers à mes petits enfants'},
+                {href: 'WATTINNE Agnes (1904)/Photos/L'immeuble 228 rue Nationale, Lille, qui a remplacé la maison de Claude et Anny_web.jpg', title: 'L'immeuble 228 rue Nationale, Lille, qui a remplacé la maison de Claude et Anny'}
+            ],
+            loop: true,
+            touchNavigation: true
+        });
+    });
+    </script>
+
     
 </div>
 

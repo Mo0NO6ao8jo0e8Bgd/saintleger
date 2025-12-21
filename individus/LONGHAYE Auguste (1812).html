@@ -43,16 +43,6 @@
         <p style="font-size:0.9em; color:#666; margin-top:0.5em;">📷 Cliquez pour voir 1 photo(s)</p>
     </div>
 
-    <script>
-    const lightboxLONGHAYEAuguste1812 = GLightbox({
-        elements: [
-            {href: 'LONGHAYE Auguste (1812)/Photos/Auguste Longhaye (source iberlibro.com)_web.jpg', title: 'Auguste Longhaye (source iberlibro.com)'}
-        ],
-        loop: true,
-        touchNavigation: true
-    });
-    </script>
-
 <style>
 .genealogy-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 20px 0; border: 1px solid #ccc; border-radius: 8px; padding: 10px; }
 .cell { padding: 3px; }
@@ -104,6 +94,18 @@
     <div class="doc-card"><span>mini</span><div class="doc-buttons"><a class="doc-btn" href="LONGHAYE Auguste (1812)/Photos/mini_web.jpg" target="_blank">📎 Source</a></div></div>
     <h3>Récits</h3>
     <div class="doc-card"><span>Emile Longhaye - www.iberlibro.com</span><div class="doc-buttons"><a class="doc-btn" href="LONGHAYE Auguste (1812)/Récits/Emile Longhaye - www.iberlibro.com.html">📖 Lire</a></div></div>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const lightboxLONGHAYEAuguste1812 = GLightbox({
+            elements: [
+                {href: 'LONGHAYE Auguste (1812)/Photos/Auguste Longhaye (source iberlibro.com)_web.jpg', title: 'Auguste Longhaye (source iberlibro.com)'}
+            ],
+            loop: true,
+            touchNavigation: true
+        });
+    });
+    </script>
+
     
 </div>
 

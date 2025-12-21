@@ -43,17 +43,6 @@
         <p style="font-size:0.9em; color:#666; margin-top:0.5em;">📷 Cliquez pour voir 2 photo(s)</p>
     </div>
 
-    <script>
-    const lightboxDELEMERMarguerite1876 = GLightbox({
-        elements: [
-            {href: 'DELEMER Marguerite (1876)/Photos/1881 (vers) Portrait de Marguerite Delemer_web.jpg', title: '1881 (vers) Portrait de Marguerite Delemer'},
-            {href: 'DELEMER Marguerite (1876)/Photos/1922-06-14 Le_Grand_écho_du_Nord_[...]_bpt6k47589132_3_web.jpg', title: '1922-06-14 Le_Grand_écho_du_Nord_[...]_bpt6k47589132_3'}
-        ],
-        loop: true,
-        touchNavigation: true
-    });
-    </script>
-
 <style>
 .genealogy-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 20px 0; border: 1px solid #ccc; border-radius: 8px; padding: 10px; }
 .cell { padding: 3px; }
@@ -136,6 +125,19 @@
     <div class="doc-card"><span>1917 Manuscrit de Marguerite Delemer</span><div class="doc-buttons"><a class="doc-btn" href="DELEMER Marguerite (1876)/Récits/1917 Manuscrit de Marguerite Delemer_web.pdf" target="_blank">📎 Source</a></div></div>
     <div class="doc-card"><span>Lettre d'Agnès au sujet Marguerite Delemer</span><div class="doc-buttons"><a class="doc-btn" href="DELEMER Marguerite (1876)/Récits/Lettre d'Agnès au sujet Marguerite Delemer_web.pdf" target="_blank">📎 Source</a></div></div>
     <div class="doc-card"><span>1917 Journal de la première guerre mondiale de Marguerite Delemer</span><div class="doc-buttons"><a class="doc-btn" href="DELEMER Marguerite (1876)/Récits/1917 Journal de la première guerre mondiale de Marguerite Delemer.html">📖 Lire</a></div></div>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const lightboxDELEMERMarguerite1876 = GLightbox({
+            elements: [
+                {href: 'DELEMER Marguerite (1876)/Photos/1881 (vers) Portrait de Marguerite Delemer_web.jpg', title: '1881 (vers) Portrait de Marguerite Delemer'},
+                {href: 'DELEMER Marguerite (1876)/Photos/1922-06-14 Le_Grand_écho_du_Nord_[...]_bpt6k47589132_3_web.jpg', title: '1922-06-14 Le_Grand_écho_du_Nord_[...]_bpt6k47589132_3'}
+            ],
+            loop: true,
+            touchNavigation: true
+        });
+    });
+    </script>
+
     
 </div>
 

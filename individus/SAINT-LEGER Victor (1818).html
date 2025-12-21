@@ -43,17 +43,6 @@
         <p style="font-size:0.9em; color:#666; margin-top:0.5em;">📷 Cliquez pour voir 2 photo(s)</p>
     </div>
 
-    <script>
-    const lightboxSAINTLEGERVictor1818 = GLightbox({
-        elements: [
-            {href: 'SAINT-LEGER Victor (1818)/Photos/77, rue Royale à Lille (source web)_web.jpg', title: '77, rue Royale à Lille (source web)'},
-            {href: 'SAINT-LEGER Victor (1818)/Photos/Banque de France, rue Royale à Lille (source web)_web.jpg', title: 'Banque de France, rue Royale à Lille (source web)'}
-        ],
-        loop: true,
-        touchNavigation: true
-    });
-    </script>
-
 <style>
 .genealogy-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 20px 0; border: 1px solid #ccc; border-radius: 8px; padding: 10px; }
 .cell { padding: 3px; }
@@ -130,6 +119,19 @@
     <h3>Photos</h3>
     <div class="doc-card"><span>77, rue Royale à Lille (source web)</span><div class="doc-buttons"><a class="doc-btn" href="SAINT-LEGER Victor (1818)/Photos/77, rue Royale à Lille (source web)_web.jpg" target="_blank">📎 Source</a></div></div>
     <div class="doc-card"><span>Banque de France, rue Royale à Lille (source web)</span><div class="doc-buttons"><a class="doc-btn" href="SAINT-LEGER Victor (1818)/Photos/Banque de France, rue Royale à Lille (source web)_web.jpg" target="_blank">📎 Source</a></div></div>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const lightboxSAINTLEGERVictor1818 = GLightbox({
+            elements: [
+                {href: 'SAINT-LEGER Victor (1818)/Photos/77, rue Royale à Lille (source web)_web.jpg', title: '77, rue Royale à Lille (source web)'},
+                {href: 'SAINT-LEGER Victor (1818)/Photos/Banque de France, rue Royale à Lille (source web)_web.jpg', title: 'Banque de France, rue Royale à Lille (source web)'}
+            ],
+            loop: true,
+            touchNavigation: true
+        });
+    });
+    </script>
+
     
 </div>
 

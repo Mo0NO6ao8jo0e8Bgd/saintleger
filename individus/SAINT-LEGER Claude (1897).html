@@ -43,18 +43,6 @@
         <p style="font-size:0.9em; color:#666; margin-top:0.5em;">📷 Cliquez pour voir 3 photo(s)</p>
     </div>
 
-    <script>
-    const lightboxSAINTLEGERClaude1897 = GLightbox({
-        elements: [
-            {href: 'SAINT-LEGER Claude (1897)/Photos/1902 (vers) Portrait de Claude Saint-Léger_web.jpg', title: '1902 (vers) Portrait de Claude Saint-Léger'},
-            {href: 'SAINT-LEGER Claude (1897)/Photos/1944 Claude quelques mois avant sa mort, Denis et Chantal_web.jpg', title: '1944 Claude quelques mois avant sa mort, Denis et Chantal'},
-            {href: 'SAINT-LEGER Claude (1897)/Photos/À droite Croix de guerre 14-18 avec Palme, puis Chevalier de la légion d’honneur, puis Croix de Guerre 39-45 avec palme et trois étoiles de bronze. _web.jpg', title: 'À droite Croix de guerre 14-18 avec Palme, puis Chevalier de la légion d’honneur, puis Croix de Guerre 39-45 avec palme et trois étoiles de bronze. '}
-        ],
-        loop: true,
-        touchNavigation: true
-    });
-    </script>
-
 <style>
 .genealogy-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 20px 0; border: 1px solid #ccc; border-radius: 8px; padding: 10px; }
 .cell { padding: 3px; }
@@ -161,6 +149,20 @@
     <h3>Récits</h3>
     <div class="doc-card"><span>1914 journal_de_claude</span><div class="doc-buttons"><a class="doc-btn" href="SAINT-LEGER Claude (1897)/Récits/1914 journal_de_claude_web.pdf" target="_blank">📎 Source</a></div></div>
     <div class="doc-card"><span>1914 Journal de Claude</span><div class="doc-buttons"><a class="doc-btn" href="SAINT-LEGER Claude (1897)/Récits/1914 Journal de Claude.html">📖 Lire</a></div></div>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const lightboxSAINTLEGERClaude1897 = GLightbox({
+            elements: [
+                {href: 'SAINT-LEGER Claude (1897)/Photos/1902 (vers) Portrait de Claude Saint-Léger_web.jpg', title: '1902 (vers) Portrait de Claude Saint-Léger'},
+                {href: 'SAINT-LEGER Claude (1897)/Photos/1944 Claude quelques mois avant sa mort, Denis et Chantal_web.jpg', title: '1944 Claude quelques mois avant sa mort, Denis et Chantal'},
+                {href: 'SAINT-LEGER Claude (1897)/Photos/À droite Croix de guerre 14-18 avec Palme, puis Chevalier de la légion d’honneur, puis Croix de Guerre 39-45 avec palme et trois étoiles de bronze. _web.jpg', title: 'À droite Croix de guerre 14-18 avec Palme, puis Chevalier de la légion d’honneur, puis Croix de Guerre 39-45 avec palme et trois étoiles de bronze. '}
+            ],
+            loop: true,
+            touchNavigation: true
+        });
+    });
+    </script>
+
     
 </div>
 
