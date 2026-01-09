@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPY5DZ4740"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YPY5DZ4740');
+    </script>
+    
+    <meta charset="UTF-8">
+    <title>1916-04-01 Ma chère mère, je part au front demain</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../css/style.css">
+    
+    <!-- glightbox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    
+</head>
+<body>
+
+<!-- HEADER et MENU -->
+<div id="header"></div>
+<div id="menu"></div>
+
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    <a href="../../../index.html">Accueil</a> &gt; 
+    1916-04-01 Ma chère mère, je part au front demain
+</div>
+
+<!-- Contenu -->
+<div class="content">
+    <h2>1916-04-01 Ma chère mère, je part au front demain</h2>
+
+<i>Lettre de Claude à sa mère. La lettre n'est pas datée. Ca pourrait être en Avril 1916 ou en Août 1918 ?</i>
+
+<p>Ma chère chère petite mère</p>
+<p>Je part au front demain</p>
+<p>Ne croyez pas que je me fais d'illusions, j'ai beaucoup de chances (une sur deux) de ne pas revenir !</p>
+<p>T___ je veux vous écrire pour que s'il m'arrive quelque chose, après, ce papier vienne encore vous redire toute ma tendresse pour vous.</p>
+<p>J'aurais eu un chagrin immense de repartir au front sans vous avoir vu.</p>
+<p>Mais maintenant j'ai eu tout ce que je demandais, et je ne regrette rien.</p>
+<p>Je part donc dans les meilleurs conditions possibles.</p>
+<p>J'ai trop senti la faiblesse des théories humaines devant la mort, pour ne pas avoir recours à la religion.</p>
+<p>Vous voyez que je pars avec tout ce qu'il faut pour être fort</p>
+    
+</div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<script>
+// Version complète du loader
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
+}
+
+// Activation du mail dans le footer
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return;
+    const link = document.createElement("a");
+    link.href = "mailto:saintleger.org@gmail.com";
+    link.textContent = "Contact";
+    el.replaceWith(link);
+}
+
+// Chargement des partials
+loadHTML("header", "../../../partials/header3.html");
+loadHTML("menu", "../../../partials/menu3.html");
+loadHTML("footer", "../../../partials/footer3.html", activateEmailLink);
+</script>
+
+
+<!-- glightbox -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+</body>
+</html>
+
