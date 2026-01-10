@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPY5DZ4740"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YPY5DZ4740');
+    </script>
+    
+    <meta charset="UTF-8">
+    <title>Les Albums photos d'Annie Wattinne</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../css/style.css">
+    
+    <!-- glightbox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    
+</head>
+<body>
+
+<!-- HEADER et MENU -->
+<div id="header"></div>
+<div id="menu"></div>
+
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    <a href="../../../index.html">Accueil</a> &gt; 
+    Les Albums photos d'Annie Wattinne
+</div>
+
+<!-- Contenu -->
+<div class="content">
+    <h2>Les Albums photos d'Annie Wattinne</h2>
+
+
+    <div class="photo-gallery">
+
+        <!-- Album 1 -->
+        <div class="album">
+          
+          <h3>Album 1923, mariage de Claude et Annie</h3>
+          <a href="#" class="glightbox-Album3">
+              <img src="IMG/Album3.jpg" alt="Album 1923, mariage de Claude et Annie">
+          </a>
+          
+          <h3>Album 1925 ...</h3>
+          <a href="#" class="glightbox-Album1">
+              <img src="IMG/Album1.jpg" alt="Album 1925 ...">
+          </a>
+
+          <h3>Album 1932 ...</h3>
+          <a href="#" class="glightbox-Album4">
+              <img src="IMG/Album4.jpg" alt="Album 1932">
+          </a>
+          
+          <h3>Album 1938 ...</h3>
+          <a href="#" class="glightbox-Album2">
+              <img src="IMG/Album2.jpg" alt="Album 1938 ...">
+          </a>
+          
+        </div>
+    </div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<script>
+    
+// Loader complet (identique aux autres pages)
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
+}
+
+// Activation du lien mail dans le footer
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return;
+    const link = document.createElement("a");
+    link.href = "mailto:arnaudsaintleger@gmail.com";
+    link.textContent = "Contact";
+    el.replaceWith(link);
+}
+
+// Chargement des partials
+loadHTML("header", "../../../partials/header.html");
+loadHTML("menu", "../../../partials/menu.html");
+loadHTML("footer", "../../../partials/footer.html", activateEmailLink);
+</script>
+
+<!-- GLightbox JS -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+<script>
+<!-- JS pour partials et Lightbox -->
+    // Albums
+    const Album1 = GLightbox({
+        elements: [
+            {href: 'IMG/1/page 01.jpg', title: ''},
+            {href: 'IMG/1/page 02.jpg', title: ''},
+            {href: 'IMG/1/page 03.jpg', title: ''},
+            {href: 'IMG/1/page 04.jpg', title: ''},
+            {href: 'IMG/1/page 05.jpg', title: ''},
+            {href: 'IMG/1/page 06.jpg', title: ''},
+            {href: 'IMG/1/page 07.jpg', title: ''},
+            {href: 'IMG/1/page 08.jpg', title: ''},
+            {href: 'IMG/1/page 09.jpg', title: ''},
+            {href: 'IMG/1/page 10.jpg', title: ''},
+            {href: 'IMG/1/page 11.jpg', title: ''},
+            {href: 'IMG/1/page 12.jpg', title: ''},
+            {href: 'IMG/1/page 13.jpg', title: ''},
+            {href: 'IMG/1/page 14.jpg', title: ''},
+            {href: 'IMG/1/page 15.jpg', title: ''},
+            {href: 'IMG/1/page 16.jpg', title: ''},
+            {href: 'IMG/1/page 17.jpg', title: ''},
+            {href: 'IMG/1/page 18.jpg', title: ''},
+            {href: 'IMG/1/page 19.jpg', title: ''},
+            {href: 'IMG/1/page 20.jpg', title: ''},
+            {href: 'IMG/1/page 21.jpg', title: ''},
+            {href: 'IMG/1/page 22.jpg', title: ''},
+            {href: 'IMG/1/page 23.jpg', title: ''},
+            {href: 'IMG/1/page 24.jpg', title: ''},
+            {href: 'IMG/1/page 25.jpg', title: ''},
+            {href: 'IMG/1/page 26.jpg', title: ''},
+            {href: 'IMG/1/page 27.jpg', title: ''},
+            {href: 'IMG/1/page 28.jpg', title: ''},
+            {href: 'IMG/1/page 29.jpg', title: ''},
+            {href: 'IMG/1/page 30.jpg', title: ''},
+            {href: 'IMG/1/page 31.jpg', title: ''},
+            {href: 'IMG/1/page 32.jpg', title: ''},
+            {href: 'IMG/1/page 33.jpg', title: ''},
+            {href: 'IMG/1/page 34.jpg', title: ''},
+            {href: 'IMG/1/page 35.jpg', title: ''},
+            {href: 'IMG/1/page 36.jpg', title: ''},
+            {href: 'IMG/1/page 37.jpg', title: ''},
+            {href: 'IMG/1/page 38.jpg', title: ''},
+            {href: 'IMG/1/page 39.jpg', title: ''},
+            {href: 'IMG/1/page 40.jpg', title: ''},
+            {href: 'IMG/1/page 41.jpg', title: ''},
+            {href: 'IMG/1/page 42.jpg', title: ''},
+            {href: 'IMG/1/page 43.jpg', title: ''},
+            {href: 'IMG/1/page 44.jpg', title: ''},
+            {href: 'IMG/1/page 45.jpg', title: ''},
+            {href: 'IMG/1/page 46.jpg', title: ''},
+            {href: 'IMG/1/page 47.jpg', title: ''},
+            {href: 'IMG/1/page 48.jpg', title: ''},
+            {href: 'IMG/1/page 49.jpg', title: ''},
+            {href: 'IMG/1/page 50.jpg', title: ''},
+            {href: 'IMG/1/page 51.jpg', title: ''},
+            {href: 'IMG/1/page 52.jpg', title: ''},
+            {href: 'IMG/1/page 53.jpg', title: ''},
+            {href: 'IMG/1/page 54.jpg', title: ''},
+            {href: 'IMG/1/page 55.jpg', title: ''},
+            {href: 'IMG/1/page 56.jpg', title: ''},
+            {href: 'IMG/1/page 57.jpg', title: ''},
+            {href: 'IMG/1/page 58.jpg', title: ''},
+            {href: 'IMG/1/page 59.jpg', title: ''},
+            {href: 'IMG/1/page 60.jpg', title: ''},
+            {href: 'IMG/1/page 61.jpg', title: ''},
+            {href: 'IMG/1/page 62.jpg', title: ''},
+            {href: 'IMG/1/page 63.jpg', title: ''},
+            {href: 'IMG/1/page 64.jpg', title: ''},
+            {href: 'IMG/1/page 65.jpg', title: ''},
+            {href: 'IMG/1/page 66.jpg', title: ''},
+            {href: 'IMG/1/page 67.jpg', title: ''},
+            {href: 'IMG/1/page 68.jpg', title: ''},
+            {href: 'IMG/1/page 69.jpg', title: ''},
+            {href: 'IMG/1/page 70.jpg', title: ''},
+            {href: 'IMG/1/page 71.jpg', title: ''},
+            {href: 'IMG/1/page 72.jpg', title: ''},
+        ],
+        loop: true,
+        touchNavigation: true
+    });
+
+    const Album2 = GLightbox({
+        elements: [
+            {href: 'IMG/2/page 01.jpg', title: ''},
+            {href: 'IMG/2/page 02.jpg', title: ''},
+            {href: 'IMG/2/page 03.jpg', title: ''},
+            {href: 'IMG/2/page 04.jpg', title: ''},
+            {href: 'IMG/2/page 05.jpg', title: ''},
+            {href: 'IMG/2/page 06.jpg', title: ''},
+            {href: 'IMG/2/page 07.jpg', title: ''},
+            {href: 'IMG/2/page 08.jpg', title: ''},
+            {href: 'IMG/2/page 09.jpg', title: ''},
+            {href: 'IMG/2/page 10.jpg', title: ''},
+            {href: 'IMG/2/page 11.jpg', title: ''},
+            {href: 'IMG/2/page 12.jpg', title: ''},
+            {href: 'IMG/2/page 13.jpg', title: ''},
+            {href: 'IMG/2/page 14.jpg', title: ''},
+            {href: 'IMG/2/page 15.jpg', title: ''},
+            {href: 'IMG/2/page 16.jpg', title: ''},
+            {href: 'IMG/2/page 17.jpg', title: ''},
+            {href: 'IMG/2/page 18.jpg', title: ''},
+            {href: 'IMG/2/page 19.jpg', title: ''},
+            {href: 'IMG/2/page 20.jpg', title: ''},
+            {href: 'IMG/2/page 21.jpg', title: ''},
+            {href: 'IMG/2/page 22.jpg', title: ''},
+            {href: 'IMG/2/page 23.jpg', title: ''},
+            {href: 'IMG/2/page 24.jpg', title: ''},
+            {href: 'IMG/2/page 25.jpg', title: ''},
+            {href: 'IMG/2/page 26.jpg', title: ''},
+            {href: 'IMG/2/page 27.jpg', title: ''},
+            {href: 'IMG/2/page 28.jpg', title: ''},
+            {href: 'IMG/2/page 29.jpg', title: ''},
+            {href: 'IMG/2/page 30.jpg', title: ''},
+            {href: 'IMG/2/page 31.jpg', title: ''},
+            {href: 'IMG/2/page 32.jpg', title: ''},
+            {href: 'IMG/2/page 33.jpg', title: ''},
+            {href: 'IMG/2/page 34.jpg', title: ''},
+            {href: 'IMG/2/page 35.jpg', title: ''},
+            {href: 'IMG/2/page 36.jpg', title: ''},
+            {href: 'IMG/2/page 37.jpg', title: ''},
+            {href: 'IMG/2/page 38.jpg', title: ''},
+            {href: 'IMG/2/page 39.jpg', title: ''},
+            {href: 'IMG/2/page 40.jpg', title: ''},
+            {href: 'IMG/2/page 41.jpg', title: ''},
+            {href: 'IMG/2/page 42.jpg', title: ''},
+            {href: 'IMG/2/page 43.jpg', title: ''},
+            {href: 'IMG/2/page 44.jpg', title: ''},
+            {href: 'IMG/2/page 45.jpg', title: ''},
+            {href: 'IMG/2/page 46.jpg', title: ''},
+            {href: 'IMG/2/page 47.jpg', title: ''},
+            {href: 'IMG/2/page 48.jpg', title: ''},
+            {href: 'IMG/2/page 49.jpg', title: ''},
+            {href: 'IMG/2/page 50.jpg', title: ''},
+            {href: 'IMG/2/page 51.jpg', title: ''},
+            {href: 'IMG/2/page 52.jpg', title: ''},
+            {href: 'IMG/2/page 53.jpg', title: ''},
+            {href: 'IMG/2/page 54.jpg', title: ''},
+            {href: 'IMG/2/page 55.jpg', title: ''},
+            {href: 'IMG/2/page 56.jpg', title: ''},
+            {href: 'IMG/2/page 57.jpg', title: ''},
+            {href: 'IMG/2/page 58.jpg', title: ''},
+            {href: 'IMG/2/page 59.jpg', title: ''},
+            {href: 'IMG/2/page 60.jpg', title: ''},
+            {href: 'IMG/2/page 61.jpg', title: ''},
+            {href: 'IMG/2/page 62.jpg', title: ''},
+
+        ],
+        loop: true,
+        touchNavigation: true
+    });
+
+    const Album3 = GLightbox({
+        elements: [            {href: 'IMG/3/page 01.jpg', title: ''},
+            {href: 'IMG/3/page 02.jpg', title: ''},
+            {href: 'IMG/3/page 03.jpg', title: ''},
+            {href: 'IMG/3/page 04.jpg', title: ''},
+            {href: 'IMG/3/page 05.jpg', title: ''},
+            {href: 'IMG/3/page 06.jpg', title: ''},
+            {href: 'IMG/3/page 07.jpg', title: ''},
+            {href: 'IMG/3/page 08.jpg', title: ''},
+            {href: 'IMG/3/page 09.jpg', title: ''},
+            {href: 'IMG/3/page 10.jpg', title: ''},
+            {href: 'IMG/3/page 11.jpg', title: ''},
+            {href: 'IMG/3/page 12.jpg', title: ''},
+            {href: 'IMG/3/page 13.jpg', title: ''},
+            {href: 'IMG/3/page 14.jpg', title: ''},
+            {href: 'IMG/3/page 15.jpg', title: ''},
+            {href: 'IMG/3/page 16.jpg', title: ''},
+            {href: 'IMG/3/page 17.jpg', title: ''},
+            {href: 'IMG/3/page 18.jpg', title: ''},
+            {href: 'IMG/3/page 19.jpg', title: ''},
+            {href: 'IMG/3/page 20.jpg', title: ''},
+            {href: 'IMG/3/page 21.jpg', title: ''},
+            {href: 'IMG/3/page 22.jpg', title: ''},
+            {href: 'IMG/3/page 23.jpg', title: ''},
+            {href: 'IMG/3/page 24.jpg', title: ''},
+            {href: 'IMG/3/page 25.jpg', title: ''},
+            {href: 'IMG/3/page 26.jpg', title: ''},
+            {href: 'IMG/3/page 27.jpg', title: ''},
+            {href: 'IMG/3/page 28.jpg', title: ''},
+            {href: 'IMG/3/page 29.jpg', title: ''},
+            {href: 'IMG/3/page 30.jpg', title: ''},
+            {href: 'IMG/3/page 31.jpg', title: ''},
+            {href: 'IMG/3/page 32.jpg', title: ''},
+            {href: 'IMG/3/page 33.jpg', title: ''},
+            {href: 'IMG/3/page 34.jpg', title: ''},
+            {href: 'IMG/3/page 35.jpg', title: ''},
+            {href: 'IMG/3/page 36.jpg', title: ''},
+            {href: 'IMG/3/page 37.jpg', title: ''},
+            {href: 'IMG/3/page 38.jpg', title: ''},
+            {href: 'IMG/3/page 39.jpg', title: ''},
+            {href: 'IMG/3/page 40.jpg', title: ''},
+            {href: 'IMG/3/page 41.jpg', title: ''},
+            {href: 'IMG/3/page 42.jpg', title: ''},
+            {href: 'IMG/3/page 43.jpg', title: ''},
+            {href: 'IMG/3/page 44.jpg', title: ''},
+            {href: 'IMG/3/page 45.jpg', title: ''},
+            {href: 'IMG/3/page 46.jpg', title: ''},
+            {href: 'IMG/3/page 47.jpg', title: ''},
+            {href: 'IMG/3/page 48.jpg', title: ''},
+            {href: 'IMG/3/page 49.jpg', title: ''},
+            {href: 'IMG/3/page 50.jpg', title: ''},
+
+        ],
+        loop: true,
+        touchNavigation: true
+    });
+
+    const Album4 = GLightbox({
+        elements: [            {href: 'IMG/4/page 01.jpg', title: ''},
+            {href: 'IMG/4/page 02.jpg', title: ''},
+            {href: 'IMG/4/page 03.jpg', title: ''},
+            {href: 'IMG/4/page 04.jpg', title: ''},
+            {href: 'IMG/4/page 05.jpg', title: ''},
+            {href: 'IMG/4/page 06.jpg', title: ''},
+            {href: 'IMG/4/page 07.jpg', title: ''},
+            {href: 'IMG/4/page 08.jpg', title: ''},
+            {href: 'IMG/4/page 09.jpg', title: ''},
+            {href: 'IMG/4/page 10.jpg', title: ''},
+            {href: 'IMG/4/page 11.jpg', title: ''},
+            {href: 'IMG/4/page 12.jpg', title: ''},
+            {href: 'IMG/4/page 13.jpg', title: ''},
+            {href: 'IMG/4/page 14.jpg', title: ''},
+            {href: 'IMG/4/page 15.jpg', title: ''},
+            {href: 'IMG/4/page 16.jpg', title: ''},
+            {href: 'IMG/4/page 17.jpg', title: ''},
+            {href: 'IMG/4/page 18.jpg', title: ''},
+            {href: 'IMG/4/page 19.jpg', title: ''},
+            {href: 'IMG/4/page 20.jpg', title: ''},
+            {href: 'IMG/4/page 21.jpg', title: ''},
+            {href: 'IMG/4/page 22.jpg', title: ''},
+            {href: 'IMG/4/page 23.jpg', title: ''},
+            {href: 'IMG/4/page 24.jpg', title: ''},
+            {href: 'IMG/4/page 25.jpg', title: ''},
+            {href: 'IMG/4/page 26.jpg', title: ''},
+            {href: 'IMG/4/page 27.jpg', title: ''},
+            {href: 'IMG/4/page 28.jpg', title: ''},
+            {href: 'IMG/4/page 29.jpg', title: ''},
+            {href: 'IMG/4/page 30.jpg', title: ''},
+            {href: 'IMG/4/page 31.jpg', title: ''},
+            {href: 'IMG/4/page 32.jpg', title: ''},
+            {href: 'IMG/4/page 33.jpg', title: ''},
+            {href: 'IMG/4/page 34.jpg', title: ''},
+            {href: 'IMG/4/page 35.jpg', title: ''},
+            {href: 'IMG/4/page 36.jpg', title: ''},
+            {href: 'IMG/4/page 37.jpg', title: ''},
+            {href: 'IMG/4/page 38.jpg', title: ''},
+            {href: 'IMG/4/page 39.jpg', title: ''},
+            {href: 'IMG/4/page 40.jpg', title: ''},
+            {href: 'IMG/4/page 41.jpg', title: ''},
+            {href: 'IMG/4/page 42.jpg', title: ''},
+            {href: 'IMG/4/page 43.jpg', title: ''},
+            {href: 'IMG/4/page 44.jpg', title: ''},
+            {href: 'IMG/4/page 45.jpg', title: ''},
+            {href: 'IMG/4/page 46.jpg', title: ''},
+            {href: 'IMG/4/page 47.jpg', title: ''},
+            {href: 'IMG/4/page 48.jpg', title: ''},
+            {href: 'IMG/4/page 49.jpg', title: ''},
+            {href: 'IMG/4/page 50.jpg', title: ''},
+            {href: 'IMG/4/page 51.jpg', title: ''},
+            {href: 'IMG/4/page 52.jpg', title: ''},
+            {href: 'IMG/4/page 53.jpg', title: ''},
+            {href: 'IMG/4/page 54.jpg', title: ''},
+            {href: 'IMG/4/page 55.jpg', title: ''},
+            {href: 'IMG/4/page 56.jpg', title: ''},
+            {href: 'IMG/4/page 57.jpg', title: ''},
+            {href: 'IMG/4/page 58.jpg', title: ''},
+            {href: 'IMG/4/page 59.jpg', title: ''},
+            {href: 'IMG/4/page 60.jpg', title: ''},
+            {href: 'IMG/4/page 61.jpg', title: ''},
+            {href: 'IMG/4/page 62.jpg', title: ''},
+            {href: 'IMG/4/page 63.jpg', title: ''},
+            {href: 'IMG/4/page 64.jpg', title: ''},
+            {href: 'IMG/4/page 65.jpg', title: ''},
+            {href: 'IMG/4/page 66.jpg', title: ''},
+            {href: 'IMG/4/page 67.jpg', title: ''},
+            {href: 'IMG/4/page 68.jpg', title: ''},
+            {href: 'IMG/4/page 69.jpg', title: ''},
+            {href: 'IMG/4/page 70.jpg', title: ''},
+            {href: 'IMG/4/page 71.jpg', title: ''},
+            {href: 'IMG/4/page 72.jpg', title: ''},
+
+        ],
+        loop: true,
+        touchNavigation: true
+    });
+
+
+    // Déclenchement au clic sur la miniature
+    document.querySelector('.glightbox-Album1').addEventListener('click', function(e){
+        e.preventDefault(); // empêche le # href par défaut
+        Album1.open();
+    });
+    document.querySelector('.glightbox-Album2').addEventListener('click', function(e){
+        e.preventDefault(); // empêche le # href par défaut
+        Album2.open();
+    });
+    document.querySelector('.glightbox-Album3').addEventListener('click', function(e){
+        e.preventDefault(); // empêche le # href par défaut
+        Album3.open();
+    });
+    document.querySelector('.glightbox-Album4').addEventListener('click', function(e){
+        e.preventDefault(); // empêche le # href par défaut
+        Album4.open();
+    });
+</script>
+    
+</div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<script>
+// Version complète du loader
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
+}
+
+// Activation du mail dans le footer
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return;
+    const link = document.createElement("a");
+    link.href = "mailto:saintleger.org@gmail.com";
+    link.textContent = "Contact";
+    el.replaceWith(link);
+}
+
+// Chargement des partials
+loadHTML("header", "../../../partials/header3.html");
+loadHTML("menu", "../../../partials/menu3.html");
+loadHTML("footer", "../../../partials/footer3.html", activateEmailLink);
+</script>
+
+
+<!-- glightbox -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+</body>
+</html>
+
