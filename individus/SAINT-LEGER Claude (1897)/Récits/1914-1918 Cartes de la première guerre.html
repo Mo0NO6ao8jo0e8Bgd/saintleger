@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPY5DZ4740"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YPY5DZ4740');
+    </script>
+    
+    <meta charset="UTF-8">
+    <title>Cartes du front - 1° guerre mondiale</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="MA_DESCRIPTION">
+    <meta name="keywords" content="généalogie, MES_KEYWORDS">
+    <meta name="author" content="Arnaud Saint-Léger">
+    
+    <!-- Open Graph pour les réseaux sociaux -->
+    <meta property="og:title" content="Cartes du front - 1° guerre mondiale">
+    <meta property="og:description" content="Site de généalogie consacré à la famille de Cartes du front - 1° guerre mondiale et aux familles apparentées.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://saintleger.org">
+    
+    <link rel="stylesheet" href="../../../css/style.css">
+    
+    <!-- glightbox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    
+</head>
+<body>
+
+<!-- HEADER et MENU -->
+<div id="header"></div>
+<div id="menu"></div>
+
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    <a href="../../../index.html">Accueil</a> &gt; 
+    <a href='../../SAINT-LEGER Claude (1897).html'>SAINT-LEGER Claude (1897)</a>
+</div>
+
+<!-- Contenu -->
+<div class="content">
+    <h2>Cartes du front - 1° guerre mondiale</h2>
+
+
+    <div class="photo-gallery">
+
+        <!-- Album 1 -->
+        <div class="album">
+          
+          <h3>Cartes du front</h3>
+          <a href="#" class="glightbox-Album1">
+              <img src="IMG/Carte 1.jpg" alt="Cartes du front">
+          </a>
+          
+        </div>
+    </div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<script>
+    
+// Loader complet (identique aux autres pages)
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
+}
+
+// Activation du lien mail dans le footer
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return;
+    const link = document.createElement("a");
+    link.href = "mailto:arnaudsaintleger@gmail.com";
+    link.textContent = "Contact";
+    el.replaceWith(link);
+}
+
+// Chargement des partials
+loadHTML("header", "../../../partials/header3.html");
+loadHTML("menu", "../../../partials/menu3.html");
+loadHTML("footer", "../../../partials/footer3.html", activateEmailLink);
+</script>
+
+<!-- GLightbox JS -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+<script>
+<!-- JS pour partials et Lightbox -->
+    // Albums
+    const Album1 = GLightbox({
+        elements: [
+            {href: 'IMG/Carte 1.jpg', title: ''},
+            {href: 'IMG/Carte 2.jpg', title: ''},
+            {href: 'IMG/Carte 3.jpg', title: ''},
+            {href: 'IMG/Carte 4.jpg', title: ''},
+            {href: 'IMG/Carte 5.jpg', title: ''},
+            {href: 'IMG/Carte 6.jpg', title: ''},
+            {href: 'IMG/Carte 7.jpg', title: ''},
+            {href: 'IMG/Carte 8.jpg', title: ''},
+        ],
+        loop: true,
+        touchNavigation: true
+    });
+
+
+    // Déclenchement au clic sur la miniature
+    document.querySelector('.glightbox-Album1').addEventListener('click', function(e){
+        e.preventDefault(); // empêche le # href par défaut
+        Album1.open();
+    });
+</script>
+    
+</div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<script>
+// Version complète du loader
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
+}
+
+// Activation du mail dans le footer
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return;
+    const link = document.createElement("a");
+    link.href = "mailto:saintleger.org@gmail.com";
+    link.textContent = "Contact";
+    el.replaceWith(link);
+}
+
+// Chargement des partials
+loadHTML("header", "../../../partials/header3.html");
+loadHTML("menu", "../../../partials/menu3.html");
+loadHTML("footer", "../../../partials/footer3.html", activateEmailLink);
+</script>
+
+
+<!-- glightbox -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+</body>
+</html>
+
