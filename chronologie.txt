@@ -1,0 +1,79 @@
+date; type; individu_id; texte
+
+24/03/1897; Perso; Claude Saint-Léger 1897; Naissance
+27/03/1897; Perso; Claude Saint-Léger 1897; Baptême
+01/08/1914; Contexte; ; Mobilisation générale
+03/08/1914; Contexte; ; L’Allemagne déclare la guerre à la France
+24/08/1915; Pro; Claude Saint-Léger 1897; Évadé de LILLE, en août 1915, il avait traversé à la nage la frontière Belge-Hollandaise pour rejoindre la France par l’Angleterre
+20/10/1915; Pro; Claude Saint-Léger 1897; Engagé volontaire dans le 32ᵉ Régiment de Dragons et immatriculé sous le numéro 3420
+01/04/1916; Pro; Claude Saint-Léger 1897; Départ au front
+01/07/1916; Contexte; ; Bataille de la Somme
+01/01/1918; Pro; Claude Saint-Léger 1897; Parti sur sa demande dans les Chasseurs à pieds comme élève aspirant à SAINT-CYR
+08/01/1918; Pro; Marguerite Delemer 1876; Déportation au camp d'Holzminden
+01/02/1918; Pro; Claude Saint-Léger 1897; Retour du front
+20/02/1918; Pro; Claude Saint-Léger 1897; Elève aspirant
+08/04/1918; Pro; Claude Saint-Léger 1897; 26° Bataillon de chasseurs
+03/06/1918; Pro; Claude Saint-Léger 1897; Caporal
+01/07/1918; Pro; Claude Saint-Léger 1897; Nommé aspirant
+01/08/1918; Pro; Marguerite Delemer 1876; Retour de déportation (à peu près 6 mois après)
+25/07/1918; Pro; André Saint-Léger 1870; Demande de libération de Marguerite du camps d'internement
+03/07/1918; Pro; Claude Saint-Léger 1897; Sergent
+01/08/1918; Pro; Claude Saint-Léger 1897; Au front au 26° Bataillon des Chasseur à pieds en Août 1918, jusqu’à la fin de la guerre
+03/08/1918; Pro; Claude Saint-Léger 1897; Nommé aspirant
+08/08/1918; Contexte; ; Bataille d’Amiens
+17/10/1918; Pro; Claude Saint-Léger 1897; Citation à l’Ordre de la 166° Division d’Infanterie - De La Valette Claude = Claude Saint-Léger.jpg
+11/11/1918; Contexte; ; Armistice
+01/12/1918; Pro; Marguerite Delemer 1876; Reconstruction des citées ouvrières
+18/11/1918; Pro; Claude Saint-Léger 1897; Citation à l’Ordre de la 166° Division d’Infanterie
+01/01/1919; Perso; Claude Saint-Léger 1897; nommé Directeur des Etablissements Agache Fils (ou depuis 1923 ?)
+21/06/1919; Pro; Claude Saint-Léger 1897; Mise en sursis, au titre de directeur de la Société anonyme de Pérenchies à la Madeleine
+01/09/1920; Pro; Claude Saint-Léger 1897; Plan ‘P’ au 37 Régiment d’Infanterie
+01/01/1923; Pro; Claude Saint-Léger 1897; Administrateur d’Agache en 1923
+01/01/1923; Pro; Claude Saint-Léger 1897; Directeur des Etablissements Agache (1923 - > 23/06/1941)
+24/01/1923; Pro; Claude Saint-Léger 1897; Nomination au grade de sous-lieutenant de réserve du 43° Régiment d’Infanterie
+24/06/1923; Perso; Claude Saint-Léger 1897; Mariage avec Agnès Wattinne à Pecq
+03/05/1924; Perso; Claude Saint-Léger 1897; Naissance de Thérèse
+21/04/1925; Pro; Claude Saint-Léger 1897; Claude est candidat à l’élection municipale de Lille, sur la liste de l’union républicaine
+24/01/1926; Perso; Claude Saint-Léger 1897; Naissance de Nicole
+14/04/1927; Pro; Claude Saint-Léger 1897; Promotion au grade de lieutenant
+01/07/1927; Perso; Claude Saint-Léger 1897; Naissance de Francine
+01/01/1928; Perso; Claude Saint-Léger 1897; Croisière aux îles Canaries, Madère, le Maroc
+01/01/1928; Pro; Claude Saint-Léger 1897; Décoré de la Légion d'honneur, à titre militaire (ou Nommé Chevalier de la Légion d’honneur en Janvier 1933 à titre militaire ?)
+01/01/1929; Pro; Claude Saint-Léger 1897; Administrateur-délégué d’Agache en 1929
+20/03/1935; Perso; Claude Saint-Léger 1897; Naissance de Denis
+03/09/1939; Contexte; ; La France déclare la guerre à l’Allemagne
+16/11/1939; Pro; Claude Saint-Léger 1897; Réintégré dans les cadres actifs de l’armée et affecté au dépôt d’Infanterie 12
+03/12/1939; Pro; Claude Saint-Léger 1897; Mobilisation volontaire, affecté à la défense anti-aérienne de Lille. 3° Compagnie de Mitrailleurs de DAT - 5° section
+09/04/1940; Perso; Claude Saint-Léger 1897; Naissance de Chantal
+01/05/1940; Pro; Claude Saint-Léger 1897; Capturé à Dunkerque par les allemands, est fait prisonnier à MARDYCK, et est enfermé dans le camp d'officiers OFLAG 8 A à Kreuzburg, en Silésie (actuellement en Pologne)
+10/05/1940; Contexte; ; Invasion de la France et de la Belgique
+14/05/1940; Contexte; ; Sedan, effondrement du front français
+26/05/1940; Contexte; ; Evacuation de Dunkerque
+18/06/1940; Contexte; ; Appel du Général de Gaulle
+22/06/1940; Contexte; ; Armistice franco-allemand
+15/10/1941; Pro; Claude Saint-Léger 1897; Libération de captivité du Front-Stalag 204 (Amiens) 
+15/10/1941; Pro; Claude Saint-Léger 1897; il reprend sa place à la direction des Etablissements AGACHE.
+21/10/1941; Pro; Claude Saint-Léger 1897; Démobilisé le 21 Octobre 1941 à Lille
+13/01/1942; Pro; Claude Saint-Léger 1897; Il écrit depuis Alger à Berthe
+22/10/1942; Pro; Claude Saint-Léger 1897; Laissez-passer : Lille Paris
+08/11/1942; Pro; Claude Saint-Léger 1897; il entreprend un voyage en ALGERIE, pour rechercher des matières premières nécessaires aux filatures de cette Société. (séjour forcé ?)
+08/11/1942; Contexte; ; Débarquement allié en Afrique du Nord
+15/01/1943; Pro; Claude Saint-Léger 1897; Chargé de mission au  Cabinet du Délégué Général à l’Economie, Alger
+15/02/1943; Pro; Claude Saint-Léger 1897; Jusqu’au 30/06/1943 : Chargé de mission du gouvernement d’Algérie et secrétaire général du C d’organisation du textile
+12/03/1943; Pro; Claude Saint-Léger 1897; Secrétaire général du Comité Algérien d’Organisation du Vêtement et des Tissus
+03/06/1943; Pro; Claude Saint-Léger 1897; Ordre d’appel sous les drapeaux à Alger
+11/11/1943; Pro; Claude Saint-Léger 1897; Incorporation
+13/11/1943; Pro; Claude Saint-Léger 1897; Ordre d’appel sous les drapeaux à Alger (carte)
+01/01/1944; Pro; Claude Saint-Léger 1897; Envoyé en Angleterre fin janvier 1944
+17/06/1944; Pro; Claude Saint-Léger 1897; Débarquement avec les troupes françaises à Ouistreham
+01/09/1944; Pro; Claude Saint-Léger 1897; Promu chef de bataillon il remplit les fonctions de chef de la mission de liaison avec le 8ᵉ Corps Blindé Britannique
+06/06/1944; Contexte; ; Débarquement allié en Normandie
+25/08/1944; Contexte; ; Libération de Paris
+27/04/1944; Pro; Claude Saint-Léger 1897; il est attaché au Civil Affairs
+27/04/1944; Pro; Claude Saint-Léger 1897; il se fixe à AMIENS où il rend les plus grands services à la Préfecture de la Somme
+27/04/1944; Pro; Claude Saint-Léger 1897; Nommé ensuite chef de Mission L of C, c’est à dire au plus haut poste de la mission Franco-Britannique, il ne cessait de demander sa mutation pour repartir avec son unité en zone de combat
+14/12/1944; Pro; Claude Saint-Léger 1897; Mort en service commandé
+16/12/1944; Contexte; ; Bataille des Ardennes
+08/05/1945; Contexte; ; Fin de la guerre
+13/03/1945; Pro; Claude Saint-Léger 1897; Croix de Guerre avec palme
+

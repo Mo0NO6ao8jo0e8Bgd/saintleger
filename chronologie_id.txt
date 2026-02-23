@@ -1,0 +1,4 @@
+individu_id; nom_affiche; couleur
+Claude Saint-Léger 1897; Claude Saint-Léger; #dceeff
+Marguerite Delemer 1876; Marguerite Delemer; #ffeedc
+André Saint-Léger 1870; André Saint-Léger 1870; #eeffdc
