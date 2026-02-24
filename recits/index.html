@@ -168,6 +168,7 @@ async function loadHTML(id, url, callback) {
     if (callback) callback();
 }
 
+
 // Activation du mail dans le footer
 function activateEmailLink() {
     const el = document.getElementById("email-contact");
@@ -180,7 +181,13 @@ function activateEmailLink() {
 
 // Chargement des partials
 loadHTML("header", "../partials/header.html");
-loadHTML("menu", "../partials/menu.html");
+loadHTML("menu", "../partials/menu.html", () => {
+    // Ce code ne s'exécute QUE quand le menu est affiché
+    const activeLink = document.getElementById("menu-recits");
+    if (activeLink) {
+        activeLink.classList.add("active");
+    }
+});
 loadHTML("footer", "../partials/footer.html", activateEmailLink);
 </script>
 

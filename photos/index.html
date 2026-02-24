@@ -103,7 +103,13 @@ function activateEmailLink() {
 
 // Chargement des partials
 loadHTML("header", "../partials/header.html");
-loadHTML("menu", "../partials/menu.html");
+loadHTML("menu", "../partials/menu.html", () => {
+    // Ce code ne s'exécute QUE quand le menu est affiché
+    const activeLink = document.getElementById("menu-photos");
+    if (activeLink) {
+        activeLink.classList.add("active");
+    }
+});
 loadHTML("footer", "../partials/footer.html", activateEmailLink);
 </script>
 

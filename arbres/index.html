@@ -170,7 +170,14 @@ Promise.all([
     loadHTML("menu", "../partials/menu.html"),
     loadHTML("footer", "../partials/footer.html")
 ]).then(() => {
-    // Une fois le footer chargé, on transforme "Contact"
+    // --- PARTIE 1 : Gérer l'onglet actif du MENU ---
+    // Changez "menu-photos" par l'ID de la page actuelle
+    const activeLink = document.getElementById("menu-arbres");
+    if (activeLink) {
+        activeLink.classList.add("active");
+    }
+
+    // --- PARTIE 2 : Votre code existant pour le CONTACT ---
     const user = "arnaudsaintleger";
     const domain = "gmail.com";
     const email = user + "@" + domain;

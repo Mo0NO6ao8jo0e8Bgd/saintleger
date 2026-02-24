@@ -43,7 +43,7 @@
 
 <!-- Fil d’Ariane -->
 <div class="breadcrumb">
-    <a href="../../../index.html">Accueil</a> &gt; 
+    <a href="../../../index.html">Accueil</a> &gt; <a href="../../../individus/index.html">Individus</a> &gt; 
     <a href='../../SAINT-LEGER Arnaud (1963).html'>SAINT-LEGER Arnaud (1963)</a>
 </div>
 
@@ -173,7 +173,13 @@ function activateEmailLink() {
 
 // Chargement des partials
 loadHTML("header", "../../../partials/header3.html");
-loadHTML("menu", "../../../partials/menu3.html");
+loadHTML("menu", "../../../partials/menu3.html", () => {
+    // Ce code ne s'exécute QUE quand le menu est affiché
+    const activeLink = document.getElementById("menu-individus");
+    if (activeLink) {
+        activeLink.classList.add("active");
+    }
+});
 loadHTML("footer", "../../../partials/footer3.html", activateEmailLink);
 </script>
 
