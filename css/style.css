@@ -74,7 +74,7 @@ nav {
 }
 
 .menu-item.active {
-    background: #eef3f7;
+    background: #ddf3f7;
     font-weight: bold;
     box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }

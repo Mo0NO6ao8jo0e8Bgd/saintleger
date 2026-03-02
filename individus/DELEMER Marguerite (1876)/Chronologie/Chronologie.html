@@ -53,558 +53,725 @@
 
 
 <style>
-    .chrono-container { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; line-height: 1.2; }
-    .chrono-annee { border-bottom: 1px solid #ccc; margin: 18px 0 8px 0; color: #333; font-size: 1.1em; }
-    
+    .chrono-container { 
+        font-family: 'Segoe UI', Arial, sans-serif; 
+        max-width: 800px; 
+        margin: auto; 
+    }
+    .chrono-annee { 
+        border-bottom: 2px solid #333; 
+        margin: 30px 0 15px 0; 
+        padding-bottom: 5px;
+        font-size: 1.4em; 
+    }
     .chrono-event { 
-        display: flex; 
-        align-items: center; 
-        gap: 15px; 
-        margin-bottom: 3px; 
-        margin-left: 20px; 
-        padding: 4px 10px; 
-        border-radius: 2px;
-        /* Alignement garanti par bordures invisibles par défaut */
-        border-left: 5px solid transparent;
-        border-top: 1px solid transparent;
-        border-right: 1px solid transparent;
-        border-bottom: 1px solid transparent;
+        margin-left: 40px; 
+        margin-bottom: 12px; 
+        padding: 10px 15px; 
+        border-radius: 4px;
+        display: block;
+        border: 1px solid #eee;
     }
     
-    .chrono-date { 
-        font-size: 11px; 
-        color: #666; 
-        white-space: nowrap; 
-        width: 55px; 
-        flex-shrink: 0; 
-        text-align: right;
+    /* Styles pour l'individu courant */
+    .chrono-perso-vert { 
+        border-left: 8px solid #2e7d32; 
+        background-color: #fff; 
+    }
+    .chrono-pro-rouge { 
+        border-left: 8px solid #c62828; 
+        background-color: #fff; 
     }
     
-    .chrono-nom-tier { 
-        font-size: 15px; 
-        font-weight: bold; 
-        color: #555; 
-        width: 150px; 
-        flex-shrink: 0; 
-        overflow: hidden; 
-        text-overflow: ellipsis; 
-        white-space: nowrap;
+    .chrono-tiers { 
+        border-left: 8px solid #ccc; 
     }
-    
-    .chrono-text { font-size: 15px; flex-grow: 1; color: #111; }
 
-    .chrono-contexte { background-color: #e5e5e5; border-color: #bbb; color: #333; }
-    .chrono-item { border-color: #eee; }
-    .chrono-perso { border-left-color: #333 !important; }
+    .chrono-contexte { 
+        background-color: #eee; 
+        border-left: 8px solid #999; 
+        font-style: italic; 
+    }
+
+    .event-header { 
+        display: flex; 
+        gap: 10px;
+        align-items: baseline; 
+        margin-bottom: 6px; 
+    }
+    .event-date { font-size: 0.85em; color: #666; font-weight: bold; }
+    .nom-tier { font-weight: bold; color: #444; }
+    
+    .event-text { line-height: 1.4; color: #111; }
 </style>
 
 <div class="chrono-container">
-<h3>Marguerite Delemer</h3>
+<h1>Chronologie de Marguerite Delemer</h1>
 <h2 class='chrono-annee'>1897</h2>
 
-        <div class="chrono-event chrono-item chrono-perso" style="background-color: #dceeff;">
-            <span class="chrono-date">24 mars</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Naissance</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">24 mars</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Naissance</div>
+            </div>
 
-        <div class="chrono-event chrono-item chrono-perso" style="background-color: #dceeff;">
-            <span class="chrono-date">27 mars</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Baptême</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">27 mars</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Baptême</div>
+            </div>
 <h2 class='chrono-annee'>1914</h2>
 
-        <div class="chrono-event chrono-contexte" style="">
-            <span class="chrono-date">août</span>
-            <span class="chrono-nom-tier"></span>
-            <div class="chrono-text">Mobilisation générale</div>
-        </div>
+            <div class="chrono-event chrono-contexte" style="">
+                <div class="event-header">
+                    <span class="event-date">août</span>
+                    
+                </div>
+                <div class="event-text">Mobilisation générale</div>
+            </div>
 
-        <div class="chrono-event chrono-contexte" style="">
-            <span class="chrono-date">3 août</span>
-            <span class="chrono-nom-tier"></span>
-            <div class="chrono-text">L’Allemagne déclare la guerre à la France</div>
-        </div>
+            <div class="chrono-event chrono-contexte" style="">
+                <div class="event-header">
+                    <span class="event-date">3 août</span>
+                    
+                </div>
+                <div class="event-text">L’Allemagne déclare la guerre à la France</div>
+            </div>
 <h2 class='chrono-annee'>1915</h2>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">24 août</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Évadé de LILLE, en août 1915, il avait traversé à la nage la frontière Belge-Hollandaise pour rejoindre la France par l’Angleterre</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">24 août</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Évadé de LILLE, en août 1915, il avait traversé à la nage la frontière Belge-Hollandaise pour rejoindre la France par l’Angleterre</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">20 octobre</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Engagé volontaire dans le 32ᵉ Régiment de Dragons et immatriculé sous le numéro 3420</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">20 octobre</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Engagé volontaire dans le 32ᵉ Régiment de Dragons et immatriculé sous le numéro 3420</div>
+            </div>
 <h2 class='chrono-annee'>1916</h2>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">avril</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Départ au front</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">avril</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Départ au front</div>
+            </div>
 
-        <div class="chrono-event chrono-contexte" style="">
-            <span class="chrono-date">juillet</span>
-            <span class="chrono-nom-tier"></span>
-            <div class="chrono-text">Bataille de la Somme</div>
-        </div>
+            <div class="chrono-event chrono-contexte" style="">
+                <div class="event-header">
+                    <span class="event-date">juillet</span>
+                    
+                </div>
+                <div class="event-text">Bataille de la Somme</div>
+            </div>
 <h2 class='chrono-annee'>1918</h2>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">janvier</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Parti sur sa demande dans les Chasseurs à pieds comme élève aspirant à SAINT-CYR</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">janvier</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Parti sur sa demande dans les Chasseurs à pieds comme élève aspirant à SAINT-CYR</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #ffffff;">
-            <span class="chrono-date">8 janvier</span>
-            <span class="chrono-nom-tier"></span>
-            <div class="chrono-text">Déportation au camp d'Holzminden (vers le 08/01/1918)</div>
-        </div>
+            <div class="chrono-event chrono-pro-rouge" style="">
+                <div class="event-header">
+                    <span class="event-date">8 janvier</span>
+                    
+                </div>
+                <div class="event-text">Déportation au camp d'Holzminden (vers le 08/01/1918)</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">février</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Retour du front</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">février</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Retour du front</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">20 février</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Elève aspirant</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">20 février</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Elève aspirant</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">8 avril</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">26° Bataillon de chasseurs</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">8 avril</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">26° Bataillon de chasseurs</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">3 juin</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Caporal</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">3 juin</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Caporal</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">juillet</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Nommé aspirant</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">juillet</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Nommé aspirant</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">3 juillet</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Sergent</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">3 juillet</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Sergent</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #eeffdc;">
-            <span class="chrono-date">25 juillet</span>
-            <span class="chrono-nom-tier">André Saint-Léger</span>
-            <div class="chrono-text">Demande de libération de Marguerite du camps d'internement</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #eeffdc; border-left-color: #eeffdc;">
+                <div class="event-header">
+                    <span class="event-date">25 juillet</span>
+                    <span class="nom-tier">André Saint-Léger</span>
+                </div>
+                <div class="event-text">Demande de libération de Marguerite du camps d'internement</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #ffffff;">
-            <span class="chrono-date">août</span>
-            <span class="chrono-nom-tier"></span>
-            <div class="chrono-text">Retour de déportation (à peu près 6 mois après)</div>
-        </div>
+            <div class="chrono-event chrono-pro-rouge" style="">
+                <div class="event-header">
+                    <span class="event-date">août</span>
+                    
+                </div>
+                <div class="event-text">Retour de déportation (à peu près 6 mois après)</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">août</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Au front au 26° Bataillon des Chasseur à pieds en Août 1918, jusqu’à la fin de la guerre</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">août</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Au front au 26° Bataillon des Chasseur à pieds en Août 1918, jusqu’à la fin de la guerre</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">3 août</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Nommé aspirant</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">3 août</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Nommé aspirant</div>
+            </div>
 
-        <div class="chrono-event chrono-contexte" style="">
-            <span class="chrono-date">8 août</span>
-            <span class="chrono-nom-tier"></span>
-            <div class="chrono-text">Bataille d’Amiens</div>
-        </div>
+            <div class="chrono-event chrono-contexte" style="">
+                <div class="event-header">
+                    <span class="event-date">8 août</span>
+                    
+                </div>
+                <div class="event-text">Bataille d’Amiens</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">17 octobre</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Citation à l’Ordre de la 166° Division d’Infanterie - De La Valette Claude = Claude Saint-Léger.jpg</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">17 octobre</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Citation à l’Ordre de la 166° Division d’Infanterie - De La Valette Claude = Claude Saint-Léger.jpg</div>
+            </div>
 
-        <div class="chrono-event chrono-contexte" style="">
-            <span class="chrono-date">11 novembre</span>
-            <span class="chrono-nom-tier"></span>
-            <div class="chrono-text">Armistice</div>
-        </div>
+            <div class="chrono-event chrono-contexte" style="">
+                <div class="event-header">
+                    <span class="event-date">11 novembre</span>
+                    
+                </div>
+                <div class="event-text">Armistice</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">18 novembre</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Citation à l’Ordre de la 166° Division d’Infanterie</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">18 novembre</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Citation à l’Ordre de la 166° Division d’Infanterie</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #ffffff;">
-            <span class="chrono-date">décembre</span>
-            <span class="chrono-nom-tier"></span>
-            <div class="chrono-text">Reconstruction des citées ouvrières</div>
-        </div>
+            <div class="chrono-event chrono-pro-rouge" style="">
+                <div class="event-header">
+                    <span class="event-date">décembre</span>
+                    
+                </div>
+                <div class="event-text">Reconstruction des citées ouvrières</div>
+            </div>
 <h2 class='chrono-annee'>1919</h2>
 
-        <div class="chrono-event chrono-item chrono-perso" style="background-color: #dceeff;">
-            <span class="chrono-date">janvier</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">nommé Directeur des Etablissements Agache Fils (ou depuis 1923 ?)</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">janvier</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">nommé Directeur des Etablissements Agache Fils (ou depuis 1923 ?)</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">21 juin</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Mise en sursis, au titre de directeur de la Société anonyme de Pérenchies à la Madeleine</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">21 juin</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Mise en sursis, au titre de directeur de la Société anonyme de Pérenchies à la Madeleine</div>
+            </div>
 <h2 class='chrono-annee'>1920</h2>
 
-        <div class="chrono-event chrono-item chrono-perso" style="background-color: #eeffdc;">
-            <span class="chrono-date"></span>
-            <span class="chrono-nom-tier">André Saint-Léger</span>
-            <div class="chrono-text">Vente de la filature de la Madelaine, en échange de 2 places d'administrateur pour André et Claude</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #eeffdc; border-left-color: #eeffdc;">
+                <div class="event-header">
+                    <span class="event-date"></span>
+                    <span class="nom-tier">André Saint-Léger</span>
+                </div>
+                <div class="event-text">Vente de la filature de la Madelaine, en échange de 2 places d'administrateur pour André et Claude</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">septembre</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Plan ‘P’ au 37 Régiment d’Infanterie</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">septembre</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Plan ‘P’ au 37 Régiment d’Infanterie</div>
+            </div>
 <h2 class='chrono-annee'>1921</h2>
 
-        <div class="chrono-event chrono-item chrono-perso" style="background-color: #eeffdc;">
-            <span class="chrono-date"></span>
-            <span class="chrono-nom-tier">André Saint-Léger</span>
-            <div class="chrono-text">Achat du chateau et du domaine d’Hermaville</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #eeffdc; border-left-color: #eeffdc;">
+                <div class="event-header">
+                    <span class="event-date"></span>
+                    <span class="nom-tier">André Saint-Léger</span>
+                </div>
+                <div class="event-text">Achat du chateau et du domaine d’Hermaville</div>
+            </div>
 <h2 class='chrono-annee'>1923</h2>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">janvier</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Administrateur d’Agache en 1923</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">janvier</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Administrateur d’Agache en 1923</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">janvier</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Directeur des Etablissements Agache (1923 - > 23/06/1941)</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">janvier</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Directeur des Etablissements Agache (1923 - > 23/06/1941)</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">24 janvier</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Nomination au grade de sous-lieutenant de réserve du 43° Régiment d’Infanterie</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">24 janvier</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Nomination au grade de sous-lieutenant de réserve du 43° Régiment d’Infanterie</div>
+            </div>
 
-        <div class="chrono-event chrono-item chrono-perso" style="background-color: #dceeff;">
-            <span class="chrono-date">24 juin</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Mariage avec Agnès Wattinne à Pecq</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">24 juin</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Mariage avec Agnès Wattinne à Pecq</div>
+            </div>
 <h2 class='chrono-annee'>1924</h2>
 
-        <div class="chrono-event chrono-item chrono-perso" style="background-color: #dceeff;">
-            <span class="chrono-date">3 mai</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Naissance de Thérèse</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">3 mai</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Naissance de Thérèse</div>
+            </div>
 <h2 class='chrono-annee'>1925</h2>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">21 avril</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Claude est candidat à l’élection municipale de Lille, sur la liste de l’union républicaine</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">21 avril</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Claude est candidat à l’élection municipale de Lille, sur la liste de l’union républicaine</div>
+            </div>
 <h2 class='chrono-annee'>1926</h2>
 
-        <div class="chrono-event chrono-item chrono-perso" style="background-color: #dceeff;">
-            <span class="chrono-date">24 janvier</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Naissance de Nicole</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">24 janvier</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Naissance de Nicole</div>
+            </div>
 <h2 class='chrono-annee'>1927</h2>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">14 avril</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Promotion au grade de lieutenant</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">14 avril</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Promotion au grade de lieutenant</div>
+            </div>
 
-        <div class="chrono-event chrono-item chrono-perso" style="background-color: #dceeff;">
-            <span class="chrono-date">juillet</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Naissance de Francine</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">juillet</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Naissance de Francine</div>
+            </div>
 <h2 class='chrono-annee'>1928</h2>
 
-        <div class="chrono-event chrono-item chrono-perso" style="background-color: #dceeff;">
-            <span class="chrono-date"></span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Croisière aux îles Canaries, Madère, le Maroc</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date"></span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Croisière aux îles Canaries, Madère, le Maroc</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date"></span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Décoré de la Légion d'honneur, à titre militaire (ou Nommé Chevalier de la Légion d’honneur en Janvier 1933 à titre militaire ?)</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date"></span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Décoré de la Légion d'honneur, à titre militaire (ou Nommé Chevalier de la Légion d’honneur en Janvier 1933 à titre militaire ?)</div>
+            </div>
 <h2 class='chrono-annee'>1929</h2>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date"></span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Administrateur-délégué d’Agache en 1929</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date"></span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Administrateur-délégué d’Agache en 1929</div>
+            </div>
 <h2 class='chrono-annee'>1934</h2>
 
-        <div class="chrono-event chrono-item chrono-perso" style="background-color: #eeffdc;">
-            <span class="chrono-date"></span>
-            <span class="chrono-nom-tier">André Saint-Léger</span>
-            <div class="chrono-text">Vers 1934, vente de la propriété d'Hermaville</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #eeffdc; border-left-color: #eeffdc;">
+                <div class="event-header">
+                    <span class="event-date"></span>
+                    <span class="nom-tier">André Saint-Léger</span>
+                </div>
+                <div class="event-text">Vers 1934, vente de la propriété d'Hermaville</div>
+            </div>
 <h2 class='chrono-annee'>1935</h2>
 
-        <div class="chrono-event chrono-item chrono-perso" style="background-color: #dceeff;">
-            <span class="chrono-date">20 mars</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Naissance de Denis</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">20 mars</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Naissance de Denis</div>
+            </div>
 <h2 class='chrono-annee'>1939</h2>
 
-        <div class="chrono-event chrono-contexte" style="">
-            <span class="chrono-date">3 septembre</span>
-            <span class="chrono-nom-tier"></span>
-            <div class="chrono-text">La France déclare la guerre à l’Allemagne</div>
-        </div>
+            <div class="chrono-event chrono-contexte" style="">
+                <div class="event-header">
+                    <span class="event-date">3 septembre</span>
+                    
+                </div>
+                <div class="event-text">La France déclare la guerre à l’Allemagne</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">16 novembre</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Réintégré dans les cadres actifs de l’armée et affecté au dépôt d’Infanterie 12</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">16 novembre</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Réintégré dans les cadres actifs de l’armée et affecté au dépôt d’Infanterie 12</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">3 décembre</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Mobilisation volontaire, affecté à la défense anti-aérienne de Lille. 3° Compagnie de Mitrailleurs de DAT - 5° section</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">3 décembre</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Mobilisation volontaire, affecté à la défense anti-aérienne de Lille. 3° Compagnie de Mitrailleurs de DAT - 5° section</div>
+            </div>
 <h2 class='chrono-annee'>1940</h2>
 
-        <div class="chrono-event chrono-item chrono-perso" style="background-color: #dceeff;">
-            <span class="chrono-date">9 avril</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Naissance de Chantal</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">9 avril</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Naissance de Chantal</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">1 mai</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Capturé à Dunkerque par les allemands, est fait prisonnier à MARDYCK, et est enfermé dans le camp d'officiers OFLAG 8 A à Kreuzburg, en Silésie (actuellement en Pologne)</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">1 mai</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Capturé à Dunkerque par les allemands, est fait prisonnier à MARDYCK, et est enfermé dans le camp d'officiers OFLAG 8 A à Kreuzburg, en Silésie (actuellement en Pologne)</div>
+            </div>
 
-        <div class="chrono-event chrono-contexte" style="">
-            <span class="chrono-date">10 mai</span>
-            <span class="chrono-nom-tier"></span>
-            <div class="chrono-text">Invasion de la France et de la Belgique</div>
-        </div>
+            <div class="chrono-event chrono-contexte" style="">
+                <div class="event-header">
+                    <span class="event-date">10 mai</span>
+                    
+                </div>
+                <div class="event-text">Invasion de la France et de la Belgique</div>
+            </div>
 
-        <div class="chrono-event chrono-contexte" style="">
-            <span class="chrono-date">14 mai</span>
-            <span class="chrono-nom-tier"></span>
-            <div class="chrono-text">Sedan, effondrement du front français</div>
-        </div>
+            <div class="chrono-event chrono-contexte" style="">
+                <div class="event-header">
+                    <span class="event-date">14 mai</span>
+                    
+                </div>
+                <div class="event-text">Sedan, effondrement du front français</div>
+            </div>
 
-        <div class="chrono-event chrono-contexte" style="">
-            <span class="chrono-date">26 mai</span>
-            <span class="chrono-nom-tier"></span>
-            <div class="chrono-text">Evacuation de Dunkerque</div>
-        </div>
+            <div class="chrono-event chrono-contexte" style="">
+                <div class="event-header">
+                    <span class="event-date">26 mai</span>
+                    
+                </div>
+                <div class="event-text">Evacuation de Dunkerque</div>
+            </div>
 
-        <div class="chrono-event chrono-contexte" style="">
-            <span class="chrono-date">18 juin</span>
-            <span class="chrono-nom-tier"></span>
-            <div class="chrono-text">Appel du Général de Gaulle</div>
-        </div>
+            <div class="chrono-event chrono-contexte" style="">
+                <div class="event-header">
+                    <span class="event-date">18 juin</span>
+                    
+                </div>
+                <div class="event-text">Appel du Général de Gaulle</div>
+            </div>
 
-        <div class="chrono-event chrono-contexte" style="">
-            <span class="chrono-date">22 juin</span>
-            <span class="chrono-nom-tier"></span>
-            <div class="chrono-text">Armistice franco-allemand</div>
-        </div>
+            <div class="chrono-event chrono-contexte" style="">
+                <div class="event-header">
+                    <span class="event-date">22 juin</span>
+                    
+                </div>
+                <div class="event-text">Armistice franco-allemand</div>
+            </div>
 <h2 class='chrono-annee'>1941</h2>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">15 octobre</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Libération de captivité du Front-Stalag 204 (Amiens)</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">15 octobre</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Libération de captivité du Front-Stalag 204 (Amiens)</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">15 octobre</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">il reprend sa place à la direction des Etablissements AGACHE.</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">15 octobre</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">il reprend sa place à la direction des Etablissements AGACHE.</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">21 octobre</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Démobilisé le 21 Octobre 1941 à Lille</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">21 octobre</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Démobilisé le 21 Octobre 1941 à Lille</div>
+            </div>
 <h2 class='chrono-annee'>1942</h2>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">13 janvier</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Il écrit depuis Alger à Berthe</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">13 janvier</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Il écrit depuis Alger à Berthe</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">22 octobre</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Laissez-passer : Lille Paris</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">22 octobre</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Laissez-passer : Lille Paris</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">8 novembre</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">il entreprend un voyage en ALGERIE, pour rechercher des matières premières nécessaires aux filatures de cette Société. (séjour forcé ?)</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">8 novembre</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">il entreprend un voyage en ALGERIE, pour rechercher des matières premières nécessaires aux filatures de cette Société. (séjour forcé ?)</div>
+            </div>
 
-        <div class="chrono-event chrono-contexte" style="">
-            <span class="chrono-date">8 novembre</span>
-            <span class="chrono-nom-tier"></span>
-            <div class="chrono-text">Débarquement allié en Afrique du Nord</div>
-        </div>
+            <div class="chrono-event chrono-contexte" style="">
+                <div class="event-header">
+                    <span class="event-date">8 novembre</span>
+                    
+                </div>
+                <div class="event-text">Débarquement allié en Afrique du Nord</div>
+            </div>
 <h2 class='chrono-annee'>1943</h2>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">15 janvier</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Chargé de mission au  Cabinet du Délégué Général à l’Economie, Alger</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">15 janvier</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Chargé de mission au  Cabinet du Délégué Général à l’Economie, Alger</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">15 février</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Jusqu’au 30/06/1943 : Chargé de mission du gouvernement d’Algérie et secrétaire général du C d’organisation du textile</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">15 février</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Jusqu’au 30/06/1943 : Chargé de mission du gouvernement d’Algérie et secrétaire général du C d’organisation du textile</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">12 mars</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Secrétaire général du Comité Algérien d’Organisation du Vêtement et des Tissus</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">12 mars</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Secrétaire général du Comité Algérien d’Organisation du Vêtement et des Tissus</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">3 juin</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Ordre d’appel sous les drapeaux à Alger</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">3 juin</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Ordre d’appel sous les drapeaux à Alger</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">11 novembre</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Incorporation</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">11 novembre</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Incorporation</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">13 novembre</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Ordre d’appel sous les drapeaux à Alger (carte)</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">13 novembre</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Ordre d’appel sous les drapeaux à Alger (carte)</div>
+            </div>
 <h2 class='chrono-annee'>1944</h2>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">30 janvier</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Envoyé en Angleterre fin janvier 1944</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">30 janvier</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Envoyé en Angleterre fin janvier 1944</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">27 avril</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">il est attaché au Civil Affairs</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">27 avril</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">il est attaché au Civil Affairs</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">27 avril</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">il se fixe à AMIENS où il rend les plus grands services à la Préfecture de la Somme</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">27 avril</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">il se fixe à AMIENS où il rend les plus grands services à la Préfecture de la Somme</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">27 avril</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Nommé ensuite chef de Mission L of C, c’est à dire au plus haut poste de la mission Franco-Britannique, il ne cessait de demander sa mutation pour repartir avec son unité en zone de combat</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">27 avril</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Nommé ensuite chef de Mission L of C, c’est à dire au plus haut poste de la mission Franco-Britannique, il ne cessait de demander sa mutation pour repartir avec son unité en zone de combat</div>
+            </div>
 
-        <div class="chrono-event chrono-contexte" style="">
-            <span class="chrono-date">6 juin</span>
-            <span class="chrono-nom-tier"></span>
-            <div class="chrono-text">Débarquement allié en Normandie</div>
-        </div>
+            <div class="chrono-event chrono-contexte" style="">
+                <div class="event-header">
+                    <span class="event-date">6 juin</span>
+                    
+                </div>
+                <div class="event-text">Débarquement allié en Normandie</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">17 juin</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Débarquement avec les troupes françaises à Ouistreham</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">17 juin</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Débarquement avec les troupes françaises à Ouistreham</div>
+            </div>
 
-        <div class="chrono-event chrono-contexte" style="">
-            <span class="chrono-date">25 août</span>
-            <span class="chrono-nom-tier"></span>
-            <div class="chrono-text">Libération de Paris</div>
-        </div>
+            <div class="chrono-event chrono-contexte" style="">
+                <div class="event-header">
+                    <span class="event-date">25 août</span>
+                    
+                </div>
+                <div class="event-text">Libération de Paris</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">1 septembre</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Promu chef de bataillon il remplit les fonctions de chef de la mission de liaison avec le 8ᵉ Corps Blindé Britannique</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">1 septembre</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Promu chef de bataillon il remplit les fonctions de chef de la mission de liaison avec le 8ᵉ Corps Blindé Britannique</div>
+            </div>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">14 décembre</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Mort en service commandé</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">14 décembre</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Mort en service commandé</div>
+            </div>
 
-        <div class="chrono-event chrono-contexte" style="">
-            <span class="chrono-date">16 décembre</span>
-            <span class="chrono-nom-tier"></span>
-            <div class="chrono-text">Bataille des Ardennes</div>
-        </div>
+            <div class="chrono-event chrono-contexte" style="">
+                <div class="event-header">
+                    <span class="event-date">16 décembre</span>
+                    
+                </div>
+                <div class="event-text">Bataille des Ardennes</div>
+            </div>
 <h2 class='chrono-annee'>1945</h2>
 
-        <div class="chrono-event chrono-item" style="background-color: #dceeff;">
-            <span class="chrono-date">13 mars</span>
-            <span class="chrono-nom-tier">Claude Saint-Léger</span>
-            <div class="chrono-text">Croix de Guerre avec palme</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #dceeff; border-left-color: #dceeff;">
+                <div class="event-header">
+                    <span class="event-date">13 mars</span>
+                    <span class="nom-tier">Claude Saint-Léger</span>
+                </div>
+                <div class="event-text">Croix de Guerre avec palme</div>
+            </div>
 
-        <div class="chrono-event chrono-contexte" style="">
-            <span class="chrono-date">8 mai</span>
-            <span class="chrono-nom-tier"></span>
-            <div class="chrono-text">Fin de la guerre</div>
-        </div>
+            <div class="chrono-event chrono-contexte" style="">
+                <div class="event-header">
+                    <span class="event-date">8 mai</span>
+                    
+                </div>
+                <div class="event-text">Fin de la guerre</div>
+            </div>
 <h2 class='chrono-annee'>1947</h2>
 
-        <div class="chrono-event chrono-item chrono-perso" style="background-color: #eeffdc;">
-            <span class="chrono-date"></span>
-            <span class="chrono-nom-tier">André Saint-Léger</span>
-            <div class="chrono-text">Décès (date et année inconnue)</div>
-        </div>
+            <div class="chrono-event chrono-tiers" style="background-color: #eeffdc; border-left-color: #eeffdc;">
+                <div class="event-header">
+                    <span class="event-date"></span>
+                    <span class="nom-tier">André Saint-Léger</span>
+                </div>
+                <div class="event-text">Décès (date et année inconnue)</div>
+            </div>
 </div>
     
 </div>
