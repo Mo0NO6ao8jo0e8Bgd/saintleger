@@ -1,8 +1,10 @@
 date; type; individu_id; texte
 
+
 29/09/1870; Perso; SAINT-LEGER Andre (1870); Naissance
 24/03/1897; Perso; SAINT-LEGER Claude (1897); Naissance
 27/03/1897; Perso; SAINT-LEGER Claude (1897); Baptême
+04/06/1904; Perso; WATTINNE Agnes (1904); Naissance d'Agnès (Anny)
 00/08/1914; Contexte; ; Mobilisation générale
 03/08/1914; Contexte; ; L’Allemagne déclare la guerre à la France
 24/08/1915; Pro; SAINT-LEGER Claude (1897); Évadé de LILLE, en août 1915, il avait traversé à la nage la frontière Belge-Hollandaise pour rejoindre la France par l’Angleterre
@@ -26,29 +28,30 @@ date; type; individu_id; texte
 11/11/1918; Contexte; ; Armistice
 00/12/1918; Pro; DELEMER Marguerite (1876); Reconstruction des citées ouvrières
 18/11/1918; Pro; SAINT-LEGER Claude (1897); Citation à l’Ordre de la 166° Division d’Infanterie
+00/00/1919; Perso; SAINT-LEGER Andre (1870); Vente de la filature de la Madeleine, en échange de 2 places d'administrateur pour André et Claude (sans doute avant 1919)
 00/01/1919; Perso; SAINT-LEGER Claude (1897); nommé Directeur des Etablissements Agache Fils (ou depuis 1923 ?)
 21/06/1919; Pro; SAINT-LEGER Claude (1897); Mise en sursis, au titre de directeur de la Société anonyme de Pérenchies à la Madeleine
 00/09/1920; Pro; SAINT-LEGER Claude (1897); Plan ‘P’ au 37 Régiment d’Infanterie
-00/00/1920; Perso; SAINT-LEGER Andre (1870); Vente de la filature de la Madelaine, en échange de 2 places d'administrateur pour André et Claude
 00/00/1921; Perso; SAINT-LEGER Andre (1870); Achat du chateau et du domaine d’Hermaville
 00/01/1923; Pro; SAINT-LEGER Claude (1897); Administrateur d’Agache en 1923
 00/01/1923; Pro; SAINT-LEGER Claude (1897); Directeur des Etablissements Agache (1923 - > 23/06/1941)
 24/01/1923; Pro; SAINT-LEGER Claude (1897); Nomination au grade de sous-lieutenant de réserve du 43° Régiment d’Infanterie
 24/06/1923; Perso; SAINT-LEGER Claude (1897); Mariage avec Agnès Wattinne à Pecq
-03/05/1924; Perso; SAINT-LEGER Claude (1897); Naissance de Thérèse
+03/05/1924; Perso; WATTINNE Agnes (1904); Naissance de Thérèse
 21/04/1925; Pro; SAINT-LEGER Claude (1897); Claude est candidat à l’élection municipale de Lille, sur la liste de l’union républicaine
-24/01/1926; Perso; SAINT-LEGER Claude (1897); Naissance de Nicole
+24/01/1926; Perso; WATTINNE Agnes (1904); Naissance de Nicole
 14/04/1927; Pro; SAINT-LEGER Claude (1897); Promotion au grade de lieutenant
-00/07/1927; Perso; SAINT-LEGER Claude (1897); Naissance de Francine
+00/07/1927; Perso; WATTINNE Agnes (1904); Naissance de Francine
 00/00/1928; Perso; SAINT-LEGER Claude (1897); Croisière aux îles Canaries, Madère, le Maroc
 00/00/1928; Pro; SAINT-LEGER Claude (1897); Décoré de la Légion d'honneur, à titre militaire (ou Nommé Chevalier de la Légion d’honneur en Janvier 1933 à titre militaire ?)
 00/00/1929; Pro; SAINT-LEGER Claude (1897); Administrateur-délégué d’Agache en 1929
+00/00/1932; Perso; SAINT-LEGER Claude (1897); Photos à la Dune aux loups
 00/00/1934; Perso; SAINT-LEGER Andre (1870); Vers 1934, vente de la propriété d'Hermaville
-20/03/1935; Perso; SAINT-LEGER Claude (1897); Naissance de Denis
+20/03/1935; Perso; WATTINNE Agnes (1904); Naissance de Denis
 03/09/1939; Contexte; ; La France déclare la guerre à l’Allemagne
 16/11/1939; Pro; SAINT-LEGER Claude (1897); Réintégré dans les cadres actifs de l’armée et affecté au dépôt d’Infanterie 12
 03/12/1939; Pro; SAINT-LEGER Claude (1897); Mobilisation volontaire, affecté à la défense anti-aérienne de Lille. 3° Compagnie de Mitrailleurs de DAT - 5° section
-09/04/1940; Perso; SAINT-LEGER Claude (1897); Naissance de Chantal
+09/04/1940; Perso; WATTINNE Agnes (1904); Naissance de Chantal
 01/05/1940; Pro; SAINT-LEGER Claude (1897); Capturé à Dunkerque par les allemands, est fait prisonnier à MARDYCK, et est enfermé dans le camp d'officiers OFLAG 8 A à Kreuzburg, en Silésie (actuellement en Pologne)
 10/05/1940; Contexte; ; Invasion de la France et de la Belgique
 14/05/1940; Contexte; ; Sedan, effondrement du front français
@@ -81,4 +84,5 @@ date; type; individu_id; texte
 08/05/1945; Contexte; ; Fin de la guerre
 13/03/1945; Pro; SAINT-LEGER Claude (1897); Croix de Guerre avec palme
 00/00/1947; Perso; SAINT-LEGER Andre (1870); Décès (date et année inconnue)
+12/12/1993; Perso; WATTINNE Agnes (1904); Décès d'Agnès (Anny)
 
