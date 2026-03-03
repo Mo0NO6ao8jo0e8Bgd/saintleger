@@ -64,7 +64,7 @@ date; type; individu_id; texte
 13/01/1942; Pro; SAINT-LEGER Claude (1897); Il écrit depuis Alger à Berthe
 22/10/1942; Pro; SAINT-LEGER Claude (1897); Laissez-passer : Lille Paris
 08/11/1942; Pro; SAINT-LEGER Claude (1897); il entreprend un voyage en ALGERIE, pour rechercher des matières premières nécessaires aux filatures de cette Société. (séjour forcé ?)
-08/11/1942; Contexte; ; Débarquement allié en Afrique du Nord
+08/11/1942; Contexte; ; ararquement allié en Afrique du Nord
 15/01/1943; Pro; SAINT-LEGER Claude (1897); Chargé de mission au  Cabinet du Délégué Général à l’Economie, Alger
 15/02/1943; Pro; SAINT-LEGER Claude (1897); Jusqu’au 30/06/1943 : Chargé de mission du gouvernement d’Algérie et secrétaire général du C d’organisation du textile
 12/03/1943; Pro; SAINT-LEGER Claude (1897); Secrétaire général du Comité Algérien d’Organisation du Vêtement et des Tissus
@@ -72,7 +72,7 @@ date; type; individu_id; texte
 11/11/1943; Pro; SAINT-LEGER Claude (1897); Incorporation
 13/11/1943; Pro; SAINT-LEGER Claude (1897); Ordre d’appel sous les drapeaux à Alger (carte)
 30/01/1944; Pro; SAINT-LEGER Claude (1897); Envoyé en Angleterre fin janvier 1944
-17/06/1944; Pro; SAINT-LEGER Claude (1897); Débarquement avec les troupes françaises à Ouistreham
+17/06/1944; Pro; SAINT-LEGER Claude (1897); Débarquement avec les troupes françaises à Ouistreham, rattaché au 8e Corps Blindé Britannique comme officier de liaison
 01/09/1944; Pro; SAINT-LEGER Claude (1897); Promu chef de bataillon il remplit les fonctions de chef de la mission de liaison avec le 8ᵉ Corps Blindé Britannique
 06/06/1944; Contexte; ; Débarquement allié en Normandie
 25/08/1944; Contexte; ; Libération de Paris
