@@ -28,7 +28,7 @@ date; type; individu_id; texte
 11/11/1918; Contexte; ; Armistice
 00/12/1918; Pro; DELEMER Marguerite (1876); Reconstruction des citées ouvrières
 18/11/1918; Pro; SAINT-LEGER Claude (1897); Citation à l’Ordre de la 166° Division d’Infanterie
-00/00/1919; Perso; SAINT-LEGER Andre (1870); Vente de la filature de la Madeleine, en échange de 2 places d'administrateur pour André et Claude (sans doute avant 1919)
+00/00/1919; Perso; SAINT-LEGER Andre (1870); Vente de la filature de la Madeleine, en échange de 2 places d'administrateur pour André et Claude (avant 1919, ou en 1920 ?)
 00/01/1919; Perso; SAINT-LEGER Claude (1897); nommé Directeur des Etablissements Agache Fils (ou depuis 1923 ?)
 21/06/1919; Pro; SAINT-LEGER Claude (1897); Mise en sursis, au titre de directeur de la Société anonyme de Pérenchies à la Madeleine
 00/09/1920; Pro; SAINT-LEGER Claude (1897); Plan ‘P’ au 37 Régiment d’Infanterie
