@@ -1,4 +1,8 @@
 User-agent: *
+Disallow: /arbres/Arbre desc. 33gen. fratrie CAPET-.html
+Disallow: /arbres/GEDCOM_ancêtres.ged
+Disallow: /arbres/roue 6 gen Claude.pdf
+Disallow: /arbres/Roue asc. 9G fratrie SAINT-LÉGER-WATTINNE.html
 Disallow: /css/
 Disallow: /partials/
 Disallow: /prive/

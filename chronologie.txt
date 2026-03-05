@@ -45,7 +45,7 @@ date; type; individu_id; texte
 00/00/1928; Perso; SAINT-LEGER Claude (1897); Croisière aux îles Canaries, Madère, le Maroc
 00/00/1928; Pro; SAINT-LEGER Claude (1897); Décoré de la Légion d'honneur, à titre militaire (ou Nommé Chevalier de la Légion d’honneur en Janvier 1933 à titre militaire ?)
 00/00/1929; Pro; SAINT-LEGER Claude (1897); Administrateur-délégué d’Agache en 1929
-00/00/1932; Perso; SAINT-LEGER Claude (1897); Photos à la Dune aux loups
+00/00/1928; Perso; SAINT-LEGER Claude (1897); Création de la SCI de la Dune aux Loups, avec Donat Agache, M. Huet, René Descamps, Max Descamps, et Claude
 00/00/1934; Perso; SAINT-LEGER Andre (1870); Vers 1934, vente de la propriété d'Hermaville
 20/03/1935; Perso; WATTINNE Agnes (1904); Naissance de Denis
 03/09/1939; Contexte; ; La France déclare la guerre à l’Allemagne
