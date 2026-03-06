@@ -54,6 +54,28 @@
   <h1>Erreur 404 – Page introuvable</h1>
   <p>Excusez nous pour cette erreur. <a href="/"><b>Retour à l’accueil</b></a></p>
 
+<script>
+// Nouvelle fonction loadHTML avec callback possible
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
+}
+
+// Fonction pour transformer le "Contact" en lien mail
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return; // sécurité
+
+    const email = "arnaudsaintleger@gmail.com";
+    const link = document.createElement("a");
+    link.href = "mailto:" + email;
+    link.textContent = "Contact";
+
+    el.replaceWith(link);
+}
+</script>
+
 <footer>
     © 2025 Arnaud Saint-Léger - Usage familial et privé -
     <span id="email-contact">Contact</span> - 
