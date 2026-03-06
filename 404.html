@@ -14,54 +14,72 @@
     <meta charset="UTF-8">
     <title>Famille Saint-Léger / Wattinne</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <meta name="description" content="Site de généalogie consacré à la famille Saint-Léger et aux familles apparentées. Découvrez l'histoire de nos ancêtres et notre arbre généalogique.">
+    <meta name="keywords" content="généalogie, famille Saint-Léger, arbre généalogique, histoire familiale, ancêtres">
+    <meta name="author" content="Arnaud Saint-Léger">
+    
+    <!-- Open Graph pour les réseaux sociaux -->
+    <meta property="og:title" content="Généalogie de la famille Saint-Léger">
+    <meta property="og:description" content="Site de généalogie consacré à la famille Saint-Léger et aux familles apparentées.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://saintleger.org">
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="partials/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="partials/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="partials/favicon-180x180.png">
+    
     <link rel="stylesheet" href="css/style.css?v=1">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
-    
-    <meta charset="UTF-8">
-    <title>Redirection ou erreur 404</title>
-    <script>
-        // Charger le mappage des URLs
-        fetch('/mapping.js')
-            .then(response => response.text())
-            .then(data => {
-                eval(data); // Charge les correspondances
-
-                // Récupérer le chemin actuel
-                const currentPath = window.location.pathname.substring(1);
-
-                // Vérifier si le chemin est dans le mappage
-                if (pathMapping && pathMapping[currentPath]) {
-                    // Rediriger vers le vrai chemin
-                    window.location.replace('/' + pathMapping[currentPath]);
-                } else {
-                    // Afficher une vraie erreur 404
-                    document.body.innerHTML = `
-                        <h1>Erreur 404 : Page non trouvée</h1>
-                        <p>La page que vous cherchez n'existe pas.</p>
-                        <p><a href="/">Retour à l'accueil</a>.</p>
-                        <p>Si vous pensiez accéder à une page spécifique, vérifiez l'URL ou <a href="mailto:saintleger.org@gmail.com">contactez-moi</a>.</p>
-                    `;
-                }
-            })
-            .catch(error => {
-                console.error("Erreur de chargement du mappage :", error);
-                // Afficher une erreur générique si le mappage ne charge pas
-                document.body.innerHTML = `
-                    <h1>Erreur</h1>
-                    <p>Une erreur est survenue. <a href="/">Retour à l'accueil</a>.</p>
-                `;
-            });
-    </script>
-    
 </head>
 <body>
 
-  <h1>404 – Page introuvable</h1>
+<!-- HEADER et MENU -->
+<div id="header"></div>
+<div id="menu"></div>
+
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    Accueil
+</div>
+
+  <h1>Erreur 404 – Page introuvable</h1>
   <p>La page demandée n’existe pas.</p>
-  <p><a href="/">Retour à l’accueil</a></p>
+  <p><a href="/"><b>Retour à l’accueil</b></a></p>
+
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<!-- JS pour inclure header, menu et footer -->
+<script>
+// Nouvelle fonction loadHTML avec callback possible
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
+}
+
+// Fonction pour transformer le "Contact" en lien mail
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return; // sécurité
+
+    const email = "arnaudsaintleger@gmail.com";
+    const link = document.createElement("a");
+    link.href = "mailto:" + email;
+    link.textContent = "Contact";
+
+    el.replaceWith(link);
+}
+
+// Chargement des 3 parties, avec callback pour le footer
+loadHTML("header", "partials/header.html");
+loadHTML("menu", "partials/menu.html");
+loadHTML("footer", "partials/footer.html", activateEmailLink);
+</script>
 
 </body>
 </html>
