@@ -54,6 +54,14 @@
   <h1>Erreur 404 – Page introuvable</h1>
   <p>Excusez nous pour cette erreur. <a href="/"><b>Retour à l’accueil</b></a></p>
 
+
+<footer>
+    © 2025 Arnaud Saint-Léger - Usage familial et privé -
+    <span id="email-contact">Contact</span> - 
+    <a href="/infos.html">Infos</a>
+</footer>
+
+<!-- JS pour inclure header, menu et footer -->
 <script>
 // Nouvelle fonction loadHTML avec callback possible
 async function loadHTML(id, url, callback) {
@@ -74,13 +82,12 @@ function activateEmailLink() {
 
     el.replaceWith(link);
 }
-</script>
 
-<footer>
-    © 2025 Arnaud Saint-Léger - Usage familial et privé -
-    <span id="email-contact">Contact</span> - 
-    <a href="/infos.html">Infos</a>
-</footer>
+// Chargement des 3 parties, avec callback pour le footer
+loadHTML("header", "partials/header.html");
+loadHTML("menu", "partials/menu.html");
+loadHTML("footer", "partials/footer.html", activateEmailLink);
+</script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPY5DZ4740"></script>
