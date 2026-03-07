@@ -1,38 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <!-- Google tag (gtag.js) -->
+    <meta charset="UTF-8">
+    <title>Erreur 404</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPY5DZ4740"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-YPY5DZ4740');
     </script>
-    
-    <meta charset="UTF-8">
-    <title>Erreur 404</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    
-    <meta name="description" content="Site de généalogie consacré à la famille Saint-Léger et aux familles apparentées. Découvrez l'histoire de nos ancêtres et notre arbre généalogique.">
+
+    <meta name="description" content="Site de généalogie consacré à la famille Saint-Léger et aux familles apparentées.">
     <meta name="keywords" content="généalogie, famille Saint-Léger, arbre généalogique, histoire familiale, ancêtres">
     <meta name="author" content="Arnaud Saint-Léger">
     
-    <!-- Open Graph pour les réseaux sociaux -->
+    <!-- Open Graph -->
     <meta property="og:title" content="Généalogie de la famille Saint-Léger">
     <meta property="og:description" content="Site de généalogie consacré à la famille Saint-Léger et aux familles apparentées.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://saintleger.org">
-    
-    <link rel="icon" type="image/png" sizes="32x32" href="/partials/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/partials/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/partials/favicon-180x180.png">
-    
+
     <link rel="stylesheet" href="/css/style.css?v=1">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
@@ -42,18 +34,17 @@
     <p>Site de généalogie familiale</p>
   </a>
 </header>
+
 <nav>
-    <!-- <a class="menu-item" href="../index.html">🏠 Accueil</a> -->
     <a id="menu-recits" class="menu-item" href="/recits/index.html">📘 Récits</a>
     <a id="menu-photos" class="menu-item" href="/photos/index.html">📷 Photos</a>
     <a id="menu-arbres" class="menu-item" href="/arbres/index.html">🌳 Arbres</a>
     <a id="menu-individus" class="menu-item" href="/individus/index.html">👤 Individus</a>
 </nav>
 
-
-  <h1>Erreur 404 – Page introuvable</h1>
-  <p>Excusez nous pour cette erreur. <a href="/"><b>Retour à l’accueil</b></a></p>
-
+<h1>Erreur 404 – Page introuvable</h1>
+<p>Redirection automatique si la page a été renommée...</p>
+<p>Sinon, vous serez redirigé vers l’accueil dans 5 secondes.</p>
 
 <footer>
     © 2025 Arnaud Saint-Léger - Usage familial et privé -
@@ -61,44 +52,38 @@
     <a href="/infos.html">Infos</a>
 </footer>
 
-<!-- JS pour inclure header, menu et footer -->
 <script>
-// Nouvelle fonction loadHTML avec callback possible
-async function loadHTML(id, url, callback) {
-    const res = await fetch(url);
-    document.getElementById(id).innerHTML = await res.text();
-    if (callback) callback();
-}
-
-// Fonction pour transformer le "Contact" en lien mail
-function activateEmailLink() {
+// Activer le lien mail
+(function activateEmailLink() {
     const el = document.getElementById("email-contact");
-    if (!el) return; // sécurité
-
+    if (!el) return;
     const email = "arnaudsaintleger@gmail.com";
     const link = document.createElement("a");
     link.href = "mailto:" + email;
     link.textContent = "Contact";
-
     el.replaceWith(link);
-}
+})();
 
-// Chargement des 3 parties, avec callback pour le footer
-loadHTML("header", "partials/header.html");
-loadHTML("menu", "partials/menu.html");
-loadHTML("footer", "partials/footer.html", activateEmailLink);
-</script>
+// Redirection basée sur mapping.json
+(function() {
+    // Décoder l'URL demandée
+    const path = "individus/SAINT-LEGER Arnaud (1963)/Récits/08- Biographie de Claude Saint-Léger - 1° guerre mondiale.html";
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YPY5DZ4740"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-YPY5DZ4740');
+    fetch('/mapping.json')
+        .then(res => res.json())
+        .then(mapping => {
+            if (mapping[path]) {
+                window.location.replace('/' + mapping[path]);
+            } else {
+                setTimeout(() => { window.location.href = '/index.html'; }, 5000);
+            }
+        })
+        .catch(err => {
+            console.error('Impossible de charger mapping.json', err);
+            setTimeout(() => { window.location.href = '/index.html'; }, 5000);
+        });
+})();
 </script>
 
 </body>
 </html>
-
