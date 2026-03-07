@@ -67,7 +67,8 @@
 // Redirection basée sur mapping.json
 (function() {
     // Décoder l'URL demandée
-    const path = "individus/SAINT-LEGER Arnaud (1963)/Récits/08- Biographie de Claude Saint-Léger - 1° guerre mondiale.html";
+    const path = decodeURIComponent(window.location.pathname.replace(/^\/+/, ''));
+    
 
     fetch('/mapping.json')
         .then(res => res.json())
