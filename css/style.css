@@ -611,3 +611,21 @@ nav.nav-contenu {
     color: #555;
 }
 .adresse p { margin: 2px 0; line-height: 1.4; }
+
+/* En-tête imprimé du papier à lettres : reproduit le bloc en haut de feuille */
+.entete {
+    border: 1px solid #b8c2cc;
+    border-radius: 4px;
+    padding: 10px 16px;
+    margin: 0 0 18px 0;
+    max-width: 380px;
+    background: #fdfdfc;
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+    color: #555;
+}
+.entete p { margin: 2px 0; line-height: 1.4; }
+
+.sommaire-rubriques { margin: 0.5em 0 1em; }
+.sommaire-rubriques summary { cursor: pointer; font-size: 0.9em; opacity: 0.7; }
+.sommaire-rubriques p { margin: 0.5em 0 0; font-size: 0.9em; }

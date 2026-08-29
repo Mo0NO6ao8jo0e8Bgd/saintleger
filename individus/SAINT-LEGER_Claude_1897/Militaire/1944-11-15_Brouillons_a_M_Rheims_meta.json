@@ -1,0 +1,81 @@
+{
+  "_commentaire": "Fichier de métadonnées SEO pour la page HTML du même nom, lu par metadata.sh à la compilation.",
+
+  "titre": "Brouillons de lettres à Rheims, novembre 1944",
+
+  "description": "À Amiens, en novembre 1944, le commandant Claude Saint-Léger (1897-1944) écrit trois brouillons pour quitter la tête des officiers de liaison des Lines of Communication : administrateur délégué d'Agache, il refuse une zone où sont ses usines.",
+
+  "keywords": "Saint-Léger, Claude Saint-Léger, Rheims, Danon, Lion, Coulet, Agache, Établissements Agache, Lienart, Lines of Communication, L of C, officier de liaison, Mission militaire de liaison administrative, MMLA, relations interalliées, Amiens, Somme, Lille, Pérenchies, Nord, Pas-de-Calais, industrie linière, industrie textile, filature de lin, Libération, 1944, Seconde Guerre mondiale, XXe siècle, prisonniers de guerre, FFI, conflit d'intérêts, préfecture de la Somme",
+
+  "og_image": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Photos/mini_web.jpg",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laisser vide si image trop petite (Google exige min. 1200×800 px). Si renseigné, sera injecté dans le bloc JSON-LD Article.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-08-29",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Militaire/1944-11-15_Brouillons_a_M_Rheims.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "Claude Adolphe Georges Saint-Léger", "birthDate": "1897-03-24", "deathDate": "1944-12-14", "sameAs": "https://www.wikidata.org/entity/Q138819799" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place",        "name": "Amiens" },
+    { "@type": "Place",        "name": "Lille" },
+    { "@type": "Place",        "name": "Pérenchies" },
+    { "@type": "Place",        "name": "Nord" },
+    { "@type": "Place",        "name": "Pas-de-Calais" },
+    { "@type": "Place",        "name": "Somme" },
+    { "@type": "Organization", "name": "Lines of Communication" },
+    { "@type": "Organization", "name": "Mission militaire de liaison administrative" },
+    { "@type": "Organization", "name": "Établissements Agache" },
+    { "@type": "Organization", "name": "Délégation aux relations interalliées" },
+    { "@type": "Organization", "name": "Préfecture de la Somme" },
+    { "@type": "Organization", "name": "Forces françaises de l'intérieur" },
+    { "@type": "Thing",        "name": "Libération de la France" },
+    { "@type": "Thing",        "name": "Industrie linière du Nord" }
+  ],
+
+  "jsonld_haspart": [
+    { "@type": "Message", "name": "Brouillon du 15 novembre 1944", "dateSent": "1944-11-15", "sender": "Claude Saint-Léger", "recipient": "Rheims", "url": "#l-1944-11-15-a" },
+    { "@type": "Message", "name": "Deuxième brouillon, sans date", "sender": "Claude Saint-Léger", "recipient": "Rheims", "url": "#l-1944-11-15-b" },
+    { "@type": "Message", "name": "Troisième brouillon, sans date", "sender": "Claude Saint-Léger", "recipient": "Commissaire non nommé", "url": "#l-1944-11-15-c" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Trois brouillons autographes de Claude Saint-Léger (1897-1944), commandant, chef des officiers de liaison français auprès des Lines of Communication britanniques à Amiens depuis le 15 octobre 1944. Le 15 novembre 1944 il demande à Rheims, chef de la Section militaire de liaison auprès du Délégué aux relations interalliées, de lui trouver un remplaçant. Motif constant des trois textes : ancien administrateur délégué des Établissements Agache de Pérenchies, il refuse de mêler sa vie militaire à des questions touchant l'industrie linière et textile du Nord, qui est dans sa zone. Il envisage l'organisation des prisonniers de guerre pour l'Allemagne ou un bataillon de F.F.I. dans l'Est. Il est tué le 14 décembre 1944.",
+
+    "facts": [
+      "Le premier brouillon, daté du 15 novembre 1944, demande à Rheims de trouver un remplaçant au poste de chef des officiers de liaison des Lines of Communication.",
+      "Claude Saint-Léger y écrit avoir refusé le poste de Lille, et que deux voyages récents dans le Nord l'ont convaincu qu'il avait eu raison.",
+      "Il rappelle avoir abandonné toute rémunération des Établissements Agache à partir du 1er octobre 1944.",
+      "Un passage biffé, repris après la signature, envisage de rejoindre l'organisation des prisonniers de guerre pour l'Allemagne, où il pense avoir une priorité comme ancien prisonnier, de permuter avec un officier d'un colonel dont le nom se lit de Rottenal, ou d'entrer dans un bataillon de F.F.I. dans l'Est.",
+      "Il indique avoir parlé de ce projet au capitaine Danon huit jours plus tôt, soit vers le 7 novembre 1944.",
+      "Le deuxième brouillon rappelle qu'il avait insisté auprès du colonel Lion et de Rheims pour ne pas recevoir le poste d'officier de liaison administrative des affaires civiles dans le Nord.",
+      "Il y cite l'industrie linière parmi les questions relevant des services de M. Coulet et des relations franco-alliées, en notant que les affaires de sa famille sont intéressées par ces services.",
+      "Il y écrit être entré volontairement dans l'armée deux fois pendant cette guerre, parce que pour un industriel il n'y avait que dans l'armée qu'on avait une situation nette.",
+      "Le troisième brouillon, adressé à un commissaire non nommé, est écrit sur du papier à en-tête imprimé Préfecture de la Somme, Secrétariat général, État français.",
+      "Il y déclare avoir été l'un des deux administrateurs délégués des Établissements Agache de Pérenchies avant la guerre.",
+      "Il s'y propose de faire un rapport sur la situation morale et matérielle de l'industrie textile dans le Nord."
+    ],
+
+    "periode": "octobre-décembre 1944",
+    "geographie": "Amiens, Somme, Lille, Nord, Pas-de-Calais, Pérenchies, Allemagne",
+    "themes": ["Libération", "Mission militaire de liaison administrative", "Lines of Communication", "conflit d'intérêts", "patronat textile du Nord", "prisonniers de guerre", "Établissements Agache"],
+
+    "fiabilite": "Brouillons autographes, sources primaires contemporaines des faits. Recoupements internes au fonds : note n° 79 du 14 octobre 1944 signée Rheims, lettres de régularisation des comptes Agache des 8 et 15 novembre 1944, brouillon d'octobre 1944, lettre de condoléances du commandant Darnay du 22 décembre 1944, journal de marche du 223 Civil Affairs Detachment (TNA WO 171/3587). Recoupement externe pour les fonctions de François Coulet, commissaire aux liaisons interalliées. Deux des trois brouillons ne sont pas datés et le destinataire du troisième n'est pas identifié.",
+
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}
