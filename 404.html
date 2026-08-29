@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Erreur 404</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPY5DZ4740"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YPY5DZ4740');
+    </script>
+    <meta name="description" content="Site de généalogie consacré à la famille Saint-Léger et aux familles apparentées.">
+    <meta name="keywords" content="généalogie, famille Saint-Léger, arbre généalogique, histoire familiale, ancêtres">
+    <meta name="author" content="Arnaud Saint-Léger">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Généalogie de la famille Saint-Léger">
+    <meta property="og:description" content="Site de généalogie consacré à la famille Saint-Léger et aux familles apparentées.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://saintleger.org">
+    
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="stylesheet" href="/css/style.css?v=1">
+</head>
+<body>
+<header>
+  <a href="/index.html" style="color: inherit; text-decoration: none;">
+    <h1>Famille Saint-Léger / Wattinne</h1>
+    <p>Site de généalogie familiale</p>
+  </a>
+</header>
+<nav>
+    <a id="menu-recits" class="menu-item" href="/recits/index.html">📘 Récits</a>
+    <a id="menu-photos" class="menu-item" href="/photos/index.html">📷 Photos</a>
+    <a id="menu-arbres" class="menu-item" href="/arbres/index.html">🌳 Arbres</a>
+    <a id="menu-individus" class="menu-item" href="/individus/index.html">👤 Individus</a>
+</nav>
+<h1>Aie, erreur 404 – Page introuvable</h1>
+<p>Cette page a été déplacée. <a id="new-url-link" href="/index.html">Accéder à la nouvelle page</a></p>
+<p>Redirection automatique si la page a été renommée...</p>
+<p>Sinon, vous serez redirigé vers l'accueil dans 5 secondes.</p>
+<footer>
+    © 2025 Arnaud Saint-Léger - Usage familial et privé -
+    <span id="email-contact">Contact</span> - 
+    <a href="/infos.html">Infos</a>
+</footer>
+<script>
+(function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return;
+    const email = "arnaudsaintleger@gmail.com";
+    const link = document.createElement("a");
+    link.href = "mailto:" + email;
+    link.textContent = "Contact";
+    el.replaceWith(link);
+})();
+
+(function() {
+    const path = decodeURIComponent(window.location.pathname).replace(/^\/+/, '');
+    console.log("URL demandée :", path);
+    fetch('/mapping.json')
+        .then(res => res.json())
+        .then(mapping => {
+            const target = mapping[path];
+            console.log("Correspondance :", target);
+            if (target) {
+                // 1. Canonical → indique à Google la vraie URL à indexer
+                const canonical = document.createElement('link');
+                canonical.rel = 'canonical';
+                canonical.href = 'https://saintleger.org/' + target;
+                document.head.appendChild(canonical);
+
+                // 2. Meta refresh → redirection comprise par Googlebot sans JS
+                const refresh = document.createElement('meta');
+                refresh.httpEquiv = 'refresh';
+                refresh.content = '0;url=/' + target;
+                document.head.appendChild(refresh);
+
+                // 3. Lien visible dans le body → crawlable sans JS
+                const link = document.getElementById('new-url-link');
+                if (link) link.href = '/' + target;
+
+                // 4. Redirection JS immédiate
+                window.location.replace('/' + target);
+            } else {
+                setTimeout(() => { window.location.href = '/index.html'; }, 5000);
+            }
+        })
+        .catch(err => {
+            console.error('Erreur chargement mapping.json', err);
+            setTimeout(() => { window.location.href = '/index.html'; }, 5000);
+        });
+})();
+</script>
+</body>
+</html>

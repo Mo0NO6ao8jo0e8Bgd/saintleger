@@ -1,0 +1,13 @@
+{
+  "type": "LandmarksOrHistoricalBuildings",
+  "name": "Filature d'Auchy-lès-Hesdin",
+  "city": "Auchy-lès-Hesdin",
+  "country": "FR",
+  "address": "Rue de la Place, 62770 Auchy-lès-Hesdin",
+  "latitude": 50.3991,
+  "longitude": 2.1018,
+  "wikidata": "Q138819238",
+  "description": "Ancienne filature et retorderie de coton installée dans les bâtiments d'une abbaye bénédictine du XIe siècle. Fondée en 1805 par l'économiste Jean-Baptiste Say, rachetée en 1859 par Louis Joseph Wattinne-Bossut, arrière-arrière-grand-père d'Agnès Wattinne. Dirigée 130 ans par la famille Wattinne-Bossut, jusqu'à sa fermeture en 1989. Le site comprend l'église abbatiale, la cheminée de 42 mètres, les ateliers de 1881, 1902 et 1930, le Château Blanc et le parc de 6 hectares ouvert au public.",
+  "startDate": "1805",
+  "endDate": "1989"
+}

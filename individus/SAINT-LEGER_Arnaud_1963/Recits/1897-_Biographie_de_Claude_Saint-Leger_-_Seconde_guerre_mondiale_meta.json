@@ -1,0 +1,83 @@
+{
+  "_commentaire": "Fichier de métadonnées SEO pour la page HTML du même nom. Lu par metadata.sh lors de la compilation.",
+
+  "titre": "Claude Saint-Léger (1897–1944) — La Seconde Guerre mondiale : de Dunkerque à la nuit du brouillard",
+
+  "description": "En 1939, Claude Saint-Léger s'engage volontairement malgré ses cinq enfants. Prisonnier à l'Oflag VIII-A en Silésie, il refuse la libération conditionnée à la remise en marche de ses usines pour l'occupant. En 1942, il rejoint de Gaulle en Algérie, débarque à Ouistreham le 17 juin 1944 et meurt le 14 décembre, dans le brouillard entre Amiens et Arras.",
+
+  "keywords": "Claude Saint-Léger, Agnès Wattinne, René Descamps, Donat Agache, Max Descamps, commandant Darnay, de Gaulle, Seconde Guerre mondiale, Dunkerque, Mardyck, Oflag VIII-A, Silésie, Vichy, Scapini, opération Torch, Algérie, Wimbledon, débarquement de Normandie, Ouistreham, 8e Corps Blindé Britannique, Bény-Bocage, Mission de Liaison Franco-Britannique, Lines of Communication, Amiens, Croix de Guerre avec palme, Légion d'honneur, Médaille des Évadés, Croisé-Laroche, défense anti-aérienne, Lille, Nord, Pas-de-Calais, Établissements Agache, Pérenchies, 1940, 1944, biographie militaire, généalogie",
+
+  "og_image": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Photos/photo_en_commandant_web.jpg",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laisser vide si image trop petite (Google exige min. 1200×800 px). Le HTML contient une photo de Claude en commandant et une photo de groupe à l'Oflag VIII-A — à vérifier en haute résolution.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-04-13",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/Individus/SAINT-LEGER_Arnaud_1963/Recits/1897-_Biographie_de_Claude_Saint-Leger_-_Seconde_guerre_mondiale.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "Claude Saint-Léger",   "birthDate": "1897", "deathDate": "1944" },
+    { "@type": "Person", "name": "Agnès Wattinne",       "birthDate": "1904", "deathDate": "1993" },
+    { "@type": "Person", "name": "René Descamps" },
+    { "@type": "Person", "name": "Donat Agache" },
+    { "@type": "Person", "name": "Max Descamps" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place", "name": "Dunkerque" },
+    { "@type": "Place", "name": "Mardyck" },
+    { "@type": "Place", "name": "Silésie (Pologne)" },
+    { "@type": "Place", "name": "Oflag VIII-A" },
+    { "@type": "Place", "name": "Algérie" },
+    { "@type": "Place", "name": "Wimbledon (Angleterre)" },
+    { "@type": "Place", "name": "Ouistreham" },
+    { "@type": "Place", "name": "Bény-Bocage" },
+    { "@type": "Place", "name": "Amiens" },
+    { "@type": "Place", "name": "Croisé-Laroche" },
+    { "@type": "Place", "name": "Pérenchies" },
+    { "@type": "Place", "name": "Lille" },
+    { "@type": "Organization", "name": "8e Corps Blindé Britannique" },
+    { "@type": "Organization", "name": "Mission de Liaison Franco-Britannique des Lines of Communication" },
+    { "@type": "Organization", "name": "Établissements Agache" },
+    { "@type": "Event", "name": "Opération Dynamo — Dunkerque", "startDate": "1940-05" },
+    { "@type": "Event", "name": "Opération Torch", "startDate": "1942-11-08" },
+    { "@type": "Event", "name": "Débarquement en Normandie", "startDate": "1944-06-06" },
+    { "@type": "Event", "name": "Libération de Paris", "startDate": "1944-08-25" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Troisième et dernier volet de la biographie de Claude Saint-Léger (1897–1944), rédigé par Arnaud Saint-Léger (2026) d'après les mémoires d'Agnès (Anny) Wattinne, la lettre du commandant Darnay et les documents militaires. En décembre 1939, Claude s'engage volontairement dans la Défense Anti-aérienne du Territoire de Lille (DAT) au Croisé-Laroche, commandant quarante hommes, alors qu'en tant que père de cinq enfants et patron industriel il n'était pas mobilisable. Après la débâcle de mai 1940, il tente de rejoindre l'Angleterre depuis Dunkerque (dix heures en mer), échoue et est fait prisonnier à Mardyck. Ramené à Lille, il refuse une libération conditionnée à la remise en marche de ses usines pour l'occupant. Interné à l'Oflag VIII-A en Silésie (matricule 25190), il devient champion d'échecs et président de l'association 'Enfants du Nord'. Libéré en octobre 1941 au titre d'ancien combattant 14-18 (décision du Führer sollicitée par l'ambassadeur Scapini). Revenu à Lille, il gère les Établissements Agache sous l'Occupation. En novembre 1942, en voyage d'affaires en Algérie, il est surpris par le débarquement allié (opération Torch, 8 novembre) et choisit de rallier de Gaulle. D'abord chargé de mission au gouvernement général et secrétaire général du comité du textile, il s'engage volontairement dans l'armée en août 1943 (caserne d'Orléans d'Alger, Zouaves). Fin janvier 1944 à Wimbledon, puis il débarque à Ouistreham le 17 juin 1944, rattaché au 8e Corps Blindé Britannique comme officier de liaison. Il est cité pour avoir mené l'évacuation de civils sous le feu lors des combats de Bény-Bocage. Après la libération de Paris (25 août), il est nommé chef de la Mission de Liaison Franco-Britannique des Lines of Communication à Amiens, renonce à tout salaire chez Agache à partir du 1er octobre 1944. Le 14 décembre 1944, il percute de face un camion anglais dans le brouillard entre Amiens et Arras et meurt à 47 ans. Le 13 mars 1945, de Gaulle lui décerne à titre posthume la Croix de Guerre avec palme (Journal officiel du 19 avril 1945). Ses décorations : Croix de Guerre 14-18 avec palme, Chevalier de la Légion d'honneur, Croix de Guerre 39-45 avec palme et trois étoiles de bronze, Médaille des Évadés 14-18.",
+
+    "facts": [
+      "En décembre 1939, Claude s'engage volontairement dans la Défense Anti-aérienne du Territoire de Lille (DAT) au Croisé-Laroche, commandant quarante hommes, sans y être obligé en tant que père de famille nombreuse et patron industriel",
+      "En mai-juin 1940, après la débâcle, il tente de rejoindre l'Angleterre depuis Dunkerque (dix heures en mer), échoue et est fait prisonnier à Mardyck",
+      "Il refuse une libération anticipée conditionnée à la remise en marche de ses usines pour l'occupant",
+      "Interné à l'Oflag VIII-A en Silésie (matricule 25190), il devient champion d'échecs et président de l'association des prisonniers 'Enfants du Nord'",
+      "Il est libéré en octobre 1941 au titre d'ancien combattant 14-18, suivant une décision du Führer sollicitée par l'ambassadeur français Scapini",
+      "Le 8 novembre 1942, surpris par le débarquement allié en Algérie (opération Torch), il choisit de rallier de Gaulle plutôt que de rentrer à Lille",
+      "En août 1943, il s'engage volontairement dans l'armée à Alger (caserne d'Orléans, Zouaves) ; fin janvier 1944, il est envoyé à Wimbledon (Angleterre)",
+      "Le 17 juin 1944, il débarque à Ouistreham, rattaché au 8e Corps Blindé Britannique comme officier de liaison ; il est cité pour avoir mené l'évacuation de civils sous le feu lors des combats de Bény-Bocage",
+      "Après la libération de Paris (25 août 1944), il est nommé chef de la Mission de Liaison Franco-Britannique des Lines of Communication à Amiens ; il renonce à tout salaire chez Agache à partir du 1er octobre 1944",
+      "Le 14 décembre 1944, en service commandé, il percute de face un camion anglais dans le brouillard entre Amiens et Arras ; seul tué de l'accident, il meurt à 47 ans",
+      "Le 13 mars 1945, de Gaulle lui décerne à titre posthume la Croix de Guerre avec palme, publiée au Journal officiel du 19 avril 1945",
+      "Ses décorations : Croix de Guerre 14-18 avec palme, Chevalier de la Légion d'honneur, Croix de Guerre 39-45 avec palme et trois étoiles de bronze, Médaille des Évadés 14-18"
+    ],
+
+    "periode": "1939–1944 (troisième volet biographique de Claude Saint-Léger)",
+    "geographie": "Lille, Croisé-Laroche, Dunkerque, Mardyck, Silésie, Algérie (Alger), Wimbledon (Angleterre), Ouistreham, Bény-Bocage, Amiens, Arras, Paris, Nord de la France",
+    "themes": ["généalogie", "biographie militaire", "Seconde Guerre mondiale", "Dunkerque", "prisonnier de guerre", "Oflag", "Résistance", "Forces françaises libres", "de Gaulle", "débarquement de Normandie", "libération de la France", "industry textile", "Établissements Agache", "Nord de la France", "XXe siècle"],
+    "fiabilite": "Sources primaires : mémoires d'Agnès (Anny) Wattinne (Anny et Claude Saint-Léger par Agnès) ; lettre de Claude à sa famille (7 décembre 1939) ; demande de libération (22 mars 1941) ; document de libération de la Kommandantur d'Amiens (15 octobre 1941) ; correspondances de Londres (février 1944) ; documents Amiens (août 1944) ; états de service militaire (15 décembre 1944) ; lettre de condoléances du commandant Darnay, LOC (22 décembre 1944) ; Croix de Guerre avec palme signée de Gaulle (13 mars 1945) ; Journal officiel du 19 avril 1945.",
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}

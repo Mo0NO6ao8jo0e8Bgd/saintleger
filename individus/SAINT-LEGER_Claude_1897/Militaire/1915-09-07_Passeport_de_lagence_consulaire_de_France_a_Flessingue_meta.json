@@ -1,0 +1,77 @@
+{
+  "_commentaire": "Fichier de métadonnées SEO pour la page HTML du même nom. Lu par metadata.sh lors de la compilation. Page de pièce isolée, recto et verso réunis : pas de jsonld_haspart. Le fac-similé 1915-09-07_Passeport_de_lagence_consulaire_de_France_a_Flessingue_web.pdf est détecté automatiquement s'il est déposé à côté.",
+
+  "titre": "Passeport de l'agence consulaire de France à Flessingue, 7 septembre 1915",
+
+  "description": "Sorti de Belgique à la nage deux jours plus tôt, Claude Saint-Léger (1897-1944) obtient à Flessingue un passeport que six visas mènent de Tilbury à Folkestone, puis au débarquement obligatoire de Dieppe, le 10 septembre 1915.",
+
+  "keywords": "Claude Saint-Léger, Saint-Léger, Maxime Descamps, Descamps, évasion de Lille, évadés de guerre, passeport 1915, agence consulaire de France, Flessingue, Vlissingen, consulat britannique de Flessingue, visa consulaire, N. C. Hesse, Tilbury, Folkestone, Douvres, Dieppe, commissariat spécial, zone des armées, instruction du 3 mars 1915, contrôle des voyageurs, régions envahies, Hollande neutre, canal de Gand à Terneuzen, Gand, Lille, Paris, Hinges, Stoomvaart Maatschappij Zeeland, Première Guerre mondiale, archives familiales, Nord, Pas-de-Calais, Seine-Inférieure, XXe siècle",
+
+  "og_image": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Photos/1915-09-22_Retour_en_France_apres_evasion_web.jpeg",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laisser vide si image trop petite (Google exige min. 1200×800 px). Si renseigné, sera injecté dans le bloc JSON-LD Article.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-08-25",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Militaire/1915-09-07_Passeport_de_lagence_consulaire_de_France_a_Flessingue.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "Claude Adolphe Georges Saint-Léger", "birthDate": "1897-03-24", "deathDate": "1944-12-14", "sameAs": "https://www.wikidata.org/entity/Q138819799" },
+    { "@type": "Person", "name": "Maxime Edmond Joseph Descamps",      "birthDate": "1897-01-12", "deathDate": "1953-11-22" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place",        "name": "Flessingue (Vlissingen)" },
+    { "@type": "Place",        "name": "Tilbury" },
+    { "@type": "Place",        "name": "Folkestone" },
+    { "@type": "Place",        "name": "Douvres" },
+    { "@type": "Place",        "name": "Dieppe" },
+    { "@type": "Place",        "name": "Lille" },
+    { "@type": "Place",        "name": "Gand" },
+    { "@type": "Place",        "name": "Paris" },
+    { "@type": "Organization", "name": "Agence consulaire de France à Flessingue" },
+    { "@type": "Organization", "name": "Consulat britannique de Flessingue" },
+    { "@type": "Organization", "name": "Vice-consulat de France à Douvres et Folkestone" },
+    { "@type": "Organization", "name": "Commissariat spécial de Dieppe" },
+    { "@type": "Organization", "name": "Stoomvaart Maatschappij Zeeland" },
+    { "@type": "Thing",        "name": "Instruction ministérielle du 3 mars 1915 sur l'entrée en France" },
+    { "@type": "Thing",        "name": "Zone des armées" },
+    { "@type": "Thing",        "name": "Canal de Gand à Terneuzen" },
+    { "@type": "Thing",        "name": "Évasion de Lille du 23 août 1915" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Transcription du recto et du verso du passeport n° 1101 délivré le 7 septembre 1915 à Claude Saint-Léger (1897-1944) par l'agence consulaire de France à Flessingue, aux Pays-Bas. Évadé de Lille occupée le 23 août 1915 avec son cousin Maxime Descamps (1897-1953), il a franchi le canal de Gand à Terneuzen à la nage le 5 septembre. Le recto est une recommandation du vice-consul aux autorités anglaises et françaises, assortie d'un cachet rouge excluant la zone des armées. Le verso porte six mentions administratives échelonnées sur quatre jours, du visa britannique de Flessingue le 7 septembre au cachet de débarquement du commissariat spécial de Dieppe le 10. La pièce confirme, par des documents officiels, l'itinéraire que le carnet d'évasion raconte au jour le jour.",
+
+    "facts": [
+      "Le passeport n° 1101 de l'agence consulaire de France à Flessingue, daté du 7 septembre 1915, nomme Claude Adolphe Saint-Léger, né le 24 mars 1897 à Lille, et porte sa photographie",
+      "Le vice-consul y prie les autorités anglaises et françaises de faciliter le passage du porteur, qui se rend de Flessingue en France via l'Angleterre",
+      "Un cachet rouge bilingue précise que le passeport n'est pas valable pour la zone des armées",
+      "Le consulat britannique de Flessingue vise la pièce le même 7 septembre 1915, le porteur déclarant vouloir gagner le Royaume-Uni afin de se rendre en France",
+      "Le visa britannique, délivré gratuitement, ne vaut que pour le voyage en cours et que trois jours francs à compter de sa délivrance, ce qui borne le départ de Flessingue",
+      "Un cachet Tilbury Cancelled du 8 septembre 1915 atteste le débarquement en Angleterre, la liaison maritime de Flessingue ayant été reportée sur Tilbury à l'entrée en guerre",
+      "Le 10 septembre 1915, la pièce reçoit à Folkestone le visa du commissaire de police délégué du G.O.C. puis celui du vice-consulat de France à Douvres et Folkestone",
+      "Le cachet du commissariat spécial de Dieppe porte la mention Débarquement au 10 septembre 1915, jour où le carnet d'évasion situe l'arrivée à Paris à 22 h",
+      "L'article 8 de l'instruction ministérielle du 3 mars 1915 n'autorise à débarquer qu'à Dieppe les voyageurs venant de Hollande, directement ou en transit par l'Angleterre, ainsi que ceux qui arrivent par mer d'une région occupée par l'ennemi",
+      "L'article 9 de la même instruction dirige sur les dépôts militaires les voyageurs venant des régions occupées astreints à des obligations militaires, ce qui est le cas de Claude Saint-Léger, âgé de dix-huit ans depuis mars 1915",
+      "Claude Saint-Léger circule sous son nom réel de la sortie de Belgique jusqu'aux pièces de la fin septembre 1915, l'alias de la Valette n'apparaissant dans ses papiers militaires qu'à partir de septembre 1916"
+    ],
+
+    "periode": "7 au 10 septembre 1915",
+    "geographie": "Flessingue (Pays-Bas), Tilbury, Folkestone et Douvres (Angleterre), Dieppe (Seine-Inférieure), Lille (Nord), Paris",
+    "themes": ["évasion des régions envahies", "Première Guerre mondiale", "contrôle des voyageurs et passeports", "consulats et administration de guerre", "évadés de Lille", "Hollande neutre", "archives familiales", "histoire du Nord de la France"],
+    "fiabilite": "Source primaire : archives familiales Saint-Léger, passeport n° 1101 délivré à Flessingue le 7 septembre 1915, recto et verso, transcrit par Arnaud Saint-Léger. Recoupements : carnet d'évasion de Lille du 23 août au 10 septembre 1915 (même fonds) ; instruction ministérielle du 3 mars 1915 réglant l'entrée en France, articles 5, 8 et 9 ; notice d'histoire de la Stoomvaart Maatschappij Zeeland pour le report du service de Flessingue sur Tilbury en 1914. La nature exacte du poste désigné par le sigle G.O.C. sur le cachet de Folkestone reste à préciser.",
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "_commentaire": "Fichier de métadonnées SEO pour la page HTML du même nom, lu par metadata.sh à la compilation.",
+
+  "titre": "Brouillon de lettre du commandant Saint-Léger, octobre ou novembre 1944",
+
+  "description": "Sept points sans date ni signature : 560 wagons bloqués à Lille, le minerai de Briey, quatre chauffeurs sans cartes. Le commandant Claude Saint-Léger (1897-1944) organise depuis Amiens la liaison auprès des Lines of Communication britanniques.",
+
+  "keywords": "Saint-Léger, Claude Saint-Léger, Closon, Coulet, Danon, Bucquet, Lefebvre, François Daniel, Amiens, Lille, Valenciennes, Briey, Bayeux, Somme, Nord, Pas-de-Calais, Oise, Lines of Communication, Mission militaire de liaison administrative, officier de liaison administrative, prises de guerre, prestations, minerai de fer, chemin de fer, ravitaillement, Libération, Seconde Guerre mondiale, 1944, XXe siècle",
+
+  "og_image": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Photos/mini_web.jpg",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laisser vide si image trop petite (Google exige min. 1200×800 px). Si renseigné, sera injecté dans le bloc JSON-LD Article.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-08-28",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Militaire/1944-10_Brouillon_de_lettre.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "Claude Adolphe Georges Saint-Léger", "birthDate": "1897-03-24", "deathDate": "1944-12-14", "sameAs": "https://www.wikidata.org/entity/Q138819799" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place", "name": "Amiens" },
+    { "@type": "Place", "name": "Lille" },
+    { "@type": "Place", "name": "Valenciennes" },
+    { "@type": "Place", "name": "Briey" },
+    { "@type": "Place", "name": "Bayeux" },
+    { "@type": "Place", "name": "Pas-de-Calais" },
+    { "@type": "Place", "name": "Somme" },
+    { "@type": "Place", "name": "Oise" },
+    { "@type": "Place", "name": "Nord" },
+    { "@type": "Organization", "name": "Lines of Communication" },
+    { "@type": "Organization", "name": "Mission militaire de liaison administrative" },
+    { "@type": "Organization", "name": "Royal Engineers" },
+    { "@type": "Organization", "name": "Navy, Army and Air Force Institutes" },
+    { "@type": "Organization", "name": "Forces françaises de l'intérieur" },
+    { "@type": "Thing", "name": "Libération de la France" },
+    { "@type": "Thing", "name": "Prestations et réquisitions en territoire libéré" },
+    { "@type": "Thing", "name": "Ravitaillement des armées alliées" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Brouillon de lettre manuscrit, un feuillet recto verso, sans date, sans en-tête et sans destinataire, de la main de Claude Adolphe Georges Saint-Léger (1897-1944), officier de liaison administrative assimilé commandant, en poste à Amiens. Sept points numérotés traitent des transports de minerai de fer entre Briey et Valenciennes, de 560 wagons bloqués à Lille par des prises de guerre, des prestations prélevées par des officiers américains dans le Nord, le Pas-de-Calais, la Somme et l'Oise, du recrutement d'une secrétaire, de véhicules de service et de quatre chauffeurs. La pièce est datée par son contenu d'octobre ou novembre 1944, entre la note du 14 octobre 1944 qui lui confie le commandement des officiers de liaison des Lines of Communication britanniques et sa mort accidentelle à Basseux le 14 décembre 1944.",
+
+    "facts": [
+      "Le brouillon ne porte ni date, ni en-tête, ni signature, ni nom de destinataire ; il est écrit au recto et au verso d'un feuillet unique.",
+      "Point 1 : une lettre de M. Closon à M. Coulet, établie d'accord avec Danon, demande d'augmenter les transports de minerai de fer entre Briey et Valenciennes ; un double doit être adressé au colonel de Rettival, qui aurait agi à l'état-major du général Bradley.",
+      "Point 2 : 560 wagons sont bloqués par des prises de guerre, la question se règle directement à Lille, les wagons devant être déchargés sous la direction des R.E. ; d'autres wagons non déchargés ont été signalés dans le Pas-de-Calais.",
+      "Point 3 : Claude Saint-Léger demande la liste des officiers américains habilités à prélever des prestations pour le Nord, le Pas-de-Calais, la Somme et l'Oise, par A.F.A. et sur le budget des Lines of Communication.",
+      "Point 4 : faute de crédits pour une dactylo civile, il demande qu'une femme mobilisée lui soit envoyée par le bureau du stage à Paris.",
+      "Point 6 : il demande une voiture en remplacement de sa Peugeot portant le numéro matricule G M P 00624, et une voiture pour le capitaine Bucquet.",
+      "Point 7 : François Daniel, chauffeur du commandant Saint-Léger, s'est engagé volontaire à Bayeux le 31 juillet 1944 ; trois autres chauffeurs sont ceux des capitaines de Chaur…, Bucquet et Lefebvre.",
+      "Francis-Louis Closon prend ses fonctions de commissaire régional de la République à Lille le 3 septembre 1944, ce qui fournit un terminus post quem à la pièce.",
+      "La note n° 79 du 14 octobre 1944 charge Claude Saint-Léger, à compter du 15 octobre, du commandement des officiers de liaison français auprès des Lines of Communication britanniques."
+    ],
+
+    "periode": "Octobre-novembre 1944",
+    "geographie": "Amiens, Lille, Valenciennes, Briey, Bayeux, Nord, Pas-de-Calais, Somme, Oise",
+    "themes": ["Libération de la France", "liaison franco-britannique", "Lines of Communication", "transports ferroviaires", "sidérurgie du Nord", "réquisitions et prestations", "Mission militaire de liaison administrative"],
+
+    "fiabilite": "Source primaire unique : le brouillon manuscrit lui-même, conservé dans les archives familiales. Recoupements internes au fonds : note n° 79 du 14 octobre 1944, lettre de condoléances du commandant Darnay du 22 décembre 1944, carnet d'officier de liaison d'août et septembre 1944, dossier de décès SHD Caen AC 21 P 148010. Recoupements externes : notices Francis-Louis Closon de l'Ordre de la Libération et de l'INSEE, étude d'André Meynier sur la transversale Valenciennes-Thionville. La datation est déduite du contenu et n'est pas portée par la pièce. Les sigles A.F.A. et A.A.F.I., le nom du colonel de Rettival et celui du capitaine de Chaur restent non résolus.",
+
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}

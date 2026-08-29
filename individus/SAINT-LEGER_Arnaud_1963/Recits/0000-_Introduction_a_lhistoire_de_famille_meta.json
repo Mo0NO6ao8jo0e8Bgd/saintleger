@@ -1,0 +1,72 @@
+{
+  "_commentaire": "Fichier de métadonnées SEO pour la page HTML du même nom. Lu par metadata.sh lors de la compilation.",
+
+  "titre": "Introduction à l'histoire de famille — Saint-Léger, Wattinne et leurs aïeuls",
+
+  "description": "Arnaud Saint-Léger ouvre les papiers de famille transmis sur 5 générations, de Philippe Saint-Léger — industriel lillois, survivant de la Révolution et fervent républicain — jusqu'à Claude et Anny Wattinne, ses grands-parents, et leurs cinq enfants. Un voyage dans le temps annoncé, étape par étape.",
+
+  "keywords": "Saint-Léger, Wattinne, Philippe Saint-Léger, Claude Saint-Léger, Anny Wattinne, André Saint-Léger, Georges Saint-Léger, Victor Saint-Léger, Marguerite Delemer, Amélie Longhaye, Clémence Mariage, Adélaïde Sapin, Pierre Bonte, Lille, Hermaville, Pecq, Belgique, château de Biez, Albert Ier, Révolution française, Napoléon, Restauration, industrie, généalogie, Nord, Pas-de-Calais, XIXe siècle, XXe siècle, Seconde Guerre mondiale, résistance",
+
+  "og_image": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963/Photos/mini_web.jpg",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laisser vide si image trop petite (Google exige min. 1200×800 px). Si renseigné, sera injecté dans le bloc JSON-LD Article.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-04-13",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/Individus/SAINT-LEGER_Arnaud_1963/Recits/0000-_Introduction_a_lhistoire_de_famille.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "Philippe Saint-Léger" },
+    { "@type": "Person", "name": "Adélaïde Sapin" },
+    { "@type": "Person", "name": "Victor Saint-Léger" },
+    { "@type": "Person", "name": "Clémence Mariage" },
+    { "@type": "Person", "name": "Georges Saint-Léger" },
+    { "@type": "Person", "name": "Amélie Longhaye" },
+    { "@type": "Person", "name": "André Saint-Léger" },
+    { "@type": "Person", "name": "Marguerite Delemer" },
+    { "@type": "Person", "name": "Claude Saint-Léger" },
+    { "@type": "Person", "name": "Agnès Wattinne", "birthDate": "1904", "deathDate": "1993" },
+    { "@type": "Person", "name": "Pierre Bonte" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place", "name": "Lille" },
+    { "@type": "Place", "name": "Hermaville" },
+    { "@type": "Place", "name": "Pecq" },
+    { "@type": "Place", "name": "Château de Biez" },
+    { "@type": "Event", "name": "Révolution française" },
+    { "@type": "Event", "name": "Première Guerre mondiale" },
+    { "@type": "Event", "name": "Seconde Guerre mondiale" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Texte d'introduction au projet généalogique d'Arnaud Saint-Léger, rédigé en 2025. L'auteur annonce un récit progressif remontant la lignée Saint-Léger depuis Claude Saint-Léger et Anny Wattinne (ses grands-parents, parents de Thérèse, Nicole, Francine, Denis et Chantal) jusqu'à Philippe Saint-Léger, industriel lillois (usine rue des Tours à Lille), acteur de la Révolution française, des guerres napoléoniennes et de la Restauration. La généalogie intermédiaire passe par Victor (fils de Philippe), Georges (fils de Victor, dont la mère Clémence Mariage est petite-fille du maire de Lille Pierre Bonte), André (fils de Georges, acquéreur du château de Hermaville, résistant de la Première Guerre mondiale) et Claude (fils d'André). L'auteur annonce également le récit de la branche Wattinne, notamment le château de Biez à Pecq (Belgique) et les liens avec Albert Ier, roi des Belges.",
+
+    "facts": [
+      "Philippe Saint-Léger, aïeul de l'auteur, a traversé la Révolution française, les guerres napoléoniennes et la Restauration, et a fondé une usine rue des Tours à Lille",
+      "La lignée directe compte 5 générations de Philippe à Claude Saint-Léger : Philippe → Victor → Georges → André → Claude",
+      "Victor Saint-Léger épouse Clémence Mariage, dont le grand-père Pierre Bonte a été maire de Lille",
+      "André Saint-Léger achète et revend le château de Hermaville ; il épouse Marguerite Delemer, résistante pendant la Première Guerre mondiale",
+      "Claude Saint-Léger épouse Anny (Agnès) Wattinne ; ils ont cinq enfants : Thérèse, Nicole, Francine, Denis et Chantal",
+      "Claude Saint-Léger, commandant, meurt à la fin de la Seconde Guerre mondiale, laissant Anny Wattinne seule avec cinq enfants âgés de 4 à 9 ans",
+      "Anny Wattinne et ses frères ont joué avec les enfants du roi des Belges Albert Ier ; son père a reconstruit le château de Biez à Pecq, en Belgique"
+    ],
+
+    "periode": "XVIIIe siècle – 1945 (avec extensions jusqu'en 2025)",
+    "geographie": "Lille, Hermaville, Pas-de-Calais, Nord de la France, Pecq (Belgique)",
+    "themes": ["généalogie", "histoire familiale", "industrie lilloise", "Révolution française", "guerres napoléoniennes", "Première Guerre mondiale", "Seconde Guerre mondiale", "résistance", "noblesse industrielle du Nord", "histoire de la Belgique"],
+    "fiabilite": "Sources familiales : papiers de famille transmis par la grand-mère de l'auteur, Agnès Wattinne ; témoignages oraux. Introduction rédigée par Arnaud Saint-Léger en 2025.",
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}

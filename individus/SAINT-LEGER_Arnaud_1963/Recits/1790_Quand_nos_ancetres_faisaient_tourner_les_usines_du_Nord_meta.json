@@ -1,0 +1,91 @@
+{
+  "_commentaire": "Fichier de métadonnées SEO pour la page HTML du même nom. Lu par metadata.sh lors de la compilation.",
+
+  "titre": "Quand nos ancêtres faisaient tourner les usines du Nord — Dynasties textiles de 1790 à 1989",
+
+  "description": "Des paysans fileurs flamands aux grands industriels : Bossut, Wattinne, Droulers, Prouvost, Bonte-Pollet, Longhaye, Ternynck. De la Filature Monstre (1843) aux Établissements Agache (futurs LVMH), l'histoire des familles de Claude et Agnès Saint-Léger au cœur du textile nordiste.",
+
+  "keywords": "Wattinne, Bossut, Droulers, Prouvost, Bonte-Pollet, Longhaye, Ternynck, Leplat, Lorthiois, Pollet, Saint-Léger, Claude Saint-Léger, Agnès Wattinne, André Saint-Léger, Georges Saint-Léger, Philippe Saint-Léger, Marguerite Delemer, Jean-Baptiste Bossut, Louis Wattinne, Pierre Joseph Droulers, Florentin Droulers, Amédée Prouvost, Jean Prouvost, Auguste Longhaye, Aimé Ternynck, Filature Monstre, Établissements Agache, Peignage Amédée Prouvost, Lainière de Roubaix, filature d'Auchy-lès-Hesdin, Pérenchies, Roubaix, Tourcoing, Lille, Wattrelos, Wasquehal, La Madeleine, LVMH, Bernard Arnault, Paris-Match, Marie-Claire, industrie textile, lin, laine, coton, spinning-jenny, proto-industrie, patronat catholique, Nord, Pas-de-Calais, XIXe siècle, XXe siècle, généalogie, Première Guerre mondiale, décolonisation, crise textile",
+
+  "og_image": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963/Recits/IMG/nos_branches/Filature_monstre.png",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laisser vide si image trop petite (Google exige min. 1200×800 px). Si renseigné, sera injecté dans le bloc JSON-LD Article.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-08-01",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963/Recits/1790_Quand_nos_ancetres_faisaient_tourner_les_usines_du_Nord.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "Philippe François Joseph Saint-Léger",  "birthDate": "1787", "deathDate": "1861" },
+    { "@type": "Person", "name": "Claude Saint-Léger",                    "birthDate": "1897", "deathDate": "1944" },
+    { "@type": "Person", "name": "André Saint-Léger",                     "birthDate": "1870", "deathDate": "1952" },
+    { "@type": "Person", "name": "Agnès Wattinne",                        "birthDate": "1904", "deathDate": "1993" },
+    { "@type": "Person", "name": "Jean-Baptiste Bossut",                  "birthDate": "1790", "deathDate": "1874" },
+    { "@type": "Person", "name": "Louis Joseph Wattinne",                 "birthDate": "1810", "deathDate": "1867" },
+    { "@type": "Person", "name": "Pierre Joseph Droulers",                "birthDate": "1768", "deathDate": "1844" },
+    { "@type": "Person", "name": "Florentin Droulers",                    "birthDate": "1799", "deathDate": "1864" },
+    { "@type": "Person", "name": "Charles Henri Droulers",                "birthDate": "1838", "deathDate": "1899" },
+    { "@type": "Person", "name": "Henri Prouvost",                        "birthDate": "1783", "deathDate": "1850" },
+    { "@type": "Person", "name": "Amédée Prouvost",                       "birthDate": "1820", "deathDate": "1885" },
+    { "@type": "Person", "name": "Joséphine Prouvost",                    "birthDate": "1845", "deathDate": "1919" },
+    { "@type": "Person", "name": "Pierre-Joseph Bonte-Pollet",            "birthDate": "1779", "deathDate": "1864" },
+    { "@type": "Person", "name": "Auguste Longhaye",                      "birthDate": "1812", "deathDate": "1878" },
+    { "@type": "Person", "name": "Aimé Ternynck",                         "birthDate": "1812", "deathDate": "1887" },
+    { "@type": "Person", "name": "Marguerite Delemer",                    "birthDate": "1876", "deathDate": "1953" },
+    { "@type": "Person", "name": "Jean Prouvost",                         "birthDate": "1885", "deathDate": "1978" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place", "name": "Roubaix" },
+    { "@type": "Place", "name": "Tourcoing" },
+    { "@type": "Place", "name": "Lille" },
+    { "@type": "Place", "name": "Pérenchies" },
+    { "@type": "Place", "name": "Auchy-lès-Hesdin" },
+    { "@type": "Place", "name": "Wattrelos" },
+    { "@type": "Place", "name": "La Madeleine" },
+    { "@type": "Organization", "name": "Filature Monstre de Roubaix" },
+    { "@type": "Organization", "name": "Établissements Agache" },
+    { "@type": "Organization", "name": "Peignage Amédée Prouvost" },
+    { "@type": "Organization", "name": "Lainière de Roubaix" },
+    { "@type": "Organization", "name": "Filature d'Auchy-lès-Hesdin" },
+    { "@type": "Organization", "name": "LVMH" },
+    { "@type": "Event", "name": "Grève textile du Nord de mai 1931" },
+    { "@type": "Event", "name": "Exposition Universelle de Chicago 1893" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Article panoramique d'Arnaud Saint-Léger présentant les grandes dynasties industrielles textiles dont descendent Claude Saint-Léger (1897–1944) et Agnès Wattinne (1904–1993). La famille se répartit sur trois filières : lin (Établissements Agache, où André puis Claude Saint-Léger siègent comme administrateurs et actionnaires minoritaires), laine (Peignage Amédée Prouvost 1851, Lainière de Roubaix 7 200 salariés, puis Paris-Match et Marie-Claire), coton (Filature Monstre 1843, filature d'Auchy-lès-Hesdin 130 ans de direction Wattinne, 1859–1989). Les familles couvertes sont : Bossut (Jean-Baptiste, maire de Roubaix, Légion d'honneur), Wattinne (Louis 1810–1867, co-fondateur Filature Monstre, négoce lainier mondial), Droulers (Pierre Joseph 1768–1844, et fils Florentin, co-fondateur d'Agache à Lille en 1828, branche collatérale), Prouvost (Amédée, peignage mécanique 1851 ; Jean Prouvost, Lainière et presse), Bonte-Pollet (Pierre-Joseph, maire de Lille, 167 844 voix à l'Assemblée constituante 1848), Longhaye (Auguste 1812–1878, industriel lillois, grand-père d'André Saint-Léger), Ternynck (Aimé 1812–1887, empire sucrier et filature laine Roubaix, Exposition Universelle Chicago 1893 ; usine bd de Fourmies = plus ancienne usine roubaisienne encore debout, reconvertie en Manufactures Tissel en 2024). En 1913, la région concentrait 90 % de la production française de lin et 40 % de la laine. L'effondrement : de 190 000 à 15 000 emplois textiles en trente ans ; Agache absorbé en 1967 par les frères Willot puis Bernard Arnault (futur LVMH) ; filature d'Auchy fermée en 1989 ; Lainière liquidée en 1999.",
+
+    "facts": [
+      "En 1913, la métropole lilloise concentre 90 % de la production française de lin et 40 % de la laine peignée",
+      "Roubaix passe de 8 000 habitants en 1800 à plus de 120 000 en 1900, grâce à l'industrie textile",
+      "Plus de 400 000 Belges migrent vers le Nord pour travailler dans les filatures au XIXe siècle",
+      "La Filature Monstre (1843) est co-fondée par Louis Motte, Louis Wattinne et Cavrois-Grimonprez, chacun apportant un tiers des 600 000 francs-or — la part de Motte provenant de la dot d'Adèle Bossut ; c'est la plus grande filature de coton de France à sa création",
+      "La filature d'Auchy-lès-Hesdin, installée dans une ancienne abbaye bénédictine, est dirigée sans interruption par la famille Wattinne pendant 130 ans (1859–1989)",
+      "Les Établissements Agache sont fondés à Lille en 1824-1828 par Donat Agache associé à Florentin Droulers ; l'usine de Pérenchies est rachetée en 1849 ; les associés se séparent vers 1870, Édouard Agache conservant Pérenchies et Charles Droulers l'usine de Lille ; André puis Claude Saint-Léger y siègent comme administrateurs et actionnaires minoritaires, Claude devenant administrateur-délégué en 1929 ; le site de Pérenchies, à 3 km des lignes de front, est entièrement détruit pendant la Grande Guerre et reconstruit à partir de 1919",
+      "Le Peignage Amédée Prouvost (1851) est l'un des premiers grands peignages mécaniques de France ; son descendant Jean Prouvost fonde la Lainière de Roubaix (7 200 salariés, plus grande filature d'Europe) puis Paris-Match, Marie-Claire, Cosmopolitan et Télé 7 Jours",
+      "En mai 1931, 114 500 ouvriers se mettent en grève dans la région après une baisse de salaires ; l'évêque de Lille tente de servir de médiateur",
+      "L'emploi textile dans la métropole lilloise chute de 190 000 à 15 000 en trente ans après 1945",
+      "Les Établissements Agache sont absorbés en 1967 par les frères Willot, puis passent sous le contrôle de Bernard Arnault, noyau du futur groupe LVMH",
+      "L'usine Ternynck du boulevard de Fourmies à Roubaix, construite avant 1894, est la plus ancienne usine roubaisienne encore debout ; reconvertie en 2024 en tiers-lieu sous le nom Manufactures Tissel",
+      "Marguerite Delemer, mère de Claude Saint-Léger, prend en charge la reconstruction de la Cité Marguerite Saint-Léger à Pérenchies après la Grande Guerre pour reloger les ouvriers"
+    ],
+
+    "periode": "1790–1989 (avec contexte jusqu'en 2025)",
+    "geographie": "Roubaix, Tourcoing, Lille, Pérenchies, Auchy-lès-Hesdin, Wattrelos, La Madeleine, Wasquehal, Flandre, Nord de la France",
+    "themes": ["généalogie", "industrie textile", "dynasties patronales", "lin", "laine", "coton", "filature", "peignage", "proto-industrie", "Révolution industrielle", "patronat catholique", "Première Guerre mondiale", "crise textile", "décolonisation", "histoire de Roubaix", "histoire du Nord de la France", "XIXe siècle", "XXe siècle"],
+    "fiabilite": "Synthèse rédigée par Arnaud Saint-Léger à partir des sources familiales (papiers d'Agnès Wattinne, mémoires d'André Saint-Léger 1947) et de sources historiques (histoirederoubaix.com, archives Agache, thierryprouvost.com). Article introductif d'une série ; chaque famille fera l'objet d'un épisode détaillé.",
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}

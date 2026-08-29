@@ -1,0 +1,13 @@
+{
+  "type": "LandmarksOrHistoricalBuildings",
+  "name": "Haras de Blingel",
+  "city": "Blingel",
+  "country": "FR",
+  "address": "7 Rue de l'Église, 62770 Blingel",
+  "wikidata": "Q138819238",
+  "latitude": 50.3820,
+  "longitude": 2.0640,
+  "description": "Haras fondé vers 1912-1913 par Gustave Louis René Wattinne-Desurmont (1863-1929), industriel roubaisien et copropriétaire de la filature de coton d'Auchy-lès-Hesdin, dans la vallée de la Ternoise. Construit en style néo-normand, le domaine comprenait 60 boxes, une piste d'entraînement, une étalonnerie et une centrale électrique autonome. Trois champions y naquirent : Marmouset (1914), Embry et Le Touquet, vainqueur du Grand Steeple-Chase de Paris en 1929. Exploité ensuite par René puis Michel Wattinne, le haras cessa son activité d'élevage en 2009 et fut reconverti en gîtes équestres en 2010.",
+  "startDate": "1912",
+  "endDate": "2009"
+}

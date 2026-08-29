@@ -1,0 +1,5 @@
+individu_id; nom_affiche; couleur; naissance; décès
+SAINT-LEGER Claude (1897); Claude Saint-Léger; #dceeff; 1897; 1944
+DELEMER Marguerite (1876); Marguerite Delemer; #ffeedc; 1876; 1953
+SAINT-LEGER Andre (1870); André Saint-Léger; #eeffdc; 1870; 1947
+WATTINNE Agnes (1904); Annie Wattinne; #eeddff; 1904; 1993

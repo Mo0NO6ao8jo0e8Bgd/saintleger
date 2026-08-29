@@ -1,0 +1,12 @@
+{
+  "type": "LandmarksOrHistoricalBuildings",
+  "name": "Hôtel Crépy Saint-Léger",
+  "city": "Lille",
+  "country": "FR",
+  "address": "77 rue Royale, 59000 Lille",
+  "latitude": 50.6388,
+  "longitude": 3.0612,
+  "description": "Hôtel particulier de la famille Saint-Léger situé au 77 rue Royale à Lille, demeure bourgeoise du XIXe siècle.",
+  "startDate": "1850",
+  "endDate": ""
+}

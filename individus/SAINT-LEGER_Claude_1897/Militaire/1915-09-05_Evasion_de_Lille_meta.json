@@ -1,0 +1,102 @@
+{
+  "_commentaire": "Fichier de métadonnées SEO pour la page HTML du même nom. Lu par metadata.sh lors de la compilation. Page de type récit, placée dans Militaire/ et non dans Recits/ : vérifier que le script balaie bien ce dossier. Pas de jsonld_haspart, réservé aux séries de lettres.",
+
+  "titre": "Août-septembre 1915 — Évasion de Lille, passage du canal de Gand à Terneuzen et renseignements livrés à l'armée britannique",
+
+  "description": "Claude Saint-Léger (1897-1944) quitte Lille occupée le 23 août 1915 avec, dans la tête, les positions des batteries allemandes. Treize jours de fuite, un canal passé à la nage, puis Hinges, quartier général britannique, la veille de Loos.",
+
+  "keywords": "Claude Saint-Léger, Saint-Léger, Max Descamps, Maxime Descamps, Descamps, Marguerite Delemer, Delemer, Jacques Barrois, Barrois, général Huguet, évasion de Lille, Lille occupée, régions envahies, carnet d'évasion 1915, faux passeports, passeurs, clôture électrifiée, Dodendraad, fil de la mort, canal de Gand à Terneuzen, frontière belgo-hollandaise, Mouscron, Tournai, Bruxelles, Alost, Gand, Melle, Bassevelde, Terneuzen, Flessingue, Tilbury, Folkestone, Bexhill, Dieppe, Paris, Versailles, Saint-Germain-en-Laye, Saint-Omer, Hinges, Marquillies, Calais, Belgique occupée, Hollande, Pays-Bas, Angleterre, service de renseignement, mission militaire française attachée à l'armée britannique, 1re Armée britannique, bataille de Loos, 32e régiment de dragons, engagement volontaire, Première Guerre mondiale, Nord, Pas-de-Calais, XXe siècle",
+
+  "og_image": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Photos/1915-09-22_Retour_en_France_apres_evasion_web.jpeg",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laisser vide si image trop petite (Google exige min. 1200×800 px). Si renseigné, sera injecté dans le bloc JSON-LD Article.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-08-24",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Militaire/1915-09-05_Evasion_de_Lille.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "Claude Adolphe Georges Saint-Léger", "birthDate": "1897-03-24", "deathDate": "1944-12-14", "sameAs": "https://www.wikidata.org/entity/Q138819799" },
+    { "@type": "Person", "name": "Maxime Edmond Joseph Descamps",      "birthDate": "1897-01-12", "deathDate": "1953-11-22" },
+    { "@type": "Person", "name": "Marguerite Julie Delemer",            "birthDate": "1876-03-13", "deathDate": "1953-10-28", "sameAs": "https://www.wikidata.org/entity/Q141149261" },
+    { "@type": "Person", "name": "André Georges Saint-Léger",           "birthDate": "1870-09-29", "deathDate": "1952-08-25", "sameAs": "https://www.wikidata.org/entity/Q138819915" },
+    { "@type": "Person", "name": "Anne Marie Marguerite Saint-Léger",   "birthDate": "1898-08-15", "deathDate": "1985-06-27" },
+    { "@type": "Person", "name": "Philippe André Lucien Saint-Léger",   "birthDate": "1904-03-12", "deathDate": "1992-12-26" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place",        "name": "Lille" },
+    { "@type": "Place",        "name": "Mouscron" },
+    { "@type": "Place",        "name": "Tournai" },
+    { "@type": "Place",        "name": "Bruxelles" },
+    { "@type": "Place",        "name": "Alost" },
+    { "@type": "Place",        "name": "Gand" },
+    { "@type": "Place",        "name": "Melle" },
+    { "@type": "Place",        "name": "Bassevelde" },
+    { "@type": "Place",        "name": "Terneuzen" },
+    { "@type": "Place",        "name": "Flessingue" },
+    { "@type": "Place",        "name": "Tilbury" },
+    { "@type": "Place",        "name": "Folkestone" },
+    { "@type": "Place",        "name": "Bexhill" },
+    { "@type": "Place",        "name": "Dieppe" },
+    { "@type": "Place",        "name": "Paris" },
+    { "@type": "Place",        "name": "Versailles" },
+    { "@type": "Place",        "name": "Saint-Germain-en-Laye" },
+    { "@type": "Place",        "name": "Saint-Omer" },
+    { "@type": "Place",        "name": "Hinges" },
+    { "@type": "Place",        "name": "Marquillies" },
+    { "@type": "Organization", "name": "Mission militaire française attachée à l'armée britannique" },
+    { "@type": "Organization", "name": "Agence consulaire de France à Flessingue" },
+    { "@type": "Organization", "name": "Intelligence Section, General Staff, British General Headquarters" },
+    { "@type": "Organization", "name": "1re Armée britannique" },
+    { "@type": "Organization", "name": "32e régiment de dragons" },
+    { "@type": "Thing",        "name": "Canal de Gand à Terneuzen" },
+    { "@type": "Thing",        "name": "Clôture électrifiée de la frontière belgo-hollandaise (Dodendraad)" },
+    { "@type": "Thing",        "name": "Occupation allemande de Lille et des régions envahies" },
+    { "@type": "Thing",        "name": "Bataille de Loos (25 septembre 1915)" },
+    { "@type": "Thing",        "name": "Répression allemande de l'espionnage en Belgique occupée (Tir national de Bruxelles, 1915)" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Édition annotée du carnet d'évasion de Claude Saint-Léger (1897-1944), tenu du 23 août au 14 septembre 1915, augmentée de deux lettres à sa mère Marguerite Delemer (1876-1953) et de huit pièces officielles de septembre 1915. Âgé de dix-huit ans, Claude quitte Lille occupée le 23 août 1915 à 4 h avec son cousin Maxime Descamps (1897-1953), sous de faux passeports, et gagne Gand par Mouscron, Tournai, Bruxelles et Alost. Trois tentatives de passage échouent ou aboutissent : abandon devant Bassevelde le 1er septembre, arrêt devant la clôture électrifiée le 3, traversée du canal de Gand à Terneuzen à la nage le dimanche 5 septembre au soir. Passeport consulaire à Flessingue le 7 septembre, Tilbury le 8, Dieppe et Paris le 10. Il a quitté Lille en emportant de mémoire les tranchées et les emplacements des batteries allemandes, ce qui l'exposait non aux travaux forcés mais à l'exécution pour espionnage. Du 12 au 24 septembre, ces renseignements remontent, par l'intermédiaire de J. Barrois, jusqu'au général Huguet puis au quartier général avancé de la 1re Armée britannique, à Hinges, la veille de la bataille de Loos.",
+
+    "facts": [
+      "Claude Adolphe Georges Saint-Léger (1897-1944) quitte Lille occupée le 23 août 1915 à 4 h du matin avec son cousin Maxime Descamps (1897-1953), tous deux munis de faux passeports",
+      "Son faux passeport porte 1 m 57 au lieu de 1 m 72 et quinze ans au lieu de dix-huit, les chiffres ayant été corrigés de façon visible et la photographie posée sous un faux cachet",
+      "L'itinéraire suit Mouscron, Pecq, Tournai, Bruxelles, Alost puis Gand, atteint le 25 août 1915, une partie du trajet étant faite à pied",
+      "Le 26 août 1915, le passeur mouscronnais annonce à Gand que tous les moyens de passage ont sauté, la clôture électrifiée allemande de la frontière belgo-néerlandaise ayant été mise sous tension le 24 juillet 1915",
+      "Première tentative le 1er septembre 1915 : le passeur les quitte devant Bassevelde après leur avoir emprunté vingt francs et ne revient pas ; ils l'attendent toute la nuit sous la pluie et repartent vers Gand à 2 h",
+      "Deuxième tentative le 3 septembre 1915 : parvenus en rampant à cent mètres de la Hollande, ils butent sur une triple clôture de fils barbelés et de fils électriques, gardée par des guérites et des sentinelles tous les deux cents mètres",
+      "Le passage a lieu le dimanche 5 septembre 1915 au soir : partis à 20 h 30, les passeurs ayant refusé de les suivre, ils traversent le canal de Gand à Terneuzen à la nage, Claude se laissant couler pour laisser passer une patrouille allemande",
+      "La mention portée sur le pli de la lettre du 5 septembre, « Monsieur Claude est passé avec son cousin, dimanche soir », confirme la date par une source indépendante du carnet",
+      "Le 7 septembre 1915, l'agence consulaire de France à Flessingue lui délivre le passeport n° 1101 à son nom réel, Saint Léger, Claude, Adolphe, né le 24 mars 1897 à Lille",
+      "Cachets successifs du passeport : visa britannique de Flessingue le 7 septembre, Tilbury le 8, visa du consul de France à Folkestone et débarquement à Dieppe le 10 septembre 1915",
+      "Le 12 septembre 1915, J. Barrois, domicilié 4 rue Jacques Boyceau à Versailles, transmet ses renseignements à la Mission militaire française attachée à l'armée britannique",
+      "Le 21 septembre 1915, le général Huguet, chef de cette mission, répond par la lettre n° 6620 que l'état-major anglais souhaite des indications complémentaires et invite Claude à Saint-Omer, frais de voyage remboursés",
+      "Le 24 septembre 1915, un laissez-passer de la Section de renseignement du G.Q.G. britannique, valable pour cette seule journée, et le permis automobile n° 68 441 le conduisent au quartier général avancé de la 1re Armée britannique, à Hinges (Pas-de-Calais)",
+      "Hinges est le quartier général de la 1re Armée de Douglas Haig, qui déclenche la bataille de Loos le lendemain matin, 25 septembre 1915",
+      "Le sauf-conduit du 22 septembre 1915 le décrit ainsi : dix-huit ans, cheveux bruns, barbe rasée, porte des lunettes, profession étudiant, domicile 19 avenue Kléber à Paris",
+      "La citation du colonel de Barry (ordre du régiment n° 118, 6 avril 1917) porte au crédit de Claude des renseignements très précis sur les tranchées et l'emplacement des batteries allemandes devant Lille ; la citation de Max Descamps pour la même évasion, à l'ordre du 1er corps de cavalerie n° 112 du 15 août 1917, décrit Lille, le canal franchi à la nage, la Hollande et l'Angleterre, sans mentionner aucun renseignement",
+      "Le barème de risques que Claude dresse après le passage ne mentionne que les faux papiers et la zone frontière, jusqu'aux travaux forcés à perpétuité ; il ne mentionne pas l'espionnage, qui relevait de la cour martiale allemande",
+      "Le 23 septembre 1915, veille du jour où Claude est conduit à Hinges, Joseph Baekelmans et Alexandre Frank sont fusillés au Tir national de Bruxelles pour avoir travaillé au profit d'un service de renseignement britannique ; Edith Cavell et Philippe Baucq y sont fusillés le 12 octobre 1915",
+      "Claude s'engage volontairement au 32e régiment de dragons à Versailles le 20 octobre 1915, un mois après ces événements"
+    ],
+
+    "periode": "23 août - 24 septembre 1915",
+    "geographie": "Lille, Marquillies (Nord), Mouscron, Pecq, Tournai, Bruxelles, Alost, Gand, Melle, Bassevelde (Belgique occupée), Terneuzen, Flessingue (Pays-Bas), Tilbury, Folkestone, Bexhill (Angleterre), Dieppe, Paris, Versailles, Saint-Germain-en-Laye, Saint-Omer, Calais, Hinges (France)",
+    "themes": ["évasion de territoire occupé", "Première Guerre mondiale", "occupation allemande du Nord", "régions envahies", "clôture électrifiée belgo-néerlandaise", "passeurs et faux papiers", "renseignement militaire", "armée britannique en France", "carnet personnel", "correspondance de guerre", "généalogie", "histoire du Nord de la France"],
+    "fiabilite": "Source primaire : archives familiales Saint-Léger. Carnet d'évasion autographe du 23 août au 14 septembre 1915, deux lettres à Marguerite Delemer des 3 et 5 septembre 1915 avec la mention portée sur le pli, passeport consulaire n° 1101 de Flessingue et ses visas et cachets, lettres du général Huguet n° 6620 et n° 6232 D.E.S. du 21 septembre 1915, sauf-conduit de la préfecture de police du 22 septembre 1915, laissez-passer de l'Intelligence Section du G.Q.G. britannique et permis de circuler n° 68 441 du 24 septembre 1915. Recoupements : ordre du régiment n° 118 du colonel de Barry, 6 avril 1917, pour la date de l'évasion et le renseignement fourni ; données généalogiques familiales (GEDCOM) ; travaux d'Alex Vanneste sur la clôture électrifiée belgo-hollandaise ; The Long, Long Trail et The Western Front Association pour l'implantation du quartier général de la 1re Armée britannique à Hinges. Contexte externe au fonds : exécutions au Tir national de Bruxelles en 1915 (Baekelmans et Frank le 23 septembre, Cavell et Baucq le 12 octobre). Les blancs et les noms de lieux laissés incomplets dans le carnet sont conservés tels quels et n'ont pas été résolus. La distinction entre Claude et Max Descamps quant au renseignement repose sur la comparaison de leurs deux citations pour la même évasion, ordre du régiment n° 118 du 6 avril 1917 et ordre du 1er corps de cavalerie n° 112 du 15 août 1917 (livret militaire de Maxime Descamps). Christian Allègre, Frédéric, Marcelle et Desmedt restent non identifiés.",
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}

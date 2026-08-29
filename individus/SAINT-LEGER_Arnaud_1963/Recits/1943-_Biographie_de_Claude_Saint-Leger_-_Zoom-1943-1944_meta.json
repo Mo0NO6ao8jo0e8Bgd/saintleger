@@ -1,0 +1,81 @@
+{
+  "_commentaire": "Fichier de métadonnées SEO pour la page HTML du même nom. Lu par metadata.sh lors de la compilation.",
+
+  "titre": "Claude Saint-Léger — Zoom 1943–1944 : D'Alger à la Libération",
+
+  "description": "En août 1943, Claude Saint-Léger quitte son poste civil à Alger pour s'engager dans l'armée à 46 ans. Formé à Wimbledon au sein de la MMLA, il débarque à Ouistreham le 17 juin 1944, mène l'évacuation des civils au Bény-Bocage, refuse toute rémunération double, et meurt le 14 décembre dans le brouillard entre Amiens et Arras.",
+
+  "keywords": "Claude Saint-Léger, Anny Wattinne, René Descamps, Henri de Boislambert, commandant Clémenceau, Alphonse Motte, Paul Motte, MMLA, Mission militaire de liaison administrative, Civil Affairs, Lines of Communication, 8e Corps Blindé Britannique, Zouaves, Wimbledon, Southlands, Ouistreham, Bény-Bocage, bocage normand, Amiens, Lille, Arras, Seconde Guerre mondiale, débarquement de Normandie, Libération, épuration, Agache, Pérenchies, Croix de Guerre avec palme, de Gaulle, Journal officiel 1945, Mémoire des Hommes, base Léonore, Nord, Pas-de-Calais, 1943, 1944, biographie militaire, généalogie",
+
+  "og_image": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Photos/photo_en_commandant_web.jpg",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laisser vide si image trop petite (Google exige min. 1200×800 px). Si renseigné, sera injecté dans le bloc JSON-LD Article.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-04-15",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963/Recits/1943-_Biographie_de_Claude_Saint-Leger_-_Zoom-1943-1944.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "Claude Saint-Léger",          "birthDate": "1897", "deathDate": "1944" },
+    { "@type": "Person", "name": "Agnès Wattinne",              "birthDate": "1904", "deathDate": "1993" },
+    { "@type": "Person", "name": "René Descamps" },
+    { "@type": "Person", "name": "Henri de Boislambert" },
+    { "@type": "Person", "name": "Commandant Clémenceau" },
+    { "@type": "Person", "name": "Alphonse Motte" },
+    { "@type": "Person", "name": "Denis Saint-Léger",           "birthDate": "1935" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place", "name": "Ouistreham" },
+    { "@type": "Place", "name": "Bény-Bocage" },
+    { "@type": "Place", "name": "Amiens" },
+    { "@type": "Place", "name": "Wimbledon (Southlands, Parkside)" },
+    { "@type": "Place", "name": "Alger" },
+    { "@type": "Place", "name": "Lille" },
+    { "@type": "Place", "name": "Arras" },
+    { "@type": "Place", "name": "Pérenchies" },
+    { "@type": "Organization", "name": "Mission militaire de liaison administrative (MMLA)" },
+    { "@type": "Organization", "name": "8e Corps Blindé Britannique" },
+    { "@type": "Organization", "name": "Établissements Agache" },
+    { "@type": "Organization", "name": "Forces Françaises Libres" },
+    { "@type": "Thing", "name": "Croix de Guerre 1939–1945 avec palme" },
+    { "@type": "Thing", "name": "Débarquement de Normandie — 6 juin 1944" },
+    { "@type": "Thing", "name": "Libération de Lille — 3 septembre 1944" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Récit détaillé des dix-huit derniers mois de Claude Saint-Léger (1897–1944), rédigé par Arnaud Saint-Léger (2026) à partir des archives familiales et des sources militaires. En août 1943, Claude quitte volontairement un poste civil à Alger (secrétaire général du Comité d'organisation du textile) pour s'engager dans l'armée à 46 ans — incorporé le 13 novembre 1943 à la caserne d'Orléans d'Alger, auprès des Zouaves. Fin janvier 1944, il est envoyé à Southlands, Parkside, Wimbledon, pour suivre la formation de la Mission militaire de liaison administrative (MMLA) aux procédures Civil Affairs alliées, sous le commandement de Boislambert et du commandant Clémenceau (fils du Tigre). Nommé chef de mission L of C le 27 avril 1944, il embarque après le 6 juin et débarque à Ouistreham le 17 juin 1944, rattaché au 8e Corps Blindé Britannique. Il mène l'évacuation des populations civiles sous le feu dans le bocage normand, notamment au Bény-Bocage — cité posthumement par de Gaulle (décision n°504, 13 mars 1945). Promu chef de bataillon le 1er septembre 1944, il s'installe à Amiens (et non à Lille) pour éviter tout conflit d'intérêts lors de l'épuration. À partir du 1er octobre 1944, il renonce à tout salaire chez Agache et rembourse scrupuleusement 226 927 francs perçus en double (150 000 francs Société Générale d'Alger, 35 527 francs allocations familiales, 41 400 francs appointements). En novembre 1944, il demande sa mutation pour rejoindre soit les prisonniers de guerre en Allemagne, soit une unité combattante — sans succès. Le 14 décembre 1944, en service commandé, sa voiture percute un camion anglais dans le brouillard avant Arras ; seul tué, il meurt à 47 ans. Obsèques le 16 décembre en l'église du Sacré-Cœur de Lille, deuil conduit par son fils Denis (9 ans) ; inhumé au cimetière de La Madeleine.",
+
+    "facts": [
+      "Le 13 novembre 1943, Claude Saint-Léger est incorporé à la caserne d'Orléans d'Alger auprès des Zouaves, à 46 ans, après avoir quitté volontairement son poste civil de secrétaire général du Comité d'organisation du textile",
+      "Fin janvier 1944, il est envoyé à Southlands, Parkside, Wimbledon (Londres), pour la formation MMLA aux procédures Civil Affairs alliées, sous Boislambert et le commandant Clémenceau",
+      "Il est nommé officiellement chef de mission L of C (Lines of Communications) le 27 avril 1944 à Londres",
+      "Il débarque à Ouistreham le 17 juin 1944, onze jours après le Jour J, rattaché au 8e Corps Blindé Britannique comme chef de la MMLA",
+      "Cité posthumement par de Gaulle (décision n°504, 13 mars 1945) pour avoir mené l'évacuation des populations civiles sous le feu, notamment au Bény-Bocage",
+      "Promu chef de bataillon le 1er septembre 1944 ; Lille est libérée le 3 septembre",
+      "Il choisit de s'installer à Amiens plutôt qu'à Lille pour éviter tout conflit d'intérêts lors de l'épuration",
+      "À partir du 1er octobre 1944, il renonce à tout salaire chez Agache et rembourse 226 927 francs perçus en double : 150 000 francs (Société Générale d'Alger), 35 527 francs (allocations familiales), 41 400 francs (appointements)",
+      "En novembre 1944, il rédige plusieurs brouillons demandant sa mutation — vers les prisonniers de guerre en Allemagne ou une unité combattante — sans succès",
+      "Le 14 décembre 1944, en service commandé entre Amiens et Arras, sa voiture percute de face un camion anglais dans le brouillard ; Claude est le seul tué, à 47 ans",
+      "Les obsèques ont lieu le 16 décembre 1944 en l'église du Sacré-Cœur de Lille ; deuil conduit par Denis Saint-Léger, 9 ans ; corps inhumé au cimetière de La Madeleine",
+      "La Croix de Guerre 1939–1945 avec palme lui est décernée à titre posthume par de Gaulle le 13 mars 1945, publiée au Journal officiel du 19 avril 1945"
+    ],
+
+    "periode": "1943–1945",
+    "geographie": "Alger, Wimbledon (Londres), Ouistreham, Bény-Bocage, Normandie, Amiens, Lille, Arras, Pérenchies, Nord de la France",
+    "themes": ["généalogie", "biographie militaire", "Seconde Guerre mondiale", "MMLA", "Civil Affairs", "débarquement de Normandie", "bocage normand", "Libération de la France", "épuration", "Forces Françaises Libres", "de Gaulle", "Établissements Agache", "intégrité", "Nord de la France", "1944"],
+    "fiabilite": "Sources primaires : correspondances d'Alger 1942–1944 (archives familiales) ; correspondances de Londres février–mai 1944 (archives familiales) ; documents d'Amiens août–novembre 1944 (archives familiales) ; lettre de condoléances du commandant Darnay (22 décembre 1944) ; nécrologie 1944 ; base Léonore LH/2430/55 (Archives nationales) ; Mémoire des Hommes SHD GR 16 P 530758 et AC 21 P 148010 ; Journal officiel du 19 avril 1945 (RetroNews/BnF) ; archives départementales du Nord, matricule 1R 3365 ; Stéphane Jacquet et Marc Henri Barrabé, La percée du bocage, vol. 3, Heimdal, 2014 (ISBN 978-2-84048-587-2).",
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}

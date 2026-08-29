@@ -1,0 +1,82 @@
+{
+  "_commentaire": "Métadonnées SEO pour 1944-08_Carnet_d_officier_de_liaison_MMLA.html, lues par metadata.sh à la compilation. Page isolée, non série : pas de champ jsonld_haspart.",
+
+  "titre": "Carnet d'officier de liaison en Normandie, été 1944",
+
+  "description": "Août 1944, dans le Bocage dévasté : Claude Saint-Léger (1897-1944), officier de liaison auprès du 8e Corps britannique, note farine, réfugiés et gendarmes suspects à Vassy, Condé-sur-Noireau et Vaudry.",
+
+  "keywords": "Saint-Léger, Claude Saint-Léger, MMLA, Mission militaire de liaison administrative, officier de liaison administrative, Affaires civiles, Civil Affairs, 8e Corps britannique, bataille de Normandie, Bocage, Vire, Vaudry, Vassy, Condé-sur-Noireau, Le Bény-Bocage, Pontécoulant, Calvados, Amiens, Somme, Dury, Beauvais, Oise, Aisne, Ardennes, Laon, Bureau de sécurité militaire, FFI, réfugiés, ravitaillement, Libération, Seconde Guerre mondiale, XXe siècle, Pierre Pène, Léon Debouverie, Lucien Lecointe, Boislambert, Nord, Pas-de-Calais",
+
+  "og_image": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Photos/mini_web.jpg",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laisser vide si image trop petite (Google exige min. 1200×800 px). Si renseigné, sera injecté dans le bloc JSON-LD Article.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-08-27",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Militaire/1944-08_Carnet_d_officier_de_liaison_MMLA.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "Claude Adolphe Georges Saint-Léger", "birthDate": "1897-03-24", "deathDate": "1944-12-14", "sameAs": "https://www.wikidata.org/entity/Q138819799" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place", "name": "Vaudry" },
+    { "@type": "Place", "name": "Vassy" },
+    { "@type": "Place", "name": "Condé-sur-Noireau" },
+    { "@type": "Place", "name": "Le Bény-Bocage" },
+    { "@type": "Place", "name": "Pontécoulant" },
+    { "@type": "Place", "name": "Vire" },
+    { "@type": "Place", "name": "Amiens" },
+    { "@type": "Place", "name": "Dury" },
+    { "@type": "Place", "name": "Beauvais" },
+    { "@type": "Place", "name": "Laon" },
+    { "@type": "Organization", "name": "Mission militaire de liaison administrative" },
+    { "@type": "Organization", "name": "8e Corps britannique" },
+    { "@type": "Organization", "name": "223 Civil Affairs Detachment" },
+    { "@type": "Organization", "name": "Bureau de sécurité militaire" },
+    { "@type": "Organization", "name": "Forces françaises de l'intérieur" },
+    { "@type": "Organization", "name": "Ponts et Chaussées" },
+    { "@type": "Thing", "name": "Bataille de Normandie" },
+    { "@type": "Thing", "name": "Libération de la France" },
+    { "@type": "Thing", "name": "Ravitaillement des populations civiles en 1944" },
+    { "@type": "Thing", "name": "Légion des volontaires français contre le bolchevisme" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Carnet de poche manuscrit tenu par Claude Adolphe Georges Saint-Léger (Lille 1897 - Basseux 1944), officier de liaison administrative de la MMLA auprès du 8e Corps britannique, entre le 10 août et septembre 1944. Treize feuillets : ravitaillement des communes du Bocage normand après l'opération Bluecoat (Vaudry, Vassy, Condé-sur-Noireau, Le Bény-Bocage), réfugiés, gendarmeries mises en cause, puis notes préparatoires sur le département de la Somme où il sera affecté après le 6 septembre 1944. Seule pièce du fonds écrite de sa main pendant la campagne de Normandie.",
+
+    "facts": [
+      "Claude Saint-Léger débarque en Normandie le 17 juin 1944 et se présente le 23 juin au quartier général des Affaires civiles du 8e Corps britannique, à Lantheuil (Calvados).",
+      "Le carnet est un registre réglementaire britannique portant la mention S.O. Book 136 1/2.",
+      "Note du 12 août 1944 : 300 rations pour Vaudry, commune du canton de Vire de 1 212 habitants, et 30 kg de farine par jour.",
+      "Note du 10 août 1944 : une commune du secteur, de 220 habitants en temps normal, en compte 275 dont 80 enfants, et demande semoule, sucre, sel, savon, 50 mètres de ficelle, 30 litres d'huile, 20 kg de graisse, 200 francs et 300 litres d'essence pour le battage.",
+      "Note du 23 août 1944 sur Condé-sur-Noireau : 1 200 habitants, 2 000 attendus sous 48 heures, 500 rations envoyées par le capitaine Vivant depuis Le Bény-Bocage.",
+      "Le carnet relève que Vassy n'a été visitée que neuf jours après sa libération et qu'elle est à court de carnets de pain le 23 août 1944.",
+      "Trois manques sont signalés dans le secteur : le déblayage des munitions abandonnées, les cadavres d'animaux et le ravitaillement, avec un manque très grave de transport.",
+      "Une réclamation vise les gendarmeries du Bény-Bocage et de Vassy, nommément les gendarmes Gabillet et Riquelle, sur la question d'une coopération avec des miliciens.",
+      "Dès le 20 août 1944, alors qu'il est encore en Normandie, le carnet porte les noms des autorités de la Somme, département libéré le 31 août.",
+      "Un feuillet donne l'organisation du Bureau de sécurité militaire de la région de Laon : section contre-espionnage, section maintien de l'ordre, section protection du moral, et un officier par département pour la Somme, l'Oise, l'Aisne et les Ardennes.",
+      "Un feuillet rapporte que le maire d'Amiens nommé par Vichy en 1940 a refusé en 1941 d'être délégué de la LVF et passé environ quatorze mois en forteresse en Allemagne.",
+      "Le 6 septembre 1944, à Morgny (Eure), tous les officiers de liaison français quittent le 8e Corps pour des postes statiques ; Claude Saint-Léger gagne Amiens."
+    ],
+
+    "periode": "août - septembre 1944",
+    "geographie": "Vaudry, Vassy, Condé-sur-Noireau, Le Bény-Bocage, Vire, Calvados, Amiens, Somme, Laon, Aisne",
+    "themes": ["Seconde Guerre mondiale", "bataille de Normandie", "Mission militaire de liaison administrative", "Affaires civiles alliées", "ravitaillement des populations civiles", "réfugiés", "Libération de la France", "administration préfectorale", "épuration"],
+
+    "fiabilite": "Source primaire manuscrite de la main de Claude Saint-Léger, non datée pour six feuillets sur treize. Recoupée à l'intérieur du fonds par la fiche de renseignements MMLA du 15 août 1944 et par le journal de marche du 223 Civil Affairs Detachment (TNA WO 171/3587). Recoupée à l'extérieur par le journal de marche des Affaires civiles du 8e Corps britannique (TNA WO 171/304) et par les notices biographiques de l'Assemblée nationale pour les édiles amiénois. Plusieurs noms de lieux et de personnes restent de lecture incertaine et sont signalés comme tels.",
+
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}

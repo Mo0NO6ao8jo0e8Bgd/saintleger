@@ -1,0 +1,65 @@
+{
+  "_commentaire": "Fichier de métadonnées SEO pour la page HTML du même nom. Lu par metadata.sh lors de la compilation.",
+
+  "titre": "André Saint-Léger : De l'ombre à la lumière — Courage sous l'Occupation de 1915",
+
+  "description": "Réputé pour sa déchéance dans l'entre-deux-guerres, André Saint-Léger révèle un autre visage sous l'Occupation : en juin 1915 à La Madeleine, il préside l'assemblée des contribuables et offre sa propre tête pour protéger ses concitoyens d'une contribution de guerre allemande de 549 465 francs.",
+
+  "keywords": "André Saint-Léger, Marguerite Delemer, Claude Saint-Léger, La Madeleine, Occupation allemande, Première Guerre mondiale, contribution de guerre, otages, Victor Morel, maire de La Madeleine, Holzminden, Établissements Agache, filature de lin, résistance civile, courage, Lille, Nord, 1915, généalogie, entre-deux-guerres",
+
+  "og_image": "https://saintleger.org/individus/SAINT-LEGER_Andre_1870/Photos/mini_web.jpg",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laisser vide si image trop petite (Google exige min. 1200×800 px). Si renseigné, sera injecté dans le bloc JSON-LD Article.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-04-13",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/Individus/SAINT-LEGER_Arnaud_1963/Recits/1870-_Biographie_dAndre_Saint-Leger_-_de_lombre_a_la_lumiere.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "André Saint-Léger",    "birthDate": "1870", "deathDate": "1947" },
+    { "@type": "Person", "name": "Marguerite Delemer",   "birthDate": "1876", "deathDate": "1953" },
+    { "@type": "Person", "name": "Claude Saint-Léger",   "birthDate": "1897", "deathDate": "1944" },
+    { "@type": "Person", "name": "Victor Morel" },
+    { "@type": "Person", "name": "Agnès Wattinne",       "birthDate": "1904", "deathDate": "1993" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place", "name": "La Madeleine" },
+    { "@type": "Place", "name": "Lille" },
+    { "@type": "Place", "name": "Holzminden (Allemagne)" },
+    { "@type": "Organization", "name": "Mairie de La Madeleine" },
+    { "@type": "Organization", "name": "Établissements Agache" },
+    { "@type": "Event", "name": "Occupation allemande de Lille (1914–1918)" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Court article d'Arnaud Saint-Léger nuançant le portrait d'André Saint-Léger (1870–1947), souvent réduit à sa déchéance de l'entre-deux-guerres (fortune dilapidée, signature Agache retirée vers 1940, fin de vie à l'hôtel à Paris). Deux documents d'archives révèlent un homme courageux pendant l'Occupation de 1914–1918. Premier document : procès-verbal de la mairie de La Madeleine, juin 1915. L'autorité allemande exige une contribution de guerre de 549 465 francs et réclame une liste de 14 otages fortunés tenus solidairement responsables sur leurs biens. Le maire Victor Morel refuse de désigner ses administrés au risque de la prison. André Saint-Léger est élu à l'unanimité pour présider l'assemblée des contribuables ; sous sa présidence, l'assemblée décide de soumettre la liste de tous les membres présents — y compris André lui-même — pour partager solidairement le risque d'arrestation. Second document : lettre de Claude Saint-Léger à son père, début janvier 1919, saluant le refus d'André de s'enrichir sous l'Occupation. Pendant ce temps, Marguerite Delemer faisait du renseignement à Lille et fut déportée six mois à Holzminden.",
+
+    "facts": [
+      "En juin 1915, l'autorité allemande exige de La Madeleine une contribution de guerre de 549 465 francs et réclame 14 otages fortunés tenus solidairement responsables sur leurs biens",
+      "Le maire Victor Morel refuse de désigner ses administrés et risque la prison",
+      "André Saint-Léger est élu à l'unanimité pour présider l'assemblée des contribuables ; l'assemblée décide de soumettre la liste de tous ses membres présents, André inclus, pour partager le risque d'arrestation collectivement",
+      "Marguerite Delemer, épouse d'André, faisait du renseignement à Lille pendant l'Occupation ; elle fut arrêtée et déportée six mois à Holzminden (Allemagne), en revint psychologiquement brisée",
+      "Dans une lettre à son père datée du début janvier 1919, Claude Saint-Léger salue le refus d'André de profiter de la guerre, le distinguant des 'profiteurs de guerre'",
+      "Après la guerre, André vend la filature de La Madeleine aux Établissements Agache en échange de deux places d'administrateurs — une pour lui, une pour Claude",
+      "Dans l'entre-deux-guerres, André dilapide sa fortune ; vers 1940, on lui retire la signature des Établissements Agache ; il finit sa vie à Paris, à l'hôtel, avec une pension mensuelle"
+    ],
+
+    "periode": "1914–1919 (avec contexte 1870–1947)",
+    "geographie": "La Madeleine, Lille, Holzminden (Allemagne), Paris, Nord de la France",
+    "themes": ["généalogie", "Première Guerre mondiale", "occupation allemande", "résistance civile", "courage", "otages", "contribution de guerre", "industrie linière", "entre-deux-guerres", "histoire du Nord de la France"],
+    "fiabilite": "Sources primaires : procès-verbal de la mairie de La Madeleine (juin 1915) ; lettre de Claude Saint-Léger à son père (début janvier 1919) ; témoignage d'Agnès Wattinne.",
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}

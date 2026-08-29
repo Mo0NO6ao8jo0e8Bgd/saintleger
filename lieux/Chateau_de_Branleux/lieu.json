@@ -1,0 +1,12 @@
+{
+  "type": "LandmarksOrHistoricalBuildings",
+  "name": "Château de Branleux",
+  "city": "Colleret",
+  "country": "FR",
+  "address": "Chemin de Branleux, 59680 Colleret",
+  "latitude": 50.2583,
+  "longitude": 4.0718,
+  "description": "Château de Branleux à Colleret (Avesnois), acquis en 1832 par Pierre-Joseph Bonte-Pollet, maire de Lille de 1849 à 1852, qui y mourut en 1864. Résidence de chasse et de campagne de la famille Bonte-Pollet.",
+  "startDate": "1832",
+  "endDate": ""
+}

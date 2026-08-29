@@ -1,0 +1,78 @@
+{
+  "_commentaire": "Fichier de métadonnées SEO pour la page HTML du même nom. Lu par metadata.sh lors de la compilation.",
+
+  "titre": "Claude Saint-Léger (1897–1944) — De l'évasion de Lille à l'armistice de 1918",
+
+  "description": "À 18 ans, Claude Saint-Léger s'évade de Lille occupée en traversant à la nage le canal de Gand à Terneuzen sous les balles allemandes. Engagé au 32e Dragons puis au 26e Bataillon de Chasseurs à Pied, il reçoit la Croix de Guerre avec cinq citations et la Légion d'honneur à titre militaire (1933).",
+
+  "keywords": "Claude Saint-Léger, André Saint-Léger, Marguerite Delemer, Agnès Wattinne, Thérèse Saint-Léger, Louise de Bettignies, Max Descamps, Hélène De la Valette, 32e Dragons, 26e Bataillon de Chasseurs à Pied, Saint-Cyr, Croix de Guerre, Légion d'honneur, évasion de Lille, canal de Gand à Terneuzen, Hollande, Première Guerre mondiale, Tracy-le-Val, Coucy, forêt de Genlis, Verdun, Somme, Champagne, camp de Crèvecœur, Pau, obus à gaz, tranchées, coup de main, armistice 1918, Lille, Nord, XIXe siècle, XXe siècle, généalogie, biographie militaire",
+
+  "og_image": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Photos/mini_web.jpg",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laisser vide si image trop petite (Google exige min. 1200×800 px). Le HTML contient une photo d'identité de Claude vers la fin de la 1re guerre mondiale (IMG/claude-saint-leger-1ere-guerre-mondiale/1.png) — à vérifier en haute résolution.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-04-13",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/Individus/SAINT-LEGER_Arnaud_1963/Recits/1897-_Biographie_de_Claude_Saint-Leger_-_1_guerre_mondiale.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "Claude Saint-Léger",        "birthDate": "1897", "deathDate": "1944" },
+    { "@type": "Person", "name": "André Saint-Léger",         "birthDate": "1870", "deathDate": "1947" },
+    { "@type": "Person", "name": "Marguerite Delemer",        "birthDate": "1876", "deathDate": "1953" },
+    { "@type": "Person", "name": "Agnès Wattinne",            "birthDate": "1904", "deathDate": "1993" },
+    { "@type": "Person", "name": "Thérèse Saint-Léger",       "birthDate": "1924" },
+    { "@type": "Person", "name": "Hélène De la Valette" },
+    { "@type": "Person", "name": "Max Descamps" },
+    { "@type": "Person", "name": "Louise de Bettignies" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place", "name": "Lille" },
+    { "@type": "Place", "name": "Canal de Gand à Terneuzen" },
+    { "@type": "Place", "name": "Tracy-le-Val" },
+    { "@type": "Place", "name": "Coucy" },
+    { "@type": "Place", "name": "Forêt de Genlis" },
+    { "@type": "Place", "name": "Camp de Crèvecœur" },
+    { "@type": "Place", "name": "Pau" },
+    { "@type": "Organization", "name": "32e Régiment de Dragons" },
+    { "@type": "Organization", "name": "26e Bataillon de Chasseurs à Pied" },
+    { "@type": "Organization", "name": "École militaire de Saint-Cyr" },
+    { "@type": "Event", "name": "Première Guerre mondiale" },
+    { "@type": "Event", "name": "Armistice du 11 novembre 1918" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Premier volet de la biographie de Claude Saint-Léger (1897–1944), rédigé par Arnaud Saint-Léger (2025) d'après les mémoires d'Agnès Wattinne, le récit de Thérèse Saint-Léger, le carnet de route militaire 1916–1917 et les citations militaires. Claude naît le 24 mars 1897 au 188 ter rue Royale à Lille, fils d'André Saint-Léger et Marguerite Delemer. À 18 ans, du 23 août au 14 septembre 1915, il s'évade de Lille occupée déguisé sous le nom de Claude De la Valette, traverse la Belgique à pied de nuit avec son cousin Max Descamps grâce aux réseaux de Louise de Bettignies, et franchit à la nage le canal de Gand à Terneuzen sous les tirs des sentinelles allemandes (trois tentatives nécessaires) avant de rejoindre l'Angleterre via la Hollande. Il s'engage au 32e Régiment de Dragons le 20 octobre 1915, suit Saint-Cyr en 1916, arrive sur le front le 21 mai 1916 et est transféré au 26e Bataillon de Chasseurs à Pied. Entre novembre 1916 et mai 1917, il sert dans les secteurs de Tracy-le-Val, Coucy et la forêt de Genlis, sous bombardements d'artillerie et d'obus à gaz. Le 24 septembre 1918, il entraîne sa section à l'assaut des lignes ennemies. Le 5 novembre 1918, à la tête de sa section de mitrailleuses, il participe à la prise d'un village. Blessé au pied par un éclat d'obus, il reprend le service après convalescence. Démobilisé à 21 ans le 11 novembre 1918, il reçoit la Croix de Guerre avec cinq citations (32e Dragons) et la Légion d'honneur à titre militaire (décret du 13 mars 1933). Sa tante et marraine Hélène De la Valette a été son principal soutien familial pendant la guerre, Lille étant en zone occupée.",
+
+    "facts": [
+      "Claude Saint-Léger naît le 24 mars 1897 au 188 ter rue Royale à Lille, fils d'André Saint-Léger et Marguerite Delemer",
+      "Du 23 août au 14 septembre 1915, à 18 ans, il s'évade de Lille occupée sous le pseudonyme Claude De la Valette, avec son cousin Max Descamps, grâce aux réseaux de Louise de Bettignies",
+      "Trois tentatives sont nécessaires pour traverser à la nage le canal de Gand à Terneuzen sous les tirs des sentinelles allemandes ; les gardes hollandais l'aident à rejoindre l'Angleterre",
+      "Il s'engage au 32e Régiment de Dragons le 20 octobre 1915, suit l'école militaire de Saint-Cyr en 1916 et arrive sur le front le 21 mai 1916",
+      "Il est transféré au 26e Bataillon de Chasseurs à Pied ; il sert dans les secteurs de Tracy-le-Val, Coucy et la forêt de Genlis entre novembre 1916 et mai 1917, sous bombardements d'artillerie et d'obus à gaz",
+      "Le 5 novembre 1917, il réalise un coup de main contre les Allemands dans le secteur de Coucy",
+      "Le 24 septembre 1918, citation : « jeune aspirant d'une énergie et d'un courage exemplaire, a entraîné sa section à l'assaut des lignes ennemies »",
+      "Le 5 novembre 1918, il se distingue comme chef de section de mitrailleuses à la prise d'un village",
+      "Il est blessé au pied par un éclat d'obus et reprend le service après convalescence",
+      "Il reçoit la Croix de Guerre avec cinq citations (32e Dragons) et la Légion d'honneur à titre militaire (décret du 13 mars 1933)",
+      "Hélène De la Valette, sa tante et marraine, est son principal soutien familial pendant toute la guerre, Lille étant en zone occupée"
+    ],
+
+    "periode": "1897–1918 (premier volet biographique)",
+    "geographie": "Lille, Belgique (Gand, Terneuzen), Hollande, Angleterre, Tracy-le-Val, Coucy (Aisne), forêt de Genlis, camp de Crèvecœur, Pau, front de Champagne, front de la Somme",
+    "themes": ["généalogie", "biographie militaire", "Première Guerre mondiale", "évasion de Lille", "résistance", "tranchées", "cavalerie", "infanterie légère", "Croix de Guerre", "Légion d'honneur", "Saint-Cyr", "Louise de Bettignies", "occupation allemande", "Nord de la France"],
+    "fiabilite": "Sources primaires : mémoires d'Agnès Wattinne (Claude Saint-Léger par Agnès) ; récit de Thérèse Saint-Léger ; carnet de route militaire de Claude Saint-Léger 1916–1917 ; états de service militaire (15 décembre 1944) ; citation Croix de Guerre avec palme signée du général de Gaulle (13 mars 1945) ; Journal officiel du 19 avril 1945.",
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}

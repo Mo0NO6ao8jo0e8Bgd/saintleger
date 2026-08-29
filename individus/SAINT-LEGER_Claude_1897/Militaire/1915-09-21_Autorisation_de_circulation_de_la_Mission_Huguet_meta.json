@@ -1,0 +1,72 @@
+{
+  "_commentaire": "Fichier de métadonnées SEO pour la page HTML du même nom. Lu par metadata.sh lors de la compilation. Page à deux pièces datées du même jour, ancres l-1915-09-21-a et l-1915-09-21-b. Pas de champ jsonld_haspart, réservé aux séries de lettres.",
+
+  "titre": "Autorisation de circulation de la Mission Huguet, 21 septembre 1915",
+
+  "description": "Un mois après sa sortie de Lille occupée, Claude Saint-Léger (1897-1944), civil de dix-huit ans, reçoit un pli urgent du général Huguet : l’état-major britannique le convie à Saint-Omer et lui ouvre la zone des armées, par Calais.",
+
+  "keywords": "Claude Saint-Léger, Saint-Léger, Barrois, Victor Huguet, Mission militaire française attachée à l’armée britannique, état-major britannique, G.Q.G. britannique, section de renseignement, Direction des étapes et services, commissaire militaire, commission de gare, zone de l’armée britannique, évasion de Lille, régions envahies, renseignement militaire, autorisation de circulation, sauf-conduit, chemin de fer, offensive de Loos, Saint-Omer, Calais, Hinges, Lille, Paris, Versailles, Flessingue, 32e régiment de dragons, Première Guerre mondiale, 1915, XXe siècle, Nord, Pas-de-Calais, Seine-et-Oise",
+
+  "og_image": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Photos/1915-09-22_Retour_en_France_apres_evasion_web.jpeg",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laisser vide si image trop petite (Google exige min. 1200×800 px). Si renseigné, sera injecté dans le bloc JSON-LD Article.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-08-25",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Militaire/1915-09-21_Autorisation_de_circulation_de_la_Mission_Huguet.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "Claude Adolphe Georges Saint-Léger", "birthDate": "1897-03-24", "deathDate": "1944-12-14", "sameAs": "https://www.wikidata.org/entity/Q138819799" },
+    { "@type": "Person", "name": "Victor Huguet" },
+    { "@type": "Person", "name": "J. Barrois" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place",        "name": "Saint-Omer" },
+    { "@type": "Place",        "name": "Calais" },
+    { "@type": "Place",        "name": "Versailles" },
+    { "@type": "Place",        "name": "Lille" },
+    { "@type": "Place",        "name": "Paris" },
+    { "@type": "Place",        "name": "Hinges" },
+    { "@type": "Organization", "name": "Mission militaire française attachée à l’armée britannique" },
+    { "@type": "Organization", "name": "Grand quartier général britannique" },
+    { "@type": "Organization", "name": "Direction des étapes et services" },
+    { "@type": "Organization", "name": "32e régiment de dragons" },
+    { "@type": "Thing",        "name": "Évasion de Lille du 23 août 1915" },
+    { "@type": "Thing",        "name": "Zone de l’armée britannique en France" },
+    { "@type": "Thing",        "name": "Offensive britannique de Loos (25 septembre 1915)" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Transcription annotée des deux plis expédiés le 21 septembre 1915 par le général Victor Huguet, chef de la Mission militaire française attachée à l’armée britannique, à J. Barrois, 4 rue Jacques Boyceau à Versailles. Barrois avait signalé le 12 septembre les renseignements rapportés de Lille occupée par Claude Saint-Léger (1897-1944), sorti de la ville le 23 août 1915 et arrivé à Paris le 10 septembre. La lettre n° 6620 transmet la demande d’indications complémentaires de l’état-major britannique et invite « M. Saint Léger » à Saint-Omer, frais de voyage remboursés. L’autorisation n° 6232 D.E.S., jointe et expédiée par exprès, l’autorise nommément à se rendre à Saint-Omer et doit être présentée à l’officier adjoint à la Commission de gare à l’entrée dans la zone de l’armée britannique ; le cachet du Commissaire militaire de Calais qu’elle porte atteste qu’elle a servi. Claude est alors civil, cinq semaines avant son engagement au 32e régiment de dragons.",
+
+    "facts": [
+      "Deux plis datés du quartier général le 21 septembre 1915 émanent de la Mission militaire française attachée à l’armée britannique, dirigée par le général Victor Huguet, et sont signés par ordre par un colonel : la lettre n° 6620 et l’autorisation n° 6232 D.E.S.",
+      "Ils répondent à une lettre de J. Barrois du 12 septembre 1915, aujourd’hui perdue, qui avait transmis des renseignements rapportés de Lille par un de ses amis évadé",
+      "L’état-major britannique demande des indications complémentaires à « M. Saint Léger » et l’invite à Saint-Omer, où siège le grand quartier général britannique d’octobre 1914 à mars 1916, ses frais de voyage devant lui être remboursés",
+      "L’autorisation n° 6232 D.E.S., expédiée sous enveloppe portant la mention Pli urgent à distribuer par exprès, autorise nommément Monsieur Saint-Léger, domicilié chez Monsieur J. Barrois à Versailles, à se rendre à Saint-Omer",
+      "Elle doit être présentée à l’officier adjoint à la Commission de gare à l’entrée dans la zone de l’armée britannique, et porte un cachet du Commissaire militaire de Calais",
+      "La Mission ne délivre pas le sauf-conduit, qui relève du maire ou du commissaire de police ; un sauf-conduit du 22 septembre 1915, portant pour domicile le 19 avenue Kléber à Paris, figure au fonds",
+      "Un laissez-passer de la section de renseignement du G.Q.G. britannique, valable la seule journée du 24 septembre 1915, conduit ensuite Claude à Hinges, quartier général avancé de la 1re Armée, la veille de l’offensive de Loos",
+      "Les renseignements en cause portaient sur les tranchées et l’emplacement des batteries allemandes devant Lille, d’après l’ordre du régiment n° 118 du 6 avril 1917 signé du colonel de Barry",
+      "Claude Saint-Léger est encore civil à cette date : il s’engage au 32e régiment de dragons le 20 octobre 1915"
+    ],
+
+    "periode": "12 au 24 septembre 1915",
+    "geographie": "Saint-Omer, Calais, Hinges (Pas-de-Calais), Versailles (Seine-et-Oise), Paris, Lille (Nord)",
+    "themes": ["renseignement militaire", "Première Guerre mondiale", "évasion des régions envahies", "occupation allemande du Nord", "relations franco-britanniques", "circulation en zone des armées", "archives familiales", "histoire du Nord de la France"],
+    "fiabilite": "Sources primaires : archives familiales Saint-Léger, lettre n° 6620 et autorisation n° 6232 D.E.S. du 21 septembre 1915 avec son enveloppe et son cachet de Calais, transcrites par Arnaud Saint-Léger. Recoupements internes au fonds : carnet de l’évasion de Lille (23 août au 14 septembre 1915), sauf-conduit du 22 septembre 1915, laissez-passer de la section de renseignement du G.Q.G. britannique et permis de circuler en automobile n° 68 441 du 24 septembre 1915, ordre du régiment n° 118 du 6 avril 1917. Recoupements externes : table des abréviations des Armées françaises dans la Grande Guerre (Gallica) pour D. E. S., Direction des étapes et services ; chroniques de la Grande Guerre des Archives départementales du Pas-de-Calais pour la fonction du général Huguet en 1915. Les rapprochements de dates non portés sur les pièces sont signalés comme des déductions.",
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}

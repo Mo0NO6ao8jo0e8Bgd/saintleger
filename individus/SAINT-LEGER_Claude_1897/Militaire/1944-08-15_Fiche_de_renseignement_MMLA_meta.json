@@ -1,0 +1,86 @@
+{
+  "_commentaire": "Métadonnées SEO de la page 1944-08-15_Fiche_de_renseignement_MMLA.html, lues par metadata.sh à la compilation. Pièce isolée : pas de jsonld_haspart.",
+
+  "titre": "Fiche de renseignements de la Mission militaire de liaison administrative, 15 août 1944",
+
+  "description": "Le 15 août 1944, en Normandie, Claude Saint-Léger (1897-1944) remplit de sa main une fiche administrative : cinq enfants, une adresse à Lille, un compte en banque à Londres, et un grade de lieutenant que ses chefs disent commandant.",
+
+  "keywords": "Saint-Léger, Claude Saint-Léger, Wattinne, Delemer, Lille, Nord, Pas-de-Calais, Normandie, Bayeux, Amiens, Wimbledon, Londres, Camberley, Mission militaire de liaison administrative, MMLA, officier de liaison administrative, Affaires civiles, Civil Affairs, 8e corps britannique, Seconde Guerre mondiale, Libération, débarquement de Normandie, solde militaire, Westminster Bank, industriel du textile, XXe siècle, archives familiales",
+
+  "og_image": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Photos/mini_web.jpg",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laissé vide, aucune image n'est référencée dans le HTML.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-08-27",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Militaire/1944-08-15_Fiche_de_renseignement_MMLA.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "Claude Adolphe Georges Saint-Léger", "birthDate": "1897-03-24", "deathDate": "1944-12-14", "sameAs": "https://www.wikidata.org/entity/Q138819799" },
+    { "@type": "Person", "name": "Thérèse Anne Marie Madeleine Saint-Léger", "birthDate": "1924-05-03", "deathDate": "2011-09-21" },
+    { "@type": "Person", "name": "Nicole Saint-Léger", "birthDate": "1926-01-24", "deathDate": "2020-12-27" },
+    { "@type": "Person", "name": "Francine Saint-Léger", "birthDate": "1927-07-01", "deathDate": "2007-06-17" },
+    { "@type": "Person", "name": "Denis Saint-Léger", "birthDate": "1935-03-20", "deathDate": "2023-12-09" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place", "name": "Lille" },
+    { "@type": "Place", "name": "Normandie" },
+    { "@type": "Place", "name": "Londres" },
+    { "@type": "Place", "name": "Wimbledon" },
+    { "@type": "Place", "name": "Camberley" },
+    { "@type": "Place", "name": "Bayeux" },
+    { "@type": "Organization", "name": "Mission militaire de liaison administrative" },
+    { "@type": "Organization", "name": "8e corps d'armée britannique" },
+    { "@type": "Organization", "name": "Civil Affairs" },
+    { "@type": "Organization", "name": "Westminster Bank" },
+    { "@type": "Thing", "name": "Débarquement de Normandie" },
+    { "@type": "Thing", "name": "Libération de la France" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Fiche de renseignements administrative remplie et signée le 15 août 1944, en Normandie, par Claude Adolphe Georges Saint-Léger (Lille, 24 mars 1897 - Basseux, 14 décembre 1944), officier de liaison administrative français détaché auprès du 8e corps d'armée britannique. Destinée à l'officier des détails de la Mission militaire de liaison administrative pour assurer le paiement de sa solde, elle porte son adresse au 228 rue Nationale à Lille, ses cinq enfants nés entre 1924 et 1940, le grade de lieutenant T.D. avec assimilation d'officier de liaison administrative, le rappel sous les drapeaux du 13 novembre 1943, le départ de Londres du 7 juin 1944, la sortie de Grande-Bretagne du 17 juin 1944 et un compte à la Westminster Bank de St James, à Londres. C'est la seule pièce connue du fonds où il déclare lui-même l'ensemble de sa situation militaire et familiale.",
+
+    "facts": [
+      "La fiche est datée du 15 août 1944 et signée C Saint Léger.",
+      "Claude Saint-Léger y déclare être né le 24 mars 1897 à Lille et résider 228 rue Nationale à Lille.",
+      "Il déclare cinq enfants : Thérèse (3 mai 1924), Nicole (25 janvier 1926), Francine (1er juillet 1927), Denis (21 mars 1935), Chantal (15 avril 1940).",
+      "Il porte le grade de lieutenant T.D., échelon B, avec la mention d'assimilation spéciale O.L.A., pour officier de liaison administrative.",
+      "Il donne 1927 comme date de nomination dans son dernier grade, ce qui correspond à sa promotion de lieutenant de réserve du 14 avril 1927.",
+      "Il déclare 5 ans et 8 mois de services, dont 2 ans et 5 mois dans le dernier grade, et l'infanterie comme arme.",
+      "Il donne le 13 novembre 1943 comme date de rappel sous les drapeaux, à Alger.",
+      "Il était en station à Wimbledon avant son départ pour la France, et non à Londres ni à Camberley.",
+      "Il a quitté Londres le 7 juin 1944 et la Grande-Bretagne le 17 juin 1944, deux dates distinctes.",
+      "Il se déclare détaché d'une unité anglaise et donne pour adresse CA Staff, Main, HQ 8 Corps, soit l'état-major des Affaires civiles du quartier général principal du 8e corps britannique.",
+      "Il possède un compte à la Westminster Bank, St James, à Londres, et demande à en retirer de l'argent.",
+      "Il n'a pas de compte pécule et n'a pas souscrit de délégation de solde à son départ de Grande-Bretagne."
+    ],
+
+    "periode": "1943-1944",
+    "geographie": "Normandie, Lille, Londres, Wimbledon, Camberley, Bayeux",
+    "themes": [
+      "Mission militaire de liaison administrative",
+      "officiers de liaison administrative",
+      "Affaires civiles alliées",
+      "campagne de Normandie",
+      "administration militaire et solde",
+      "Libération de la France",
+      "archives familiales du Nord"
+    ],
+
+    "fiabilite": "Pièce primaire autographe, signée de la main de l'intéressé, conservée dans les archives familiales Saint-Léger. Recoupée en interne avec l'ordre d'appel d'Alger du 3 juin 1943, le registre matricule du bureau de Lille (AD Nord, 1 R 3365), le dossier SHD GR 16 P 530758 et le reçu du capitaine Danon du 19 juillet 1944. Recoupée en externe avec le journal de marche des Affaires civiles du 8e corps britannique (TNA, WO 171/304). Trois écarts d'un à six jours subsistent entre les dates de naissance des enfants portées sur la fiche et celles du gedcom familial, qui repose sur la mémoire de la famille et non sur les actes d'état civil.",
+
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}

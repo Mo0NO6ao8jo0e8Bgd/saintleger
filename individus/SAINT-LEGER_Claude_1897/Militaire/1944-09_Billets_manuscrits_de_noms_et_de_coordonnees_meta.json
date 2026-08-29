@@ -1,0 +1,74 @@
+{
+  "_commentaire": "Fichier de métadonnées SEO pour la page HTML du même nom, lu par metadata.sh à la compilation. Deux pièces isolées réunies sur une même page, sans jsonld_haspart.",
+
+  "titre": "Deux billets manuscrits de noms et de coordonnées",
+
+  "description": "Sans date ni signature, deux papiers des archives de Claude Saint-Léger (1897-1944), chef de la mission L of C à Amiens, portent trois noms d’officiers britanniques : un général Bradley, le colonel Campbell Jones, le lieutenant-colonel Donaldson.",
+
+  "keywords": "Saint-Léger, Claude Saint-Léger, Amiens, Somme, Picardie, préfecture de la Somme, Lille, Nord, Pas-de-Calais, Libération, 1944, Seconde Guerre mondiale, Mission militaire de liaison administrative, MMLA, Affaires civiles, Civil Affairs Detachment, Lines of Communication, 21e groupe d'armées, 8e corps britannique, officier de liaison, Bradley, Campbell Jones, Donaldson, hôtel de l'Univers, XXe siècle, archives familiales",
+
+  "og_image": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Photos/mini_web.jpg",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laisser vide si image trop petite (Google exige min. 1200×800 px). Si renseigné, sera injecté dans le bloc JSON-LD Article.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-08-28",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Militaire/1944-09_Billets_manuscrits_de_noms_et_de_coordonnees.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "Claude Adolphe Georges Saint-Léger", "birthDate": "1897-03-24", "deathDate": "1944-12-14", "sameAs": "https://www.wikidata.org/entity/Q138819799" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place",        "name": "Amiens" },
+    { "@type": "Place",        "name": "Somme" },
+    { "@type": "Place",        "name": "Morgny" },
+    { "@type": "Place",        "name": "Pas-de-Calais" },
+    { "@type": "Place",        "name": "Grand Hôtel de l'Univers, Amiens" },
+    { "@type": "Organization", "name": "Préfecture de la Somme" },
+    { "@type": "Organization", "name": "Mission militaire de liaison administrative" },
+    { "@type": "Organization", "name": "226 Civil Affairs Detachment" },
+    { "@type": "Organization", "name": "213 Civil Affairs Detachment" },
+    { "@type": "Organization", "name": "21e groupe d'armées britannique" },
+    { "@type": "Organization", "name": "Lines of Communication du 21e groupe d'armées" },
+    { "@type": "Organization", "name": "8e corps britannique" },
+    { "@type": "Thing",        "name": "Libération d'Amiens" },
+    { "@type": "Thing",        "name": "Affaires civiles" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Deux billets manuscrits non datés des archives de Claude Adolphe Georges Saint-Léger (1897-1944), officier de liaison administrative français auprès de l’armée britannique. Le premier, une carte à en-tête imprimé du préfet de la Somme employée comme papier de brouillon, porte au recto le colonel Campbell Jones, du 226 C.A. Det., et au verso le lieutenant-colonel Donaldson, de la branche Q(M) du 21e groupe d’armées, alors installé à l’hôtel de l’Univers. Le second, un papier blanc écrit au recto seul, donne un général Bradley pour chef des officiers de liaison des Lines of Communication britanniques. Les deux pièces sont rattachées par leur contenu aux mois où Claude Saint-Léger dirige depuis Amiens, à partir du 1er septembre 1944, la mission française auprès des L of C pour le secteur Amiens-Lille-Pas-de-Calais. Aucun des trois officiers n’est identifié.",
+
+    "facts": [
+      "La carte porte en haut à gauche la mention imprimée « Le Préfet de la Somme » ; tout le reste est manuscrit.",
+      "Le recto de la carte porte le nom du colonel Campbell Jones, suivi de la mention 226 C.A. Det., soit le 226 Civil Affairs Detachment britannique.",
+      "Le verso de la carte porte le lieutenant-colonel Donaldson, de la branche Q(M) du 21e groupe d'armées, avec l'indication qu'il se trouve désormais à l'hôtel de l'Univers, sans que la ville soit nommée.",
+      "Le 226 Civil Affairs Detachment n'est attesté nulle part ailleurs dans le fonds Saint-Léger, qui documente les détachements 213, 218 et 223.",
+      "Le second billet, sur papier blanc écrit au recto seul, donne un général Bradley pour chef des officiers de liaison des Lines of Communication britanniques ; une lettre M y est tracée puis biffée.",
+      "L'identification de ce général Bradley n'est pas établie : Omar Bradley, américain, commandait le 12e groupe d'armées et n'exerçait aucune fonction dans les Lines of Communication britanniques.",
+      "Claude Saint-Léger exerce les fonctions de chef de bataillon à compter du 1er septembre 1944 et dirige la mission L of C pour le secteur Amiens-Lille-Pas-de-Calais de septembre à décembre 1944.",
+      "Le 6 septembre 1944, à Morgny dans l'Eure, tous les officiers de liaison français quittent le 8e corps britannique pour des postes statiques.",
+      "Amiens est libérée le 31 août 1944 ; le 213 Civil Affairs Detachment entre dans la ville à 16 h 30 et la quitte le lendemain.",
+      "Claude Saint-Léger meurt le 14 décembre 1944 à Basseux, dans le Pas-de-Calais, sur la route d'Amiens à Lille."
+    ],
+
+    "periode": "1944",
+    "geographie": "Amiens, Somme, Picardie, Morgny, Eure, Lille, Nord, Pas-de-Calais",
+    "themes": ["Seconde Guerre mondiale", "Libération", "officiers de liaison", "Lines of Communication", "Mission militaire de liaison administrative", "Affaires civiles", "administration militaire alliée", "préfecture de la Somme", "archives familiales"],
+
+    "fiabilite": "Sources primaires uniques, les deux billets eux-mêmes, conservés dans le fonds familial Saint-Léger et transcrits intégralement. Leur rattachement chronologique est une conjecture éditoriale, appuyée sur des pièces indépendantes : carnet d'officier de liaison de la MMLA d'août et septembre 1944, états de service militaire du 13 mars 1945, lettre de condoléances du commandant Darnay du 22 décembre 1944, journaux de marche du 8e corps britannique (TNA WO 171/304) et du 213 Civil Affairs Detachment (TNA WO 171/3577). Le cadre britannique est éclairé par des sources externes portant sur l'organisation du 21e groupe d'armées. L'identification des trois officiers britanniques n'est pas établie et la ville de l'hôtel de l'Univers n'est pas nommée sur la pièce : ces points sont signalés comme tels.",
+
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}

@@ -1,0 +1,71 @@
+# saintleger.org — Généalogie des familles Saint-Léger, Wattinne et alliées
+
+## Identité du site
+
+Ce site est un projet de généalogie familiale privé, rédigé en français, consacré à l'histoire et à la généalogie des grandes familles du patronat textile du Nord de la France aux XIXe et XXe siècles. Il est créé et maintenu par Arnaud Saint-Léger (Wikidata : Arnaudsaintleger).
+
+Le site est accessible à l'adresse : https://saintleger.org/
+
+## Familles documentées
+
+Les familles suivantes sont documentées sur ce site, avec leurs ancrages géographiques principaux :
+
+- **Saint-Léger** — Lille. Industriels, administrateurs des Établissements Agache sur deux générations.
+- **Wattinne-Bossut** — Roubaix, Auchy-lès-Hesdin. Filateurs. La filature Wattinne-Bossut, installée dans une abbaye bénédictine du XIe siècle, a fonctionné de 1859 à 1989.
+- **Bossut** — Roubaix. Jean-Baptiste Bossut (1790–1874), commissionnaire, maire de Roubaix, chevalier de la Légion d'honneur (1842).
+- **Motte-Bossut** — Roubaix. Louis Motte-Bossut (1817–1883), fondateur de la Filature Monstre (44 000 broches, 1843), chevalier de la Légion d'honneur (1863).
+- **Droulers** — Roubaix, Wattrelos. Florentin Droulers (1799–1864) co-fonde avec Donat Agache en 1849 ce qui deviendra les Établissements Agache.
+- **Prouvost** — Roubaix. Amédée Prouvost (1820–1885) fonde en 1851 le Peignage Amédée Prouvost, premier grand peignage mécanique de laine de la région. Ses héritiers créeront la Lainière de Roubaix et les magazines Paris-Match, Marie-Claire et Télé 7 Jours.
+- **Agache** — Pérenchies, Lille. Donat Agache, fondateur des Établissements Agache, premier producteur français de toile de lin.
+- **Ternynck** — Roubaix, Picardie. Aimé Ternynck (1808–1887), négociant textile et industriel sucrier, chevalier de la Légion d'honneur (1867). Les établissements Ternynck sont la plus ancienne usine roubaisienne encore debout.
+- **Longhaye** — Lille. Auguste Longhaye (1812–1878), négociant et philanthrope, chevalier de la Légion d'honneur (1871).
+- **Delemer** — Lille. Adolphe Delemer, chevalier de la Légion d'honneur (1870).
+- **Leplat** — Tourcoing. Filateurs.
+- **Lorthiois** — Tourcoing. Peignage Lorthiois et Malard, l'un des premiers grands peignages mécaniques industriels de la région.
+
+## Chevaliers de la Légion d'honneur dans ces familles
+
+Douze membres ont été décorés entre 1842 et 1939 ; chaque dossier a été vérifié dans la base Léonore des Archives nationales :
+
+Jean-Baptiste Bossut (1842), Louis Motte-Bossut (1863), Aimé Ternynck (1867), Adolphe Delemer (1870), Auguste Longhaye (1871), Florentin Droulers (1873), Eugène Wattinne (1920), Amédée Prouvost fils (1923), Gustave Wattinne (1929), André Saint-Léger (date inconnue), Claude Saint-Léger (1933), René Wattinne (1939).
+
+## Personnages principaux
+
+- **Philippe Saint-Léger** (1787–?) — patriarche de la branche Saint-Léger, actif à Lille sous la Restauration et la Monarchie de Juillet.
+- **Claude Saint-Léger** (1897–1944) — héros des deux guerres mondiales, chevalier de la Légion d'honneur, administrateur-délégué des Établissements Agache. Époux d'Agnès Wattinne. Mort en service commandé le 14 décembre 1944.
+- **Agnès Wattinne** (1904–1993) — mémorialiste, auteure de biographies familiales inédites. Fille d'Eugène Wattinne et de Madeleine Droulers ; arrière-petite-fille de Louis Joseph Wattinne-Bossut et petite-fille d'Amédée Prouvost.
+- **André Saint-Léger** — père de Claude, administrateur des Établissements Agache, auteur de mémoires (1947).
+
+## Sources primaires disponibles sur le site
+
+- Mémoires d'André Saint-Léger (1947)
+- Autobiographie et biographies familiales rédigées par Agnès Wattinne (vers 1985)
+- Livre du Centenaire Agache (1928)
+- Livret Auchy-lès-Hesdin (histoire de la filature)
+- Dossiers Légion d'honneur (base Léonore, Archives nationales)
+
+## Structure du site
+
+- `/individus/` — fiches généalogiques individuelles (637 individus, 240 familles au GEDCOM)
+- `/recits/` — mémoires, biographies, journaux de famille
+- `/photos/` — albums photographiques de 1912 à nos jours
+- `/arbres/` — arbres généalogiques cliquables, roues des ancêtres
+- `/lieux/` — lieux liés aux familles (châteaux, filatures, villas)
+- `/sitemap.xml` — liste complète des pages
+
+## Portée chronologique
+
+De Hugues Capet (939) — ancêtre établi par filiation — jusqu'aux générations nées au XXIe siècle.
+
+## Wikidata
+
+Arnaud Saint-Léger enrichit progressivement Wikidata avec les données de ce projet.
+Profil Wikidata : https://www.wikidata.org/wiki/User:Arnaudsaintleger
+
+## Conditions d'utilisation
+
+Ce site est à usage familial et privé. Son contenu peut être cité à des fins de recherche généalogique ou historique, avec mention de la source (saintleger.org).
+
+## Contact
+
+saintleger.org@gmail.com

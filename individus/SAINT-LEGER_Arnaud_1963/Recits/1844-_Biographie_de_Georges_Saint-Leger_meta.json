@@ -1,0 +1,72 @@
+{
+  "_commentaire": "Fichier de métadonnées SEO pour la page HTML du même nom. Lu par metadata.sh lors de la compilation.",
+
+  "titre": "Biographie de Georges Saint-Léger (1844–1899) et Amélie Longhaye (1847–1929) — Bourgeoisie industrielle lilloise",
+
+  "description": "Georges Saint-Léger (1844–1899) dirige la filature du 32 rue des Tours à Lille, héritée de son père Victor. Il épouse Amélie Longhaye, fille d'Auguste, philanthrope et chevalier de la Légion d'honneur. Le couple réside au château de Verlinghem et laisse l'hôtel Crépy Saint-Léger, rue Royale — futur siège de la Banque de France.",
+
+  "keywords": "Georges Saint-Léger, Amélie Longhaye, Auguste Longhaye, Virginie Van de Weghe, André Saint-Léger, Pierre Saint-Léger, Marthe Saint-Léger, Lucien Crépy, château de Verlinghem, hôtel Crépy Saint-Léger, rue Royale, boulevard de la Liberté, boulevard Vauban, Lille, filature de lin, rue des Tours, industrie textile, bourgeoisie lilloise, philanthropie, Légion d'honneur, Maison Descamps Longhaye, Nord, XIXe siècle, généalogie, Second Empire, guerre franco-prussienne",
+
+  "og_image": "https://saintleger.org/individus/SAINT-LEGER_Georges_1844/Photos/mini_web.jpg",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laisser vide si image trop petite (Google exige min. 1200×800 px). Si renseigné, sera injecté dans le bloc JSON-LD Article.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-04-13",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/Individus/SAINT-LEGER_Arnaud_1963/Recits/1844-_Biographie_de_Georges_Saint-Leger.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "Georges Saint-Léger",       "birthDate": "1844", "deathDate": "1899" },
+    { "@type": "Person", "name": "Amélie Longhaye",           "birthDate": "1847", "deathDate": "1929" },
+    { "@type": "Person", "name": "Auguste Longhaye",          "birthDate": "1812", "deathDate": "1878" },
+    { "@type": "Person", "name": "Virginie Van de Weghe" },
+    { "@type": "Person", "name": "André Saint-Léger",         "birthDate": "1870", "deathDate": "1922" },
+    { "@type": "Person", "name": "Pierre Saint-Léger",        "birthDate": "1871", "deathDate": "1897" },
+    { "@type": "Person", "name": "Marthe Saint-Léger",        "birthDate": "1875", "deathDate": "1966" },
+    { "@type": "Person", "name": "Lucien Crépy" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place", "name": "Lille" },
+    { "@type": "Place", "name": "Château de Verlinghem" },
+    { "@type": "Place", "name": "Hôtel Crépy Saint-Léger, 77 rue Royale, Lille" },
+    { "@type": "Place", "name": "15 boulevard de la Liberté, Lille" },
+    { "@type": "Place", "name": "6 boulevard Vauban, Lille" },
+    { "@type": "Organization", "name": "Filature du 32 rue des Tours, Lille" },
+    { "@type": "Organization", "name": "Maison Descamps Longhaye" },
+    { "@type": "Organization", "name": "Banque de France" },
+    { "@type": "Organization", "name": "Caisse des Invalides du travail" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Biographie de Georges Saint-Léger (1844–1899) et d'Amélie Longhaye (1847–1929), rédigée par Arnaud Saint-Léger (2025) d'après les mémoires d'André Saint-Léger (1947). Georges, fils de Victor Saint-Léger, dirige la filature familiale du 32 rue des Tours à Lille. Décrit par son fils André comme 'un homme un peu triste, d'un caractère doux et charmant, très distrait', il épouse Amélie Longhaye, fille d'Auguste Longhaye (chevalier de la Légion d'honneur, négociant prospère place de la Gare à Lille, fondateur de la Caisse des Invalides du travail, soutien des jeunes filles exploitées dans les mines) et de Virginie Van de Weghe. Ils habitent une grande maison au coin de la rue Royale et de la rue Léonard à Lille, en face du 15 boulevard de la Liberté (maison de Victor) à 350 mètres du 6 boulevard Vauban (maison des Longhaye). Le couple passe ses étés au château de Verlinghem (dit Château Blanc, construit en 1852 par l'industriel De Viervoorde, parc à l'anglaise). Leur fille Marthe épouse Lucien Crépy, d'où l'hôtel Crépy Saint-Léger au 77 rue Royale à Lille (1 400 m², construit en 1874 par les Descamps, passé ensuite à la Banque de France après la Grande Guerre). Georges meurt en 1899 à 54 ans ; Amélie lui survit jusqu'à 82 ans. Leurs trois enfants sont André (1870–1922), Pierre (1871–1897) et Marthe (1875–1966).",
+
+    "facts": [
+      "Georges Saint-Léger (1844–1899) dirige la filature du 32 rue des Tours à Lille, héritée de son père Victor",
+      "Il épouse Amélie Longhaye (1847–1929) ; ils habitent au coin de la rue Royale et de la rue Léonard à Lille",
+      "Leurs trois enfants sont André (1870–1922), Pierre (1871–1897) et Marthe (1875–1966)",
+      "La famille passe ses étés au château de Verlinghem (dit Château Blanc), construit en 1852 par l'industriel De Viervoorde, situé dans un parc à l'anglaise",
+      "Auguste Longhaye, père d'Amélie, est chevalier de la Légion d'honneur ; négociant prospère place de la Gare à Lille (maison de commerce Descamps Longhaye) ; fondateur de la Caisse des Invalides du travail et soutien des jeunes filles exploitées dans les mines",
+      "Virginie Van de Weghe, mère d'Amélie, tient une grande maison au 6 boulevard Vauban à Lille, à 350 mètres du 15 boulevard de la Liberté où résidait Victor Saint-Léger",
+      "Marthe Saint-Léger, fille de Georges, épouse Lucien Crépy ; l'hôtel Crépy Saint-Léger au 77 rue Royale à Lille (1 400 m², plafonds vertigineux, moulures ouvragées, parquets nobles) est construit en 1874 par les Descamps, puis passe à la Banque de France après la Grande Guerre",
+      "Georges meurt prématurément en 1899 à 54 ans ; Amélie lui survit jusqu'à 82 ans"
+    ],
+
+    "periode": "1844–1929",
+    "geographie": "Lille, Verlinghem, Nord de la France",
+    "themes": ["généalogie", "biographie", "bourgeoisie industrielle lilloise", "filature de lin", "philanthropie", "hôtel particulier", "château", "XIXe siècle", "histoire de Lille", "industrie textile"],
+    "fiabilite": "Source principale : mémoires d'André Saint-Léger (20 août 1947).",
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}

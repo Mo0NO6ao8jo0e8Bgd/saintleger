@@ -1,0 +1,12 @@
+{
+  "type": "LandmarksOrHistoricalBuildings",
+  "name": "Château de Momuy",
+  "city": "Momuy",
+  "country": "FR",
+  "address": "Route du Château, 40700 Momuy",
+  "latitude": 43.6153,
+  "longitude": -0.6358,
+  "description": "Château du XVIe siècle situé dans la bastide landaise de Momuy, en Chalosse. Propriété de Marguerite Delemer (1876-1953), épouse d'André Saint-Léger administrateur des Établissements Agache, et mère de Claude Saint-Léger. Durant la Première Guerre mondiale, le château accueille pendant près de deux ans les pensionnaires de la maison de retraite Agache évacués de Pérenchies, village situé à moins de 3 km du front. La propriété passe ensuite à Mme Diriard.",
+  "startDate": "",
+  "endDate": ""
+}

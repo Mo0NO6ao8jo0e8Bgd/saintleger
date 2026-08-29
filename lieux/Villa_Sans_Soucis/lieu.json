@@ -1,0 +1,11 @@
+{
+  "type": "House",
+  "name": "Villa Sans Soucis",
+  "city": "Hardelot",
+  "country": "FR",
+  "latitude": 50.6333,
+  "longitude": 1.5833,
+  "description": "Villa Sans Soucis à Hardelot, résidence balnéaire de la famille Wattinne au début du XXe siècle.",
+  "startDate": "1900",
+  "endDate": ""
+}

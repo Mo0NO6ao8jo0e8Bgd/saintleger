@@ -1,0 +1,12 @@
+{
+  "type": "LandmarksOrHistoricalBuildings",
+  "name": "Filature Motte-Bossut (« La Filature Monstre »)",
+  "city": "Roubaix",
+  "country": "FR",
+  "address": "22 rue des Archives, 59100 Roubaix",
+  "latitude": 50.6936,
+  "longitude": 3.1772,
+  "description": "Filature de coton fondée en 1843 par Louis Motte-Bossut, gendre du maire de Roubaix Jean-Baptiste Bossut, arrière-arrière-grand-père maternel d'Agnès Wattinne. Surnommée « la filature monstre » pour sa capacité supérieure à l'ensemble des autres unités de Roubaix et Tourcoing réunies, elle incarne l'essor de la première révolution industrielle textile dans le Nord. Détruite par deux incendies (1845, 1866), reconstruite à l'épreuve du feu sur l'autre rive du canal de Roubaix, puis agrandie d'une filature de laine en 1877. Son architecture néo-gothique en brique, avec tours crénelées et pignons à redents, lui vaut le surnom de « château ». Inscrite aux Monuments Historiques en 1978, fermée en 1982. Réhabilitée par l'architecte Alain Sarfati (1989-1993), elle abrite aujourd'hui les Archives nationales du monde du travail.",
+  "startDate": "1843",
+  "endDate": "1982"
+}

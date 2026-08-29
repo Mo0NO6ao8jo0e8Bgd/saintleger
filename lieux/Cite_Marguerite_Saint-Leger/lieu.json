@@ -1,0 +1,19 @@
+{
+  "type": "Place",
+  "subtype": "WorkersHousing",
+  "name": "Cité Marguerite Saint-Léger",
+  "city": "Pérenchies",
+  "postalCode": "59840",
+  "country": "FR",
+  "latitude": 50.6872,
+  "longitude": 2.9785,
+  "description": "Cité ouvrière construite par les Établissements Agache pour loger le personnel de la filature. Nommée en hommage à Mme André Saint-Léger (Marguerite), épouse de l'administrateur-délégué André Saint-Léger, qui joua un rôle central dans la reconstruction de Pérenchies après la guerre 1914-1918. La cité comptait 42 adresses.",
+  "startDate": "~1920",
+  "startDateNote": "Date estimée — la cité a probablement été construite lors de la reconstruction de Pérenchies après la destruction totale de 1914-1918, entre 1919 et 1923.",
+  "stillExists": true,
+  "relatedOrganization": "Établissements Agache",
+  "relatedPerson": [
+    "André Saint-Léger",
+    "Marguerite Saint-Léger (née André Saint-Léger)"
+  ]
+}

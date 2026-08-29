@@ -1,0 +1,65 @@
+{
+  "_commentaire": "Métadonnées SEO pour 1944-07-19_Recu_du_Capitaine_Danon.html, lues par metadata.sh à la compilation. Pièce isolée, non série : pas de champ jsonld_haspart.",
+
+  "titre": "Reçu du capitaine Danon",
+
+  "description": "Bayeux, 19 juillet 1944 : six lignes dactylographiées attestent que le commandant Claude Saint-Léger (1897-1944) a remis 13 500 francs au capitaine Danon. La pièce le dit commandant six semaines avant ses états de service.",
+
+  "keywords": "Saint-Léger, Claude Saint-Léger, Danon, Guérin, Boislambert, MMLA, Mission militaire de liaison administrative, officier de liaison administrative, Affaires civiles, Bayeux, Calvados, Normandie, 8e Corps britannique, bataille de Normandie, Libération, Seconde Guerre mondiale, XXe siècle, grade, chef de bataillon, comptabilité militaire, Nord",
+
+  "og_image": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Militaire/1944-07-19_Recu_du_Capitaine_Danon_web.jpg",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laisser vide si image trop petite (Google exige min. 1200×800 px). Si renseigné, sera injecté dans le bloc JSON-LD Article.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-08-27",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Militaire/1944-07-19_Recu_du_Capitaine_Danon.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "Claude Adolphe Georges Saint-Léger", "birthDate": "1897-03-24", "deathDate": "1944-12-14", "sameAs": "https://www.wikidata.org/entity/Q138819799" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place", "name": "Bayeux" },
+    { "@type": "Place", "name": "Calvados" },
+    { "@type": "Place", "name": "Normandie" },
+    { "@type": "Organization", "name": "Mission militaire de liaison administrative" },
+    { "@type": "Organization", "name": "8e Corps britannique" },
+    { "@type": "Thing", "name": "Bataille de Normandie" },
+    { "@type": "Thing", "name": "Libération de la France" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Reçu dactylographié établi à Bayeux le 19 juillet 1944 par le commandant Guérin, officier adjoint au commandant de la Mission militaire de liaison administrative, attestant que le capitaine Danon a reçu 13 500 francs remis par le commandant Saint Léger. Claude Adolphe Georges Saint-Léger (Lille 1897 - Basseux 1944) sert alors comme officier de liaison administrative auprès du 8e Corps britannique. La pièce établit sa présence à Bayeux et lui donne le grade de commandant six semaines avant la date portée sur ses états de service.",
+
+    "facts": [
+      "Le reçu est établi à Bayeux le 19 juillet 1944, à l'en-tête de la Mission militaire de liaison administrative.",
+      "Il porte sur 13 500 francs remis par le commandant Saint Léger au capitaine Danon.",
+      "Il est signé C. Guérin, commandant, officier adjoint au commandant de la Mission militaire de liaison administrative.",
+      "La pièce désigne Claude Saint-Léger comme commandant dès le 19 juillet 1944, alors que ses états de service du 13 mars 1945 le font exercer les fonctions de chef de bataillon à compter du 1er septembre 1944.",
+      "Le journal de marche des Affaires civiles du 8e Corps britannique le porte comme lieutenant le 23 juin 1944 puis comme commandant à partir du 1er juillet 1944.",
+      "Une décision du commandement supérieur des Forces françaises en Grande-Bretagne du 12 juin 1944 le nomme officier de liaison administrative de 3e classe, assimilé commandant.",
+      "Bayeux, libérée le 7 juin 1944, abrite le commissaire de la République François Coulet depuis le 14 juin et l'échelon de commandement de la Mission militaire de liaison administrative dirigée par le colonel Claude Hettier de Boislambert.",
+      "Le capitaine Danon et le commandant Guérin n'apparaissent dans aucune autre pièce du fonds."
+    ],
+
+    "periode": "19 juillet 1944",
+    "geographie": "Bayeux, Calvados, Normandie",
+    "themes": ["Seconde Guerre mondiale", "bataille de Normandie", "Mission militaire de liaison administrative", "Affaires civiles alliées", "Libération de la France", "comptabilité militaire", "grades et assimilations"],
+
+    "fiabilite": "Source primaire dactylographiée, signée à la main, contemporaine du fait qu'elle atteste. Le grade de commandant est recoupé par le journal de marche des Affaires civiles du 8e Corps britannique (TNA WO 171/304) à compter du 1er juillet 1944 et par la décision d'assimilation du 12 juin 1944. L'objet de la remise de fonds n'est pas indiqué et n'est documenté par aucune autre pièce du fonds. L'identité du capitaine Danon et celle du commandant Guérin restent à établir.",
+
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}

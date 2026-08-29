@@ -1,0 +1,12 @@
+{
+  "type": "LandmarksOrHistoricalBuildings",
+  "name": "Manufactures Tissel (ancienne usine Ternynck)",
+  "city": "Roubaix",
+  "country": "FR",
+  "address": "17 rue du Nouveau Monde, 59100 Roubaix",
+  "latitude": 50.6912,
+  "longitude": 3.1756,
+  "description": "Plus ancienne usine de Roubaix encore debout, fondée en 1835 par Henri Ternynck, frère de notre ancêtre Aimé Ternynck. Filature et tissage de laine pendant plus de 150 ans, puis logistique textile sous le nom Tissel. Depuis 2023, reconvertie en tiers-lieu de 11 000 m² dédié à l'économie circulaire par la Ville de Roubaix, désignée ville pilote de l'économie circulaire en Europe en 2022.",
+  "startDate": "1835",
+  "endDate": ""
+}

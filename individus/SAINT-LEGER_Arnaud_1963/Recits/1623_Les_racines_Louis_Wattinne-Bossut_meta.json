@@ -1,0 +1,81 @@
+{
+  "_commentaire": "Fichier de métadonnées SEO pour la page HTML du même nom. Lu par metadata.sh lors de la compilation.",
+
+  "titre": "Deux familles flamandes — Les racines de Louis Wattinne et Pauline Bossut (1623–1837)",
+
+  "description": "De Antoine Watine, maçon de Tourcoing en 1623, à Louis Joseph Wattinne (1810–1867) ; de Pierre François Bossut, premier commissionnaire de Roubaix, à Jean-Baptiste maire de la ville en 1845 : six générations de deux familles flamandes qui convergent vers le mariage du 23 avril 1837.",
+
+  "keywords": "Wattinne, Bossut, Tourcoing, Roubaix, Antoine Watine, Jean Hubert Wattinne, Jean Antoine Wattinne, Pierre François Wattinne, Louis Joseph Xavier Wattinne, Augustine Dervaux, Euphroïsine de Wavrin, Pierre François Bossut, Jean-Baptiste Bossut, Pauline Grimonprez, Pauline Bossut, Louis Joseph Wattinne, Motte-Bossut, Adèle Bossut, Louis Motte, filature monstre, négoce lainier, commissionnaire, draperie flamande, spinning-jenny, Révolution industrielle, guildes, corporations, Flandre, Nord, Pas-de-Calais, XIXe siècle, XVIIe siècle, XVIIIe siècle, Légion d'honneur, maire de Roubaix, maire de Tourcoing, industrie textile, généalogie, wastine",
+
+  "og_image": "https://saintleger.org/individus/WATTINNE_Louis_1810/Photos/mini_web.jpg",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laisser vide si image trop petite (Google exige min. 1200×800 px). Si renseigné, sera injecté dans le bloc JSON-LD Article.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-04-13",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/Individus/SAINT-LEGER_Arnaud_1963/Recits/1623_Les_racines_Louis_Wattinne-Bossut.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "Antoine Watine",                      "birthDate": "1623" },
+    { "@type": "Person", "name": "Jean Hubert Wattinne",                "birthDate": "1650", "deathDate": "1689" },
+    { "@type": "Person", "name": "Jean Antoine Wattinne",               "birthDate": "1689", "deathDate": "1759" },
+    { "@type": "Person", "name": "Pierre François Wattinne",            "birthDate": "1749", "deathDate": "1812" },
+    { "@type": "Person", "name": "Euphroïsine de Wavrin",               "birthDate": "1759", "deathDate": "1805" },
+    { "@type": "Person", "name": "Louis Joseph Xavier Wattinne",        "birthDate": "1785", "deathDate": "1840" },
+    { "@type": "Person", "name": "Augustine Dervaux",                   "birthDate": "1787" },
+    { "@type": "Person", "name": "Louis Joseph Wattinne",               "birthDate": "1810", "deathDate": "1867" },
+    { "@type": "Person", "name": "Pierre François Joseph Bossut",       "birthDate": "1765", "deathDate": "1845" },
+    { "@type": "Person", "name": "Jean-Baptiste Joseph Bossut",         "birthDate": "1790", "deathDate": "1874" },
+    { "@type": "Person", "name": "Pauline Monique Grimonprez",          "birthDate": "1796", "deathDate": "1876" },
+    { "@type": "Person", "name": "Pauline Catherine Hyacinthe Bossut",  "birthDate": "1818", "deathDate": "1902" },
+    { "@type": "Person", "name": "Adèle Bossut",                        "birthDate": "1819" },
+    { "@type": "Person", "name": "Louis Motte",                         "birthDate": "1800" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place", "name": "Tourcoing" },
+    { "@type": "Place", "name": "Roubaix" },
+    { "@type": "Place", "name": "Lille" },
+    { "@type": "Place", "name": "Flandre" },
+    { "@type": "Organization", "name": "Filature Motte-Bossut" },
+    { "@type": "Organization", "name": "Gilde de Saint-André de Tourcoing" },
+    { "@type": "Organization", "name": "Société d'émulation de Roubaix" },
+    { "@type": "Event", "name": "Franche foire de Tourcoing accordée par Maximilien d'Autriche", "startDate": "1491" },
+    { "@type": "Event", "name": "Mariage Louis Wattinne et Pauline Bossut", "startDate": "1837-04-23" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Article généalogique d'Arnaud Saint-Léger (2026) retraçant les racines des deux familles convergeant vers le mariage de Louis Joseph Wattinne (1810–1867) et Pauline Bossut (1818–1902) à Roubaix le 23 avril 1837. Côté Wattinne : six générations à Tourcoing depuis Antoine Watine (°1623), maçon et laboureur, jusqu'à Louis Joseph Xavier Wattinne (1785–1840), négociant en laines avec 600 000 francs de fortune en 1810 et adjoint au maire de Tourcoing en 1815, en passant par Pierre François Wattinne (1749–1812), architecte et maire de Tourcoing en 1800-1801, qui épouse Euphroïsine de Wavrin. Côté Bossut : Pierre François Bossut (1765–1845) fonde la première maison de commission de Roubaix ; son fils Jean-Baptiste (1790–1874) est fait chevalier de la Légion d'honneur le 30 mars 1842 et devient maire de Roubaix le 24 juin 1845. L'article retrace aussi le contexte économique — draperie flamande depuis le XIIe siècle, franche foire accordée par Maximilien d'Autriche en 1491, spinning-jenny (1764), suppression des corporations (1791) — et la fondation en 1843 de la filature Motte-Bossut (la « filature monstre », 7 000 salariés) par Louis Wattinne, Louis Motte (beau-frère via Adèle Bossut) et Cavrois-Grimonprez pour 600 000 francs-or.",
+
+    "facts": [
+      "Le nom Wattinne vient du vieux flamand wastine (terre inculte, marécageuse) ; des Lambertus de Wastina sont cités dans des chartes dès 1138",
+      "Antoine Watine, premier ancêtre daté, naît le 27 juin 1623 à Tourcoing ; il est maçon et laboureur, épouse Françoise Chombart en 1649",
+      "Jean Hubert Wattinne (1650–1689), maître maçon arpenteur, meurt à 38 ans en laissant sa femme Christiane Caby enceinte de Jean Antoine, né posthume en juillet 1689",
+      "Jean Antoine Wattinne (1689–1759) épouse tardivement Marie Françoise Yon en 1746 ; son nom apparaît la même année dans les archives de la confrérie de Saint-André de Tourcoing",
+      "Pierre François Wattinne (1749–1812), architecte favorable aux idées nouvelles, épouse Euphroïsine de Wavrin (famille noble flamande) en 1781 et est nommé maire de Tourcoing en 1800-1801 (an IX)",
+      "Louis Joseph Xavier Wattinne (1785–1840) épouse Augustine Dervaux en 1808 et fonde son négoce en laines en 1810 avec une fortune estimée à 600 000 francs ; il est adjoint au maire de Tourcoing en 1815",
+      "Pierre François Joseph Bossut (1765–1845) fonde la première maison de commission de Roubaix, mode commercial qui sera imité dans toute la région",
+      "Jean-Baptiste Joseph Bossut (1790–1874) est fait chevalier de la Légion d'honneur le 30 mars 1842 et devient maire de Roubaix le 24 juin 1845 (successeur nommé le 25 février 1846)",
+      "Pauline Bossut (1818) et Adèle Bossut (1819) sont les deux filles stratégiques de Jean-Baptiste : Pauline épouse Louis Wattinne le 23 avril 1837, Adèle épouse Louis Motte en 1841",
+      "La filature Motte-Bossut est constituée le 26 janvier 1843 par Cavrois-Grimonprez, Wattinne-Bossut et Motte-Bossut pour 600 000 francs-or (un tiers chacun) ; surnommée la filature monstre, elle emploiera jusqu'à 7 000 salariés",
+      "En 1491, l'empereur Maximilien d'Autriche accorde à Tourcoing une franche foire ; en 1534, un édit interdit aux bourgs du plat pays de fabriquer des tissus de pure laine, favorisant le monopole lillois pendant trois siècles"
+    ],
+
+    "periode": "1623–1837 (avec contexte historique depuis le XIIe siècle)",
+    "geographie": "Tourcoing, Roubaix, Lille, Flandre, Nord de la France",
+    "themes": ["généalogie", "industrie textile", "négoce lainier", "draperie flamande", "Révolution industrielle", "filature de coton", "histoire de Tourcoing", "histoire de Roubaix", "guildes et corporations", "bourgeoisie industrielle du Nord", "XIXe siècle", "XVIIe siècle", "XVIIIe siècle"],
+    "fiabilite": "Sources : généalogie familiale (2025-2026), histoirehautpays.com (Auchy-lès-Hesdin au temps de la filature), Marianne Wattinne (Le Haras de Blingel, un siècle dans la famille Wattinne), thierryprouvost.com (Watine-Wattinne et Bossut), Société d'émulation de Roubaix (histoirederoubaix.com), Archives nationales du monde du travail, Wikipedia (Histoire de Tourcoing, liste des maires de Roubaix), Cairn, Persée.",
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}

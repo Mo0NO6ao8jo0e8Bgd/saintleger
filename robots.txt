@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /arbres/Arbre_desc._33gen._fratrie_CAPET-.html
+Disallow: /arbres/GEDCOM_ancetres.ged
+Disallow: /arbres/roue_6_gen_Claude.pdf
+Disallow: /arbres/Roue_asc._9G_fratrie_SAINT-LEGER-WATTINNE.html
+Disallow: /css/
+Disallow: /partials/
+Disallow: /prive/
+Sitemap: https://saintleger.org/sitemap.xml
+
+# Description du site pour les modèles de langage (convention llms.txt)
+# https://llmstxt.org/
+# LLM-Description: https://saintleger.org/llms.txt
