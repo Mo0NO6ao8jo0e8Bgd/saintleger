@@ -1,0 +1,73 @@
+{
+  "_commentaire": "Fichier de métadonnées SEO pour la page HTML du même nom, lu par metadata.sh à la compilation.",
+
+  "titre": "Lettre au lieutenant-colonel Lion, août 1944",
+
+  "description": "Août 1944, dans le bocage normand : le commandant Claude Saint-Léger (1897-1944) rend compte au lieutenant-colonel Lion de cinquante civils ramenés du no man’s land de Burcy par deux chars, hors de toute règle.",
+
+  "keywords": "Saint-Léger, Claude Saint-Léger, Lion, Miles, Bucquet, Burcy, Viessoix, Vire, Le Bény-Bocage, Calvados, Normandie, bataille de Normandie, 8e Corps britannique, Civil Affairs, affaires civiles, officier de liaison administrative, MMLA, liaison tactique, réfugiés, évacuation des populations civiles, Guards Armoured Division, opération Bluecoat, 1944, Seconde Guerre mondiale, XXe siècle",
+
+  "og_image": "",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laisser vide si image trop petite (Google exige min. 1200×800 px). Si renseigné, sera injecté dans le bloc JSON-LD Article.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-08-30",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Militaire/1944-08_Lettre_a_Lieutenant-Colonel_Lion.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "Claude Adolphe Georges Saint-Léger", "birthDate": "1897-03-24", "deathDate": "1944-12-14", "sameAs": "https://www.wikidata.org/entity/Q138819799" },
+    { "@type": "Person", "name": "Lieutenant-colonel P. Lion" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place",        "name": "Burcy" },
+    { "@type": "Place",        "name": "Viessoix" },
+    { "@type": "Place",        "name": "Vire" },
+    { "@type": "Place",        "name": "Calvados" },
+    { "@type": "Place",        "name": "Normandie" },
+    { "@type": "Organization", "name": "8e Corps britannique" },
+    { "@type": "Organization", "name": "224 Civil Affairs Detachment" },
+    { "@type": "Organization", "name": "Guards Armoured Division" },
+    { "@type": "Organization", "name": "3rd Infantry Division" },
+    { "@type": "Organization", "name": "Mission militaire de liaison administrative" },
+    { "@type": "Organization", "name": "IIe Armée britannique" },
+    { "@type": "Thing",        "name": "Bataille de Normandie" },
+    { "@type": "Thing",        "name": "Opération Bluecoat" },
+    { "@type": "Thing",        "name": "Évacuation des populations civiles" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Tapuscrit sans en-tête daté d’août 1944, établi au quartier général du 8e Corps britannique par le commandant Claude Adolphe Georges Saint-Léger (Lille, 24 mars 1897 - Basseux, 14 décembre 1944), officier de liaison administrative français, et adressé au lieutenant-colonel Lion, chef de la mission française de liaison auprès de la IIe armée britannique. Claude y résume les déclarations du major Miles, commandant le 224 Civil Affairs Detachment, et du capitaine Bucquet, sur l’évacuation improvisée de civils à Burcy (Calvados) les 12 et 13 août 1944 par un lieutenant français de la liaison tactique. La pièce énonce la règle britannique en matière d’évacuation des populations civiles.",
+
+    "facts": [
+      "Le document est signé Cdt. Saint Leger et porte le timbre HQ 8 Corps, août 1944.",
+      "Il est adressé au lieutenant-colonel Lion, chef de la mission française de liaison auprès de la IIe armée britannique.",
+      "Le 12 août 1944, le lieutenant de Lapereyre, de la liaison tactique, fait chercher un homme dans le no man’s land par deux chars, en accord avec l’unité britannique ; les deux chars reviennent avec cinquante personnes, installées à Burcy à 17 h.",
+      "Il en rend compte au 224 Civil Affairs Detachment le 13 août 1944 à 10 h, disant n’avoir pas trouvé le détachement la veille.",
+      "Le même jour, il aurait ramené des réfugiés originaires de Viessoix, écrit Vissoix dans le tapuscrit, du no man’s land de la 3e division, sans que le 224 detachment puisse en retrouver trace.",
+      "Le major Miles commande le 224 Civil Affairs Detachment, implanté au quartier général principal de la division blindée des Guards.",
+      "Le lieutenant de Lapereyre a laissé entendre au capitaine Bucquet que le commandant Gauthier souhaitait qu’il ramène les civils de la zone dangereuse.",
+      "Selon le major Miles, les instructions sont de faire ce qui est possible pour les réfugiés mais de ne pas provoquer leur départ, l’unité en ligne étant seule juge de décider l’évacuation obligatoire."
+    ],
+
+    "periode": "12 août 1944 - 31 août 1944",
+    "geographie": "Burcy, Viessoix, Vire, Le Bény-Bocage, Calvados, Normandie",
+    "themes": ["Bataille de Normandie", "Affaires civiles alliées", "Officiers de liaison administrative français", "Réfugiés et évacuation des civils", "8e Corps britannique"],
+
+    "fiabilite": "Source primaire contemporaine des faits : tapuscrit d’août 1944 conservé dans les papiers de Claude Saint-Léger. Recoupements internes au fonds : journal de marche des Affaires civiles du 8e Corps (TNA WO 171/304), journal de marche du 223 Civil Affairs Detachment (TNA WO 171/3587), directives aux officiers de liaison administrative des 18 et 20 juillet 1944, rapport de situation du sous-lieutenant Le Roy du 29 août 1944. Recoupements externes : notices publiques sur l’opération Bluecoat et sur l’engagement de la division blindée des Guards et de la 3e division d’infanterie autour de Vire en août 1944. Le major Miles, le capitaine Bucquet, le brigadier Lewis, le lieutenant de Lapereyre et le commandant Gauthier ne sont pas autrement identifiés à ce jour.",
+
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}

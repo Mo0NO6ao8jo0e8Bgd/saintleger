@@ -1,0 +1,84 @@
+{
+  "_commentaire": "Fichier de métadonnées SEO pour la page HTML du même nom, lu par metadata.sh à la compilation.",
+
+  "titre": "Activité d'officier de liaison avec la population civile, Alger, septembre-novembre 1943",
+
+  "description": "À Alger, à l'automne 1943, Claude Saint-Léger (1897-1944), industriel du Nord devenu officier, plaide auprès d'Henri Queuille et du Commissariat au Travail pour les maires de la zone interdite et la remise en route des usines.",
+
+  "keywords": "Saint-Léger, Claude Saint-Léger, Descamps, René Descamps, Queuille, Henri Queuille, Hauck, Tixier, Lion, Alger, Algérie, Londres, Lille, Nord, Pas-de-Calais, zone interdite, officier de liaison, liaison avec la population civile, Mission militaire de liaison administrative, MMLA, Comité français de la Libération nationale, CFLN, Commissariat au Travail, comités d'organisation, commission du débarquement, Établissements Agache, industrie textile, filature, Libération, Seconde Guerre mondiale, 1943, XXe siècle, manuscrit inédit",
+
+  "og_image": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Photos/mini_web.jpg",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laisser vide si image trop petite (Google exige min. 1200×800 px). Si renseigné, sera injecté dans le bloc JSON-LD Article.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-08-29",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Militaire/1943-11_Activite_officier_de_liaison_population_civile_Alger.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "Claude Adolphe Georges Saint-Léger", "birthDate": "1897-03-24", "deathDate": "1944-12-14", "sameAs": "https://www.wikidata.org/entity/Q138819799" },
+    { "@type": "Person", "name": "Henri Queuille", "birthDate": "1884-03-31", "deathDate": "1970-06-15" },
+    { "@type": "Person", "name": "Henry Hauck", "birthDate": "1902-02-25", "deathDate": "1967-10-13" },
+    { "@type": "Person", "name": "Adrien Tixier", "birthDate": "1893-01-24", "deathDate": "1946-02-18" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place",        "name": "Alger" },
+    { "@type": "Place",        "name": "Londres" },
+    { "@type": "Place",        "name": "Nord" },
+    { "@type": "Place",        "name": "Pas-de-Calais" },
+    { "@type": "Organization", "name": "Comité français de la Libération nationale" },
+    { "@type": "Organization", "name": "Commissariat au Travail et à la Prévoyance sociale" },
+    { "@type": "Organization", "name": "British Broadcasting Corporation" },
+    { "@type": "Organization", "name": "Mission militaire de liaison administrative" },
+    { "@type": "Organization", "name": "Établissements Agache" },
+    { "@type": "Thing",        "name": "Commission du débarquement" },
+    { "@type": "Thing",        "name": "Comités d'organisation" },
+    { "@type": "Thing",        "name": "Zone interdite" },
+    { "@type": "Thing",        "name": "Libération de la France" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Quatre pages autographes non datées de Claude Adolphe Georges Saint-Léger (Lille 1897 - Basseux 1944), industriel du Nord et administrateur délégué des Établissements Agache, rédigées à Alger après le 9 novembre 1943. Il y relève ses démarches d'officier de liaison avec la population civile entre le 3 septembre et le 19 novembre 1943 : examen, cours de dix-huit jours, inscription pour Londres avec cinquante autres officiers, entrevues au Commissariat au Travail, avec le commandant Lyon puis avec Henri Queuille, président de la commission du débarquement. Il y plaide pour les maires de la zone interdite et pour le maintien en place des structures industrielles à la Libération.",
+
+    "facts": [
+      "Claude Saint-Léger passe l'examen d'officier de liaison avec la population civile le 3 ou le 4 septembre 1943, à Alger.",
+      "Il suit un cours de dix-huit jours au début d'octobre 1943, peu après le décret du 2 octobre 1943 qui institue l'assimilation des officiers de liaison administrative.",
+      "Il est inscrit pour Londres avec cinquante autres officiers vers le 20 octobre 1943, et part effectivement pour l'Angleterre le 30 janvier 1944.",
+      "Il est envoyé en stage au Commissariat au Travail le 20 octobre 1943 et y rencontre le 21 puis le 26 octobre un responsable qu'il nomme Monsieur Hauch, secrétaire général du Commissariat au travail et speaker de la B.B.C.",
+      "Le 27 octobre 1943 il expose au commandant Lyon, chef des liaisons non absolument militaires, des réformes concernant les maires de la zone interdite, afin d'éviter leur réquisition civile.",
+      "Le 29 octobre 1943 il est reçu par Henri Queuille, président de la commission du débarquement, avec son secrétaire Monsieur Jais et, à la fin de l'entrevue, le colonel Tixier.",
+      "Sa demande sur la réquisition civile des maires échoue, mais Queuille annonce qu'il défendra lui-même ses autres propositions devant la commission du débarquement.",
+      "Le 19 novembre 1943, le compte rendu de la commission du débarquement porte que Queuille y a proposé les suggestions d'un officier de liaison, en partie retenues pour l'édition corrigée des consignes à la liaison avec la population civile.",
+      "Il demande que, sauf impossibilité, tout soit laissé en place à la Libération, pour ne pas ralentir la remise en route des usines, et se prononce pour un pool de matières premières destiné à la main d'oeuvre inemployée.",
+      "La pièce est postérieure au 9 novembre 1943, date à laquelle Henri Queuille devient commissaire d'État au Comité français de la Libération nationale, événement que le manuscrit rapporte au passé."
+    ],
+
+    "periode": "septembre 1943 - novembre 1943",
+    "geographie": "Alger, Londres, Nord, Pas-de-Calais, zone interdite",
+    "themes": [
+      "officiers de liaison administrative",
+      "préparation de la Libération",
+      "Comité français de la Libération nationale",
+      "comités d'organisation et industrie française",
+      "zone interdite du Nord et du Pas-de-Calais",
+      "patronat textile du Nord",
+      "Seconde Guerre mondiale"
+    ],
+
+    "fiabilite": "Manuscrit autographe de première main, non daté, du fonds familial Saint-Léger. La datation en septembre-novembre 1943 repose sur trois recoupements internes convergents : l'inscription pour Londres, antérieure au départ du 30 janvier 1944 attesté par les correspondances de Londres ; l'entrée d'Henri Queuille au Comité français de la Libération nationale le 9 novembre 1943 ; le décret du 2 octobre 1943 cité par l'attestation de promotion de 1949. Trois identifications restent des hypothèses signalées comme telles dans la page : Monsieur Hauch, probablement Henry Hauck ; le commandant Lyon, peut-être le lieutenant-colonel P. Lion ; le colonel Tixier, lecture probable. Les éléments de contexte extérieurs au fonds proviennent du Maitron et du portail Chemins de mémoire.",
+
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "_commentaire": "Fichier de métadonnées SEO pour la page HTML du même nom, lu par metadata.sh à la compilation.",
+
+  "titre": "Deux lettres du QG arrière de la IIe Armée britannique, août 1944",
+
+  "description": "Fin août 1944, le chef de la mission française de liaison auprès de la IIe Armée britannique écrit à Claude Saint-Léger (1897-1944) : un ordre de mission de 48 heures pour Paris libéré, et un 8e Corps immobilisé sur la Seine.",
+
+  "keywords": "Saint-Léger, Claude Saint-Léger, mission militaire de liaison administrative, MMLA, officier de liaison administrative, Affaires civiles, Civil Affairs, 8e Corps britannique, IIe Armée britannique, 223 Civil Affairs Detachment, ordre de mission, Libération de Paris, Claridge, Normandie, Calvados, Vire, Carville, Eure, Évreux, Louviers, Vernon, Seine, Seconde Guerre mondiale, 1944, XXe siècle, correspondance militaire",
+
+  "og_image": "",
+
+  "image_jsonld": "",
+  "_image_jsonld_note": "Image pour les rich results Google — laisser vide si image trop petite (Google exige min. 1200×800 px). Si renseigné, sera injecté dans le bloc JSON-LD Article.",
+
+  "date_published": "2026-01-01",
+  "date_modified": "2026-08-29",
+
+  "author_name": "Arnaud Saint-Léger",
+  "author_url": "https://saintleger.org/individus/SAINT-LEGER_Arnaud_1963.html",
+
+  "canonical": "https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Militaire/1944-08_Lettres_du_QG_arriere_de_la_IIe_Armee.html",
+
+  "langue": "fr",
+
+  "robots": "index, follow",
+
+  "jsonld_about": [
+    { "@type": "Person", "name": "Claude Adolphe Georges Saint-Léger", "birthDate": "1897-03-24", "deathDate": "1944-12-14", "sameAs": "https://www.wikidata.org/entity/Q138819799" }
+  ],
+
+  "jsonld_mentions": [
+    { "@type": "Place",        "name": "Paris" },
+    { "@type": "Place",        "name": "Évreux" },
+    { "@type": "Place",        "name": "Louviers" },
+    { "@type": "Place",        "name": "Vernon" },
+    { "@type": "Place",        "name": "Carville, Calvados" },
+    { "@type": "Organization", "name": "Mission militaire de liaison administrative" },
+    { "@type": "Organization", "name": "IIe Armée britannique" },
+    { "@type": "Organization", "name": "8e Corps britannique" },
+    { "@type": "Organization", "name": "223 Civil Affairs Detachment" },
+    { "@type": "Thing",        "name": "Libération de Paris" },
+    { "@type": "Thing",        "name": "Franchissement de la Seine par la IIe Armée britannique" }
+  ],
+
+  "jsonld_haspart": [
+    { "@type": "Message", "name": "Lettre du 25 août 1944", "dateSent": "1944-08-25", "sender": "Chef de la mission française de liaison auprès de la IIe Armée britannique", "recipient": "Claude Saint-Léger", "url": "#l-1944-08-25" },
+    { "@type": "Message", "name": "Lettre du 29 août 1944", "dateSent": "1944-08-29", "sender": "Chef de la mission française de liaison auprès de la IIe Armée britannique", "recipient": "Claude Saint-Léger", "url": "#l-1944-08-29" }
+  ],
+
+  "llm": {
+    "_commentaire": "Signaux pour les LLMs (ChatGPT, Perplexity, Claude…) qui crawlent le web et citent des sources.",
+
+    "summary": "Deux lettres manuscrites adressées les 25 et 29 août 1944 à Claude Saint-Léger (1897-1944), officier de liaison administrative français auprès des Affaires civiles du 8e Corps britannique, depuis le quartier général arrière de la IIe Armée britannique. Le signataire, son chef de mission, dont le paraphe est illisible, lui remet un ordre de mission de 48 heures au lendemain de la libération de Paris, lui demande de passer le commandement à un officier nommé Mequet, et se félicite ensuite qu il ait retrouvé sa famille en bonne santé. Il indique avoir transmis au colonel Gussmann le rapport de Claude du 28 août sur la zone du 223 Civil Affairs Detachment.",
+
+    "facts": [
+      "Les deux lettres portent en tête la mention HQ Rear II Army et sont datées du 25 et du 29 août 1944.",
+      "La lettre du 25 août 1944 accompagne un ordre de mission d une durée officielle de 48 heures, que le signataire accepte de laisser dépasser jusqu à trois jours.",
+      "Le signataire annonce que le corps de Claude Saint-Léger sera vraisemblablement réengagé prochainement, le 8e Corps britannique étant alors maintenu en réserve de la IIe Armée.",
+      "Claude Saint-Léger doit passer le commandement à un officier nommé Mequet pendant son absence.",
+      "Un officier nommé Michel n est pas rendu au corps de Claude Saint-Léger, le chef de mission se déclarant à court d officiers pour le 30e et le 12e Corps.",
+      "La lettre du 29 août 1944 se réjouit que Claude Saint-Léger ait retrouvé sa famille en excellente santé : c est la première attestation contemporaine de son séjour parisien de la fin août 1944.",
+      "Le signataire indique avoir passé vingt-quatre heures à Paris le dimanche 27 et le lundi 28 août 1944 et note que le siège de la M.M.F.A. y est installé au Claridge.",
+      "Le signataire indique avoir transmis au colonel Gussmann le rapport de Claude Saint-Léger daté du 28 août 1944 sur la zone du 223 Civil Affairs Detachment.",
+      "Le signataire annonce partir le 30 août 1944 pour une tournée de deux ou trois jours dans la région d Évreux, Louviers et Vernon."
+    ],
+
+    "periode": "25-29 août 1944",
+    "geographie": "Normandie, Paris, Évreux, Louviers, Vernon, arrondissement de Vire, Carville",
+    "themes": ["Seconde Guerre mondiale", "officiers de liaison administrative", "Affaires civiles", "libération de Paris", "IIe Armée britannique", "8e Corps britannique", "franchissement de la Seine"],
+
+    "fiabilite": "Sources primaires : les deux lettres manuscrites elles-mêmes, conservées dans les papiers de Claude Saint-Léger. Recoupements internes au fonds : fiche de renseignement MMLA du 15 août 1944, rapport de situation du sous-lieutenant Le Roy du 29 août 1944, carnet d officier de liaison MMLA, directives aux officiers de liaison administrative de juillet 1944. Recoupements externes : War Diary du service des Affaires civiles du 8e Corps britannique (TNA WO 171/304), War Diary du 223 Civil Affairs Detachment (TNA WO 171/3587), histoire officielle de l armée canadienne pour la mise en réserve du 8e Corps. La signature des deux lettres reste illisible et l identité du signataire n est pas établie.",
+
+    "licence": "© Arnaud Saint-Léger 2026 — reproduction soumise à autorisation"
+  }
+}
