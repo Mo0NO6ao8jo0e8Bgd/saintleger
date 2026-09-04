@@ -3217,12 +3217,6 @@
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Correspondances/1918-1919_Ma_chere_mere.html</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
     <loc>https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Correspondances/1918_Lettres_a_Claude.html</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>yearly</changefreq>
@@ -3254,6 +3248,12 @@
   </url>
   <url>
     <loc>https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Correspondances/1919_Lettres_militaires_a_Claude.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://saintleger.org/individus/SAINT-LEGER_Claude_1897/Correspondances/1919_Ma_chere_mere.html</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
