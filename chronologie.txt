@@ -5,6 +5,8 @@ date; type; individu_id; texte
 24/03/1897; Perso; SAINT-LEGER_Claude_1897; Naissance
 27/03/1897; Perso; SAINT-LEGER_Claude_1897; Baptême
 04/06/1904; Perso; WATTINNE_Agnes_1904; Naissance d'Agnès (Anny)
+00/00/1913; Pro; SAINT-LEGER_Andre_1870; Cession à la Société anonyme de Pérenchies de sa filature de lin de La Madeleine, voisine de l'usine de Berkem, soit 9500 broches à filer au mouillé. Il entre à cette occasion au conseil d'administration, aux côtés de Donat Agache et Jean Delemer
+00/00/1914; Pro; SAINT-LEGER_Andre_1870; Administre la ville de La Madeleine en l'absence du maire mobilisé, pourvoit aux besoins essentiels de ses concitoyens et tient tête à l'occupant
 01/08/1914; Contexte; ; Mobilisation générale
 03/08/1914; Contexte; ; L’Allemagne déclare la guerre à la France
 23/08/1915; Pro; SAINT-LEGER_Claude_1897; Évadé de Lille le 23 août 1915 à 4 h du matin, avec son cousin Max Descamps, sous de faux passeports
@@ -15,6 +17,7 @@ date; type; individu_id; texte
 21/05/1916; Pro; SAINT-LEGER_Claude_1897; Départ pour les armées
 00/07/1916; Contexte; ; Bataille de la Somme
 06/04/1917; Pro; SAINT-LEGER_Claude_1897; Citation à l’ordre du régiment n° 118, signée du colonel de Barry, pour son évasion de Lille
+27/06/1917; Contexte; ; L'autorité allemande ordonne l'évacuation totale de la population civile de Pérenchies
 00/01/1918; Pro; SAINT-LEGER_Claude_1897; Part sur sa demande aux Chasseurs à pied pour suivre les cours de Saint-Cyr
 08/01/1918; Pro; DELEMER_Marguerite_1876; Déportation au camp d'Holzminden (vers le 08/01/1918)
 00/02/1918; Pro; SAINT-LEGER_Claude_1897; Retour du front
@@ -29,26 +32,31 @@ date; type; individu_id; texte
 08/08/1918; Contexte; ; Bataille d’Amiens
 25/08/1918; Pro; SAINT-LEGER_Claude_1897; Rejoint le Centre d’Instruction Divisionnaire de la 166ᵉ Division d’Infanterie comme aspirant du 26ᵉ BCP
 20/09/1918; Pro; SAINT-LEGER_Claude_1897; Affecté à la 1ʳᵉ Compagnie de Mitrailleuses du 26ᵉ BCP, qu’il commandera comme chef de peloton
+00/10/1918; Contexte; ; Les usines de Pérenchies et de La Madeleine sont rendues à la société Agache
 17/10/1918; Pro; SAINT-LEGER_Claude_1897; Citation à l’ordre de la 166ᵉ Division d’Infanterie n° 231, pour l’assaut du 24 septembre 1918
 11/11/1918; Contexte; ; Armistice
 18/11/1918; Pro; SAINT-LEGER_Claude_1897; Citation à l’ordre de la 166ᵉ Division d’Infanterie n° 241, pour une action du 5 novembre 1918
-00/12/1918; Pro; DELEMER_Marguerite_1876; Reconstruction des cités ouvrières
-00/00/1919; Perso; SAINT-LEGER_Andre_1870; Vente de la filature de la Madeleine, en échange de 2 places d'administrateur pour André et Claude (avant 1919, ou en 1920 ?)
-00/01/1919; Perso; SAINT-LEGER_Claude_1897; nommé Directeur des Etablissements Agache Fils (ou depuis 1923 ?)
+14/01/1919; Pro; DELEMER_Marguerite_1876; S'installe avec le maire Henri Bouchery dans les ruines de Pérenchies, un logement de fortune servant de poste de travail pour le plan des travaux et la réorganisation des services municipaux
+00/00/1919; Pro; DELEMER_Marguerite_1876; Organise à Pérenchies une cantine rue Gambetta, un dortoir de 150 lits, la distribution de vêtements, un dispensaire, un ouvroir et une consultation de nourrissons
+00/00/1919; Pro; SAINT-LEGER_Andre_1870; Administrateur-délégué des Établissements Agache
+19/03/1919; Pro; SAINT-LEGER_Claude_1897; Directeur de la filature de lin de La Madeleine, alors propriété de la Société anonyme de Pérenchies
 19/03/1919; Pro; SAINT-LEGER_Claude_1897; Sursis jusqu’au 30 juin 1919 au titre de directeur de la Société anonyme de Pérenchies à la Madeleine, décision 1R 446
+16/04/1919; Pro; DELEMER_Marguerite_1876; Le Grand Écho du Nord signale qu'elle est chaque jour à Pérenchies avec sa fille Anne pour diriger la répartition des denrées de la coopérative ouvrière et agricole qu'elles y ont fondée
 23/06/1919; Pro; SAINT-LEGER_Claude_1897; Prolongation du sursis jusqu’au 15 octobre 1919
 13/09/1919; Pro; SAINT-LEGER_Claude_1897; Démobilisé, congé illimité. Campagne contre l’Allemagne du 21 octobre 1915 au 13 septembre 1919
+17/10/1919; Contexte; ; Un embryon d'usine repart à Pérenchies, un an jour pour jour après la délivrance
+00/00/1920; Pro; SAINT-LEGER_Andre_1870; Cession par voie d'apport de la filature de coton André Saint-Léger et Cie à La Madeleine, rémunérée en actions, le capital social passant de 6 à 24 millions de francs
 00/09/1920; Pro; SAINT-LEGER_Claude_1897; Plan ‘P’ au 37 Régiment d’Infanterie
 00/00/1921; Perso; SAINT-LEGER_Andre_1870; Achat du chateau et du domaine d’Hermaville
-00/01/1923; Pro; SAINT-LEGER_Claude_1897; Administrateur d’Agache en 1923
 00/01/1923; Pro; SAINT-LEGER_Claude_1897; Directeur des Etablissements Agache (1923 - > 23/06/1941)
 24/01/1923; Pro; SAINT-LEGER_Claude_1897; Nomination au grade de sous-lieutenant de réserve du 43ᵉ Régiment d’Infanterie
 24/06/1923; Perso; SAINT-LEGER_Claude_1897; Mariage avec Agnès Wattinne à Pecq
+16/08/1923; Pro; SAINT-LEGER_Claude_1897; Appelé au conseil d'administration des Établissements Agache à la mort d'Édouard Agache, avec René et Maxime Descamps
 03/05/1924; Perso; WATTINNE_Agnes_1904; Naissance de Thérèse
-29/04/1925; Pro; SAINT-LEGER_Claude_1897; Claude est candidat à l’élection municipale de Lille, sur la liste de l’union républicaine
+21/04/1925; Pro; SAINT-LEGER_Claude_1897; Claude est candidat à l’élection municipale de Lille, sur la liste de l’union républicaine
 24/01/1926; Perso; WATTINNE_Agnes_1904; Naissance de Nicole
 14/04/1927; Pro; SAINT-LEGER_Claude_1897; Promotion au grade de lieutenant de réserve, rang du 4 janvier 1927
-01/07/1927; Perso; WATTINNE_Agnes_1904; Naissance de Francine
+00/07/1927; Perso; WATTINNE_Agnes_1904; Naissance de Francine
 00/00/1928; Perso; SAINT-LEGER_Claude_1897; Croisière aux îles Canaries, Madère, le Maroc
 00/00/1928; Perso; SAINT-LEGER_Claude_1897; Création de la SCI de la Dune aux Loups, avec Donat Agache, M. Huet, René Descamps, Max Descamps, et Claude
 00/00/1929; Pro; SAINT-LEGER_Claude_1897; Administrateur-délégué d’Agache en 1929
