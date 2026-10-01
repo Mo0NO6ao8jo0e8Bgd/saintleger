@@ -629,3 +629,104 @@ nav.nav-contenu {
 .sommaire-rubriques { margin: 0.5em 0 1em; }
 .sommaire-rubriques summary { cursor: pointer; font-size: 0.9em; opacity: 0.7; }
 .sommaire-rubriques p { margin: 0.5em 0 0; font-size: 0.9em; }
+
+/* En-têtes de lettres et de pièces : neutraliser la règle globale header{}
+   (bandeau bleu du site), qui s'appliquerait sinon à chaque date. */
+header.lettre-entete,
+header.piece-entete {
+    background: none;
+    color: inherit;
+    padding: 0;
+    text-align: left;
+    border-bottom: none;
+}
+
+/* Pictogramme à droite de la date, lettres écrites par Claude.
+   Sélecteur volontairement indépendant de header.lettre-entete,
+   que la compilation ne conserve pas. Le seul h3 d'un article est la date. */
+article.lettre[data-expediteur="claude"] h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+article.lettre[data-expediteur="claude"] h3::after {
+  content: "";
+  flex: none;
+  width: 50px;
+  height: 78px;
+  background: url("/individus/SAINT-LEGER_Claude_1897/Correspondances/IMG/lettres.jpg") no-repeat center / contain;
+}
+
+/* ---- FILTRES DES SÉRIES DE LETTRES (js/filtres-lettres.js) ---- */
+.filtres-lettres {
+    background: #eef3f7;
+    border: 1px solid #d0d7de;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 20px 0 28px 0;
+}
+.filtres-lettres .filtres-titre {
+    margin: 0 0 8px 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #283e51;
+}
+.filtres-boutons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.filtres-boutons button {
+    font: inherit;
+    font-size: 0.85rem;
+    padding: 4px 12px;
+    border: 1px solid #b8c2cc;
+    border-radius: 999px;
+    background: #fff;
+    color: #333;
+    cursor: pointer;
+}
+.filtres-boutons button:hover {
+    background: #ddf3f7;
+}
+.filtres-boutons button:focus-visible,
+.filtres-echange input:focus-visible {
+    outline: 2px solid #4b79a1;
+    outline-offset: 2px;
+}
+.filtres-boutons button[aria-pressed="true"] {
+    background: #283e51;
+    border-color: #283e51;
+    color: #fff;
+}
+.filtres-boutons .nb {
+    opacity: 0.7;
+}
+.filtres-echange {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #444;
+    cursor: pointer;
+}
+.filtres-echange input {
+    margin-right: 6px;
+}
+.filtres-echange.inactif {
+    opacity: 0.45;
+    cursor: default;
+}
+.filtres-lettres .filtres-etat {
+    margin: 6px 0 0 0;
+    font-size: 0.8rem;
+    color: #6b7885;
+}
+.filtres-lettres .filtres-etat:empty {
+    display: none;
+}
+/* Sécurité : aucune règle d'affichage ne doit faire réapparaître une lettre filtrée */
+article.lettre[hidden],
+.content hr[hidden] {
+    display: none !important;
+}
