@@ -730,3 +730,8 @@ article.lettre[hidden],
 .content hr[hidden] {
     display: none !important;
 }
+/* À ajouter à la suite des styles des filtres dans css/style.css :
+   la rangée des thèmes, sous les correspondants. */
+.filtres-lettres .filtres-titre-themes {
+    margin-top: 12px;
+}
