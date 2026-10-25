@@ -735,3 +735,4 @@ article.lettre[hidden],
 .filtres-lettres .filtres-titre-themes {
     margin-top: 12px;
 }
+.doc-card.alias small { color:#888; }
