@@ -596,7 +596,7 @@ nav.nav-contenu {
 }
 .apparat h3 { color: #8a6d3b; }
 
-.lettre-meta { font-size: 0.85rem; color: #6b7885; font-style: italic; margin: 6px 0 14px 0; }
+.lettre-meta, .piece-meta { font-size: 0.85rem; color: #6b7885; font-style: italic; margin: 6px 0 14px 0; }
 .ndlr        { color: #7a7266; font-size: 0.9em; }
 
 /* Adresse portée sur la carte-lettre : reproduit le cadre de l'enveloppe */
