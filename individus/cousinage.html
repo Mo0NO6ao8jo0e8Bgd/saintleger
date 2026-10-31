@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Outil de cousinage — Généalogie famille Saint-Léger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <style>
+    :root{--bc:#E3F2FD;--rc:#FCE4EC;--bf:#2E5C8A;--rf:#C2185B;--gb:#ccc;--gf:#f9f9f9;--oc:#FFF8E1;--of:#e65100}
+    .cous-pickers{display:grid;grid-template-columns:1fr 1fr;gap:1.2em;margin:1.5em 0}
+    @media(max-width:640px){.cous-pickers{grid-template-columns:1fr}}
+    .pb{border:1px solid var(--gb);border-radius:8px;padding:1em;background:var(--gf)}
+    .pb h3{margin:0 0 .6em;font-size:1em;color:#333}
+    .psel{display:flex;align-items:center;gap:.6em;padding:.5em .8em;border-radius:6px;text-decoration:none;color:inherit;margin-bottom:.6em;font-size:.95em}
+    .psel.h{background:var(--bc);border:2px solid var(--bf)}
+    .psel.f{background:var(--rc);border:2px solid var(--rf)}
+    .sw{position:relative}
+    .sw input{width:100%;padding:.45em .7em;font-size:.95em;border:1px solid var(--gb);border-radius:6px;box-sizing:border-box}
+    .sdr{position:absolute;top:100%;left:0;right:0;background:#fff;border:1px solid var(--gb);border-top:none;border-radius:0 0 6px 6px;max-height:220px;overflow-y:auto;z-index:100;box-shadow:0 4px 8px rgba(0,0,0,.1)}
+    .si{padding:.45em .8em;cursor:pointer;font-size:.9em;border-bottom:1px solid #f0f0f0}
+    .si:hover{background:#f0f7ff}
+    .si .dt{color:#888;font-size:.85em;margin-left:.4em}
+    .se{padding:.5em .8em;color:#888;font-size:.9em;font-style:italic}
+    .cbtn{display:block;width:100%;margin:1em 0;padding:.75em;background:var(--bf);color:#fff;border:none;border-radius:8px;font-size:1.05em;cursor:pointer;transition:background .2s}
+    .cbtn:hover{background:#1e4070}
+    .cbtn:disabled{background:#aaa;cursor:default}
+    .vb{border-radius:8px;padding:1em 1.4em;margin:1em 0;line-height:1.6}
+    .vs{background:#eaf4ea;border:1px solid #90c890}
+    .va{background:var(--oc);border:1px solid #ffca28}
+    .vn{background:#fff3e0;border:1px solid #ffb74d;color:#7a4000}
+    .tag{display:inline-block;padding:.1em .5em;border-radius:4px;font-weight:bold;font-size:1.05em;margin:0 .2em}
+    .ts{background:#2e7d32;color:#fff}
+    .ta{background:var(--of);color:#fff}
+    .pc{display:block;max-width:220px;padding:.4em .7em;border-radius:5px;text-align:center;text-decoration:none;color:inherit;font-size:.88em;box-sizing:border-box;transition:opacity .15s}
+    .pc:hover{opacity:.8}
+    .pc .pd{display:block;font-size:.82em;color:#666}
+    .pc.h{background:var(--bc)}.pc.f{background:var(--rc)}
+    .pc.sh{background:var(--bc);border:3px solid var(--bf);font-weight:bold}
+    .pc.sf{background:var(--rc);border:3px solid var(--rf);font-weight:bold}
+    /* arbre sang */
+    .tw{margin:.5em 0 1.5em}
+    .al{font-size:.75em;color:#888;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.2em;text-align:center}
+    /* Ligne de connexion ancêtre → branches */
+    .tbif{display:flex;width:70%;min-width:240px;max-width:560px;height:28px;position:relative;margin:0 auto}
+    .tbif::before{content:'';position:absolute;top:0;left:20%;right:20%;border-top:2px solid #8aaacc}
+    .tbl,.tbr{flex:1;position:relative}
+    .tbl::before{content:'';position:absolute;top:0;left:50%;border-left:2px solid #8aaacc;height:28px}
+    .tbr::before{content:'';position:absolute;top:0;right:50%;border-right:2px solid #8aaacc;height:28px}
+    /* Deux colonnes : branche gauche (A) monte, branche droite (B) descend */
+    .tbs{display:flex;gap:2em;justify-content:center;align-items:flex-start;width:100%}
+    .tbr2{display:flex;flex-direction:column;align-items:center;flex:1;max-width:220px}
+    /* Flèche vers le bas pour les deux branches */
+    .tar-dn{color:#8aaacc;font-size:1.1em;margin:.05em 0;line-height:1}
+    /* chaîne alliance */
+    .cw{display:flex;flex-direction:column;align-items:center;margin:.5em 0 1.5em}
+    .car{color:#8aaacc;font-size:1em;margin:.1em 0}
+    .ce{font-size:.78em;color:#555;background:#fff;border:1px solid #ddd;border-radius:10px;padding:.15em .7em;margin:.05em 0}
+    .ce.es{border-color:var(--of);color:var(--of);font-weight:bold}
+    /* autres */
+    .ab{border:1px solid var(--gb);border-radius:8px;padding:1em;margin-top:1.2em;background:var(--gf)}
+    .ab h4{margin:0 0 .6em;font-size:.95em;color:#555}
+    .ar{display:flex;align-items:baseline;gap:.5em;margin:.3em 0;font-size:.9em}
+    .ar2{color:#2e7d32;font-weight:bold}
+    #loading{text-align:center;padding:2em;color:#888;font-style:italic}
+    details summary{cursor:pointer;font-weight:bold;margin:.8em 0;font-size:.95em}
+    </style>
+</head>
+<body>
+<div id="header" class="no-print"></div>
+<div id="menu"   class="no-print"></div>
+<div class="breadcrumb no-print">
+    <a href="../../../index.html">Accueil</a> &gt; <a href="index.html">Individus</a> &gt; Cousinage
+</div>
+<div class="content">
+    <h2>🔗 Outil de cousinage</h2>
+    <p>Liens par le <strong>sang</strong> ou par <strong>alliance</strong> : conjoint(e), beau-parent, beau-frère/sœur, beau-cousin, conjoint des cousins, second mariage…</p>
+    <div id="loading">⏳ Chargement des données généalogiques…</div>
+    <div id="app" style="display:none">
+        <div class="cous-pickers">
+            <div class="pb"><h3>👤 Personne A</h3>
+                <div id="ca"></div>
+                <div class="sw"><input type="text" id="sa" placeholder="Rechercher un nom…" autocomplete="off">
+                <div class="sdr" id="da" style="display:none"></div></div>
+            </div>
+            <div class="pb"><h3>👤 Personne B</h3>
+                <div id="cb"></div>
+                <div class="sw"><input type="text" id="sb" placeholder="Rechercher un nom…" autocomplete="off">
+                <div class="sdr" id="db" style="display:none"></div></div>
+            </div>
+        </div>
+        <button class="cbtn" id="btn" disabled>🔍 Calculer le lien de parenté</button>
+        <div id="result"></div>
+    </div>
+</div>
+<div id="footer" class="no-print"></div>
+
+<script>
+"use strict";
+// ── Données globales ──────────────────────────────────────────────
+let D={}, childOf={}, spouseOf={}, selA=null, selB=null;
+const noAcc=s=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+function dr(p){const b=p.birth_year,d=p.death_year;return b&&d?`${b}–${d}`:b?`°${b}`:""}
+function gc(p,sub){const g=p.sex==="F"?"f":"h";return sub?`s${g}`:g}
+
+// ── Autocomplete ──────────────────────────────────────────────────
+function search(q,lim=14){
+    if(!q||q.length<2)return[];
+    const uq=noAcc(q.trim().toUpperCase()),r=[];
+    for(const id in D){if(D[id].search.includes(uq))r.push(D[id]);if(r.length>=lim)break;}
+    return r.sort((a,b)=>{const sa=a.search.startsWith(uq)?0:1,sb=b.search.startsWith(uq)?0:1;
+        return sa!==sb?sa-sb:a.name.localeCompare(b.name);});
+}
+function renderDrop(el,res,onSel){
+    el.innerHTML="";
+    if(!res.length){el.innerHTML='<div class="se">Aucun résultat</div>';el.style.display="block";return;}
+    for(const p of res){const d=document.createElement("div");d.className="si";
+        d.innerHTML=`<strong>${p.name}</strong><span class="dt">${dr(p)}</span>`;
+        d.addEventListener("mousedown",e=>{e.preventDefault();onSel(p);});el.appendChild(d);}
+    el.style.display="block";
+}
+function setupSW(inId,dropId,onSel){
+    const inp=document.getElementById(inId),drp=document.getElementById(dropId);
+    const show=()=>{if(inp.value.length>=2)renderDrop(drp,search(inp.value),p=>{onSel(p);inp.value="";drp.style.display="none";});};
+    inp.addEventListener("input",show);inp.addEventListener("focus",show);
+    inp.addEventListener("blur",()=>setTimeout(()=>drp.style.display="none",150));
+}
+function renderCard(cid,p){
+    const el=document.getElementById(cid);if(!p){el.innerHTML="";return;}
+    const tag=p.url?"a":"div",href=p.url?`href="${p.url}" target="_blank"`:"";
+    el.innerHTML=`<${tag} ${href} class="psel ${p.sex==="F"?"f":"h"}">
+        <span style="font-size:1.3em">${p.sex==="F"?"👩":"👨"}</span>
+        <span><strong>${p.name}</strong><br><small style="color:#666">${dr(p)}</small></span>
+    </${tag}>`;
+}
+
+// ── ALGO 1 : sang (BFS ancêtres communs) ─────────────────────────
+function anc(startId){
+    const vis=new Map(),q=[[startId,0,[startId]]];
+    while(q.length){const[id,dep,path]=q.shift();if(vis.has(id))continue;
+        vis.set(id,{depth:dep,path:[...path]});
+        for(const pid of(D[id]?.parents||[]))if(!vis.has(pid))q.push([pid,dep+1,[...path,pid]]);}
+    return vis;
+}
+function findBlood(idA,idB){
+    const ancA=anc(idA),ancB=anc(idB),com=[];
+    for(const[id,a]of ancA)if(ancB.has(id)){const b=ancB.get(id);
+        com.push({id,dA:a.depth,dB:b.depth,pathA:a.path,pathB:b.path});}
+    return com.sort((a,b)=>a.dA+a.dB-(b.dA+b.dB));
+}
+
+// ── ALGO 2 : alliance (BFS, 1 seul hop conjoint) ─────────────────
+// Clés de visite : "${id}:0" (sans conjoint) et "${id}:1" (avec conjoint)
+function findAlliance(idA,idB,max=14){
+    const q=[{id:idA,path:[],mu:false}],vis=new Set();
+    while(q.length){
+        const{id,path,mu}=q.shift();
+        const key=`${id}:${mu?1:0}`;
+        if(vis.has(key))continue;
+        vis.add(key);
+        if(id===idB&&path.length>0)return path;
+        if(path.length>=max)continue;
+        const p=D[id];if(!p)continue;
+        for(const pid of(p.parents||[])){const k=`${pid}:${mu?1:0}`;if(!vis.has(k))q.push({id:pid,path:[...path,{t:"U",fr:id,to:pid}],mu});}
+        for(const cid of(childOf[id]||[])){const k=`${cid}:${mu?1:0}`;if(!vis.has(k))q.push({id:cid,path:[...path,{t:"D",fr:id,to:cid}],mu});}
+        if(!mu)for(const sid of(spouseOf[id]||[])){const k=`${sid}:1`;if(!vis.has(k))q.push({id:sid,path:[...path,{t:"S",fr:id,to:sid}],mu:true});}
+    }
+    return null;
+}
+
+// ── Nommage SANG ─────────────────────────────────────────────────
+function nameSang(dA,dB,sexA){
+    const f=sexA==="F";
+    if(dA===0&&dB===0)return"la même personne";
+    if(dA===0){const l=["","parent","grand-parent","arrière-grand-parent","arrière-arrière-grand-parent"];
+        return dB<l.length?l[dB]:"arrière-".repeat(dB-2)+"arrière-grand-parent";}
+    if(dB===0){const l=["","fils/fille","petit-fils/fille","arrière-petit-fils/fille"];
+        return dA<l.length?l[dA]:"arrière-".repeat(dA-2)+"arrière-petit-fils/fille";}
+    const n=Math.min(dA,dB),r=Math.abs(dA-dB),hi=(dA<dB);
+    if(n===1&&r===0)return f?"la sœur":"le frère";
+    if(n===1){
+        if(r===1)return hi?(f?"la tante":"l'oncle"):(f?"la nièce":"le neveu");
+        if(r===2)return hi?(f?"la grand-tante":"le grand-oncle"):(f?"la petite-nièce":"le petit-neveu");
+        if(r===3)return hi?(f?"l'arrière-grand-tante":"l'arrière-grand-oncle"):(f?"l'arrière-petite-nièce":"l'arrière-petit-neveu");
+        const t=r-1;return hi?(f?`la tante (${t}e retirée)`:`l'oncle (${t}e retiré)`):(f?`la nièce (${t}e retirée)`:`le neveu (${t}e retiré)`);}
+    if(n===2&&r===0)return f?"la cousine germaine":"le cousin germain";
+    if(n===3&&r===0)return f?"la cousine issue de germain":"le cousin issu de germain";
+    if(n===4&&r===0)return f?"la cousine au 3e degré":"le cousin au 3e degré";
+    if(n===5&&r===0)return f?"la cousine au 4e degré":"le cousin au 4e degré";
+    if(n===2&&r===1)return f?"la cousine germaine (1× retirée)":"le cousin germain (1× retiré)";
+    if(n===2&&r===2)return f?"la cousine germaine (2× retirée)":"le cousin germain (2× retiré)";
+    if(n===3&&r===1)return f?"la cousine issue de germain (1× retirée)":"le cousin issu de germain (1× retiré)";
+    if(n===3&&r===2)return f?"la cousine issue de germain (2× retirée)":"le cousin issu de germain (2× retiré)";
+    const deg=n-1,ord=deg===1?"1er":`${deg}e`;
+    return r===0?(f?`la cousine au ${ord} degré`:`le cousin au ${ord} degré`)
+                :(f?`la cousine au ${ord} degré (${r}× retirée)`:`le cousin au ${ord} degré (${r}× retiré)`);
+}
+
+// ── Nommage ALLIANCE ─────────────────────────────────────────────
+//
+//  btCode(u, d) → {n, r, hi}
+//    n   = min(u, d)   distance collatérale
+//    r   = |u - d|     retrait générationnel
+//    hi  = (u < d)     true si le segment monte moins qu'il ne descend
+//
+//  Règle UNIFIÉE (S-dernier et S-premier traitées pareil) :
+//    hi=true  → le nœud intermédiaire est PLUS BAS que le point de référence
+//               → A est beau-PARENT de B   (belle-mère, beau-grand-père…)
+//    hi=false → le nœud intermédiaire est PLUS HAUT que le point de référence
+//               → A est beau-DESCENDANT de B  (gendre, bru, beau-petit-fils…)
+//
+function btCode(u,d){return{n:Math.min(u,d),r:Math.abs(u-d),hi:(u<d)};}
+
+function beauLabel(n,r,hi,sexA){
+    const f=sexA==="F";
+    // ── relation verticale (n=0) ──────────────────────────────────
+    if(n===0){
+        if(hi){  // A est beau-PARENT de B
+            if(r===0)return f?"l'épouse":"l'époux";
+            if(r===1)return f?"la belle-mère":"le beau-père";
+            if(r===2)return f?"la belle-grand-mère":"le beau-grand-père";
+            if(r===3)return f?"la belle-arrière-grand-mère":"le beau-arrière-grand-père";
+            return f?`la belle-grand-mère (${r}e degré)`:`le beau-grand-père (${r}e degré)`;
+        }else{  // A est beau-DESCENDANT de B
+            if(r===0)return f?"l'épouse":"l'époux";
+            if(r===1)return f?"la bru / belle-fille":"le gendre / beau-fils";
+            if(r===2)return f?"la belle-petite-fille":"le beau-petit-fils";
+            if(r===3)return f?"la belle-arrière-petite-fille":"le beau-arrière-petit-fils";
+            return f?`la belle-descendante (${r}e degré)`:`le beau-descendant (${r}e degré)`;
+        }
+    }
+    // ── relation symétrique (r=0) ─────────────────────────────────
+    if(r===0){
+        if(n===1)return f?"la belle-sœur":"le beau-frère";
+        if(n===2)return f?"la belle-cousine germaine":"le beau-cousin germain";
+        if(n===3)return f?"la belle-cousine issue de germain":"le beau-cousin issu de germain";
+        if(n===4)return f?"la belle-cousine au 3e degré":"le beau-cousin au 3e degré";
+        return f?`la belle-cousine au ${n-1}e degré`:`le beau-cousin au ${n-1}e degré`;
+    }
+    // ── oncle/tante ↔ neveu/nièce (n=1, r≥1) ────────────────────
+    if(n===1){
+        if(hi){  // hi=true → A/inter est ONCLE/TANTE (côté senior)
+            if(r===1)return f?"la belle-tante":"le bel-oncle";
+            if(r===2)return f?"la belle-grand-tante":"le beau-grand-oncle";
+            if(r===3)return f?"la belle-arrière-grand-tante":"le beau-arrière-grand-oncle";
+            return f?`la belle-tante (${r-1}e retirée)`:`le bel-oncle (${r-1}e retiré)`;
+        }else{   // hi=false → A/inter est NEVEU/NIÈCE (côté junior)
+            if(r===1)return f?"la belle-nièce":"le beau-neveu";
+            if(r===2)return f?"la belle-petite-nièce":"le beau-petit-neveu";
+            if(r===3)return f?"la belle-arrière-petite-nièce":"le beau-arrière-petit-neveu";
+            return f?`la belle-nièce (${r-1}e retirée)`:`le beau-neveu (${r-1}e retiré)`;
+        }
+    }
+    // ── cousins retirés (n≥2, r≥1) ───────────────────────────────
+    if(n===2){
+        if(r===1)return f?"la belle-cousine germaine (1× retirée)":"le beau-cousin germain (1× retiré)";
+        if(r===2)return f?"la belle-cousine germaine (2× retirée)":"le beau-cousin germain (2× retiré)";
+        return f?`la belle-cousine germaine (${r}× retirée)`:`le beau-cousin germain (${r}× retiré)`;
+    }
+    if(n===3&&r===1)return f?"la belle-cousine issue de germain (1× retirée)":"le beau-cousin issu de germain (1× retiré)";
+    return f?`la belle-cousine au ${n-1}e degré (${r}× retirée)`:`le beau-cousin au ${n-1}e degré (${r}× retiré)`;
+}
+
+function bloodGenFr(u,d){
+    const t=[[0,"soi-même","enfant","petit-enfant","arrière-petit-enfant"],
+              [0,"parent","frère/sœur","neveu/nièce","petit-neveu/nièce"],
+              [0,"grand-parent","oncle/tante","cousin germain"],
+              [0,"arrière-grand-parent","grand-oncle/tante","cousin issu de germain"]];
+    if(t[u]&&t[u][d])return t[u][d];
+    return u===0?`descendant (${d}e)`:(d===0?`ancêtre (${u}e)`:`parent (${u}↑${d}↓)`);
+}
+
+function nameAlliance(path,sexA){
+    const pat=path.map(e=>e.t).join("");
+    const si=pat.indexOf("S");
+    const L=pat.substring(0,si),R=pat.substring(si+1);
+    const uL=(L.match(/U/g)||[]).length,dL=(L.match(/D/g)||[]).length;
+    const uR=(R.match(/U/g)||[]).length,dR=(R.match(/D/g)||[]).length;
+    const f=sexA==="F";
+    if(L===""&&R==="")return f?"l'épouse / la conjointe":"l'époux / le conjoint";
+    // S dernier ou S premier : même fonction beauLabel, même logique hi
+    if(R===""){const{n,r,hi}=btCode(uL,dL);return beauLabel(n,r,hi,sexA);}
+    if(L===""){const{n,r,hi}=btCode(uR,dR);return beauLabel(n,r,hi,sexA);}
+    // S au milieu → parenté par remariage
+    if(uL===1&&dL===0&&uR===0&&dR===1)return f?"la demi-sœur":"le demi-frère";
+    if(uL===1&&dL===0&&uR===0&&dR===2)return f?"la demi-nièce":"le demi-neveu";
+    if(uL===2&&dL===0&&uR===0&&dR===1)return f?"la demi-tante (par remariage)":"le demi-oncle (par remariage)";
+    return f?`la parente par remariage (${bloodGenFr(uL,dL)} → conjoint → ${bloodGenFr(uR,dR)})`
+             :`le parent par remariage (${bloodGenFr(uL,dL)} → conjoint → ${bloodGenFr(uR,dR)})`;
+}
+
+// ── Rendu arbre sang ─────────────────────────────────────────────
+function pcard(id,sub=false){
+    const p=D[id];if(!p)return"";
+    const cls=gc(p,sub),tag=p.url?"a":"span",href=p.url?`href="${p.url}" target="_blank"`:"";
+    return`<${tag} ${href} class="pc ${cls}"><strong>${p.name}</strong>${dr(p)?`<span class="pd">${dr(p)}</span>`:""}</${tag}>`;
+}
+function renderSangTree(best,idA,idB){
+    // pathA = [A, parent_A, ..., ancestor]
+    // pathB = [B, parent_B, ..., ancestor]
+    // On reverse pour avoir [ancestor, ..., A] et [ancestor, ..., B]
+    const brA=[...best.pathA].reverse();   // [ancestor, ..., A]
+    const brB=[...best.pathB].reverse();   // [ancestor, ..., B]
+    const ancestorId=brA[0];
+
+    // ── Ancêtre commun centré en haut ────────────────────────────
+    let h=`<div style="display:flex;flex-direction:column;align-items:center">
+        <div class="al">🌳 Ancêtre commun</div>
+        ${pcard(ancestorId)}
+    </div>`;
+
+    // ── Bifurcation ───────────────────────────────────────────────
+    const hasLeft=brA.length>1, hasRight=brB.length>1;
+    if(hasLeft||hasRight)
+        h+=`<div class="tbif"><div class="tbl"></div><div class="tbr"></div></div>`;
+
+    // Les deux branches descendent depuis l'ancêtre (haut→bas)
+    // brA[1:] = [enfant_anc, ..., A]  →  affichés avec ↓ entre eux
+    // brB[1:] = [enfant_anc, ..., B]  →  affichés avec ↓ entre eux
+    const leftItems  = brA.slice(1);   // [enfant_anc, ..., A]
+    const rightItems = brB.slice(1);   // [enfant_anc, ..., B]
+
+    const mkBranch = (items, subjectId) =>
+        items.map(id =>
+            `<div style="display:flex;flex-direction:column;align-items:center">
+                <div class="tar-dn">↓</div>
+                ${pcard(id, id===subjectId)}
+             </div>`
+        ).join("");
+
+    h+=`<div class="tbs">
+        <div class="tbr2">${mkBranch(leftItems,  idA)}</div>
+        <div class="tbr2">${mkBranch(rightItems, idB)}</div>
+    </div>`;
+
+    return`<div class="tw">${h}</div>`;
+}
+
+// ── Rendu chaîne alliance ─────────────────────────────────────────
+function renderAllianceChain(path, idA, idB){
+    const hasSang = path.some(e => e.t !== "S");
+
+    // Lien direct conjoint (S seul) : A 💍 B
+    if(!hasSang){
+        return`<div class="cw">
+            <div style="display:flex;justify-content:center">${pcard(idA,true)}</div>
+            <div class="car" style="font-size:.8em;color:var(--of);font-weight:bold">💍</div>
+            <div style="display:flex;justify-content:center">${pcard(idB,true)}</div>
+        </div>`;
+    }
+
+    const si = path.findIndex(e => e.t === "S");
+
+    // S au milieu → chaîne linéaire (parenté par remariage)
+    if(si > 0 && si < path.length - 1)
+        return renderChainLinear(path, idA, idB);
+
+    // Identifier :
+    //   subjectLeft  = la personne de gauche (toujours A, ou B si S-premier)
+    //   porteur      = le membre de la famille adjacent au S
+    //   conjoint     = la personne liée par 💍
+    let subjectLeft, porteur, conjoint;
+    if(si === path.length - 1){
+        // S en dernier (XS) : A → ... → porteur 💍 B
+        subjectLeft = idA;
+        porteur     = path[si].fr;
+        conjoint    = idB;
+    } else {
+        // S en premier (SX) : A 💍 porteur → ... → B  →  afficher B à gauche
+        subjectLeft = idB;
+        porteur     = path[si].to;
+        conjoint    = idA;
+    }
+
+    // Ancêtre commun entre subjectLeft et porteur
+    const ancL = ancBFS(subjectLeft);
+    const ancP = ancBFS(porteur);
+    const cands = [];
+    for(const [id, infoL] of ancL){
+        if(ancP.has(id)){
+            const infoP = ancP.get(id);
+            cands.push({id, dL:infoL.depth, dP:infoP.depth, pL:infoL.path, pP:infoP.path});
+        }
+    }
+    cands.sort((a,b) => a.dL+a.dP - (b.dL+b.dP));
+
+    if(!cands.length) return renderChainLinear(path, idA, idB);
+
+    const best = cands[0];
+    // brL = [ancêtre, ..., subjectLeft]
+    // brP = [ancêtre, ..., porteur]
+    const brL = [...best.pL].reverse();
+    const brP = [...best.pP].reverse();
+    const leftItems  = brL.slice(1);   // noeuds sous l'ancêtre → subjectLeft
+    const rightItems = brP.slice(1);   // noeuds sous l'ancêtre → porteur
+
+    const mkDown = (items, subj) => items.map(id =>
+        `<div style="display:flex;flex-direction:column;align-items:center">
+            <div class="tar-dn">↓</div>${pcard(id, id===subj)}
+         </div>`).join("");
+
+    // Arbre : ancêtre en haut, branche gauche → subjectLeft, branche droite → porteur 💍 conjoint
+    let h = `<div style="display:flex;flex-direction:column;align-items:center">
+        <div class="al">🌳 Ancêtre commun</div>
+        ${pcard(best.id)}
+    </div>`;
+    if(leftItems.length || rightItems.length)
+        h += `<div class="tbif"><div class="tbl"></div><div class="tbr"></div></div>`;
+
+    const rightHtml = mkDown(rightItems, porteur)
+        + `<div class="car" style="font-size:.8em;color:var(--of);font-weight:bold">💍</div>`
+        + `<div style="display:flex;justify-content:center">${pcard(conjoint, true)}</div>`;
+
+    h += `<div class="tbs">
+        <div class="tbr2">${mkDown(leftItems, subjectLeft)}</div>
+        <div class="tbr2">${rightHtml}</div>
+    </div>`;
+    return `<div class="tw">${h}</div>`;
+}
+
+// BFS ancêtres depuis un nœud (remontée uniquement)
+function ancBFS(startId){
+    const vis = new Map();
+    const q = [[startId, 0, [startId]]];
+    while(q.length){
+        const [id, dep, path] = q.shift();
+        if(vis.has(id)) continue;
+        vis.set(id, {depth:dep, path:[...path]});
+        for(const pid of (D[id]?.parents||[]))
+            if(!vis.has(pid)) q.push([pid, dep+1, [...path, pid]]);
+    }
+    return vis;
+}
+
+// Chaîne linéaire fallback (S au milieu ou pas d'ancêtre commun)
+function renderChainLinear(path, idA, idB){
+    const ids=[path[0].fr,...path.map(e=>e.to)];
+    let h="";
+    for(let i=0;i<ids.length;i++){
+        h+=`<div style="display:flex;justify-content:center">${pcard(ids[i],ids[i]===idA||ids[i]===idB)}</div>`;
+        if(i<path.length){
+            const e=path[i];
+            if(e.t==="U") h+=`<div class="car">↑</div>`;
+            else if(e.t==="D") h+=`<div class="car">↓</div>`;
+            else h+=`<div class="car" style="font-size:.8em;color:var(--of);font-weight:bold">💍</div>`;
+        }
+    }
+    return`<div class="cw">${h}</div>`;
+}
+
+// ── Calcul principal ─────────────────────────────────────────────
+function compute(){
+    if(!selA||!selB)return;
+    const idA=selA.id,idB=selB.id,res=document.getElementById("result");
+    res.style.display="block";
+    if(idA===idB){res.innerHTML=`<div class="vb vn">Même personne sélectionnée deux fois.</div>`;return;}
+    const bloodAll=findBlood(idA,idB),best=bloodAll[0]||null;
+    const alPath=findAlliance(idA,idB),alHasS=alPath&&alPath.some(e=>e.t==="S");
+    let html="";
+    if(!best&&!alHasS){
+        html=`<div class="vb vn">😕 Aucun lien trouvé entre <strong>${selA.name}</strong> et <strong>${selB.name}</strong>.<br>
+              <small>Leur lien remonte peut-être au-delà des données saisies.</small></div>`;
+        res.innerHTML=html;return;}
+    // Bloc SANG
+    if(best){
+        const rel=nameSang(best.dA,best.dB,selA.sex),anc=D[best.id]?.name||best.id,tot=best.dA+best.dB;
+        html+=`<div class="vb vs">🩸 <strong>${selA.name}</strong> est <span class="tag ts">${rel}</span> de <strong>${selB.name}</strong><br>
+            <small style="color:#555">Via <em>${anc}</em> — ${best.dA} gén. côté ${selA.name.split(" ")[0]}, ${best.dB} gén. côté ${selB.name.split(" ")[0]} (${tot} au total)</small></div>`;
+        html+=`<details open><summary>🌳 Arbre du lien par le sang</summary>${renderSangTree(best,idA,idB)}</details>`;
+        const oth=bloodAll.slice(1,7);
+        if(oth.length){html+=`<div class="ab"><h4>Autres ancêtres communs (${bloodAll.length} au total)</h4>`;
+            for(const c of oth){const p=D[c.id],rl=nameSang(c.dA,c.dB,selA.sex);
+                const lnk=p?.url?`<a href="${p.url}" target="_blank">${p.name}</a>`:(p?.name||c.id);
+                html+=`<div class="ar"><span class="ar2">${rl}</span> via ${lnk}${p?`<span style="color:#888;font-size:.85em"> (${dr(p)})</span>`:""}</div>`;}
+            html+=`</div>`;}}
+    // Bloc ALLIANCE
+    if(alHasS){
+        const rel=nameAlliance(alPath,selA.sex);
+        const sEdge=alPath.find(e=>e.t==="S");
+        const via=D[sEdge.fr]?.name||"?",viaB=D[sEdge.to]?.name||"?";
+        html+=`<div class="vb va">💍 <strong>${selA.name}</strong> est <span class="tag ta">${rel}</span> de <strong>${selB.name}</strong><br>
+            <small style="color:#6d4c00">Via le lien conjugal entre <em>${via}</em> et <em>${viaB}</em></small></div>`;
+        html+=`<details ${best?"":"open"}><summary>💍 Chemin par alliance</summary>${renderAllianceChain(alPath,idA,idB)}</details>`;}
+    res.innerHTML=html;
+    res.scrollIntoView({behavior:"smooth",block:"nearest"});
+}
+
+// ── Init ─────────────────────────────────────────────────────────
+function upd(){document.getElementById("btn").disabled=!(selA&&selB);}
+function setA(p){selA=p;renderCard("ca",p);upd();document.getElementById("result").innerHTML="";}
+function setB(p){selB=p;renderCard("cb",p);upd();document.getElementById("result").innerHTML="";}
+
+async function init(){
+    let data;
+    try{const r=await fetch("cousinage_data.json");if(!r.ok)throw new Error(`HTTP ${r.status}`);data=await r.json();}
+    catch(e){document.getElementById("loading").innerHTML=
+        `❌ <code>cousinage_data.json</code> introuvable : ${e.message}<br>
+         <small>Générez-le : <code>python3 gedcom_cousinage_data.py export.ged cousinage_data.json</code></small>`;return;}
+    D=data;
+    for(const id in D){const p=D[id];spouseOf[id]=p.spouses||[];
+        for(const pid of(p.parents||[])){if(!childOf[pid])childOf[pid]=[];childOf[pid].push(id);}}
+    document.getElementById("loading").style.display="none";
+    document.getElementById("app").style.display="block";
+    const from=new URLSearchParams(location.search).get("from");
+    if(from&&D[from]){setA(D[from]);setTimeout(()=>document.getElementById("sb").focus(),200);}
+    setupSW("sa","da",setA);setupSW("sb","db",setB);
+    document.getElementById("btn").addEventListener("click",compute);
+}
+document.addEventListener("DOMContentLoaded",init);
+</script>
+<script>
+async function loadHTML(id,url,cb){
+    try{const r=await fetch(url);if(!r.ok)return;const el=document.getElementById(id);
+        el.innerHTML=await r.text();
+        el.querySelectorAll("script").forEach(o=>{const s=document.createElement("script");
+            if(o.src){s.src=o.src;s.async=false;}else s.textContent=o.textContent;
+            document.body.appendChild(s);o.remove();});if(cb)cb();}catch(e){}
+}
+function activateEmail(){const el=document.getElementById("email-contact");if(!el)return;
+    const a=document.createElement("a");a.href="mailto:saintleger.org@gmail.com";
+    a.textContent="Contact";el.replaceWith(a);}
+loadHTML("header","../../../partials/header3.html");
+loadHTML("menu","../../../partials/menu3.html",()=>{const l=document.getElementById("menu-individus");if(l)l.classList.add("active");});
+loadHTML("footer","../../../partials/footer3.html",activateEmail);
+</script>
+</body>
+</html>

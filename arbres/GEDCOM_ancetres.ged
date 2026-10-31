@@ -1,0 +1,6169 @@
+0 HEAD
+1 SOUR Gramps
+2 VERS 6.0.6
+2 NAME Gramps
+1 DATE 9 DEC 2025
+2 TIME 13:22:18
+1 SUBM @SUBM@
+1 FILE /home/arnaud/Documents/Genealogie/Logiciel/GEDCOM_ancêtres.ged
+1 COPR Copyright (c) 2025 .
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+1 LANG French
+0 @SUBM@ SUBM
+1 NAME
+0 @I0000@ INDI
+1 NAME Claude Adolphe Georges /Saint-Léger/
+2 TYPE birth
+2 GIVN Claude Adolphe Georges
+2 SURN Saint-Léger
+1 NAME Claude /de la Valette/
+2 TYPE aka
+2 GIVN Claude
+2 SURN de la Valette
+1 SEX M
+1 BIRT
+2 TYPE Acte de Naissance
+2 DATE 24 MAR 1897
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+2 NOTE @N0017@
+2 SOUR @S0019@
+3 PAGE LILLE / N (01/1897-04/1897) [1897] – 1 Mi EC 350 R 130 – vue 416 / 609 – acte 1444
+3 QUAY 3
+3 OBJE @O0003@
+1 DEAT
+2 TYPE Mort en service commandé
+2 DATE 14 DEC 1944
+2 NOTE @N0018@
+2 SOUR @S0019@
+3 PAGE AD59_3E20088_vue96_acte3840
+1 _MILT
+2 TYPE Décoré de la Légion d'honneur, à titre militaire
+2 DATE 1928
+1 _MILT
+2 TYPE 1940 ? Capturé à Dunkerque par les allemands et enfermé dans le camp d'o
+3 CONC fficiers OFLAG 8 A, en Silésie.
+2 DATE 1940
+1 _MILT
+2 TYPE Libéré du camp OFLAG 8 A
+2 DATE 1942
+1 _MILT
+2 TYPE Commandant des Forces françaises libres
+1 _MILT
+2 TYPE Débarquement avec les troupes françaises à Ouistreham
+2 DATE 6 JUN 1944
+1 BAPM
+2 TYPE Acte de baptême de Claude Adolphe Georges Saint-Léger
+2 DATE 27 MAR 1897
+2 SOUR @S0018@
+3 QUAY 3
+3 DATA
+4 DATE 18 JAN 1906
+3 OBJE @O0002@
+1 EVEN Rapport militaire sur l’évasion de De La Valette = Claude Saint-Léger (1
+2 CONC 915-1917) - 32° régiment des dragons.jpg
+2 TYPE Ordre du régiment
+2 DATE 6 APR 1917
+2 SOUR @S0020@
+3 DATA
+4 DATE 6 APR 1917
+1 EVEN Citation à l’Ordre de la 166° Division d’Infanterie - De La Valette Clau
+2 CONC de = Claude Saint-Léger.jpg
+2 TYPE Citation militaire
+2 DATE 17 OCT 1918
+2 SOUR @S0021@
+3 DATA
+4 DATE 17 OCT 1918
+1 EVEN Citation à l’Ordre de la 166° Division d’Infanterie
+2 TYPE Citation militaire
+2 DATE 18 NOV 1918
+2 SOUR @S0022@
+3 DATA
+4 DATE 18 NOV 1918
+1 EVEN Extrait de décret présidentiel - nomination au grade de sous-lieutenan
+2 CONC t de réserve
+2 TYPE Promotion militaire
+2 DATE 24 JAN 1923
+2 SOUR @S0023@
+3 DATA
+4 DATE 24 JAN 1923
+1 EVEN Ordre du régiment extrait du Journal Officiel (J.O.) - Promotion au grad
+2 CONC e de lieutenant
+2 TYPE Promotion militaire
+2 DATE 27 APR 1927
+2 SOUR @S0024@
+3 DATA
+4 DATE 27 APR 1927
+1 EVEN Brouillon de demande de sursis Claude Saint-Léger
+2 TYPE Démobilisation
+2 DATE NOV 1918
+2 SOUR @S0025@
+3 DATA
+4 DATE NOV 1918
+3 OBJE @O0017@
+1 _MILT
+2 TYPE Evasion de Lille, sous occupation (24/08 au 14/09/1915
+2 DATE 24 AUG 1915
+1 _MILT
+2 TYPE Engagé volontaire dans le 32ᵉ Régiment de Dragons
+2 DATE 20 OCT 1915
+1 EVEN Libération de captivité du Front-Stalag 204 (Amiens) le 15 octobre 194
+2 CONC 1 :- Prisonnier de guerre français, matricule VIII/A. 25I90.- Libéré sui
+2 CONC te à la décision du Führer et à la demande de M. Scapini, Ambassadeur d
+2 CONC e France.- Renvoyé à Lille (Nord), doit se présenter au maire dans les 2
+2 CONC 4 heures pour être démobilisé.- Document sert de preuve de libération e
+2 CONC t de laissez-passer pour la zone interdite.
+2 TYPE Libération de captivité
+2 DATE 15 OCT 1941
+2 SOUR @S0026@
+3 OBJE @O0018@
+1 EVEN Prisonnier de guerre pour la période 1940 au 15/10/1941
+2 TYPE Prisonnier de guerre
+2 DATE 1940
+1 EVEN Laissez-passer Ouest n° 206414 délivré le 13 octobre 1942 :- Autorise Cl
+2 CONC aude Saint-Léger à voyager de Lille à Paris du 22/10/1942 au 22/01/1943.
+2 CONC - Délivré par le Generalquartiermeister Hauptmann.- Doit présenter passe
+2 CONC port et carte d’identité n° 114.477.- Valable uniquement pour les passag
+2 CONC es officiels entre Lille et Paris.
+2 TYPE Voyage sous Occupation
+2 DATE 13 OCT 1942
+2 SOUR @S0027@
+3 DATA
+4 DATE 13 OCT 1942
+1 EVEN Fascicule de mobilisation de 1943 :- Mise en appel différé pour une duré
+2 CONC e de 90 jours renouvelable.- Motif probable : Âge (46 ans), statut d’anc
+2 CONC ien combattant, ou rôle dans l’industrie.- Contexte : Mobilisation par l
+2 CONC es Forces Françaises Libres pour la libération de la France.
+2 TYPE Mobilisation différée
+2 DATE 1 APR 1943
+2 SOUR @S0029@
+3 DATA
+4 DATE 1 APR 1943
+1 EVEN Ordre d’appel sous les drapeaux du 3 juin 1943 :- Convoqué pour rejoindr
+2 CONC e immédiatement les 1° ou 2° Zouaves à la Caserne d’Orléans (Alger).- Gr
+2 CONC ade : Lieutenant.- Contexte : Mobilisation par les Forces Françaises Lib
+2 CONC res pour la libération de la France.- Unité : 1ᵉʳ ou 2ᵉ Régiment de Zoua
+2 CONC ves.
+2 TYPE Ordre d’appel sous les drapeaux
+2 DATE 3 JUN 1943
+2 SOUR @S0030@
+3 DATA
+4 DATE 3 JUN 1943
+3 OBJE @O0010@
+1 FACT 2 usines Saint-Léger à la Madeleine
+2 TYPE Agency
+1 FACT 2 usines à Seclin
+2 TYPE Agency
+1 FACT Blanchisserie à Pont de Nieppe
+2 TYPE Agency
+1 FACT Une usine en Italie, près de Côme
+2 TYPE Agency
+1 NCHI 5
+1 FACT Administrateur délégué des établissements Agache Fils, l'une des plus an
+2 CONC ciennes et plus importantes société de textile du Nord
+2 TYPE Agency
+1 FAMC @F0015@
+2 PEDI birth
+1 FAMS @F0000@
+1 RESI
+2 ADDR 228 rue Nationale
+3 CONT Lille
+3 CONT France
+3 ADR1 228 rue Nationale
+3 CITY Lille
+3 CTRY France
+2 NOTE @N0026@
+1 NOTE @N0003@
+1 NOTE @N0004@
+1 CHAN
+2 DATE 24 NOV 2025
+3 TIME 12:16:52
+0 @I0001@ INDI
+1 NAME Agnès Sabine Madeleine Marie /Wattinne/
+2 TYPE birth
+2 GIVN Agnès Sabine Madeleine Marie
+2 SURN Wattinne
+2 NPFX Madame
+2 NICK Anny, Bonne maman
+1 SEX F
+1 BIRT
+2 TYPE 197 bld de la Liberté, à Lille
+2 DATE 4 JUN 1904
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+2 NOTE @N0020@
+2 SOUR @S0019@
+3 PAGE AD59_3E15052_vue115-309_acte2388
+1 DEAT
+2 DATE 12 DEC 1993
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 _DEG
+2 TYPE Diplome d'infirmière
+2 DATE 1926
+1 FAMC @F0055@
+2 PEDI birth
+1 FAMS @F0000@
+1 RESI
+2 ADDR Rue Georges V
+3 CONT Dinard
+3 ADR1 Rue Georges V
+3 CITY Dinard
+1 CHAN
+2 DATE 4 DEC 2025
+3 TIME 21:13:16
+0 @I0002@ INDI
+1 NAME Denis /Saint-Léger/
+2 TYPE birth
+2 GIVN Denis
+2 SURN Saint-Léger
+1 SEX M
+1 BIRT
+2 DATE 20 MAR 1935
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 DEAT
+2 DATE 9 DEC 2023
+1 FAMC @F0000@
+2 PEDI birth
+1 FAMS @F0001@
+1 FAMS @F0049@
+1 CHAN
+2 DATE 15 NOV 2025
+3 TIME 20:01:33
+0 @I0003@ INDI
+1 NAME Thérèse Anne Marie Madeleine /Saint-Léger/
+2 TYPE birth
+2 GIVN Thérèse Anne Marie Madeleine
+2 SURN Saint-Léger
+2 _RUFNAME Thérèse
+1 SEX F
+1 BIRT
+2 DATE 3 MAY 1924
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 DEAT
+2 DATE 21 SEP 2011
+2 PLAC Roubaix
+1 FAMC @F0000@
+2 PEDI birth
+1 FAMS @F0002@
+1 CHAN
+2 DATE 15 NOV 2025
+3 TIME 20:01:33
+0 @I0009@ INDI
+1 NAME Francine /Saint-Léger/
+2 TYPE birth
+2 GIVN Francine
+2 SURN Saint-Léger
+1 SEX F
+1 BIRT
+2 DATE JUL 1927
+1 DEAT
+2 DATE 17 JUN 2007
+1 FAMC @F0000@
+2 PEDI birth
+1 FAMS @F0029@
+1 CHAN
+2 DATE 15 NOV 2025
+3 TIME 20:01:33
+0 @I0010@ INDI
+1 NAME Nicole /Saint-Léger/
+2 TYPE birth
+2 GIVN Nicole
+2 SURN Saint-Léger
+1 SEX F
+1 BIRT
+2 TYPE Aucune information sur la date
+2 DATE 24 JAN 1926
+1 DEAT
+2 DATE 27 DEC 2020
+1 FAMC @F0000@
+2 PEDI birth
+1 FAMS @F0020@
+1 CHAN
+2 DATE 15 NOV 2025
+3 TIME 20:01:33
+0 @I0011@ INDI
+1 NAME Paul /Obry/
+2 TYPE birth
+2 GIVN Paul
+2 SURN Obry
+1 SEX M
+1 BIRT
+2 TYPE Aucune information sur la date
+2 DATE 16 MAR 1926
+1 DEAT
+2 DATE 28 FEB 2015
+1 FAMS @F0002@
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 09:57:20
+0 @I0025@ INDI
+1 NAME Annie (Anne Marie) /Saint-Léger/
+2 TYPE birth
+2 GIVN Annie (Anne Marie)
+2 SURN Saint-Léger
+1 SEX F
+1 BIRT
+2 DATE 1898
+1 DEAT
+2 DATE 1985
+1 FAMC @F0015@
+2 PEDI birth
+1 FAMS @F0155@
+1 CHAN
+2 DATE 15 NOV 2025
+3 TIME 21:09:40
+0 @I0050@ INDI
+1 NAME Jacques /Thieffry/
+2 TYPE birth
+2 GIVN Jacques
+2 SURN Thieffry
+1 SEX M
+1 BIRT
+2 DATE 10 MAY 1924
+1 DEAT
+2 DATE 13 JUL 2006
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 FAMC @F0179@
+2 PEDI birth
+1 FAMS @F0020@
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 20:12:45
+0 @I0051@ INDI
+1 NAME André Georges /Saint-Léger/
+2 TYPE birth
+2 GIVN André Georges
+2 SURN Saint-Léger
+1 SEX M
+1 BIRT
+2 DATE 29 SEP 1870
+2 PLAC Tournai
+2 SOUR @S0035@
+3 PAGE GSU_004341978_00258_4_00366568, vue 258
+3 DATA
+4 DATE 30 SEP 1870
+1 DEAT
+2 TYPE André avait  écrit à Agnès le 20 Août 1947. On n'en sait pas plus !
+2 DATE 1947
+1 PROP Vers 1921, achat d'une belle propriété près d'Arras, à Hermaville
+2 DATE 1921
+2 PLAC Hermaville
+3 NOTE @N0012@
+1 OCCU Vente de la filature de la Madelaine, en échange de 2 places d'administr
+2 CONC ateur pour André et Claude
+2 DATE 1920
+1 FACT Usine  de filature de lin à La Madeleine. Elle fut vendu en 1920 à la so
+2 CONC ciété Agache en échange de 2 places d'administrateurs : Claude Saint-Lég
+2 CONC er, André Saint-Léger, Edouard Agache, René et Max Descamps
+2 TYPE Agency
+1 FACT Il vend l'usine 32 rue des Tours à Lille, avec son frère, au mont de Pié
+2 CONC té. Ils remplacent cette vieille usine par une nouvelle filature de li
+2 CONC n à La Madeleine.
+2 TYPE Agency
+1 NCHI 3
+1 FAMC @F0016@
+2 PEDI birth
+1 FAMS @F0015@
+1 RESI
+2 ADDR 107 rue Royale
+3 CONT Lille
+3 CONT France
+3 ADR1 107 rue Royale
+3 CITY Lille
+3 CTRY France
+1 NOTE @N0000@
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 22:28:43
+0 @I0052@ INDI
+1 NAME Marguerite Julie /Delemer/
+2 TYPE birth
+2 GIVN Marguerite Julie
+2 SURN Delemer
+1 SEX F
+1 BIRT
+2 DATE 13 MAR 1876
+2 PLAC Chauny
+2 NOTE @N0022@
+2 SOUR @S0034@
+3 PAGE Chauny_AD02_5Mi0210_vue50-277_acte97
+1 DEAT
+2 DATE 28 OCT 1953
+2 PLAC Melle les Gand
+1 PROP Vers 1934, vente de la propriété d'Hermaville, car il dilapidait sa fort
+2 CONC une
+2 DATE 1934
+1 FACT Participe à fonder l'institut Pasteur de Lille, et était très amie du do
+2 CONC cteur Calmette et Guérin (qui isolèrent e bacille de la tuberculose et m
+2 CONC irent au point le BCG)
+2 TYPE Occupation
+1 FACT Pendant la guerre 14-18, elle fit de l'espionnage, et aidait les jeune
+2 CONC s à s'évader. Elle faisait passer des lettres et des renseignements su
+2 CONC r l'emplacement des canons et les mouvements de troupes. Elle fut arrêt
+2 CONC é et emmenée prisonnière à "Halsmindeur", en Allemagne, sans doute 6 moi
+2 CONC s.
+2 TYPE Occupation
+1 FAMC @F0060@
+2 PEDI birth
+1 FAMS @F0015@
+1 RESI
+2 ADDR Chateau de Rouge
+3 CONT Près de ...
+3 CONT Chauny
+3 ADR1 Chateau de Rouge
+3 ADR2 Près de ...
+3 CITY Chauny
+1 CHAN
+2 DATE 15 NOV 2025
+3 TIME 21:15:25
+0 @I0053@ INDI
+1 NAME Georges Philippe Victor /Saint-Léger/
+2 TYPE birth
+2 GIVN Georges Philippe Victor
+2 SURN Saint-Léger
+1 SEX M
+1 BIRT
+2 DATE 4 FEB 1844
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+2 NOTE @N0023@
+2 SOUR @S0019@
+3 PAGE Lille_AD59_5Mi044R159_vue64-960_acte217
+1 DEAT
+2 TYPE Mort très jeune, à 54 ans. Cimetière de l'Est de Lille, dans une chapell
+3 CONC e.
+2 DATE 6 SEP 1899
+2 PLAC Verlinghem
+1 FACT Usine 32 rue des Tours, à Lille
+2 TYPE Agency
+1 FAMC @F0017@
+2 PEDI birth
+1 FAMS @F0016@
+1 RESI
+2 ADDR Maison au coin de la rue Royale et de la rue Léonard (maison Louis XV).
+3 ADR1 Maison au coin de la rue Royale et de la rue Léonard (maison Louis XV).
+1 RESI
+2 ADDR Château de Verlinghem (maison d'été)
+3 ADR1 Château de Verlinghem (maison d'été)
+1 CHAN
+2 DATE 15 NOV 2025
+3 TIME 21:27:27
+0 @I0054@ INDI
+1 NAME Victor Edouard Philippe /Saint-Léger/
+2 TYPE birth
+2 GIVN Victor Edouard Philippe
+2 SURN Saint-Léger
+1 SEX M
+1 BIRT
+2 DATE 13 APR 1818
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 DEAT
+2 TYPE Il meurt chez lui (11 bd de la Liberté, Lille) après un voyage en Itali
+3 CONC e dont il est revenu très malade. Cimetière de la Madeleine.
+2 DATE 20 JAN 1872
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 EVEN
+2 TYPE Marriage
+2 DATE 16 APR 1843
+1 FACT Vice Président du Conseil Général
+2 TYPE Occupation
+1 FACT Colonel de la Garde Nationale, dans l'armée fondée pour défendre la Fran
+2 CONC ce à la création de la 1° république.
+2 TYPE Occupation
+1 FAMC @F0018@
+2 PEDI birth
+1 FAMS @F0017@
+1 NOTE @N0001@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 19:30:57
+0 @I0055@ INDI
+1 NAME Philippe André Lucien (frère de Claude) /Saint-Léger/
+2 TYPE birth
+2 GIVN Philippe André Lucien (frère de Claude)
+2 SURN Saint-Léger
+1 SEX M
+1 BIRT
+2 DATE 12 MAR 1904
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 DEAT
+2 DATE 26 DEC 1992
+2 PLAC Inxent
+1 FACT Co-gérant de l'Union Textile du Nord avec André Clerc
+2 TYPE Occupation
+1 FAMC @F0015@
+2 PEDI birth
+1 FAMS @F0156@
+1 CHAN
+2 DATE 23 NOV 2025
+3 TIME 16:51:36
+0 @I0056@ INDI
+1 NAME Philippe François Joseph /Saint-Léger/
+2 TYPE birth
+2 GIVN Philippe François Joseph
+2 SURN Saint-Léger
+1 SEX M
+1 BIRT
+2 TYPE Ste Catherine
+2 DATE 5 FEB 1787
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 DEAT
+2 DATE 31 DEC 1871
+1 FAMC @F0019@
+2 PEDI birth
+1 FAMS @F0018@
+1 RESI
+2 ADDR 32 rue des Tours
+3 CONT Lille
+3 CONT France
+3 ADR1 32 rue des Tours
+3 CITY Lille
+3 CTRY France
+1 OBJE @O0000@
+1 NOTE @N0007@
+1 NOTE @N0016@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 22:39:00
+0 @I0057@ INDI
+1 NAME Pierre-Joseph /Saint-Léger/
+2 TYPE birth
+2 GIVN Pierre-Joseph
+2 SURN Saint-Léger
+1 SEX M
+1 BIRT
+2 DATE 26 NOV 1756
+2 PLAC Caucourt (proche d'Arras, Pas de Calais)
+1 DEAT
+2 TYPE Après 1813
+2 DATE 1813
+1 FACT Marchand de charbon
+2 TYPE Agency
+1 FAMC @F0095@
+2 PEDI birth
+1 FAMS @F0019@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 18:23:40
+0 @I0058@ INDI
+1 NAME Auguste /Saint-Léger/
+2 TYPE birth
+2 GIVN Auguste
+2 SURN Saint-Léger
+1 SEX M
+1 FAMC @F0019@
+2 PEDI birth
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 14:36:42
+0 @I0059@ INDI
+1 NAME Edouard /Saint-Léger/
+2 TYPE birth
+2 GIVN Edouard
+2 SURN Saint-Léger
+1 SEX M
+1 FAMC @F0019@
+2 PEDI birth
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 14:36:42
+0 @I0060@ INDI
+1 NAME Pierre Hippolyte /Saint-Léger/
+2 TYPE birth
+2 GIVN Pierre Hippolyte
+2 SURN Saint-Léger
+1 SEX M
+1 FACT Commandant des canoniers de Lille, avec Pierre-Joseph Bonte-Pollet
+2 TYPE Occupation
+2 SOUR @S0032@
+3 DATA
+4 DATE 17 MAY 1904
+1 FAMC @F0019@
+2 PEDI birth
+1 CHAN
+2 DATE 2 NOV 2025
+3 TIME 18:17:55
+0 @I0061@ INDI
+1 NAME Alain /Thieffry/
+2 TYPE birth
+2 GIVN Alain
+2 SURN Thieffry
+1 SEX M
+1 BIRT
+2 DATE 25 AUG 1949
+1 DEAT
+2 DATE 25 NOV 2022
+1 FAMC @F0020@
+2 PEDI birth
+1 FAMS @F0021@
+1 FAMS @F0023@
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 22:30:51
+0 @I0080@ INDI
+1 NAME Laurence /Thieffry/
+2 TYPE birth
+2 GIVN Laurence
+2 SURN Thieffry
+1 SEX F
+1 BIRT
+2 DATE 21 JUL 1952
+1 DEAT
+2 DATE 2001
+1 FAMC @F0020@
+2 PEDI birth
+1 FAMS @F0027@
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 22:25:30
+0 @I0086@ INDI
+1 NAME Adrien /Thieffry/
+2 TYPE birth
+2 GIVN Adrien
+2 SURN Thieffry
+1 SEX M
+1 BIRT
+2 DATE 7 NOV 1989
+1 DEAT
+2 DATE 28 MAR 1990
+1 FAMC @F0028@
+2 PEDI birth
+1 CHAN
+2 DATE 24 SEP 2025
+3 TIME 17:09:51
+0 @I0089@ INDI
+1 NAME Septime /Vallet de Villeneuve/
+2 TYPE birth
+2 GIVN Septime
+2 SURN Vallet de Villeneuve
+2 NPFX Baron
+1 SEX M
+1 BIRT
+2 DATE 17 SEP 1926
+1 DEAT Y
+1 FAMS @F0029@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 18:24:10
+0 @I0101@ INDI
+1 NAME Cécile /Paindavoine/
+2 TYPE birth
+2 GIVN Cécile
+2 SURN Paindavoine
+1 SEX F
+1 BIRT
+2 DATE 12 FEB 1927
+1 DEAT
+2 DATE 19 APR 2017
+1 FAMS @F0073@
+1 FAMS @F0089@
+1 FAMS @F0090@
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 21:43:11
+0 @I0138@ INDI
+1 NAME Jean /Six/
+2 TYPE birth
+2 GIVN Jean
+2 SURN Six
+1 SEX M
+1 BIRT
+2 DATE 17 JUL 1938
+1 DEAT Y
+1 FAMS @F0045@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 18:25:58
+0 @I0154@ INDI
+1 NAME Nicole /Hermonville/
+2 TYPE birth
+2 GIVN Nicole
+2 SURN Hermonville
+1 SEX F
+1 BIRT
+2 DATE 5 AUG 1935
+2 PLAC Reims
+1 DEAT Y
+1 FAMS @F0049@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 18:25:42
+0 @I0173@ INDI
+1 NAME Eugène (père d'Anny) /Wattinne/
+2 TYPE birth
+2 GIVN Eugène (père d'Anny)
+2 SURN Wattinne
+1 SEX M
+1 BIRT
+2 TYPE ou 1870 ?
+2 DATE 31 OCT 1875
+1 DEAT
+2 TYPE Cancer du foie. Décédé à Paris, 14 av Matignon
+2 DATE 8 DEC 1927
+2 PLAC Paris
+1 TITL Chevalier de la Légion d'honneur
+1 RESI
+2 TYPE Construction de la villa "Sans souci"
+2 DATE 1910
+2 PLAC Hardelot
+1 FACT Affaire de rideaux en tulle et voile brodés à la machine
+2 TYPE Occupation
+1 FACT Société "La Fraternelle", pour obtenir le retour en France de pères de f
+2 CONC amille et enfants de prisonniers. Il obtint le retour de 250 000 rapatri
+2 CONC és et vieilards
+2 TYPE Occupation
+1 FAMC @F0056@
+2 PEDI birth
+1 FAMS @F0055@
+1 RESI
+2 ADDR Chateau de
+3 CONT Peck
+3 CONT Belgique
+3 ADR1 Chateau de
+3 CITY Peck
+3 CTRY Belgique
+1 RESI
+2 DATE 1910
+2 ADDR Villa sans soucis
+3 CONT Hardelot
+3 ADR2 Villa sans soucis
+3 CITY Hardelot
+1 RESI
+2 ADDR 14 av Matignon
+3 CONT Paris
+3 ADR1 14 av Matignon
+3 CITY Paris
+2 SOUR @S0036@
+3 PAGE Rapport d'expertise vente d'objects
+3 DATA
+4 DATE 4 JAN 1934
+1 CHAN
+2 DATE 24 NOV 2025
+3 TIME 16:51:19
+0 @I0174@ INDI
+1 NAME Madeleine /Droulers/
+2 TYPE birth
+2 GIVN Madeleine
+2 SURN Droulers
+1 SEX F
+1 BIRT
+2 TYPE ou 24/01/1918  ?
+2 DATE 23 JAN 1883
+2 PLAC Roubaix
+1 DEAT
+2 TYPE Enterrée à Neuilly
+2 DATE 23 FEB 1974
+2 PLAC Cannes
+1 PROP A hérité du château du Biez à Pecq. Vente du chateau de Pecq, quelques a
+2 CONC nnées après la mort d'Eugène Wattinne (+1927), entre 1936 et 1938
+2 DATE 1936
+1 NCHI 3
+1 FAMC @F0057@
+2 PEDI birth
+1 FAMS @F0055@
+1 RESI
+2 ADDR 13 square Mérimée, 06 Cannes
+3 ADR1 13 square Mérimée, 06 Cannes
+1 RESI
+2 ADDR Château du Biez
+3 CONT Pecq
+3 CONT Belgique
+3 ADR2 Château du Biez
+3 CITY Pecq
+3 CTRY Belgique
+2 SOUR @S0036@
+3 PAGE Rapport d'expertise d'objets
+3 DATA
+4 DATE 18 NOV 1932
+1 NOTE @N0027@
+1 NOTE @N0028@
+1 CHAN
+2 DATE 24 NOV 2025
+3 TIME 18:08:14
+0 @I0175@ INDI
+1 NAME Eugène-Henri-Joseph (ou Eugène-Henri-Clément ?) /Wattinne/
+2 TYPE birth
+2 GIVN Eugène-Henri-Joseph (ou Eugène-Henri-Clément ?)
+2 SURN Wattinne
+1 SEX M
+1 BIRT
+2 DATE 4 JUN 1849
+2 PLAC Roubaix
+1 DEAT
+2 TYPE D'un accident de cheval à Auchy les Hesdin (Pas de Calais), à 27 ans
+2 DATE 4 JUN 1876
+1 FACT Filature d'Auchy les Hesdin
+2 TYPE Agency
+1 FAMC @F0067@
+2 PEDI birth
+1 FAMS @F0056@
+1 CHAN
+2 DATE 22 SEP 2025
+3 TIME 21:45:24
+0 @I0176@ INDI
+1 NAME Sabine /Vandame/
+2 TYPE birth
+2 GIVN Sabine
+2 SURN Vandame
+1 SEX F
+1 BIRT
+2 DATE 1851
+1 DEAT
+2 DATE 1939
+2 PLAC Bernay
+1 FAMC @F0130@
+2 PEDI birth
+1 FAMS @F0056@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:26:46
+0 @I0177@ INDI
+1 NAME Germaine /Wattinne/
+2 TYPE birth
+2 GIVN Germaine
+2 SURN Wattinne
+1 SEX F
+1 FAMC @F0056@
+2 PEDI birth
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 09:03:22
+0 @I0179@ INDI
+1 NAME Charles Henri Joseph (grand père d'Annie) /Droulers/
+2 TYPE birth
+2 GIVN Charles Henri Joseph (grand père d'Annie)
+2 SURN Droulers
+1 SEX M
+1 BIRT
+2 DATE 1838
+1 DEAT
+2 TYPE D'une crise cardiaque dans le train Paris-Lille
+2 DATE 16 DEC 1899
+2 SOUR @S0036@
+3 PAGE Contrat de mariage Eugêne Wattinne et Madeleine Droulers
+3 DATA
+4 DATE 15 DEC 1899
+1 RESI
+2 TYPE Achat du chateau de Biez à Pecq (Belgique) et construit la partie gauche
+3 CONC , la seule qui subsiste avec la tour.
+2 PLAC Pecq
+1 FACT Distillerie à Roubaix
+2 TYPE Agency
+1 FACT Président du Tribunal de commerce de Roubaix
+2 TYPE Occupation
+1 FAMC @F0066@
+2 PEDI birth
+1 FAMS @F0057@
+1 RESI
+2 ADDR Chateau de Biez
+3 CONT Peck
+3 CONT Belgique
+3 ADR1 Chateau de Biez
+3 CITY Peck
+3 CTRY Belgique
+1 RESI
+2 ADDR Roubaix
+3 CONT France
+3 CITY Roubaix
+3 CTRY France
+1 RESI
+2 ADDR Roubaix
+3 CITY Roubaix
+2 SOUR @S0036@
+3 PAGE Contrat de mariage Eugêne Wattinne et Madeleine Droulers
+1 NOTE @N0005@
+1 CHAN
+2 DATE 24 NOV 2025
+3 TIME 17:03:58
+0 @I0180@ INDI
+1 NAME Joséphine Hyacinthe Mélanie /Prouvost/
+2 TYPE birth
+2 GIVN Joséphine Hyacinthe Mélanie
+2 SURN Prouvost
+1 SEX F
+1 BIRT
+2 DATE 12 AUG 1845
+2 PLAC Roubaix
+1 DEAT
+2 DATE 21 JAN 1919
+2 PLAC Paris
+1 FAMC @F0114@
+2 PEDI birth
+1 FAMS @F0057@
+1 CHAN
+2 DATE 20 SEP 2025
+3 TIME 13:49:05
+0 @I0181@ INDI
+1 NAME Joséphine /Droulers/
+2 TYPE birth
+2 GIVN Joséphine
+2 SURN Droulers
+1 SEX F
+1 FAMC @F0057@
+2 PEDI birth
+1 FAMS @F0058@
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 10:52:44
+0 @I0182@ INDI
+1 NAME Charles /Droulers/
+2 TYPE birth
+2 GIVN Charles
+2 SURN Droulers
+1 SEX M
+1 FAMC @F0057@
+2 PEDI birth
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 10:48:08
+0 @I0184@ INDI
+1 NAME Clémence /Mariage/
+2 TYPE birth
+2 GIVN Clémence
+2 SURN Mariage
+1 SEX F
+1 BIRT
+2 DATE 1 MAR 1825
+1 DEAT
+2 TYPE Morte à 99 ans.
+2 DATE 23 MAY 1909
+1 FAMC @F0061@
+2 PEDI birth
+1 FAMS @F0017@
+1 NOTE @N0008@
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 22:03:50
+0 @I0185@ INDI
+1 NAME Pierre Joseph /Bonte Pollet/
+2 TYPE birth
+2 GIVN Pierre Joseph
+2 SURN Bonte Pollet
+1 SEX M
+1 BIRT
+2 DATE 1 MAY 1779
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 DEAT
+2 TYPE Il est mort dans sa propriété de Branleux, tué par un tonneau (Colleret
+3 CONC , près de Jeumont)
+2 DATE 11 OCT 1864
+2 PLAC Colleret
+3 NOTE @N0006@
+1 EVEN 1848 à 1852
+2 TYPE Maire de Lille
+2 DATE 1848
+1 FACT Maire de Lille
+2 TYPE Occupation
+1 FACT Représentant du peuple (Député)
+2 TYPE Occupation
+1 FACT Marchand huilier (Lin, colza)
+2 TYPE Occupation
+1 FAMC @F0158@
+2 PEDI birth
+1 FAMS @F0062@
+1 CHAN
+2 DATE 2 NOV 2025
+3 TIME 18:52:33
+0 @I0186@ INDI
+1 NAME Amélie /Longhaye/
+2 TYPE birth
+2 GIVN Amélie
+2 SURN Longhaye
+1 SEX F
+1 BIRT
+2 DATE 4 JUL 1850
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+2 NOTE @N0025@
+2 SOUR @S0019@
+3 PAGE Lille_AD59_5Mi044R162_vue351-1044_acte1279
+1 DEAT
+2 TYPE Elle est morte vers 82 ans.
+2 DATE 6 MAY 1936
+2 PLAC La Madeleine
+1 FAMC @F0063@
+2 PEDI birth
+1 FAMS @F0016@
+1 CHAN
+2 DATE 15 NOV 2025
+3 TIME 21:35:27
+0 @I0187@ INDI
+1 NAME Adolphe Auguste Henri Marie /Delemer/
+2 TYPE birth
+2 GIVN Adolphe Auguste Henri Marie
+2 SURN Delemer
+1 SEX M
+1 BIRT
+2 DATE 26 MAY 1842
+1 DEAT
+2 TYPE Mort de tuberculose, après avoir eu un poumon traversé par une balle e
+3 CONC n 1870 (source Jean Delemer). Mort vers 1870
+2 DATE 28 MAR 1883
+1 NCHI 3
+1 FAMC @F0125@
+2 PEDI birth
+1 FAMS @F0060@
+1 CHAN
+2 DATE 12 OCT 2025
+3 TIME 11:38:52
+0 @I0188@ INDI
+1 NAME Lucie /Ternunch/
+2 TYPE birth
+2 GIVN Lucie
+2 SURN Ternunch
+1 SEX F
+1 FAMC @F0128@
+2 PEDI birth
+1 FAMS @F0060@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:17:40
+0 @I0189@ INDI
+1 NAME Ursule Henriette /Verdier/
+2 TYPE birth
+2 GIVN Ursule Henriette
+2 SURN Verdier
+1 SEX F
+1 BIRT
+2 DATE 1 SEP 1757
+2 PLAC Annapes
+1 DEAT
+2 DATE 9 FEB 1841
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 FAMC @F0098@
+2 PEDI birth
+1 FAMS @F0019@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:39:27
+0 @I0190@ INDI
+1 NAME Adélaïde /Sapin/
+2 TYPE birth
+2 GIVN Adélaïde
+2 SURN Sapin
+1 SEX F
+1 FAMC @F0101@
+2 PEDI birth
+1 FAMS @F0018@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:09:38
+0 @I0191@ INDI
+1 NAME Louis /Mariage/
+2 TYPE birth
+2 GIVN Louis
+2 SURN Mariage
+1 SEX M
+1 BIRT
+2 DATE 1790
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 DEAT
+2 DATE 27 NOV 1853
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 FAMC @F0102@
+2 PEDI birth
+1 FAMS @F0061@
+1 NOTE @N0009@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:43:10
+0 @I0192@ INDI
+1 NAME Justine /Bonte/
+2 TYPE birth
+2 GIVN Justine
+2 SURN Bonte
+1 SEX F
+1 BIRT
+2 DATE 1804
+1 DEAT
+2 DATE 1903
+1 FAMC @F0062@
+2 PEDI birth
+1 FAMS @F0061@
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 22:25:02
+0 @I0193@ INDI
+1 NAME Rose Blanche /Pollet/
+2 TYPE birth
+2 GIVN Rose Blanche
+2 SURN Pollet
+1 SEX F
+1 BIRT
+2 DATE 1783
+1 FAMC @F0104@
+2 PEDI birth
+1 FAMS @F0062@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:09:18
+0 @I0194@ INDI
+1 NAME Auguste /Longhaye/
+2 TYPE birth
+2 GIVN Auguste
+2 SURN Longhaye
+1 SEX M
+1 BIRT
+2 DATE 1812
+1 DEAT
+2 DATE 1878
+1 FAMS @F0063@
+1 RESI
+2 ADDR 6 bd Vauban (maison immense)
+3 CONT Lille
+3 CONT France
+3 ADR1 6 bd Vauban (maison immense)
+3 CITY Lille
+3 CTRY France
+1 RESI
+2 ADDR Place de la gare (maison de commerce. Aujourd'hui la maison Descamps Lon
+3 CONC ghaye)
+3 ADR1 Place de la gare (maison de commerce. Aujourd'hui la maison Descamps Lon
+4 CONC ghaye)
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:13:09
+0 @I0195@ INDI
+1 NAME Virginie /Van de Weghe/
+2 TYPE birth
+2 GIVN Virginie
+2 SURN Van de Weghe
+1 SEX F
+1 BIRT
+2 DATE 1825
+1 DEAT
+2 DATE 1904
+1 FAMS @F0063@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:13:36
+0 @I0196@ INDI
+1 NAME James Henri Joseph /Leplat/
+2 TYPE birth
+2 GIVN James Henri Joseph
+2 SURN Leplat
+1 SEX M
+1 BIRT
+2 DATE 1903
+1 DEAT
+2 DATE 1997
+2 PLAC Montfort Lamaury
+1 FAMC @F0065@
+2 PEDI birth
+1 FAMS @F0064@
+1 NOTE @N0031@
+1 NOTE @N0033@
+1 CHAN
+2 DATE 3 DEC 2025
+3 TIME 23:06:09
+0 @I0197@ INDI
+1 NAME Jacqueline /Pouthier/
+2 TYPE birth
+2 GIVN Jacqueline
+2 SURN Pouthier
+1 SEX F
+1 BIRT
+2 DATE 10 APR 1911
+2 PLAC Paris
+1 DEAT
+2 DATE 13 MAR 1997
+2 PLAC Neuilly
+1 NCHI 7
+1 FAMC @F0069@
+2 PEDI birth
+1 FAMS @F0064@
+1 CHAN
+2 DATE 16 SEP 2025
+3 TIME 23:28:55
+0 @I0198@ INDI
+1 NAME James (père) /Leplat/
+2 TYPE birth
+2 GIVN James (père)
+2 SURN Leplat
+1 SEX M
+1 FAMC @F0068@
+2 PEDI birth
+1 FAMS @F0065@
+1 CHAN
+2 DATE 16 SEP 2025
+3 TIME 23:09:52
+0 @I0199@ INDI
+1 NAME Marie Anne /Lorthiois/
+2 TYPE birth
+2 GIVN Marie Anne
+2 SURN Lorthiois
+1 SEX F
+1 FAMS @F0065@
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 22:35:02
+0 @I0200@ INDI
+1 NAME Francis /Wattinne/
+2 TYPE birth
+2 GIVN Francis
+2 SURN Wattinne
+1 SEX M
+1 BIRT
+2 DATE 1908
+1 DEAT
+2 TYPE Mort noyé à 36 ans alors qu'il était champion de natation, devant Bando
+3 CONC l (malaise cardiaque)
+2 DATE 1944
+2 PLAC Bandol
+1 FAMC @F0055@
+2 PEDI birth
+1 CHAN
+2 DATE 16 SEP 2025
+3 TIME 14:54:52
+0 @I0201@ INDI
+1 NAME Eugène (frère) /Wattinne/
+2 TYPE birth
+2 GIVN Eugène (frère)
+2 SURN Wattinne
+1 SEX M
+1 BIRT
+2 DATE MAY 1903
+1 FACT Pendant la guerre : aviateur dans l'aviation de chasse en 1939
+2 TYPE Occupation
+1 FAMC @F0055@
+2 PEDI birth
+1 FAMS @F0180@
+1 CHAN
+2 DATE 3 DEC 2025
+3 TIME 22:52:50
+0 @I0202@ INDI
+1 NAME Louis /Droulers/
+2 TYPE birth
+2 GIVN Louis
+2 SURN Droulers
+1 SEX M
+1 BIRT
+2 DATE 1796
+1 DEAT
+2 DATE 1859
+1 FAMS @F0066@
+1 CHAN
+2 DATE 16 SEP 2025
+3 TIME 15:16:57
+0 @I0203@ INDI
+1 NAME Marie-Catherine /Brulois/
+2 TYPE birth
+2 GIVN Marie-Catherine
+2 SURN Brulois
+1 SEX F
+1 BIRT
+2 DATE 1798
+1 DEAT
+2 DATE 1840
+1 FAMS @F0066@
+1 CHAN
+2 DATE 16 SEP 2025
+3 TIME 15:16:57
+0 @I0204@ INDI
+1 NAME Louis /Wattinne/
+2 TYPE birth
+2 GIVN Louis
+2 SURN Wattinne
+1 SEX M
+1 BIRT
+2 DATE 1810
+1 DEAT
+2 DATE 1867
+1 FAMC @F0108@
+2 PEDI birth
+1 FAMS @F0067@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:08:57
+0 @I0205@ INDI
+1 NAME Pauline /Bossut/
+2 TYPE birth
+2 GIVN Pauline
+2 SURN Bossut
+1 SEX F
+1 BIRT
+2 DATE 1818
+1 DEAT
+2 DATE 1902
+1 FAMS @F0067@
+1 CHAN
+2 DATE 16 SEP 2025
+3 TIME 16:42:35
+0 @I0206@ INDI
+1 NAME Gustave /Wattinne/
+2 TYPE birth
+2 GIVN Gustave
+2 SURN Wattinne
+1 SEX M
+1 FAMC @F0067@
+2 PEDI birth
+1 CHAN
+2 DATE 16 SEP 2025
+3 TIME 16:42:35
+0 @I0207@ INDI
+1 NAME Maria /Wattinne/
+2 TYPE birth
+2 GIVN Maria
+2 SURN Wattinne
+1 SEX F
+1 FAMC @F0067@
+2 PEDI birth
+1 CHAN
+2 DATE 16 SEP 2025
+3 TIME 16:42:35
+0 @I0208@ INDI
+1 NAME Pauline /Wattinne/
+2 TYPE birth
+2 GIVN Pauline
+2 SURN Wattinne
+1 SEX F
+1 FAMC @F0067@
+2 PEDI birth
+1 CHAN
+2 DATE 16 SEP 2025
+3 TIME 16:42:35
+0 @I0209@ INDI
+1 NAME Pierre Robert /Saint-Léger/
+2 TYPE birth
+2 GIVN Pierre Robert
+2 SURN Saint-Léger
+1 SEX M
+1 BIRT
+2 DATE 16 SEP 1871
+1 FACT Maire de La Madeleine
+2 TYPE Occupation
+2 SOUR @S0032@
+3 DATA
+4 DATE 17 MAY 1904
+1 FACT Diplômé de l'Ecolde des Hautes Etudes Commerciales de Paris
+2 TYPE Etudes
+1 FAMC @F0016@
+2 PEDI birth
+1 FAMS @F0175@
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 18:14:33
+0 @I0210@ INDI
+1 NAME Eugène Jean Baptiste Joseph /Delemer/
+2 TYPE birth
+2 GIVN Eugène Jean Baptiste Joseph
+2 SURN Delemer
+1 SEX M
+1 BIRT
+2 DATE 1841
+1 DEAT
+2 DATE 1920
+1 FAMC @F0125@
+2 PEDI birth
+1 CHAN
+2 DATE 12 OCT 2025
+3 TIME 11:38:29
+0 @I0211@ INDI
+1 NAME Léon /Delemer/
+2 TYPE birth
+2 GIVN Léon
+2 SURN Delemer
+1 SEX M
+1 BIRT
+2 DATE 1874
+1 DEAT
+2 DATE 1961
+1 FAMC @F0060@
+2 PEDI birth
+1 FAMS @F0174@
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 18:06:16
+0 @I0212@ INDI
+1 NAME Hélène Lucie /Delemer/
+2 TYPE birth
+2 GIVN Hélène Lucie
+2 SURN Delemer
+1 SEX F
+1 BIRT
+2 DATE 20 SEP 1877
+1 DEAT
+2 DATE 1 OCT 1939
+1 FAMC @F0060@
+2 PEDI birth
+1 FAMS @F0059@
+1 CHAN
+2 DATE 12 OCT 2025
+3 TIME 11:51:01
+0 @I0213@ INDI
+1 NAME Emile Joseph /Leplat/
+2 TYPE birth
+2 GIVN Emile Joseph
+2 SURN Leplat
+1 SEX M
+1 BIRT
+2 DATE 31 OCT 1832
+2 PLAC Tourcoing
+1 DEAT
+2 DATE 5 FEB 1917
+2 PLAC Tourcoing
+1 FAMS @F0068@
+1 CHAN
+2 DATE 16 SEP 2025
+3 TIME 23:09:52
+0 @I0214@ INDI
+1 NAME Elisabeth "Clara" Marie /Whelan/
+2 TYPE birth
+2 GIVN Elisabeth "Clara" Marie
+2 SURN Whelan
+1 SEX F
+1 BIRT
+2 DATE 24 APR 1834
+2 PLAC Dublin
+1 DEAT
+2 DATE 1 JUN 1890
+2 PLAC Tourcoing
+1 FAMC @F0103@
+2 PEDI birth
+1 FAMS @F0068@
+1 SOUR @S0031@
+2 PAGE https://gw.geneanet.org/dufumier?n=whelan&oc=&p=elisabeth+clara+marie&type=fiche
+1 CHAN
+2 DATE 18 OCT 2025
+3 TIME 22:07:59
+0 @I0215@ INDI
+1 NAME Albert /Pouthier/
+2 TYPE birth
+2 GIVN Albert
+2 SURN Pouthier
+1 SEX M
+1 BIRT
+2 DATE 15 MAR 1878
+2 PLAC Saint-Mandé
+1 DEAT
+2 DATE 11 MAY 1948
+2 PLAC Paris
+1 FACT Architecte
+2 TYPE Occupation
+1 FAMS @F0069@
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 22:29:38
+0 @I0216@ INDI
+1 NAME Jeanne Charlotte (Mita) /Street/
+2 TYPE birth
+2 GIVN Jeanne Charlotte (Mita)
+2 SURN Street
+1 SEX F
+1 BIRT
+2 DATE 19 FEB 1888
+2 PLAC Boulogne-sur-Mer
+1 DEAT
+2 DATE 23 JUL 1975
+2 PLAC Paris
+1 FAMC @F0092@
+2 PEDI birth
+1 FAMS @F0069@
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 22:10:33
+0 @I0273@ INDI
+1 NAME Léon /Street/
+2 TYPE birth
+2 GIVN Léon
+2 SURN Street
+1 SEX M
+1 BIRT
+2 DATE 1860
+1 DEAT
+2 DATE 1925
+1 FAMC @F0093@
+2 PEDI birth
+1 FAMS @F0092@
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 22:11:26
+0 @I0274@ INDI
+1 NAME Marie /Caroulle/
+2 TYPE birth
+2 GIVN Marie
+2 SURN Caroulle
+1 SEX F
+1 BIRT
+2 DATE 1866
+1 DEAT
+2 DATE 1940
+1 FAMS @F0092@
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 22:10:33
+0 @I0275@ INDI
+1 NAME William (fils) /Street/
+2 TYPE birth
+2 GIVN William (fils)
+2 SURN Street
+1 SEX M
+1 BIRT
+2 DATE 1834
+1 FAMC @F0094@
+2 PEDI birth
+1 FAMS @F0093@
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 22:12:24
+0 @I0276@ INDI
+1 NAME Roselin /Ducrocq/
+2 TYPE birth
+2 GIVN Roselin
+2 SURN Ducrocq
+1 SEX F
+1 BIRT
+2 DATE 1836
+1 FAMS @F0093@
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 22:11:26
+0 @I0277@ INDI
+1 NAME William (père) /Street/
+2 TYPE birth
+2 GIVN William (père)
+2 SURN Street
+1 SEX M
+1 BIRT
+2 DATE 1778
+1 FAMS @F0094@
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 22:12:24
+0 @I0278@ INDI
+1 NAME Mary-Jane /Thomas/
+2 TYPE birth
+2 GIVN Mary-Jane
+2 SURN Thomas
+1 SEX F
+1 FAMS @F0094@
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 22:12:24
+0 @I0280@ INDI
+1 NAME Patrick /Leplat/
+2 TYPE birth
+2 GIVN Patrick
+2 SURN Leplat
+1 SEX M
+1 BIRT
+2 DATE 1931
+1 DEAT Y
+1 FAMC @F0064@
+2 PEDI birth
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 18:24:37
+0 @I0281@ INDI
+1 NAME Françoise /Leplat/
+2 TYPE birth
+2 GIVN Françoise
+2 SURN Leplat
+1 SEX F
+1 BIRT
+2 DATE 1934
+1 DEAT
+2 TYPE Pendant l'épidémie de Covid
+1 FAMC @F0064@
+2 PEDI birth
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 18:24:30
+0 @I0282@ INDI
+1 NAME Jean Jacques /Leplat/
+2 TYPE birth
+2 GIVN Jean Jacques
+2 SURN Leplat
+1 SEX M
+1 BIRT
+2 DATE 1939
+1 DEAT
+2 DATE 2024
+1 FAMC @F0064@
+2 PEDI birth
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 22:18:27
+0 @I0288@ INDI
+1 NAME Ignace /Senléger/
+2 TYPE birth
+2 GIVN Ignace
+2 SURN Senléger
+1 SEX M
+1 BIRT
+2 DATE 1723
+2 PLAC Caucourt (proche d'Arras, Pas de Calais)
+1 DEAT
+2 DATE 26 JUL 1771
+2 PLAC Caucourt (proche d'Arras, Pas de Calais)
+1 FAMC @F0096@
+2 PEDI birth
+1 FAMS @F0095@
+1 CHAN
+2 DATE 20 SEP 2025
+3 TIME 23:22:05
+0 @I0289@ INDI
+1 NAME Marie Brigitte /Brongniart/
+2 TYPE birth
+2 GIVN Marie Brigitte
+2 SURN Brongniart
+1 SEX F
+1 BIRT
+2 DATE 1725
+2 PLAC Caucourt (proche d'Arras, Pas de Calais)
+1 DEAT
+2 DATE 1 FEB 1763
+2 PLAC Caucourt (proche d'Arras, Pas de Calais)
+1 FAMC @F0097@
+2 PEDI birth
+1 FAMS @F0095@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:10:03
+0 @I0290@ INDI
+1 NAME Jean Baptiste /Senléger/
+2 TYPE birth
+2 GIVN Jean Baptiste
+2 SURN Senléger
+1 SEX M
+1 BIRT
+2 DATE 1685
+1 DEAT
+2 DATE 6 OCT 1756
+2 PLAC Caucourt (proche d'Arras, Pas de Calais)
+1 FACT Berger
+2 TYPE Occupation
+1 FAMS @F0096@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:17:59
+0 @I0291@ INDI
+1 NAME Marie Thérèse /Bellève/
+2 TYPE birth
+2 GIVN Marie Thérèse
+2 SURN Bellève
+1 SEX F
+1 FAMS @F0096@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:17:59
+0 @I0292@ INDI
+1 NAME Jean Philippe /Brongniart/
+2 TYPE birth
+2 GIVN Jean Philippe
+2 SURN Brongniart
+1 SEX M
+1 DEAT
+2 TYPE Avant 1755
+1 FAMS @F0097@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:21:37
+0 @I0293@ INDI
+1 NAME Marie Jeanne /Hovelt/
+2 TYPE birth
+2 GIVN Marie Jeanne
+2 SURN Hovelt
+1 SEX F
+1 DEAT
+2 TYPE Après 1755
+1 FAMS @F0097@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:21:37
+0 @I0294@ INDI
+1 NAME Claude François Robert /Verdier/
+2 TYPE birth
+2 GIVN Claude François Robert
+2 SURN Verdier
+1 SEX M
+1 BIRT Y
+1 FAMC @F0099@
+2 PEDI birth
+1 FAMS @F0098@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:09:51
+0 @I0295@ INDI
+1 NAME Anne Marie /Bouchery/
+2 TYPE birth
+2 GIVN Anne Marie
+2 SURN Bouchery
+1 SEX F
+1 FAMC @F0100@
+2 PEDI birth
+1 FAMS @F0098@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 18:13:02
+0 @I0296@ INDI
+1 NAME Claude /Verdier/
+2 TYPE birth
+2 GIVN Claude
+2 SURN Verdier
+1 SEX M
+1 DEAT
+2 TYPE Avant 1741
+1 FAMS @F0099@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:24:18
+0 @I0297@ INDI
+1 NAME Marie Anne /Deffontaine/
+2 TYPE birth
+2 GIVN Marie Anne
+2 SURN Deffontaine
+1 SEX F
+1 BIRT
+2 DATE 1670
+1 DEAT
+2 DATE 12 JUN 1762
+1 FAMS @F0099@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:24:18
+0 @I0298@ INDI
+1 NAME Louis /Bouchery/
+2 TYPE birth
+2 GIVN Louis
+2 SURN Bouchery
+1 SEX M
+1 FAMS @F0100@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:29:52
+0 @I0299@ INDI
+1 NAME Marie Catherine /Dumortier/
+2 TYPE birth
+2 GIVN Marie Catherine
+2 SURN Dumortier
+1 SEX F
+1 FAMS @F0100@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:29:52
+0 @I0300@ INDI
+1 NAME Jacques /Sapin/
+2 TYPE birth
+2 GIVN Jacques
+2 SURN Sapin
+1 SEX M
+1 FAMS @F0101@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:34:17
+0 @I0301@ INDI
+1 NAME Jean François /Mariage/
+2 TYPE birth
+2 GIVN Jean François
+2 SURN Mariage
+1 SEX M
+1 BIRT
+2 DATE 15 AUG 1766
+2 PLAC St André (Lille)
+1 DEAT
+2 DATE 31 AUG 1790
+2 PLAC St André (Lille)
+1 FACT Marchand épicier
+2 TYPE Occupation
+1 FAMC @F0133@
+2 PEDI birth
+1 FAMS @F0102@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:45:41
+0 @I0302@ INDI
+1 NAME Pierre Joseph /Bonte/
+2 TYPE birth
+2 GIVN Pierre Joseph
+2 SURN Bonte
+1 SEX M
+1 BIRT
+2 DATE 1744
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 DEAT
+2 DATE 8 SEP 1788
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 FACT Fermier à Flers marchand de graisse épicier à Lille
+2 TYPE Occupation
+1 FAMC @F0105@
+2 PEDI birth
+1 FAMS @F0158@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 18:19:56
+0 @I0303@ INDI
+1 NAME Paul Marie Joseph /Delemer/
+2 TYPE birth
+2 GIVN Paul Marie Joseph
+2 SURN Delemer
+1 SEX M
+1 BIRT
+2 DATE 1845
+1 DEAT
+2 DATE 1927
+1 FAMC @F0125@
+2 PEDI birth
+1 CHAN
+2 DATE 12 OCT 2025
+3 TIME 11:39:17
+0 @I0304@ INDI
+1 NAME Louis Rémy /Pollet/
+2 TYPE birth
+2 GIVN Louis Rémy
+2 SURN Pollet
+1 SEX M
+1 BIRT
+2 DATE 1740
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 DEAT
+2 DATE 1801
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 FAMS @F0104@
+1 CHAN
+2 DATE 27 OCT 2025
+3 TIME 21:18:59
+0 @I0305@ INDI
+1 NAME Séraphine /Pollet/
+2 TYPE birth
+2 GIVN Séraphine
+2 SURN Pollet
+1 SEX F
+1 BIRT
+2 DATE 1750
+2 PLAC Marcq-en-Baroeul
+1 DEAT
+2 DATE 1820
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 FAMS @F0104@
+1 CHAN
+2 DATE 27 OCT 2025
+3 TIME 21:20:49
+0 @I0306@ INDI
+1 NAME Adrien François /Bonte Pollet/
+2 TYPE birth
+2 GIVN Adrien François
+2 SURN Bonte Pollet
+1 SEX M
+1 FAMS @F0105@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:37:16
+0 @I0307@ INDI
+1 NAME Alexandrine /Bernart/
+2 TYPE birth
+2 GIVN Alexandrine
+2 SURN Bernart
+1 SEX F
+1 FAMS @F0105@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:37:16
+0 @I0312@ INDI
+1 NAME Louis Joseph /Wattinne/
+2 TYPE birth
+2 GIVN Louis Joseph
+2 SURN Wattinne
+1 SEX M
+1 BIRT
+2 DATE 1785
+1 DEAT
+2 DATE 23 SEP 1840
+1 FAMC @F0109@
+2 PEDI birth
+1 FAMS @F0108@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:08:50
+0 @I0313@ INDI
+1 NAME Augustine /Dervaux/
+2 TYPE birth
+2 GIVN Augustine
+2 SURN Dervaux
+1 SEX F
+1 BIRT
+2 DATE 12 NOV 1787
+1 FAMS @F0108@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:43:22
+0 @I0314@ INDI
+1 NAME Pierre François /Wattinne/
+2 TYPE birth
+2 GIVN Pierre François
+2 SURN Wattinne
+1 SEX M
+1 BIRT
+2 DATE 16 SEP 1749
+1 DEAT
+2 DATE 23 JUL 1812
+2 PLAC Tourcoing
+1 FAMC @F0110@
+2 PEDI birth
+1 FAMS @F0109@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 11:25:27
+0 @I0315@ INDI
+1 NAME Euphroïsine /De Wavrin/
+2 TYPE birth
+2 GIVN Euphroïsine
+2 SURN De Wavrin
+1 SEX F
+1 BIRT
+2 DATE 12 JAN 1759
+2 PLAC Tourcoing
+1 DEAT
+2 DATE 5 NOV 1805
+2 PLAC Tourcoing
+1 FAMS @F0109@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 11:23:31
+0 @I0316@ INDI
+1 NAME Jean Antoine /Wattinne/
+2 TYPE birth
+2 GIVN Jean Antoine
+2 SURN Wattinne
+1 SEX M
+1 BIRT
+2 DATE 5 JUL 1689
+1 DEAT
+2 DATE 29 MAR 1759
+1 FAMC @F0111@
+2 PEDI birth
+1 FAMS @F0110@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:08:38
+0 @I0317@ INDI
+1 NAME Françoise /Yon/
+2 TYPE birth
+2 GIVN Françoise
+2 SURN Yon
+1 SEX F
+1 BIRT
+2 DATE 4 DEC 1712
+1 DEAT
+2 DATE 30 NOV 1792
+1 FAMS @F0110@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 11:08:43
+0 @I0318@ INDI
+1 NAME Jean Hubert /Wattinne/
+2 TYPE birth
+2 GIVN Jean Hubert
+2 SURN Wattinne
+2 NICK Wathine
+1 NAME  /Wathine/
+2 TYPE aka
+2 SPFX Wathine
+1 SEX M
+1 BIRT
+2 DATE 12 NOV 1650
+2 PLAC Tourcoing
+1 DEAT
+2 DATE 29 MAR 1689
+2 PLAC Tourcoing
+1 FACT Maitre macon arpenteur
+2 TYPE Occupation
+1 FAMC @F0112@
+2 PEDI birth
+1 FAMS @F0111@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 11:00:19
+0 @I0319@ INDI
+1 NAME Christiane /Caby/
+2 TYPE birth
+2 GIVN Christiane
+2 SURN Caby
+1 SEX F
+1 FAMC @F0113@
+2 PEDI birth
+1 FAMS @F0111@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:08:25
+0 @I0320@ INDI
+1 NAME Antoine /Watine/
+2 TYPE birth
+2 GIVN Antoine
+2 SURN Watine
+1 NAME  /Watein Wattines/
+2 TYPE aka
+2 SPFX Watein
+2 SURN , 
+1 SEX M
+1 BIRT
+2 DATE 27 JUN 1623
+1 FACT Macon ; laboureur
+2 TYPE Occupation
+1 FAMC @F0122@
+2 PEDI birth
+1 FAMS @F0112@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 11:00:01
+0 @I0321@ INDI
+1 NAME Françoise /Chambar/
+2 TYPE birth
+2 GIVN Françoise
+2 SURN Chambar
+1 SEX F
+1 BIRT
+2 DATE 8 MAY 1623
+1 DEAT
+2 DATE 1700
+1 FAMC @F0124@
+2 PEDI birth
+1 FAMS @F0112@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 10:57:53
+0 @I0322@ INDI
+1 NAME Jean /Caby/
+2 TYPE birth
+2 GIVN Jean
+2 SURN Caby
+1 SEX M
+1 FAMS @F0113@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:50:48
+0 @I0323@ INDI
+1 NAME Marie France //
+2 TYPE birth
+2 GIVN Marie France
+1 SEX F
+1 FAMS @F0113@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:50:48
+0 @I0324@ INDI
+1 NAME Amédée /Prouvost/
+2 TYPE birth
+2 GIVN Amédée
+2 SURN Prouvost
+1 SEX M
+1 BIRT
+2 DATE 1819
+1 DEAT
+2 DATE 1865
+1 FAMC @F0115@
+2 PEDI birth
+1 FAMS @F0114@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:08:12
+0 @I0325@ INDI
+1 NAME Joséphine /Yon/
+2 TYPE birth
+2 GIVN Joséphine
+2 SURN Yon
+1 SEX F
+1 BIRT
+2 DATE 6 JAN 1827
+2 PLAC Roubaix
+1 DEAT
+2 DATE 25 JUL 1902
+2 PLAC Estaimbourg
+1 FAMC @F0137@
+2 PEDI birth
+1 FAMS @F0114@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:45:28
+0 @I0326@ INDI
+1 NAME Henri /Prouvost/
+2 TYPE birth
+2 GIVN Henri
+2 SURN Prouvost
+1 SEX M
+1 BIRT
+2 DATE 1783
+1 DEAT
+2 DATE 1850
+1 FAMC @F0116@
+2 PEDI birth
+1 FAMS @F0115@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:08:08
+0 @I0327@ INDI
+1 NAME Luvine /Defrenne/
+2 TYPE birth
+2 GIVN Luvine
+2 SURN Defrenne
+1 SEX F
+1 FAMS @F0115@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:54:09
+0 @I0328@ INDI
+1 NAME Pierre Constantin /Prouvost/
+2 TYPE birth
+2 GIVN Pierre Constantin
+2 SURN Prouvost
+1 SEX M
+1 BIRT
+2 DATE 7 JUN 1747
+1 FAMC @F0117@
+2 PEDI birth
+1 FAMS @F0116@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:07:58
+0 @I0329@ INDI
+1 NAME Henriette /Destombes/
+2 TYPE birth
+2 GIVN Henriette
+2 SURN Destombes
+1 SEX F
+1 FAMS @F0116@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:54:50
+0 @I0330@ INDI
+1 NAME Jacques /Prouvost/
+2 TYPE birth
+2 GIVN Jacques
+2 SURN Prouvost
+1 SEX M
+1 BIRT
+2 DATE 15 DEC 1699
+2 PLAC Wasquehal
+1 DEAT
+2 DATE 23 SEP 1774
+2 PLAC Roubaix
+1 FACT Marchand
+2 TYPE Occupation
+1 FAMC @F0118@
+2 PEDI birth
+1 FAMS @F0117@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 11:31:11
+0 @I0331@ INDI
+1 NAME Agnès /Florin/
+2 TYPE birth
+2 GIVN Agnès
+2 SURN Florin
+1 SEX F
+1 BIRT
+2 DATE 14 JUN 1712
+2 PLAC Roubaix
+1 DEAT
+2 DATE 28 MAY 1767
+2 PLAC Roubaix
+1 FAMS @F0117@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 11:28:45
+0 @I0332@ INDI
+1 NAME Jacques /Prouvost/
+2 TYPE birth
+2 GIVN Jacques
+2 SURN Prouvost
+1 SEX M
+1 BIRT
+2 DATE 15 JAN 1670
+2 PLAC Wasquehal
+1 DEAT
+2 DATE 16 JUN 1704
+1 FAMC @F0119@
+2 PEDI birth
+1 FAMS @F0118@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:08:02
+0 @I0333@ INDI
+1 NAME Antoinette /Masurelle/
+2 TYPE birth
+2 GIVN Antoinette
+2 SURN Masurelle
+1 SEX F
+1 FAMS @F0118@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:57:04
+0 @I0334@ INDI
+1 NAME Pierre /Prouvost/
+2 TYPE birth
+2 GIVN Pierre
+2 SURN Prouvost
+1 SEX M
+1 BIRT
+2 DATE 1640
+1 DEAT
+2 DATE 1681
+2 PLAC Wasquehal
+1 FAMC @F0120@
+2 PEDI birth
+1 FAMS @F0119@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:00:41
+0 @I0335@ INDI
+1 NAME Guillaume /Prouvost/
+2 TYPE birth
+2 GIVN Guillaume
+2 SURN Prouvost
+1 SEX M
+1 BIRT
+2 PLAC Wasquehal
+1 FAMC @F0121@
+2 PEDI birth
+1 FAMS @F0120@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:07:52
+0 @I0336@ INDI
+1 NAME Adrienne /Watel/
+2 TYPE birth
+2 GIVN Adrienne
+2 SURN Watel
+1 SEX F
+1 BIRT
+2 PLAC Mouveaux
+1 FAMS @F0120@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:00:41
+0 @I0337@ INDI
+1 NAME Jean /Prouvost/
+2 TYPE birth
+2 GIVN Jean
+2 SURN Prouvost
+1 SEX M
+1 BIRT
+2 DATE 1545
+2 PLAC Wasquehal
+1 DEAT
+2 DATE 1590
+1 FAMS @F0121@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:01:35
+0 @I0338@ INDI
+1 NAME Antoinette /Leblanc/
+2 TYPE birth
+2 GIVN Antoinette
+2 SURN Leblanc
+1 SEX F
+1 FAMS @F0121@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:01:35
+0 @I0339@ INDI
+1 NAME Hubert /Watinne/
+2 TYPE birth
+2 GIVN Hubert
+2 SURN Watinne
+1 SEX M
+1 BIRT
+2 TYPE Vers 1587
+2 DATE 1587
+1 DEAT
+2 TYPE Après 1678
+2 DATE 1678
+1 FAMC @F0123@
+2 PEDI birth
+1 FAMS @F0122@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:06:19
+0 @I0340@ INDI
+1 NAME Isabeau /Destombes/
+2 TYPE birth
+2 GIVN Isabeau
+2 SURN Destombes
+1 NAME  /de la Tombe/
+2 TYPE aka
+2 SPFX de la Tombe
+1 SEX F
+1 FAMS @F0122@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:07:03
+0 @I0341@ INDI
+1 NAME Philippe /Watinne/
+2 TYPE birth
+2 GIVN Philippe
+2 SURN Watinne
+1 NAME  /Wastinne/
+2 TYPE aka
+2 SPFX Wastinne
+1 SEX M
+1 BIRT
+2 TYPE Vers 1565
+2 DATE 1565
+1 FAMS @F0123@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:06:19
+0 @I0342@ INDI
+1 NAME Marie /Michau/
+2 TYPE birth
+2 GIVN Marie
+2 SURN Michau
+1 SEX F
+1 FAMS @F0123@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:06:19
+0 @I0343@ INDI
+1 NAME Josse /Chambar/
+2 TYPE birth
+2 GIVN Josse
+2 SURN Chambar
+1 SEX M
+1 FAMS @F0124@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:07:41
+0 @I0344@ INDI
+1 NAME Jeanne /du Pont/
+2 TYPE birth
+2 GIVN Jeanne
+2 SURN du Pont
+1 SEX F
+1 FAMS @F0124@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:07:41
+0 @I0345@ INDI
+1 NAME Jean Baptiste /Delemer/
+2 TYPE birth
+2 GIVN Jean Baptiste
+2 SURN Delemer
+1 SEX M
+1 BIRT
+2 DATE 1814
+1 DEAT
+2 DATE 1874
+1 FAMC @F0126@
+2 PEDI birth
+1 FAMS @F0125@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:45:38
+0 @I0346@ INDI
+1 NAME Eugénie /Salomé/
+2 TYPE birth
+2 GIVN Eugénie
+2 SURN Salomé
+1 SEX F
+1 BIRT
+2 DATE 1815
+1 DEAT
+2 DATE 1851
+1 FAMS @F0125@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:15:17
+0 @I0347@ INDI
+1 NAME Jean Baptiste (père) /Delemer/
+2 TYPE birth
+2 GIVN Jean Baptiste (père)
+2 SURN Delemer
+1 SEX M
+1 BIRT
+2 DATE 1769
+1 DEAT
+2 DATE 1845
+1 FAMC @F0127@
+2 PEDI birth
+1 FAMS @F0126@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:16:47
+0 @I0348@ INDI
+1 NAME Henriette /Brome/
+2 TYPE birth
+2 GIVN Henriette
+2 SURN Brome
+1 SEX F
+1 FAMS @F0126@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:16:12
+0 @I0349@ INDI
+1 NAME Charles /Delemer/
+2 TYPE birth
+2 GIVN Charles
+2 SURN Delemer
+1 SEX M
+1 FAMS @F0127@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:16:47
+0 @I0350@ INDI
+1 NAME Catherine /Chaffaux/
+2 TYPE birth
+2 GIVN Catherine
+2 SURN Chaffaux
+1 SEX F
+1 FAMS @F0127@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:16:47
+0 @I0351@ INDI
+1 NAME Aimé /Ternunch/
+2 TYPE birth
+2 GIVN Aimé
+2 SURN Ternunch
+1 SEX M
+1 BIRT
+2 DATE 1812
+1 DEAT
+2 DATE 1887
+1 FAMC @F0129@
+2 PEDI birth
+1 FAMS @F0128@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:18:09
+0 @I0352@ INDI
+1 NAME Juliette /Jacquemin/
+2 TYPE birth
+2 GIVN Juliette
+2 SURN Jacquemin
+1 SEX F
+1 BIRT
+2 DATE 1823
+1 FAMS @F0128@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:17:40
+0 @I0353@ INDI
+1 NAME  /Ternunch/
+2 TYPE birth
+2 SURN Ternunch
+1 SEX M
+1 FAMS @F0129@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:18:09
+0 @I0354@ INDI
+1 NAME  /Régent/
+2 TYPE birth
+2 SURN Régent
+1 SEX F
+1 FAMS @F0129@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:18:09
+0 @I0355@ INDI
+1 NAME Joseph /Vandame/
+2 TYPE birth
+2 GIVN Joseph
+2 SURN Vandame
+1 SEX M
+1 BIRT
+2 DATE 1803
+1 DEAT
+2 DATE 1877
+1 FAMC @F0131@
+2 PEDI birth
+1 FAMS @F0130@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:27:47
+0 @I0356@ INDI
+1 NAME Sabine /Grandel/
+2 TYPE birth
+2 GIVN Sabine
+2 SURN Grandel
+1 SEX F
+1 BIRT
+2 DATE 1823
+1 DEAT
+2 DATE 1902
+1 FAMS @F0130@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:26:46
+0 @I0357@ INDI
+1 NAME Jean Baptiste /Vandame/
+2 TYPE birth
+2 GIVN Jean Baptiste
+2 SURN Vandame
+1 SEX M
+1 BIRT
+2 DATE 1767
+1 DEAT
+2 DATE 1804
+1 FAMC @F0132@
+2 PEDI birth
+1 FAMS @F0131@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:29:01
+0 @I0358@ INDI
+1 NAME Flavie /Pollet/
+2 TYPE birth
+2 GIVN Flavie
+2 SURN Pollet
+1 SEX F
+1 BIRT
+2 DATE 1767
+1 DEAT
+2 DATE 1838
+1 FAMS @F0131@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:27:47
+0 @I0359@ INDI
+1 NAME Jean Baptiste (père) /Vandame/
+2 TYPE birth
+2 GIVN Jean Baptiste (père)
+2 SURN Vandame
+1 SEX M
+1 DEAT
+2 DATE 1796
+1 FAMS @F0132@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:29:01
+0 @I0360@ INDI
+1 NAME Marie /Corman/
+2 TYPE birth
+2 GIVN Marie
+2 SURN Corman
+1 SEX F
+1 BIRT
+2 DATE 1744
+1 DEAT
+2 DATE 1797
+1 FAMS @F0132@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:29:01
+0 @I0361@ INDI
+1 NAME Aimée Angélique /Delecambre/
+2 TYPE birth
+2 GIVN Aimée Angélique
+2 SURN Delecambre
+1 SEX F
+1 BIRT
+2 TYPE quartier St Maurice
+2 DATE 9 JUN 1770
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 FAMC @F0134@
+2 PEDI birth
+1 FAMS @F0102@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:47:26
+0 @I0362@ INDI
+1 NAME Jean Baptiste (père) /Mariage/
+2 TYPE birth
+2 GIVN Jean Baptiste (père)
+2 SURN Mariage
+1 SEX M
+1 BIRT
+2 PLAC Frelinghien
+1 FAMS @F0133@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:46:07
+0 @I0363@ INDI
+1 NAME Marie Anne /Deleplanque/
+2 TYPE birth
+2 GIVN Marie Anne
+2 SURN Deleplanque
+1 SEX F
+1 BIRT
+2 PLAC Phalempin
+1 FAMS @F0133@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:45:41
+0 @I0364@ INDI
+1 NAME Jean Baptiste /Delecambre/
+2 TYPE birth
+2 GIVN Jean Baptiste
+2 SURN Delecambre
+1 SEX M
+1 FAMC @F0135@
+2 PEDI birth
+1 FAMS @F0134@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:45:32
+0 @I0365@ INDI
+1 NAME Angélique Bénedictus /Dupire/
+2 TYPE birth
+2 GIVN Angélique Bénedictus
+2 SURN Dupire
+1 SEX F
+1 FAMC @F0136@
+2 PEDI birth
+1 FAMS @F0134@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 18:14:34
+0 @I0366@ INDI
+1 NAME  /Delecambre/
+2 TYPE birth
+2 SURN Delecambre
+1 SEX M
+1 BIRT
+2 DATE 4 JUN 1706
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 DEAT
+2 DATE 2 MAR 1734
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 FAMS @F0135@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:49:11
+0 @I0367@ INDI
+1 NAME Marie marguerite /Vancoyghem/
+2 TYPE birth
+2 GIVN Marie marguerite
+2 SURN Vancoyghem
+1 SEX F
+1 FAMS @F0135@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:49:11
+0 @I0368@ INDI
+1 NAME Antoine Joseph /Dupire/
+2 TYPE birth
+2 GIVN Antoine Joseph
+2 SURN Dupire
+1 SEX M
+1 BIRT
+2 PLAC Ascq
+1 FAMS @F0136@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 18:14:34
+0 @I0369@ INDI
+1 NAME Angélique /Barre/
+2 TYPE birth
+2 GIVN Angélique
+2 SURN Barre
+1 SEX F
+1 FAMS @F0136@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 18:14:34
+0 @I0370@ INDI
+1 NAME Antoine Charles /Yon/
+2 TYPE birth
+2 GIVN Antoine Charles
+2 SURN Yon
+1 SEX M
+1 BIRT
+2 DATE 1798
+1 DEAT
+2 DATE 1833
+1 FACT Filateur
+2 TYPE Occupation
+1 FAMC @F0138@
+2 PEDI birth
+1 FAMS @F0137@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 17:16:02
+0 @I0371@ INDI
+1 NAME Hyacinthe /Delaoutre/
+2 TYPE birth
+2 GIVN Hyacinthe
+2 SURN Delaoutre
+1 SEX F
+1 BIRT
+2 DATE 1808
+1 DEAT
+2 DATE 1844
+1 FAMS @F0137@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 21:59:36
+0 @I0372@ INDI
+1 NAME Antoine Denis Joseph /Yon/
+2 TYPE birth
+2 GIVN Antoine Denis Joseph
+2 SURN Yon
+1 SEX M
+1 BIRT
+2 DATE 1768
+1 DEAT
+2 DATE 1845
+1 FAMS @F0138@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 22:06:47
+0 @I0373@ INDI
+1 NAME Charlotte Joseph /Delebecq/
+2 TYPE birth
+2 GIVN Charlotte Joseph
+2 SURN Delebecq
+1 SEX F
+1 BIRT
+2 DATE 1772
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 DEAT
+2 DATE 1811
+1 FAMC @F0139@
+2 PEDI birth
+1 FAMS @F0138@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 22:20:05
+0 @I0374@ INDI
+1 NAME Erasme /Delebecq/
+2 TYPE birth
+2 GIVN Erasme
+2 SURN Delebecq
+1 SEX M
+1 BIRT
+2 DATE 1725
+1 DEAT
+2 DATE 1795
+1 FAMS @F0139@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 22:20:05
+0 @I0375@ INDI
+1 NAME Henriette Joseph /Grandel/
+2 TYPE birth
+2 GIVN Henriette Joseph
+2 SURN Grandel
+1 SEX F
+1 BIRT
+2 DATE 1746
+1 DEAT
+2 DATE 1801
+1 FAMC @F0140@
+2 PEDI birth
+1 FAMS @F0139@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 22:25:17
+0 @I0376@ INDI
+1 NAME Paul Romain /Grandel/
+2 TYPE birth
+2 GIVN Paul Romain
+2 SURN Grandel
+1 SEX M
+1 BIRT
+2 DATE 1722
+1 DEAT
+2 DATE 1789
+1 FACT Marchand,amidonnier,salineur
+2 TYPE Occupation
+1 FAMC @F0141@
+2 PEDI birth
+1 FAMS @F0140@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 17:11:18
+0 @I0377@ INDI
+1 NAME Marie Catherine Angélique /Cuvelier/
+2 TYPE birth
+2 GIVN Marie Catherine Angélique
+2 SURN Cuvelier
+1 SEX F
+1 BIRT
+2 DATE 1726
+1 DEAT
+2 DATE 1763
+1 FAMS @F0140@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 22:25:17
+0 @I0378@ INDI
+1 NAME Bonaventure Joseph /Grandel/
+2 TYPE birth
+2 GIVN Bonaventure Joseph
+2 SURN Grandel
+1 SEX M
+1 BIRT
+2 DATE 1692
+1 DEAT
+2 DATE 1753
+1 FACT Maître boulanger,marchand amidonnier
+2 TYPE Occupation
+1 FAMS @F0141@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 17:10:39
+0 @I0379@ INDI
+1 NAME Marie Hélène Françoise /Desfontaines/
+2 TYPE birth
+2 GIVN Marie Hélène Françoise
+2 SURN Desfontaines
+1 SEX F
+1 BIRT
+2 DATE 16 JAN 1698
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 DEAT
+2 DATE 27 OCT 1758
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 FAMC @F0142@
+2 PEDI birth
+1 FAMS @F0141@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:45:19
+0 @I0380@ INDI
+1 NAME Jacques /Desfontaines/
+2 TYPE birth
+2 GIVN Jacques
+2 SURN Desfontaines
+1 SEX M
+1 BIRT
+2 DATE 16 JUL 1652
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 DEAT
+2 TYPE Avant 1714
+2 DATE 1714
+1 BAPM
+2 TYPE acte bapteme lille - 1652 - archives departementales 59 (Nord) - BMS 5 M
+3 CONC i 044 R 066 1629/1702 - page 248/1084
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+2 SOUR @S0017@
+3 PAGE page 248/1084
+1 FACT Boucher
+2 TYPE Occupation
+1 FAMC @F0143@
+2 PEDI birth
+1 FAMS @F0142@
+1 SOUR @S0016@
+1 CHAN
+2 DATE 8 OCT 2025
+3 TIME 22:33:35
+0 @I0381@ INDI
+1 NAME Barbe Angélique /Duvivier/
+2 TYPE birth
+2 GIVN Barbe Angélique
+2 SURN Duvivier
+1 SEX F
+1 BIRT
+2 DATE 15 JAN 1655
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 DEAT
+2 DATE 16 JAN 1698
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 FAMS @F0142@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 22:32:33
+0 @I0382@ INDI
+1 NAME Jean Baptiste /Desfontaines/
+2 TYPE birth
+2 GIVN Jean Baptiste
+2 SURN Desfontaines
+1 SEX M
+1 BIRT
+2 DATE 1620
+1 DEAT
+2 DATE 1697
+1 FACT Boucher
+2 TYPE Occupation
+1 FAMS @F0143@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 17:02:04
+0 @I0383@ INDI
+1 NAME Marguerite /Machon/
+2 TYPE birth
+2 GIVN Marguerite
+2 SURN Machon
+1 SEX F
+1 BIRT
+2 DATE 1621
+1 DEAT
+2 DATE 1658
+1 FAMC @F0144@
+2 PEDI birth
+1 FAMS @F0143@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:45:12
+0 @I0384@ INDI
+1 NAME Nicolas /Machon/
+2 TYPE birth
+2 GIVN Nicolas
+2 SURN Machon
+1 SEX M
+1 BIRT
+2 DATE 1590
+1 FAMC @F0145@
+2 PEDI birth
+1 FAMS @F0144@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:45:07
+0 @I0385@ INDI
+1 NAME Marguerite /Hochepied/
+2 TYPE birth
+2 GIVN Marguerite
+2 SURN Hochepied
+1 SEX F
+1 BIRT
+2 DATE 1589
+1 FAMS @F0144@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 22:49:20
+0 @I0386@ INDI
+1 NAME Pierre /Machon/
+2 TYPE birth
+2 GIVN Pierre
+2 SURN Machon
+1 SEX M
+1 BIRT
+2 DATE 1570
+1 DEAT
+2 DATE 1617
+1 FACT Poissonnier de mer, bourgeois de Lille R: 1590
+2 TYPE Occupation
+1 FAMC @F0146@
+2 PEDI birth
+1 FAMS @F0145@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:45:01
+0 @I0387@ INDI
+1 NAME Jacqueline /Duvivier/
+2 TYPE birth
+2 GIVN Jacqueline
+2 SURN Duvivier
+1 SEX F
+1 BIRT
+2 DATE 1571
+1 FAMS @F0145@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 22:51:04
+0 @I0388@ INDI
+1 NAME Jacques /Machon/
+2 TYPE birth
+2 GIVN Jacques
+2 SURN Machon
+1 SEX M
+1 BIRT
+2 DATE 1530
+1 DEAT
+2 DATE 1589
+1 FACT Bourgeois de Lille par relief en 18 3 1563, poissonnier de mer
+2 TYPE Occupation
+1 FAMC @F0147@
+2 PEDI birth
+1 FAMS @F0146@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:44:57
+0 @I0389@ INDI
+1 NAME Chrestienne /Caron/
+2 TYPE birth
+2 GIVN Chrestienne
+2 SURN Caron
+1 SEX F
+1 BIRT
+2 TYPE ou 1530 ?
+2 DATE 1540
+1 FAMS @F0146@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 22:52:16
+0 @I0390@ INDI
+1 NAME Jean /Machon de le Sauch/
+2 TYPE birth
+2 GIVN Jean
+2 SURN Machon de le Sauch
+1 SEX M
+1 BIRT
+2 DATE 1500
+2 PLAC Beuvrequen, Pas-de-Calais
+1 FACT Bourgeois de Lille par achat 9 4 1518, maître poissonnier de mer
+2 TYPE Occupation
+1 FAMC @F0148@
+2 PEDI birth
+1 FAMS @F0147@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:44:52
+0 @I0391@ INDI
+1 NAME Jacques /Machon/
+2 TYPE birth
+2 GIVN Jacques
+2 SURN Machon
+1 SEX M
+1 BIRT
+2 DATE 1430
+1 DEAT
+2 DATE 1516
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 10:34:14
+0 @I0393@ INDI
+1 NAME Isabeau /ALATRUYE dit de le VIGNE/
+2 TYPE birth
+2 GIVN Isabeau
+2 SURN ALATRUYE dit de le VIGNE
+1 SEX F
+1 BIRT
+2 DATE 1453
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 10:34:00
+0 @I0394@ INDI
+1 NAME Jehan /Machon/
+2 TYPE birth
+2 GIVN Jehan
+2 SURN Machon
+1 SEX M
+1 DEAT
+2 DATE 1522
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 FACT Bourgeois de Lille par rachat en 1490, poissonnier de mer, mayeur
+2 TYPE Occupation
+1 FAMC @F0150@
+2 PEDI birth
+1 FAMS @F0148@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:44:44
+0 @I0395@ INDI
+1 NAME Antoinette /Cauwet/
+2 TYPE birth
+2 GIVN Antoinette
+2 SURN Cauwet
+1 SEX F
+1 BIRT
+2 TYPE Vers 1468
+2 DATE 1468
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 FAMS @F0148@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 10:34:31
+0 @I0396@ INDI
+1 NAME Jacques /Machon/
+2 TYPE birth
+2 GIVN Jacques
+2 SURN Machon
+1 SEX M
+1 BIRT
+2 DATE 1419
+1 FACT Bourgeois de Lille par achat en 1454, poissonnier de mer
+2 TYPE Occupation
+1 FAMS @F0150@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 12:19:51
+0 @I0397@ INDI
+1 NAME Marguerite /Denis/
+2 TYPE birth
+2 GIVN Marguerite
+2 SURN Denis
+1 SEX F
+1 BIRT
+2 DATE 1433
+1 DEAT
+2 DATE 1466
+1 FAMC @F0151@
+2 PEDI birth
+1 FAMS @F0150@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:44:38
+0 @I0398@ INDI
+1 NAME Joris (Georges) /Denis/
+2 TYPE birth
+2 GIVN Joris (Georges)
+2 SURN Denis
+1 SEX M
+1 BIRT
+2 DATE 1390
+1 DEAT
+2 DATE 16 JUN 1436
+1 FACT Echevin de Lille
+2 TYPE Occupation
+1 FAMS @F0151@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 16:56:42
+0 @I0399@ INDI
+1 NAME Marguerite /Marquant de Saint-Venant/
+2 TYPE birth
+2 GIVN Marguerite
+2 SURN Marquant de Saint-Venant
+1 SEX F
+1 BIRT
+2 TYPE Avant 1385
+2 DATE 1385
+1 DEAT
+2 DATE 5 DEC 1433
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 FAMC @F0152@
+2 PEDI birth
+1 FAMS @F0151@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 10:45:05
+0 @I0400@ INDI
+1 NAME Robert /Marquant de Saint-Venant/
+2 TYPE birth
+2 GIVN Robert
+2 SURN Marquant de Saint-Venant
+1 SEX M
+1 BIRT
+2 TYPE Vers 1355
+2 DATE 1355
+1 DEAT
+2 DATE 1424
+1 FACT Seigneur du Bois à Hénin Liétard, Ecuyer
+2 TYPE Occupation
+1 FAMC @F0153@
+2 PEDI birth
+1 FAMS @F0152@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:44:32
+0 @I0401@ INDI
+1 NAME Catherine /Fremault (ou Fremeaux)/
+2 TYPE birth
+2 GIVN Catherine
+2 SURN Fremault (ou Fremeaux)
+1 SEX F
+1 BIRT
+2 DATE 1360
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 FAMS @F0152@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 23:38:57
+0 @I0402@ INDI
+1 NAME Jacques /Marquant de St Venant/
+2 TYPE birth
+2 GIVN Jacques
+2 SURN Marquant de St Venant
+1 SEX M
+1 BIRT
+2 DATE 1317
+1 DEAT
+2 DATE 1370
+1 FACT Ecuyer, Echevin féodal de Verlinghem
+2 TYPE Occupation
+1 FAMC @F0149@
+2 PEDI birth
+1 FAMS @F0153@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:44:48
+0 @I0403@ INDI
+1 NAME Marie /de Carnin/
+2 TYPE birth
+2 GIVN Marie
+2 SURN de Carnin
+1 SEX F
+1 BIRT
+2 TYPE ou 1325 ?
+2 DATE 1330
+1 FAMS @F0153@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 23:47:29
+0 @I0404@ INDI
+1 NAME Edouard /Mariage/
+2 TYPE birth
+2 GIVN Edouard
+2 SURN Mariage
+1 SEX M
+1 FAMC @F0061@
+2 PEDI birth
+1 CHAN
+2 DATE 20 SEP 2025
+3 TIME 21:58:53
+0 @I0405@ INDI
+1 NAME Adèle /Mariage/
+2 TYPE birth
+2 GIVN Adèle
+2 SURN Mariage
+1 SEX F
+1 FAMC @F0061@
+2 PEDI birth
+1 FAMS @F0154@
+1 CHAN
+2 DATE 20 SEP 2025
+3 TIME 21:59:53
+0 @I0406@ INDI
+1 NAME  /Goulu/
+2 TYPE birth
+2 SURN Goulu
+1 SEX M
+1 FACT brasseur
+2 TYPE Occupation
+1 FAMS @F0154@
+1 CHAN
+2 DATE 20 SEP 2025
+3 TIME 21:59:53
+0 @I0407@ INDI
+1 NAME Isidore /Senléger/
+2 TYPE birth
+2 GIVN Isidore
+2 SURN Senléger
+1 SEX M
+1 FAMC @F0096@
+2 PEDI birth
+1 CHAN
+2 DATE 20 SEP 2025
+3 TIME 23:22:40
+0 @I0409@ INDI
+1 NAME Pierre Francisque "Gilbert" /Durand/
+2 TYPE birth
+2 GIVN Pierre Francisque "Gilbert"
+2 SURN Durand
+1 SEX M
+1 BIRT
+2 DATE 21 APR 1891
+2 PLAC Lyon
+1 DEAT
+2 DATE 22 AUG 1960
+2 PLAC Gibraltar
+1 FAMS @F0155@
+1 CHAN
+2 DATE 23 SEP 2025
+3 TIME 14:54:53
+0 @I0410@ INDI
+1 NAME Fernande /Rasson/
+2 TYPE birth
+2 GIVN Fernande
+2 SURN Rasson
+1 SEX F
+1 BIRT
+2 DATE 29 MAY 1908
+2 PLAC Roubaix
+1 DEAT
+2 DATE 30 OCT 1999
+2 PLAC Neuilly
+1 FAMS @F0156@
+1 CHAN
+2 DATE 23 SEP 2025
+3 TIME 15:02:50
+0 @I0418@ INDI
+1 NAME Rose Angélique /Delesalle/
+2 TYPE birth
+2 GIVN Rose Angélique
+2 SURN Delesalle
+1 SEX F
+1 BIRT
+2 DATE 2 OCT 1751
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 DEAT
+2 DATE 5 JAN 1816
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 FAMC @F0159@
+2 PEDI birth
+1 FAMS @F0158@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:44:03
+0 @I0419@ INDI
+1 NAME Antoine François /Delesalle/
+2 TYPE birth
+2 GIVN Antoine François
+2 SURN Delesalle
+1 SEX M
+1 FAMS @F0159@
+1 CHAN
+2 DATE 23 SEP 2025
+3 TIME 18:35:26
+0 @I0420@ INDI
+1 NAME Alexandrine Victoire /Bernard/
+2 TYPE birth
+2 GIVN Alexandrine Victoire
+2 SURN Bernard
+1 SEX F
+1 FAMS @F0159@
+1 CHAN
+2 DATE 23 SEP 2025
+3 TIME 18:35:26
+0 @I0421@ INDI
+1 NAME Louis Joseph /Delemer/
+2 TYPE birth
+2 GIVN Louis Joseph
+2 SURN Delemer
+1 SEX M
+1 BIRT
+2 DATE 10 AUG 1879
+1 DEAT
+2 DATE 5 JUL 1897
+1 FAMC @F0060@
+2 PEDI birth
+1 CHAN
+2 DATE 12 OCT 2025
+3 TIME 11:51:53
+0 @I0422@ INDI
+1 NAME Joseph Louis Marie Régis Valérien /Chare de Lavalette/
+2 TYPE birth
+2 GIVN Joseph Louis Marie Régis Valérien
+2 SURN Chare de Lavalette
+1 SEX M
+1 FAMS @F0059@
+1 CHAN
+2 DATE 23 SEP 2025
+3 TIME 20:29:10
+0 @I0423@ INDI
+1 NAME Rose Angélique Joseph /Bonte/
+2 TYPE birth
+2 GIVN Rose Angélique Joseph
+2 SURN Bonte
+1 SEX F
+1 BIRT
+2 DATE 1782
+1 DEAT
+2 DATE 1854
+1 FAMC @F0158@
+2 PEDI birth
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 11:02:37
+0 @I0424@ INDI
+1 NAME Ursule Joseph /Bonte/
+2 TYPE birth
+2 GIVN Ursule Joseph
+2 SURN Bonte
+1 SEX F
+1 BIRT
+2 DATE 1784
+1 FAMC @F0158@
+2 PEDI birth
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 11:03:17
+0 @I0425@ INDI
+1 NAME Louis Joseph /Bonte/
+2 TYPE birth
+2 GIVN Louis Joseph
+2 SURN Bonte
+1 SEX M
+1 BIRT
+2 DATE 1786
+1 DEAT
+2 DATE 1841
+1 FAMC @F0158@
+2 PEDI birth
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 11:03:25
+0 @I0426@ INDI
+1 NAME Henriette Joseph /Bonte/
+2 TYPE birth
+2 GIVN Henriette Joseph
+2 SURN Bonte
+1 SEX F
+1 FAMC @F0158@
+2 PEDI birth
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 11:03:22
+0 @I0427@ INDI
+1 NAME Marthe /Saint-Léger/
+2 TYPE birth
+2 GIVN Marthe
+2 SURN Saint-Léger
+1 SEX F
+1 BIRT
+2 DATE 22 JAN 1875
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 DEAT
+2 DATE 26 JUN 1966
+2 PLAC Marcq-en-Baroeul
+1 FAMC @F0016@
+2 PEDI birth
+1 FAMS @F0160@
+1 CHAN
+2 DATE 15 NOV 2025
+3 TIME 21:24:58
+0 @I0428@ INDI
+1 NAME Lucien /Crépy/
+2 TYPE birth
+2 GIVN Lucien
+2 SURN Crépy
+1 SEX M
+1 BIRT
+2 DATE 13 MAY 1869
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 DEAT
+2 DATE JAN 1936
+1 FACT Président du tribunal de commerce, Industriel
+2 TYPE Occupation
+1 FACT Adjoint au Maire de Lille
+2 TYPE Occupation
+1 FAMS @F0160@
+1 CHAN
+2 DATE 27 SEP 2025
+3 TIME 22:55:03
+0 @I0429@ INDI
+1 NAME Octavie Claudine /Saint-Léger/
+2 TYPE birth
+2 GIVN Octavie Claudine
+2 SURN Saint-Léger
+1 SEX F
+1 BIRT
+2 DATE 28 JUL 1821
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 DEAT
+2 DATE 1872
+1 FAMC @F0018@
+2 PEDI birth
+1 CHAN
+2 DATE 28 SEP 2025
+3 TIME 18:06:58
+0 @I0430@ INDI
+1 NAME Pauline Thérèse Victoire /Saint-Léger/
+2 TYPE birth
+2 GIVN Pauline Thérèse Victoire
+2 SURN Saint-Léger
+1 SEX F
+1 DEAT
+2 DATE 7 JUN 1896
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 FAMC @F0018@
+2 PEDI birth
+1 CHAN
+2 DATE 12 OCT 2025
+3 TIME 22:18:57
+0 @I0431@ INDI
+1 NAME Pauline Thérèse Ursule /Saint-Léger/
+2 TYPE birth
+2 GIVN Pauline Thérèse Ursule
+2 SURN Saint-Léger
+1 SEX F
+1 BIRT
+2 DATE 18 AUG 1814
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 DEAT
+2 DATE 14 OCT 1815
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 FAMC @F0018@
+2 PEDI birth
+1 CHAN
+2 DATE 28 SEP 2025
+3 TIME 18:15:26
+0 @I0433@ INDI
+1 NAME Marie /De Wavrin/
+2 TYPE birth
+2 GIVN Marie
+2 SURN De Wavrin
+1 SEX F
+1 BIRT
+2 DATE 1270
+1 FAMC @F0161@
+2 PEDI birth
+1 FAMS @F0149@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:43:52
+0 @I0434@ INDI
+1 NAME Baudes Baulduin /Marquant de St Venant/
+2 TYPE birth
+2 GIVN Baudes Baulduin
+2 SURN Marquant de St Venant
+1 SEX M
+1 BIRT
+2 DATE 1270
+1 FACT Seigneur d'Hellebuterne, Chevalier
+2 TYPE Occupation
+1 FAMS @F0149@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 17:41:35
+0 @I0435@ INDI
+1 NAME Marie /De Roye/
+2 TYPE birth
+2 GIVN Marie
+2 SURN De Roye
+1 SEX F
+1 BIRT
+2 DATE 1245
+1 FAMS @F0161@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 11:25:45
+0 @I0436@ INDI
+1 NAME Robert 1er Brunel /De Wavrin/
+2 TYPE birth
+2 GIVN Robert 1er Brunel
+2 SURN De Wavrin
+1 SEX M
+1 BIRT
+2 DATE 1235
+1 DEAT
+2 DATE 1308
+1 FACT Seigneur de Saint Venant, Gouverneur de Brunel
+2 TYPE Occupation
+1 FAMC @F0162@
+2 PEDI birth
+1 FAMS @F0161@
+1 SOUR @S0001@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:43:47
+0 @I0437@ INDI
+1 NAME Robert II /De Wavrin/
+2 TYPE birth
+2 GIVN Robert II
+2 SURN De Wavrin
+1 SEX M
+1 BIRT
+2 DATE 1214
+1 DEAT
+2 DATE 1273
+1 FACT Sénéchal de Flandres de 1231 à 1273, Conseiller du Roi.
+2 TYPE Occupation
+1 FAMC @F0163@
+2 PEDI birth
+1 FAMS @F0162@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:42:20
+0 @I0438@ INDI
+1 NAME Mathilde /De Béthune/
+2 TYPE birth
+2 GIVN Mathilde
+2 SURN De Béthune
+1 SEX F
+1 BIRT
+2 TYPE Vers 1220
+2 DATE 1220
+1 DEAT
+2 DATE 1264
+1 FAMS @F0162@
+1 SOUR @S0002@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:04:56
+0 @I0439@ INDI
+1 NAME Hellin II /De Wavrin/
+2 TYPE birth
+2 GIVN Hellin II
+2 SURN De Wavrin
+1 SEX M
+1 BIRT
+2 DATE 1195
+1 DEAT
+2 DATE 29 JAN 1222
+1 FACT Seigneur de Wavrin, sire de Lillers, sénéchal de Flandres 1198-1219
+2 TYPE Occupation
+1 FAMC @F0164@
+2 PEDI birth
+1 FAMS @F0163@
+1 SOUR @S0003@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:42:16
+0 @I0440@ INDI
+1 NAME Élisabeth Isabeau Félicie /De Montmirail/
+2 TYPE birth
+2 GIVN Élisabeth Isabeau Félicie
+2 SURN De Montmirail
+1 SEX F
+1 BIRT
+2 TYPE Vers 1195
+2 DATE 1195
+1 FAMS @F0163@
+1 SOUR @S0004@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:09:43
+0 @I0441@ INDI
+1 NAME Robert 1er /De Wavrin/
+2 TYPE birth
+2 GIVN Robert 1er
+2 SURN De Wavrin
+1 SEX M
+1 BIRT
+2 DATE 1170
+1 DEAT
+2 DATE 1196
+1 FACT Sénéchal de Flandres 1192, Seigneur de Saint-Venant
+2 TYPE Occupation
+1 FAMC @F0165@
+2 PEDI birth
+1 FAMS @F0164@
+1 SOUR @S0005@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:42:12
+0 @I0442@ INDI
+1 NAME Sibylle /De Lorraine/
+2 TYPE birth
+2 GIVN Sibylle
+2 SURN De Lorraine
+1 SEX F
+1 BIRT
+2 DATE 1176
+1 DEAT
+2 DATE 1236
+1 FACT Dame de saint-Vaast de Liliers & de Vladslo flandres
+2 TYPE Occupation
+1 FAMS @F0164@
+1 SOUR @S0006@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:14:40
+0 @I0443@ INDI
+1 NAME Hellin I /De Wavrin/
+2 TYPE birth
+2 GIVN Hellin I
+2 SURN De Wavrin
+1 SEX M
+1 BIRT
+2 TYPE Vers 1140
+2 DATE 1140
+2 PLAC Wavrin
+1 DEAT
+2 DATE 2 MAY 1192
+2 PLAC Saint Jean d'Acre, x, Terre-Sainte, Palestine, ISRAËL
+1 FACT Seigneur de Wavrin - Seigneur d'Heudicourt, Chevalier, sénéchal de Fland
+2 CONC re, croisé, conseiller du roi - sire de Wavrin et de Saint-Venant, S?n
+2 TYPE Occupation
+1 FAMC @F0166@
+2 PEDI birth
+1 FAMS @F0165@
+1 SOUR @S0007@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:42:06
+0 @I0444@ INDI
+1 NAME Torsella /D'Arras/
+2 TYPE birth
+2 GIVN Torsella
+2 SURN D'Arras
+1 SEX F
+1 BIRT
+2 TYPE Vers 1140
+2 DATE 1140
+1 FAMS @F0165@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:17:41
+0 @I0445@ INDI
+1 NAME Roger Iii /De Wavrin/
+2 TYPE birth
+2 GIVN Roger Iii
+2 SURN De Wavrin
+1 SEX M
+1 BIRT
+2 DATE 1110
+1 DEAT
+2 DATE 1166
+1 FACT Seigneur de Wavrin, Sénéchal de Flandre
+2 TYPE Occupation
+1 FAMS @F0166@
+1 SOUR @S0008@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 11:26:31
+0 @I0446@ INDI
+1 NAME Yolande /De Tournay Mortagne/
+2 TYPE birth
+2 GIVN Yolande
+2 SURN De Tournay Mortagne
+1 SEX F
+1 BIRT
+2 DATE 1125
+1 FAMC @F0167@
+2 PEDI birth
+1 FAMS @F0166@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:42:02
+0 @I0447@ INDI
+1 NAME Évrard Radoux Ii /De Tournay Mortagne/
+2 TYPE birth
+2 GIVN Évrard Radoux Ii
+2 SURN De Tournay Mortagne
+1 SEX M
+1 BIRT
+2 DATE 1105
+1 DEAT
+2 DATE 1173
+1 FACT Burgrave & châtelain de Tournai Prince & Seigneur de Mortagne
+2 TYPE Occupation
+1 FAMS @F0167@
+1 SOUR @S0009@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:24:30
+0 @I0448@ INDI
+1 NAME Richilde /De Hainaut/
+2 TYPE birth
+2 GIVN Richilde
+2 SURN De Hainaut
+1 SEX F
+1 BIRT
+2 DATE 1105
+1 DEAT
+2 DATE 1179
+1 FAMC @F0168@
+2 PEDI birth
+1 FAMS @F0167@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:41:59
+0 @I0449@ INDI
+1 NAME Bauduin III /De Hainaut/
+2 TYPE birth
+2 GIVN Bauduin III
+2 SURN De Hainaut
+1 SEX M
+1 BIRT
+2 TYPE Vers 1082
+2 DATE 1082
+1 FAMC @F0169@
+2 PEDI birth
+1 FAMS @F0168@
+1 SOUR @S0010@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:41:54
+0 @I0450@ INDI
+1 NAME Yolande /Von Wassemberg/
+2 TYPE birth
+2 GIVN Yolande
+2 SURN Von Wassemberg
+1 SEX F
+1 BIRT
+2 DATE 1082
+1 FAMS @F0168@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:27:03
+0 @I0451@ INDI
+1 NAME Baudouin II de Jérusalem /De Hainaut/
+2 TYPE birth
+2 GIVN Baudouin II de Jérusalem
+2 SURN De Hainaut
+1 SEX M
+1 BIRT
+2 DATE 1056
+1 DEAT
+2 DATE 8 JUN 1098
+2 PLAC Nicée, x, Terre-Sainte, Palestine, ISRAËL
+1 FAMC @F0170@
+2 PEDI birth
+1 FAMS @F0169@
+1 SOUR @S0011@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:41:50
+0 @I0452@ INDI
+1 NAME Ide /De Louvain/
+2 TYPE birth
+2 GIVN Ide
+2 SURN De Louvain
+1 SEX F
+1 BIRT
+2 DATE 1065
+1 DEAT
+2 DATE 1107
+1 FAMS @F0169@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:29:23
+0 @I0453@ INDI
+1 NAME Baudouin Vi /De Hainaut/
+2 TYPE birth
+2 GIVN Baudouin Vi
+2 SURN De Hainaut
+1 SEX M
+1 BIRT
+2 DATE 1030
+1 DEAT
+2 DATE 23 JUL 1070
+1 FACT Comte de Haynaut puis de Flandres
+2 TYPE Occupation
+1 FAMC @F0171@
+2 PEDI birth
+1 FAMS @F0170@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:41:46
+0 @I0454@ INDI
+1 NAME Richilde /De Hainaut/
+2 TYPE birth
+2 GIVN Richilde
+2 SURN De Hainaut
+1 SEX F
+1 BIRT
+2 DATE 1025
+1 DEAT
+2 DATE 15 MAR 1086
+1 FAMS @F0170@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:31:36
+0 @I0455@ INDI
+1 NAME Baudouin V Le Débonnaire Le Pieux /De Flandre/
+2 TYPE birth
+2 GIVN Baudouin V Le Débonnaire Le Pieux
+2 SURN De Flandre
+1 SEX M
+1 BIRT
+2 DATE 1012
+1 DEAT
+2 DATE 7 JUL 1067
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 FACT Comte de Flandres 1036-1067, Régent de France 1060-1066
+2 TYPE Occupation
+1 FAMS @F0171@
+1 SOUR @S0012@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:35:03
+0 @I0456@ INDI
+1 NAME Adélaïde Hedwige Havoise /De France/
+2 TYPE birth
+2 GIVN Adélaïde Hedwige Havoise
+2 SURN De France
+1 SEX F
+1 BIRT
+2 DATE 1009
+1 DEAT
+2 DATE 8 JAN 1079
+2 PLAC Messine, x, x, Sicile, ITALIE,
+1 FACT Comtesse de Corbie et Coutances
+2 TYPE Occupation
+1 FAMC @F0172@
+2 PEDI birth
+1 FAMS @F0171@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:41:40
+0 @I0457@ INDI
+1 NAME Robert II Le Pieux /Capet/
+2 TYPE birth
+2 GIVN Robert II Le Pieux
+2 SURN Capet
+1 SEX M
+1 BIRT
+2 DATE 1 APR 972
+2 PLAC Orléans, 45234, Loiret, Centre, FR
+1 DEAT
+2 DATE 8 JUL 1031
+2 PLAC Melun, 77288, Seine-et-Marne, Île-de-France, FR
+1 FACT Roi de France 24 oct 996 - 2 Juil 1031
+2 TYPE Occupation
+1 FAMC @F0173@
+2 PEDI birth
+1 FAMS @F0172@
+1 SOUR @S0013@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:41:35
+0 @I0458@ INDI
+1 NAME Constance /D'Arles/
+2 TYPE birth
+2 GIVN Constance
+2 SURN D'Arles
+1 SEX F
+1 BIRT
+2 DATE 984
+1 DEAT
+2 DATE 31 JUL 1032
+2 PLAC Melun, 77288, Seine-et-Marne, Île-de-France, FR
+1 FACT Reine de France
+2 TYPE Occupation
+1 FAMS @F0172@
+1 SOUR @S0014@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:39:02
+0 @I0459@ INDI
+1 NAME Hugues /Capet/
+2 TYPE birth
+2 GIVN Hugues
+2 SURN Capet
+1 SEX M
+1 BIRT
+2 DATE 936
+1 DEAT
+2 DATE 24 OCT 996
+1 FACT Roi de France
+2 TYPE Occupation
+1 FAMS @F0173@
+1 SOUR @S0015@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:41:55
+0 @I0460@ INDI
+1 NAME Adélaïde /De Poitiers/
+2 TYPE birth
+2 GIVN Adélaïde
+2 SURN De Poitiers
+1 SEX F
+1 BIRT
+2 DATE 945
+1 DEAT
+2 DATE 1004
+1 FAMS @F0173@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:41:07
+0 @I0461@ INDI
+1 NAME Jeanne /Delemer/
+2 TYPE birth
+2 GIVN Jeanne
+2 SURN Delemer
+1 SEX F
+1 BIRT
+2 DATE 1847
+1 DEAT
+2 DATE 1877
+1 FAMC @F0125@
+2 PEDI birth
+1 CHAN
+2 DATE 12 OCT 2025
+3 TIME 11:39:42
+0 @I0462@ INDI
+1 NAME James /Whelan/
+2 TYPE birth
+2 GIVN James
+2 SURN Whelan
+1 SEX M
+1 BIRT
+2 DATE 1802
+1 DEAT
+2 TYPE Dublin
+2 DATE 5 MAR 1878
+1 FACT Éleveur et Négociant en Bétail
+2 TYPE Occupation
+1 FAMS @F0103@
+1 CHAN
+2 DATE 18 OCT 2025
+3 TIME 21:40:23
+0 @I0463@ INDI
+1 NAME Mary /MULDOON/
+2 TYPE birth
+2 GIVN Mary
+2 SURN MULDOON
+1 SEX F
+1 BIRT
+2 DATE 1813
+1 DEAT
+2 DATE 20 JAN 1886
+1 FAMS @F0103@
+1 CHAN
+2 DATE 18 OCT 2025
+3 TIME 21:40:23
+0 @I0465@ INDI
+1 NAME Madeleine Jeanne Pauline /Dumas/
+2 TYPE birth
+2 GIVN Madeleine Jeanne Pauline
+2 SURN Dumas
+1 SEX F
+1 FAMS @F0174@
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 18:06:29
+0 @I0466@ INDI
+1 NAME Cécile Juliette Pauline Marie /Poullier/
+2 TYPE birth
+2 GIVN Cécile Juliette Pauline Marie
+2 SURN Poullier
+1 SEX F
+1 FAMS @F0175@
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 18:14:33
+0 @I0471@ INDI
+1 NAME Pierre Marie Joseph Henri /Hervet/
+2 TYPE birth
+2 GIVN Pierre Marie Joseph Henri
+2 SURN Hervet
+1 SEX M
+1 FAMS @F0176@
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 18:16:37
+0 @I0472@ INDI
+1 NAME Roger Emile Louis Henri /Dourdin/
+2 TYPE birth
+2 GIVN Roger Emile Louis Henri
+2 SURN Dourdin
+1 SEX M
+1 FAMS @F0177@
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 18:17:17
+0 @I0473@ INDI
+1 NAME Mathilde Augustine /Longhaye/
+2 TYPE birth
+2 GIVN Mathilde Augustine
+2 SURN Longhaye
+1 SEX F
+1 FAMC @F0063@
+2 PEDI birth
+1 FAMS @F0178@
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 18:45:13
+0 @I0474@ INDI
+1 NAME Mariette Marie-Jennie Louise /Longhaye/
+2 TYPE birth
+2 GIVN Mariette Marie-Jennie Louise
+2 SURN Longhaye
+1 SEX F
+1 FAMC @F0063@
+2 PEDI birth
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 18:43:43
+0 @I0475@ INDI
+1 NAME Maurice Henri /Descamps/
+2 TYPE birth
+2 GIVN Maurice Henri
+2 SURN Descamps
+1 SEX M
+1 FAMS @F0178@
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 18:45:13
+0 @I0476@ INDI
+1 NAME Maxime Auguste /Descamps/
+2 TYPE birth
+2 GIVN Maxime Auguste
+2 SURN Descamps
+1 SEX M
+1 BIRT
+2 DATE 19 JUN 1868
+1 DEAT
+2 DATE 6 MAR 1914
+1 FAMC @F0178@
+2 PEDI birth
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 18:45:58
+0 @I0477@ INDI
+1 NAME André Marcel Joseph /Thieffry/
+2 TYPE birth
+2 GIVN André Marcel Joseph
+2 SURN Thieffry
+1 SEX M
+1 BIRT
+2 DATE 30 MAY 1894
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+2 NOTE @N0029@
+1 DEAT
+2 DATE 5 SEP 1972
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 FAMS @F0179@
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 20:20:31
+0 @I0478@ INDI
+1 NAME Geneviève Louise Sabine /Carpentier/
+2 TYPE birth
+2 GIVN Geneviève Louise Sabine
+2 SURN Carpentier
+1 SEX F
+1 BIRT
+2 DATE 4 SEP 1899
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+2 NOTE @N0030@
+1 DEAT
+2 DATE 30 DEC 1899
+2 PLAC Marcq-en-Baroeul
+1 FAMS @F0179@
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 20:20:55
+0 @F0000@ FAM
+1 HUSB @I0000@
+1 WIFE @I0001@
+1 MARR
+2 TYPE Agnès fit la connaissance de Claude Saint-Léger à l'occasion d'une soiré
+3 CONC e chez les Béghin, puis chez Mme Donat Agache, puis au château de Baro
+3 CONC n (appartenant aux De la Bédoyère)
+2 DATE 24 JUN 1923
+2 PLAC Pecq
+2 NOTE @N0019@
+2 SOUR @S0019@
+3 PAGE AD59_3E15296_vue20-301_acte1114
+1 EVEN
+2 TYPE Christening
+2 DATE 18 JAN 1906
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 CHIL @I0002@
+1 CHIL @I0003@
+1 CHIL @I0009@
+1 CHIL @I0010@
+1 CHAN
+2 DATE 15 NOV 2025
+3 TIME 20:01:33
+0 @F0001@ FAM
+1 HUSB @I0002@
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:56:24
+0 @F0002@ FAM
+1 HUSB @I0011@
+1 WIFE @I0003@
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:41:06
+0 @F0003@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:46:57
+0 @F0004@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:40:11
+0 @F0005@ FAM
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 10:18:40
+0 @F0006@ FAM
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 16:09:45
+0 @F0007@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:40:16
+0 @F0008@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:40:56
+0 @F0009@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:43:31
+0 @F0010@ FAM
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 10:18:11
+0 @F0011@ FAM
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 10:18:17
+0 @F0012@ FAM
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 10:19:40
+0 @F0013@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 10:09:53
+0 @F0014@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:39:55
+0 @F0015@ FAM
+1 HUSB @I0051@
+1 WIFE @I0052@
+1 MARR
+2 DATE 11 APR 1896
+2 NOTE @N0021@
+2 SOUR @S0034@
+3 PAGE Viry-Noureuil_AD02_5Mi1713_vue15-46_acte32
+1 CHIL @I0000@
+1 CHIL @I0025@
+1 CHIL @I0055@
+1 NOTE @N0002@
+1 CHAN
+2 DATE 15 NOV 2025
+3 TIME 21:09:40
+0 @F0016@ FAM
+1 HUSB @I0053@
+1 WIFE @I0186@
+1 MARR
+2 DATE 4 DEC 1869
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+2 NOTE @N0024@
+2 SOUR @S0019@
+3 PAGE Lille_AD59_5Mi044R234_vue238-943_acte1401
+1 CHIL @I0051@
+1 CHIL @I0209@
+1 CHIL @I0427@
+1 CHAN
+2 DATE 15 NOV 2025
+3 TIME 21:24:58
+0 @F0017@ FAM
+1 HUSB @I0054@
+1 WIFE @I0184@
+1 CHIL @I0053@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 11:48:21
+0 @F0018@ FAM
+1 HUSB @I0056@
+1 WIFE @I0190@
+1 MARR
+2 DATE 28 JUL 1813
+2 PLAC Jemmappes
+1 NCHI 7
+1 CHIL @I0054@
+1 CHIL @I0429@
+1 CHIL @I0430@
+1 CHIL @I0431@
+1 CHAN
+2 DATE 28 SEP 2025
+3 TIME 18:15:26
+0 @F0019@ FAM
+1 HUSB @I0057@
+1 WIFE @I0189@
+1 MARR
+2 DATE 1 MAY 1786
+1 CHIL @I0056@
+1 CHIL @I0058@
+1 CHIL @I0059@
+1 CHIL @I0060@
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 14:36:42
+0 @F0020@ FAM
+1 HUSB @I0050@
+1 WIFE @I0010@
+1 CHIL @I0061@
+1 CHIL @I0080@
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 16:20:16
+0 @F0021@ FAM
+1 HUSB @I0061@
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:42:39
+0 @F0022@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 22:16:17
+0 @F0023@ FAM
+1 HUSB @I0061@
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:42:47
+0 @F0024@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 16:16:21
+0 @F0025@ FAM
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 15:42:57
+0 @F0026@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 16:18:28
+0 @F0027@ FAM
+1 WIFE @I0080@
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 16:19:50
+0 @F0028@ FAM
+1 CHIL @I0086@
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:43:03
+0 @F0029@ FAM
+1 HUSB @I0089@
+1 WIFE @I0009@
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:43:25
+0 @F0030@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:43:08
+0 @F0031@ FAM
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 12:47:33
+0 @F0032@ FAM
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 12:52:53
+0 @F0033@ FAM
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 15:44:41
+0 @F0034@ FAM
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 14:11:12
+0 @F0035@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:41:17
+0 @F0036@ FAM
+1 CHAN
+2 DATE 23 SEP 2025
+3 TIME 10:34:54
+0 @F0037@ FAM
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 10:17:16
+0 @F0038@ FAM
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 10:15:45
+0 @F0039@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:43:18
+0 @F0040@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:40:26
+0 @F0041@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:01:53
+0 @F0042@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:40:49
+0 @F0043@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:42:06
+0 @F0044@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:06:40
+0 @F0045@ FAM
+1 HUSB @I0138@
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:42:33
+0 @F0046@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:42:27
+0 @F0047@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:13:50
+0 @F0048@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 17:40:03
+0 @F0049@ FAM
+1 HUSB @I0002@
+1 WIFE @I0154@
+1 MARR
+2 DATE 20 MAR 1985
+1 DIV
+2 DATE 26 JUN 2000
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 18:01:02
+0 @F0050@ FAM
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 10:17:50
+0 @F0051@ FAM
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 14:49:02
+0 @F0052@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 22:20:28
+0 @F0053@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 22:22:28
+0 @F0054@ FAM
+1 CHAN
+2 DATE 14 SEP 2025
+3 TIME 22:23:52
+0 @F0055@ FAM
+1 HUSB @I0173@
+1 WIFE @I0174@
+1 MARR
+2 DATE 23 JUN 1902
+1 CHIL @I0001@
+1 CHIL @I0200@
+1 CHIL @I0201@
+1 CHAN
+2 DATE 16 SEP 2025
+3 TIME 14:50:38
+0 @F0056@ FAM
+1 HUSB @I0175@
+1 WIFE @I0176@
+1 CHIL @I0173@
+1 CHIL @I0177@
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 09:03:22
+0 @F0057@ FAM
+1 HUSB @I0179@
+1 WIFE @I0180@
+1 CHIL @I0174@
+1 CHIL @I0181@
+1 CHIL @I0182@
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 10:48:08
+0 @F0058@ FAM
+1 WIFE @I0181@
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 10:52:44
+0 @F0059@ FAM
+1 HUSB @I0422@
+1 WIFE @I0212@
+1 CHAN
+2 DATE 23 SEP 2025
+3 TIME 20:29:10
+0 @F0060@ FAM
+1 HUSB @I0187@
+1 WIFE @I0188@
+1 CHIL @I0052@
+1 CHIL @I0211@
+1 CHIL @I0212@
+1 CHIL @I0421@
+1 CHAN
+2 DATE 23 SEP 2025
+3 TIME 20:28:24
+0 @F0061@ FAM
+1 HUSB @I0191@
+1 WIFE @I0192@
+1 CHIL @I0184@
+1 CHIL @I0404@
+1 CHIL @I0405@
+1 CHAN
+2 DATE 20 SEP 2025
+3 TIME 21:59:15
+0 @F0062@ FAM
+1 HUSB @I0185@
+1 WIFE @I0193@
+1 MARR
+2 DATE 1804
+1 CHIL @I0192@
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 22:25:02
+0 @F0063@ FAM
+1 HUSB @I0194@
+1 WIFE @I0195@
+1 NCHI 4 filles
+1 CHIL @I0186@
+1 CHIL @I0473@
+1 CHIL @I0474@
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 18:43:43
+0 @F0064@ FAM
+1 HUSB @I0196@
+1 WIFE @I0197@
+1 CHIL @I0280@
+1 CHIL @I0281@
+1 CHIL @I0282@
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 22:19:36
+0 @F0065@ FAM
+1 HUSB @I0198@
+1 WIFE @I0199@
+1 CHIL @I0196@
+1 CHAN
+2 DATE 15 SEP 2025
+3 TIME 22:35:02
+0 @F0066@ FAM
+1 HUSB @I0202@
+1 WIFE @I0203@
+1 CHIL @I0179@
+1 CHAN
+2 DATE 16 SEP 2025
+3 TIME 15:16:57
+0 @F0067@ FAM
+1 HUSB @I0204@
+1 WIFE @I0205@
+1 NCHI 4
+1 CHIL @I0175@
+1 CHIL @I0206@
+1 CHIL @I0207@
+1 CHIL @I0208@
+1 CHAN
+2 DATE 16 SEP 2025
+3 TIME 16:42:35
+0 @F0068@ FAM
+1 HUSB @I0213@
+1 WIFE @I0214@
+1 CHIL @I0198@
+1 CHAN
+2 DATE 16 SEP 2025
+3 TIME 23:09:52
+0 @F0069@ FAM
+1 HUSB @I0215@
+1 WIFE @I0216@
+1 CHIL @I0197@
+1 CHAN
+2 DATE 16 SEP 2025
+3 TIME 23:28:55
+0 @F0070@ FAM
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 21:53:03
+0 @F0071@ FAM
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 21:52:23
+0 @F0072@ FAM
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 21:17:15
+0 @F0073@ FAM
+1 WIFE @I0101@
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 21:41:55
+0 @F0074@ FAM
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 21:23:49
+0 @F0075@ FAM
+1 CHAN
+2 DATE 1 NOV 2025
+3 TIME 19:58:58
+0 @F0076@ FAM
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 14:40:46
+0 @F0077@ FAM
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 21:19:50
+0 @F0078@ FAM
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 21:23:08
+0 @F0079@ FAM
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 21:25:14
+0 @F0080@ FAM
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 21:28:30
+0 @F0081@ FAM
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 21:29:53
+0 @F0082@ FAM
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 21:30:58
+0 @F0083@ FAM
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 21:32:47
+0 @F0084@ FAM
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 21:34:26
+0 @F0085@ FAM
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 21:38:57
+0 @F0086@ FAM
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 21:37:50
+0 @F0087@ FAM
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 21:40:10
+0 @F0088@ FAM
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 21:41:38
+0 @F0089@ FAM
+1 WIFE @I0101@
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 21:42:52
+0 @F0090@ FAM
+1 WIFE @I0101@
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 21:43:11
+0 @F0091@ FAM
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 21:45:12
+0 @F0092@ FAM
+1 HUSB @I0273@
+1 WIFE @I0274@
+1 CHIL @I0216@
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 22:10:33
+0 @F0093@ FAM
+1 HUSB @I0275@
+1 WIFE @I0276@
+1 CHIL @I0273@
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 22:11:26
+0 @F0094@ FAM
+1 HUSB @I0277@
+1 WIFE @I0278@
+1 CHIL @I0275@
+1 CHAN
+2 DATE 17 SEP 2025
+3 TIME 22:12:24
+0 @F0095@ FAM
+1 HUSB @I0288@
+1 WIFE @I0289@
+1 MARR
+2 DATE 28 AUG 1755
+2 PLAC Caucourt (proche d'Arras, Pas de Calais)
+1 CHIL @I0057@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:19:17
+0 @F0096@ FAM
+1 HUSB @I0290@
+1 WIFE @I0291@
+1 MARR
+2 DATE 1723
+1 CHIL @I0288@
+1 CHIL @I0407@
+1 CHAN
+2 DATE 20 SEP 2025
+3 TIME 23:22:40
+0 @F0097@ FAM
+1 HUSB @I0292@
+1 WIFE @I0293@
+1 CHIL @I0289@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:10:03
+0 @F0098@ FAM
+1 HUSB @I0294@
+1 WIFE @I0295@
+1 MARR
+2 DATE 3 MAY 1741
+1 NCHI 7
+1 CHIL @I0189@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:09:58
+0 @F0099@ FAM
+1 HUSB @I0296@
+1 WIFE @I0297@
+1 CHIL @I0294@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:09:51
+0 @F0100@ FAM
+1 HUSB @I0298@
+1 WIFE @I0299@
+1 CHIL @I0295@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:29:52
+0 @F0101@ FAM
+1 HUSB @I0300@
+1 CHIL @I0190@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:09:38
+0 @F0102@ FAM
+1 HUSB @I0301@
+1 WIFE @I0361@
+1 CHIL @I0191@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:43:10
+0 @F0103@ FAM
+1 HUSB @I0462@
+1 WIFE @I0463@
+1 MARR
+2 DATE 1 JUL 1826
+2 PLAC OLD CASTLE, Comté de MEATH (au Nord de DUBLIN)
+1 CHIL @I0214@
+1 CHAN
+2 DATE 18 OCT 2025
+3 TIME 21:40:23
+0 @F0104@ FAM
+1 HUSB @I0304@
+1 WIFE @I0305@
+1 CHIL @I0193@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:09:18
+0 @F0105@ FAM
+1 HUSB @I0306@
+1 WIFE @I0307@
+1 CHIL @I0302@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:09:12
+0 @F0106@ FAM
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 11:05:41
+0 @F0107@ FAM
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:09:03
+0 @F0108@ FAM
+1 HUSB @I0312@
+1 WIFE @I0313@
+1 CHIL @I0204@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:08:57
+0 @F0109@ FAM
+1 HUSB @I0314@
+1 WIFE @I0315@
+1 CHIL @I0312@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:08:50
+0 @F0110@ FAM
+1 HUSB @I0316@
+1 WIFE @I0317@
+1 CHIL @I0314@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:08:44
+0 @F0111@ FAM
+1 HUSB @I0318@
+1 WIFE @I0319@
+1 CHIL @I0316@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:08:38
+0 @F0112@ FAM
+1 HUSB @I0320@
+1 WIFE @I0321@
+1 CHIL @I0318@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:08:31
+0 @F0113@ FAM
+1 HUSB @I0322@
+1 WIFE @I0323@
+1 CHIL @I0319@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:08:25
+0 @F0114@ FAM
+1 HUSB @I0324@
+1 WIFE @I0325@
+1 CHIL @I0180@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:08:19
+0 @F0115@ FAM
+1 HUSB @I0326@
+1 WIFE @I0327@
+1 CHIL @I0324@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:08:12
+0 @F0116@ FAM
+1 HUSB @I0328@
+1 WIFE @I0329@
+1 CHIL @I0326@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:08:08
+0 @F0117@ FAM
+1 HUSB @I0330@
+1 WIFE @I0331@
+1 CHIL @I0328@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:07:58
+0 @F0118@ FAM
+1 HUSB @I0332@
+1 WIFE @I0333@
+1 CHIL @I0330@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 16:57:04
+0 @F0119@ FAM
+1 HUSB @I0334@
+1 CHIL @I0332@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:08:02
+0 @F0120@ FAM
+1 HUSB @I0335@
+1 WIFE @I0336@
+1 CHIL @I0334@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:00:41
+0 @F0121@ FAM
+1 HUSB @I0337@
+1 WIFE @I0338@
+1 CHIL @I0335@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:07:52
+0 @F0122@ FAM
+1 HUSB @I0339@
+1 WIFE @I0340@
+1 CHIL @I0320@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:05:06
+0 @F0123@ FAM
+1 HUSB @I0341@
+1 WIFE @I0342@
+1 CHIL @I0339@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:06:19
+0 @F0124@ FAM
+1 HUSB @I0343@
+1 WIFE @I0344@
+1 CHIL @I0321@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:07:41
+0 @F0125@ FAM
+1 HUSB @I0345@
+1 WIFE @I0346@
+1 CHIL @I0187@
+1 CHIL @I0210@
+1 CHIL @I0303@
+1 CHIL @I0461@
+1 CHAN
+2 DATE 12 OCT 2025
+3 TIME 11:39:42
+0 @F0126@ FAM
+1 HUSB @I0347@
+1 WIFE @I0348@
+1 CHIL @I0345@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:45:38
+0 @F0127@ FAM
+1 HUSB @I0349@
+1 WIFE @I0350@
+1 CHIL @I0347@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:16:47
+0 @F0128@ FAM
+1 HUSB @I0351@
+1 WIFE @I0352@
+1 CHIL @I0188@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:17:40
+0 @F0129@ FAM
+1 HUSB @I0353@
+1 WIFE @I0354@
+1 CHIL @I0351@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:18:09
+0 @F0130@ FAM
+1 HUSB @I0355@
+1 WIFE @I0356@
+1 CHIL @I0176@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:26:46
+0 @F0131@ FAM
+1 HUSB @I0357@
+1 WIFE @I0358@
+1 CHIL @I0355@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:27:47
+0 @F0132@ FAM
+1 HUSB @I0359@
+1 WIFE @I0360@
+1 CHIL @I0357@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:29:01
+0 @F0133@ FAM
+1 HUSB @I0362@
+1 WIFE @I0363@
+1 MARR
+2 DATE 24 SEP 1750
+1 CHIL @I0301@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:45:41
+0 @F0134@ FAM
+1 HUSB @I0364@
+1 WIFE @I0365@
+1 CHIL @I0361@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 17:47:26
+0 @F0135@ FAM
+1 HUSB @I0366@
+1 WIFE @I0367@
+1 CHIL @I0364@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:45:32
+0 @F0136@ FAM
+1 HUSB @I0368@
+1 WIFE @I0369@
+1 CHIL @I0365@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 18:14:34
+0 @F0137@ FAM
+1 HUSB @I0370@
+1 WIFE @I0371@
+1 CHIL @I0325@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:45:28
+0 @F0138@ FAM
+1 HUSB @I0372@
+1 WIFE @I0373@
+1 MARR
+2 DATE 1 JUL 1793
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 CHIL @I0370@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 22:10:38
+0 @F0139@ FAM
+1 HUSB @I0374@
+1 WIFE @I0375@
+1 CHIL @I0373@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 22:20:05
+0 @F0140@ FAM
+1 HUSB @I0376@
+1 WIFE @I0377@
+1 CHIL @I0375@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 22:25:17
+0 @F0141@ FAM
+1 HUSB @I0378@
+1 WIFE @I0379@
+1 CHIL @I0376@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 22:28:10
+0 @F0142@ FAM
+1 HUSB @I0380@
+1 WIFE @I0381@
+1 CHIL @I0379@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:45:19
+0 @F0143@ FAM
+1 HUSB @I0382@
+1 WIFE @I0383@
+1 CHIL @I0380@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 22:48:11
+0 @F0144@ FAM
+1 HUSB @I0384@
+1 WIFE @I0385@
+1 CHIL @I0383@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:45:12
+0 @F0145@ FAM
+1 HUSB @I0386@
+1 WIFE @I0387@
+1 CHIL @I0384@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:45:07
+0 @F0146@ FAM
+1 HUSB @I0388@
+1 WIFE @I0389@
+1 CHIL @I0386@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:45:01
+0 @F0147@ FAM
+1 HUSB @I0390@
+1 CHIL @I0388@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:44:57
+0 @F0148@ FAM
+1 HUSB @I0394@
+1 WIFE @I0395@
+1 CHIL @I0390@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:44:52
+0 @F0149@ FAM
+1 HUSB @I0434@
+1 WIFE @I0433@
+1 CHIL @I0402@
+1 SOUR @S0000@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:44:48
+0 @F0150@ FAM
+1 HUSB @I0396@
+1 WIFE @I0397@
+1 CHIL @I0394@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:44:44
+0 @F0151@ FAM
+1 HUSB @I0398@
+1 WIFE @I0399@
+1 CHIL @I0397@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:44:38
+0 @F0152@ FAM
+1 HUSB @I0400@
+1 WIFE @I0401@
+1 CHIL @I0399@
+1 CHAN
+2 DATE 18 SEP 2025
+3 TIME 23:38:57
+0 @F0153@ FAM
+1 HUSB @I0402@
+1 WIFE @I0403@
+1 CHIL @I0400@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:44:32
+0 @F0154@ FAM
+1 HUSB @I0406@
+1 WIFE @I0405@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:44:27
+0 @F0155@ FAM
+1 HUSB @I0409@
+1 WIFE @I0025@
+1 MARR
+2 DATE 22 APR 1920
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 CHAN
+2 DATE 23 SEP 2025
+3 TIME 14:57:06
+0 @F0156@ FAM
+1 HUSB @I0055@
+1 WIFE @I0410@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:44:21
+0 @F0157@ FAM
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:44:14
+0 @F0158@ FAM
+1 HUSB @I0302@
+1 WIFE @I0418@
+1 MARR
+2 DATE 2 JUN 1778
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 CHIL @I0185@
+1 CHIL @I0424@
+1 CHIL @I0423@
+1 CHIL @I0426@
+1 CHIL @I0425@
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 18:37:36
+0 @F0159@ FAM
+1 HUSB @I0419@
+1 WIFE @I0420@
+1 CHIL @I0418@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:44:03
+0 @F0160@ FAM
+1 HUSB @I0428@
+1 WIFE @I0427@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:43:56
+0 @F0161@ FAM
+1 HUSB @I0436@
+1 WIFE @I0435@
+1 CHIL @I0433@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:43:52
+0 @F0162@ FAM
+1 HUSB @I0437@
+1 WIFE @I0438@
+1 CHIL @I0436@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:43:47
+0 @F0163@ FAM
+1 HUSB @I0439@
+1 WIFE @I0440@
+1 CHIL @I0437@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:42:20
+0 @F0164@ FAM
+1 HUSB @I0441@
+1 WIFE @I0442@
+1 CHIL @I0439@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:42:16
+0 @F0165@ FAM
+1 HUSB @I0443@
+1 WIFE @I0444@
+1 CHIL @I0441@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:42:12
+0 @F0166@ FAM
+1 HUSB @I0445@
+1 WIFE @I0446@
+1 CHIL @I0443@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:42:06
+0 @F0167@ FAM
+1 HUSB @I0447@
+1 WIFE @I0448@
+1 CHIL @I0446@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:42:02
+0 @F0168@ FAM
+1 HUSB @I0449@
+1 WIFE @I0450@
+1 CHIL @I0448@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:41:59
+0 @F0169@ FAM
+1 HUSB @I0451@
+1 WIFE @I0452@
+1 CHIL @I0449@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:41:54
+0 @F0170@ FAM
+1 HUSB @I0453@
+1 WIFE @I0454@
+1 CHIL @I0451@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:41:50
+0 @F0171@ FAM
+1 HUSB @I0455@
+1 WIFE @I0456@
+1 CHIL @I0453@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:41:46
+0 @F0172@ FAM
+1 HUSB @I0457@
+1 WIFE @I0458@
+1 CHIL @I0456@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:41:40
+0 @F0173@ FAM
+1 HUSB @I0459@
+1 WIFE @I0460@
+1 CHIL @I0457@
+1 CHAN
+2 DATE 1 OCT 2025
+3 TIME 21:41:35
+0 @F0174@ FAM
+1 HUSB @I0211@
+1 WIFE @I0465@
+1 MARR
+2 DATE 9 DEC 1907
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 18:06:16
+0 @F0175@ FAM
+1 HUSB @I0209@
+1 WIFE @I0466@
+1 MARR
+2 DATE 8 JUN 1896
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 18:16:03
+0 @F0176@ FAM
+1 HUSB @I0471@
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 18:16:37
+0 @F0177@ FAM
+1 HUSB @I0472@
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 18:17:17
+0 @F0178@ FAM
+1 HUSB @I0475@
+1 WIFE @I0473@
+1 MARR
+2 DATE 18 FEB 1867
+1 CHIL @I0476@
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 18:45:13
+0 @F0179@ FAM
+1 HUSB @I0477@
+1 WIFE @I0478@
+1 MARR
+2 DATE 18 APR 1921
+2 PLAC Lille
+3 MAP
+4 LATI N50.633333
+4 LONG E3.066667
+1 CHIL @I0050@
+1 CHAN
+2 DATE 25 NOV 2025
+3 TIME 20:12:45
+0 @F0180@ FAM
+1 HUSB @I0201@
+1 CHAN
+2 DATE 3 DEC 2025
+3 TIME 22:53:00
+0 @F0181@ FAM
+1 CHAN
+2 DATE 3 DEC 2025
+3 TIME 22:55:10
+0 @S0000@ SOUR
+1 TITL https://gw.geneanet.org/patber33?lang=fr&p=jacques&n=marquant+de+saint+v
+2 CONC enant
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 10:58:35
+0 @S0001@ SOUR
+1 TITL https://gw.geneanet.org/patber33?lang=fr&p=robert+1er+brunel&n=de+wavrin
+1 AUTH Patber33
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:01:38
+0 @S0002@ SOUR
+1 TITL https://gw.geneanet.org/patber33?lang=fr&p=mathilde&n=de+bethune&oc=2
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:04:53
+0 @S0003@ SOUR
+1 TITL https://gw.geneanet.org/patber33?lang=fr&p=hellin+ii&n=de+wavrin
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:07:10
+0 @S0004@ SOUR
+1 TITL https://gw.geneanet.org/patber33?lang=fr&p=elisabeth+isabeau+felicie&n=d
+2 CONC e+montmirail
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:09:41
+0 @S0005@ SOUR
+1 TITL https://gw.geneanet.org/patber33?lang=fr&p=robert+1er&n=de+wavrin
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:13:22
+0 @S0006@ SOUR
+1 TITL https://gw.geneanet.org/patber33?lang=fr&p=sibylle&n=de+lorraine
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:14:38
+0 @S0007@ SOUR
+1 TITL https://gw.geneanet.org/patber33?lang=fr&p=hellin+i&n=de+wavrin
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:16:51
+0 @S0008@ SOUR
+1 TITL gw.geneanet.org/patber33?lang=fr&p=roger+iii&n=de+wavrin
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:19:25
+0 @S0009@ SOUR
+1 TITL https://gw.geneanet.org/patber33?lang=fr&p=evrard+radoux+ii&n=de+tournai
+2 CONC +de+mortagne
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:23:38
+0 @S0010@ SOUR
+1 TITL https://gw.geneanet.org/patber33?lang=fr&p=bauduin+iii&n=de+hainaut
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:26:03
+0 @S0011@ SOUR
+1 TITL https://gw.geneanet.org/patber33?lang=fr&p=baudouin+ii+de+jerusalem&n=de
+2 CONC +hainaut
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:28:36
+0 @S0012@ SOUR
+1 TITL https://gw.geneanet.org/patber33?lang=fr&p=baudouin+v+le+debonnaire+le+p
+2 CONC ieux&n=de+flandre
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:33:30
+0 @S0013@ SOUR
+1 TITL https://gw.geneanet.org/patber33?lang=fr&p=robert+ii+le+pieux&n=capet
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:37:40
+0 @S0014@ SOUR
+1 TITL https://gw.geneanet.org/patber33?lang=fr&p=constance&n=d+arles
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:38:59
+0 @S0015@ SOUR
+1 TITL https://gw.geneanet.org/patber33?lang=fr&p=hugues&n=capet
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 11:40:13
+0 @S0016@ SOUR
+1 TITL https://gw.geneanet.org/papor17?lang=fr&pz=victor+bernard+patrice&nz=por
+2 CONC tier+jouanjean&p=jacques&n=deffontaines
+1 CHAN
+2 DATE 30 SEP 2025
+3 TIME 17:08:42
+0 @S0017@ SOUR
+1 TITL Registres paroissiaux de Lille – BMS Saint-Maurice 1629–1702
+1 AUTH archives departementales 59 (Nord)
+1 PUBL 1652
+1 ABBR BMS 5 Mi 044 R 066
+1 CHAN
+2 DATE 8 OCT 2025
+3 TIME 22:50:49
+0 @S0018@ SOUR
+1 TITL Acte de baptême de Claude Adolphe Georges Saint-Léger
+1 AUTH Diocèse de Cambrai - Lille - Paroisse Saint-André
+1 CHAN
+2 DATE 13 OCT 2025
+3 TIME 16:47:46
+0 @S0019@ SOUR
+1 TITL Archives Départementales du Nord – Lille
+1 AUTH Mairie de Lille
+1 OBJE @O0003@
+1 CHAN
+2 DATE 15 NOV 2025
+3 TIME 19:28:33
+0 @S0020@ SOUR
+1 TITL Rapport militaire sur l’évasion de De La Valette = Claude Saint-Léger (1
+2 CONC 915-1917)
+1 AUTH 32° régiment des dragons
+1 OBJE @O0004@
+1 CHAN
+2 DATE 13 OCT 2025
+3 TIME 21:43:57
+0 @S0021@ SOUR
+1 TITL Citation à l’Ordre - De La Valette Claude = Claude Saint-Léger
+1 AUTH Colonnel Garçon - 166° Division d’Infanterie
+1 OBJE @O0005@
+1 CHAN
+2 DATE 13 OCT 2025
+3 TIME 21:57:28
+0 @S0022@ SOUR
+1 TITL Citation à l’Ordre
+1 AUTH Général Gabaud - 166° Division d’Infanterie
+1 OBJE @O0006@
+1 CHAN
+2 DATE 13 OCT 2025
+3 TIME 22:08:12
+0 @S0023@ SOUR
+1 TITL 1923-01-24 Extrait de décret présidentiel - nomination au grade de sous-
+2 CONC lieutenant de réserve
+1 AUTH Chef de Bataillon Bouillot, Commandant provisoirement le 110° Régiment d
+2 CONC ’Infanterie
+1 OBJE @O0007@
+1 CHAN
+2 DATE 13 OCT 2025
+3 TIME 22:19:00
+0 @S0024@ SOUR
+1 TITL Ordre du régiment extrait du Journal Officiel (J.O.) - Promotion au grad
+2 CONC e de lieutenant
+1 AUTH Ministère de la guerre
+1 OBJE @O0008@
+1 CHAN
+2 DATE 13 OCT 2025
+3 TIME 22:36:41
+0 @S0025@ SOUR
+1 TITL Brouillon de demande de sursis Claude Saint-Léger
+1 OBJE @O0015@
+1 CHAN
+2 DATE 14 OCT 2025
+3 TIME 12:25:56
+0 @S0026@ SOUR
+1 TITL Libération de captivité du Front-Stalag 204
+1 AUTH Kommandantur. Front-Stalag 204
+1 CHAN
+2 DATE 14 OCT 2025
+3 TIME 18:55:16
+0 @S0027@ SOUR
+1 TITL Laissez-passer Lille-Paris
+1 OBJE @O0019@
+1 CHAN
+2 DATE 14 OCT 2025
+3 TIME 19:19:00
+0 @S0028@ SOUR
+1 TITL Sauf-conduit N° 8077
+1 AUTH Préfecture de Marseille
+1 OBJE @O0020@
+1 CHAN
+2 DATE 14 OCT 2025
+3 TIME 19:32:16
+0 @S0029@ SOUR
+1 TITL Mobilisation différée
+1 OBJE @O0001@
+1 CHAN
+2 DATE 15 OCT 2025
+3 TIME 16:26:33
+0 @S0030@ SOUR
+1 TITL Ordre d’appel sous les drapeaux
+1 AUTH Le Général commandant la division. P.O. Le commandant
+1 OBJE @O0009@
+1 CHAN
+2 DATE 15 OCT 2025
+3 TIME 16:42:30
+0 @S0031@ SOUR
+1 TITL https://fr.geneanet.org
+1 CHAN
+2 DATE 18 OCT 2025
+3 TIME 22:07:40
+0 @S0032@ SOUR
+1 TITL Le Grand Echo
+1 CHAN
+2 DATE 2 NOV 2025
+3 TIME 18:17:09
+0 @S0033@ SOUR
+1 TITL URL
+1 CHAN
+2 DATE 15 NOV 2025
+3 TIME 19:52:36
+0 @S0034@ SOUR
+1 TITL Archives départementales de l'Aisne
+1 CHAN
+2 DATE 15 NOV 2025
+3 TIME 21:08:50
+0 @S0035@ SOUR
+1 TITL Archives de l’État en Belgique
+1 AUTH État civil de Tournai
+1 CHAN
+2 DATE 23 NOV 2025
+3 TIME 17:13:34
+0 @S0036@ SOUR
+1 TITL Documents de famille
+1 CHAN
+2 DATE 24 NOV 2025
+3 TIME 16:50:56
+0 @N0000@ NOTE Filateur
+0 @N0001@ NOTE Manufacturier, membre du Conseil Général de la Chambre de commerc
+1 CONC e et du Comité linier de Lille.
+1 CONT Colonel de la Garde nationale
+0 @N0002@ NOTE Habitait une très belle maison 107 rue Royale, à Lille
+0 @N0003@ NOTE Croix de guerre 1914-1918, avec 5 citations au nom de "Claude de l
+1 CONC a Valette"
+0 @N0004@ NOTE Décoré de la Légion d'honneur, à titre militaire
+0 @N0005@ NOTE Il a acheté le Chateau de Biez à Pecq (Belgique)
+0 @N0006@ NOTE Mort à Colleret, au chateau Branleux
+0 @N0007@ NOTE Il créa, avec Chateaubrillant, Mr Thiers, Le général Cavaniac, le
+1 CONC s fameux banquet de la réforme, qui amena à la révolution de 1830. Il e
+1 CONC n était le président. 
+0 @N0008@ NOTE Elle avait vécu une époque extraordinaire. Elle avait vu le 1° empi
+1 CONC re, deux révolutions, le 2° empire et la République. Elle avait servi l
+1 CONC e café à Napoléon I en 1814.
+0 @N0009@ NOTE Sa femme disait de lui : "Mariage, c'est un zéro", et elle n'en par
+1 CONC lait jamais.
+0 @N0010@ NOTE Croix de guerre avec 5 citations
+0 @N0011@ NOTE Décoré de la Légion d'honneur à titre militaire
+0 @N0012@ NOTE Chateau d'Hermaville occupé par la famille Saint-Léger dans l'entr
+1 CONC e deux guerres et vendu peu de temps après la 2° guerre mondiale
+0 @N0013@ NOTE Seigneur de Cancourt  (Artois)
+0 @N0014@ NOTE Chevalier de la Légion d'Honneur
+0 @N0015@ NOTE Chevalier de Saint-Grégoire le Grand
+0 @N0016@ NOTE ÉCRIT PAR PHILIPPE SAINT-LÉGER EN 1855
+1 CONT 
+1 CONT Mon père naquit à CANCOURT, canton d'HOUDAIN, département du Pas de Cala
+1 CONC is à 4 heures de BÉTHUNE. Ma mère prit naissance à ANNAPES, villag
+1 CONC e à 6 km de LILLE. Mon père était le fils aîné d'un honnête paysan, ma m
+1 CONC ère était la fille d'un brave et honnête cultivateur. Dire comment ils s
+1 CONC e connurent, je ne le pourrai, il n'en entretinrent point leurs enfants
+1 CONC , élevés alors plus discrètement qu'aujourd'hui. Toujours est-il qu'il
+1 CONC s se marièrent le 1er Mai 1786 et que 9 mois après le 5 février 1787 m
+1 CONC a mère me mit au monde. Elle eut après moi 6 enfants, 5 garçons et une f
+1 CONC ille. D'élever cette nombreuse famille avec d'assez faibles ressources e
+1 CONC t un commerce de charbon de terre qui prospéra d'une façon relative jusq
+1 CONC u'en 1792, 5 ans à peine. La tourmente révolutionnaire arrêta cette mode
+1 CONC ste prospérité. Mon père était patriote et démocrate comme de raison ; c
+1 CONC omme tel il aimait la révolution et voyait avec joie s'écrouler les vieu
+1 CONC x abus de l'ancien régime dont il avait eu nécessairement à souffrir dan
+1 CONC s sa jeunesse, tout au moins dans sa dignité d'homme. Ses opinions le po
+1 CONC rtaient naturellement à avoir confiance dans les actes du gouvernement r
+1 CONC évolutionnaire, cette confiance il l'étendit jusqu'aux assignats, c'étai
+1 CONC t trop. Quand vint la dépréciation il n'y crut pas assez vite, ces créan
+1 CONC ciers étaient en BELGIQUE et ils repoussèrent le papier monnaie en paiem
+1 CONC ent de leurs factures, persuadant mon brave homme de père qu'ils attendr
+1 CONC aient patiemment et longtemps les cours du crédit de l'argent qui dans c
+1 CONC e temps qui avait entièrement disparu de la circulation. Lui au contrair
+1 CONC e acceptait et il faut reconnaître qu'il lui eut été bien difficile de f
+1 CONC aire autrement, ce malheureux papier qui bientôt eut dans ses mains la v
+1 CONC aleur d'un chiffon. Il se trouva ruiné et ne put jamais malgré son trava
+1 CONC il et l'économie de ma mère, refaire sa petite fortune. Mais il était tr
+1 CONC ès honnête homme, on se plut à la reconnaître et plusieurs de ses créanc
+1 CONC iers qui n'avaient pas voulu qu'il se libérât envers eux alors qu'il l
+1 CONC e pouvait tinrent fidèlement leur parole en accordant du temps et du cré
+1 CONC dit. Il put continuer son petit commerce mais toujours et jusqu'à la fi
+1 CONC n avec gêne. Toujours est-il que par leur travail et leurs économies il
+1 CONC s parvinrent à élever 6 enfants, le septième mourut en bas âge. Notre in
+1 CONC struction, la mienne et celle de mes deux frères surtout fut malheureuse
+1 CONC ment très négligée. Mon père aurait voulu me faire entrer à l'école seco
+1 CONC ndaire mais il était faible autant qu'il était bon. Sa femme le dominai
+1 CONC t sur beaucoup de choses, souvent avec quelques raisons, dans cette circ
+1 CONC onstance solennelle pour moi elle eut, la bonne femme, un tort regrettab
+1 CONC le et que je regrettai toute ma vie. Je ne reçus donc que des notions tr
+1 CONC ès élémentaires dans une école primaire d'où je sortis à 14 ou 16 ans. M
+1 CONC a mère voulut me faire apprendre un état, elle voulut que je fusse tonne
+1 CONC lier pour ensuite, c'était son idéal, devenir marchand de vins. Mon pèr
+1 CONC e avait un ami qui, devenu fournisseur des armées, avait commencé comm
+1 CONC e cela. Dès lors je devais avoir le même succès, elle n'en démordait pas
+1 CONC . Cette fois mon excellent père résista mais je ne devins pas tonnelier
+1 CONC , je dus quitter l'école, ma mère le voulait ainsi. Ne pouvant être ce q
+1 CONC ue voulait ma mère pour une forte ________ matrimoniale on me fit entre
+1 CONC r à la sous-préfecture en qualité d'expéditionnaire. Cette décision déci
+1 CONC da de mon sort. Pendant deux ou trois ans que j'y restai, j'employai l
+1 CONC e temps assez considérable qu'il m'était donné, en dehors des heures d
+1 CONC e bureau, à travailler à mon instruction mais seul sans d'autre guide qu
+1 CONC e les livres bons ou mauvais que j'avais grand peine à me procurer.
+1 CONT 
+1 CONT Des bureaux de la sous-préfecture, je passai dans celui d'une commissio
+1 CONC n de guerre, c'était de l'avancement, je travaillai sous les yeux d'un A
+1 CONC dministrateur très bienveillant pour moi, en deux ans il me crut assez p
+1 CONC assablement capable de le suivre à l'armée en qualité de secrétaire. L
+1 CONC a guerre venait d'éclater de nouveau, la campagne de 1806-1807 allait co
+1 CONC mmencer, Monsieur MAUROY reçut l'ordre de regagner l'armée à MAYENNE. L'
+1 CONC empereur marchait vite, mon commissaire ne rejoignit son poste que le le
+1 CONC ndemain de la bataille d'IÉNA et pourtant en quittant LILLE nous devion
+1 CONC s en voyageant en poste arriver avant l'ouverture de la campagne. Mais l
+1 CONC e grand capitaine marchait à pas de géant, les prussions le croyaient en
+1 CONC core à PARIS et déjà il était sur leurs talons.
+1 CONT 
+1 CONT Après avoir traversé les champs de bataille d'IÉNA, nous rejoignîmes l
+1 CONC e 5ème corps de la Grande Armée, commandé par le Maréchal LANNES. Monsie
+1 CONC ur MAUROY fut attaché au Quartier Général comme adjoint à l'ordonnateu
+1 CONC r ________ de ce corps. Nous suivîmes les mouvements de l'Armée jusque d
+1 CONC ans VARSOVIE. En quartier d'hiver dans cette capitale je me trouvai, com
+1 CONC me on l'est à 20 ans heureux de cette vie active et variée. Je voyais un
+1 CONC e nouvelle carrière s'ouvrir devant moi sous de favorables auspices bien
+1 CONC tôt je pouvais après devenir adjoint aux commissaires de guerre à l'âg
+1 CONC e de 25 ans. Dans ce temps la vie était courte et l'avancement rapide, l
+1 CONC es guerres moissonnaient les hommes rapidement, ceux qui restaient debou
+1 CONC t marchaient vite à leur but. Je me voyais déjà un habit brodé sur les é
+1 CONC paules, une épée au côté, cela, chatouillait agréablement ma vanité de j
+1 CONC eune homme. Mon rêve fut de courte durée. Quand je partis, je n'avais pa
+1 CONC s encore tiré au sort pour la conscription, on tira pour moi en absence
+1 CONC , le maire eut la main heureuse, il retira de l'urne un numéro qui me pl
+1 CONC açait grandement en dehors du contingent. Mes parents naturellement fure
+1 CONC nt enchantés de me voir libéré du service militaire. Ils le croyaient d
+1 CONC u moins et devaient le croire. Ils n'eurent plus qu'une pensée, qu'un dé
+1 CONC sir, me faire revenir près d'eux. Quel moyen employer ? J'étais à 350 li
+1 CONC eues dans une position très sortable avec la perspective d'un avenir hon
+1 CONC orable. Ce moyen se présenta providentiellement, ils le saisirent avec u
+1 CONC n empressement facile à concevoir.
+1 CONT 
+1 CONT Pendant mon apprentissage au commissariat, de 17 à 20 ans, j'avais jou
+1 CONC é la comédie de Société, c'était à cette époque une récréation fort goût
+1 CONC ée et soit dit en passant, à côté de quelques inconvénients, très profit
+1 CONC able pour apprendre à se tenir, à parler distinctement, correctement. L
+1 CONC a bonne comédie c'est ce que nous jouions forme le goût et élève l'espri
+1 CONC t. Je me suis toujours applaudi du temps employé à ce délassement. Dan
+1 CONC s notre troupe de comédie de société, je fis la connaissance d'un homm
+1 CONC e jeune encore mais pourtant beaucoup plus âgé que nous tous. La passio
+1 CONC n de jouer la comédie l'avait amené parmi nous antérieurement, en 95/96
+1 CONC . Les années suivantes il s'était livré avec entrain à ce charmant délas
+1 CONC sement, il possédait les traditions et guida notre inexpérience. Il me p
+1 CONC rit en affection et quand je partis pour l'armée, il continua à faire vi
+1 CONC site à mes parents. Son père vint à mourir le laissant seul maître d'un
+1 CONC e assez jolie fortune et à la tête d'un établissement industriel qu'il s
+1 CONC e sentait peu de goût pour diriger. Me voyant libéré du service militair
+1 CONC e et mon retour si vivement désiré par mon père et ma mère, il leur prop
+1 CONC osa de me faire revenir, de me mettre promptement à même de conduire s
+1 CONC a fabrique, de m'associer à ses affaires, de les diriger, enfin quand vi
+1 CONC endrait l'âge de me marier de m'en céder la suite, de m'aider de son cap
+1 CONC ital, si comme il s'en flattait je me rendais digne de sa confiance. À c
+1 CONC ette proposition ma mère fut au comble de la joie et n'écoutant aucuneme
+1 CONC nt les observations judicieuses de mon père qui aurait voulu quelques ga
+1 CONC ranties pour l'exécution des promesses verbales qui nous étaient faites
+1 CONC , on m'écrivit de revenir au plus vite. La lettre de mon père et celle d
+1 CONC e Monsieur ROELANS arrivèrent à VARSOVIE au moment où le 5ème Corps d'Ar
+1 CONC mée allait se porter en avant. On prévoyait une grande bataille avec le
+1 CONC s Russes, elle eut lieu en effet à EYLAU. Au lieu donc de passer la VIST
+1 CONC ULE, je repris le chemin de la FRANCE non sans regret je l'avoue. Mais m
+1 CONC on dévouement à ma famille, le pressentiment que je devais lui être gran
+1 CONC dement utile me firent bien vite oublier mes rêves d'ambition. Du rest
+1 CONC e la suite a prouvé que j'avais bien fait d'accepter ma nouvelle positio
+1 CONC n. Les événements qui dès lors se succédèrent très rapidement, (6 an
+1 CONC s à peine) m'auraient trouvé peut-être à leur dénouement adjoint au comm
+1 CONC issariat depuis _______ j'aurais été comme tant d'autres bien plus ancie
+1 CONC ns, renvoyé sans solde dans mes foyers.
+1 CONT 
+1 CONT Me voilà donc revenu à LILLE, renonçant pour toujours à l'habit brodé j'
+1 CONC ai pris bravement la veste de gros drap des travailleurs et le tablier d
+1 CONC e toile bleue du filetier, bobinant et tournant alternativement le vénér
+1 CONC able moulin à retordre. En peu de temps je fus mis au courant du mécanis
+1 CONC me fort simple de cette ancienne industrie lilloise. La partie la plus d
+1 CONC ifficile, celle de qui dépendait le succès ou l'insuccès de ce genre d
+1 CONC e fabrication, c'était la classification de la matière première à vrai d
+1 CONC ire, des plus simples. Le produit de la filature à main variait de quali
+1 CONC té et de perfection avec chaque fileuse, il y en avait des milliers. Heu
+1 CONC reusement, mon patron possédait ce genre de connaissances qu'il tenait d
+1 CONC e son père, aidé par lui je devins bientôt connaisseur. Enfin, en asse
+1 CONC z peu de temps, je me rendis maître de ma nouvelle profession. Mon ami
+1 CONC , peu soucieux d'augmenter sa fortune par le travail qu'il aimait peu, e
+1 CONC ut le bon esprit de me confier la direction de ses affaires, il m'y inté
+1 CONC ressa. Depuis la mort de son père sa maison avait perdu sa réputation e
+1 CONC t une clientèle qu'il avait négligée, abandonnée à la concurrence moin
+1 CONC s grande du reste à cette époque et surtout moins âpre. La filature dan
+1 CONC s ce temps était dans des mains généralement honorables. Les affaires s
+1 CONC e faisaient en très grande partie par correspondance, on ne connaissai
+1 CONC t pas le commis voyageur, l'acheteur venait quelquefois en fabrique, l
+1 CONC e fabriquant faisait deux jours l'an une course, il poussait jusqu'à LYO
+1 CONC N, c'était le grand centre du commerce ______ et tout le midi de la Fran
+1 CONC ce, Les _______ alors recevaient avec déférence la visite assez rare de
+1 CONC s fabriquants et n'avaient pas encore connu les obsessions incessantes d
+1 CONC u voyageur. Je me mis donc en route sous l'influence des bonnes habitude
+1 CONC s du temps et les représentants intéressés d'une ancienne maison très fa
+1 CONC vorablement connue. Je n'eus à mon début que des succès faciles. Je remi
+1 CONC s, sans beaucoup de peine les affaires un peu trop négligées de la maiso
+1 CONC n ROELANS.
+1 CONT 
+1 CONT Les choses marchaient ainsi suivant le cours du temps et des événement
+1 CONC s plus ou moins favorables au commerce quand après 6 ans arrivèrent comm
+1 CONC e un coup de foudre les désastres de l'Armée de Russie. J'ai dit que j'a
+1 CONC vais échappé au sort de la conscription, ma classe avait été libérée pa
+1 CONC r un Sénatus-Consulte. J'étais sans inquiétude quand un décret despotiqu
+1 CONC e, violant les lois, trois classes libérées de 1807-08 et 09 furent appe
+1 CONC lées au service de l'armée active. Une autre mesure ultra-tyrannique, di
+1 CONC ctée par l'esprit de vertige qui s'était emparé du grand despote des tem
+1 CONC ps modernes, vint mettre le comble à l'horrible situation de ce grand re
+1 CONC vers de fortune. Par un décret impérial 10.000 jeunes gens appartenant a
+1 CONC ux classes aristocratiques, nobiliaires et financières, ayant déjà satis
+1 CONC fait à la conscription, furent arbitrairement désignés par les préfets p
+1 CONC our former une garde d'honneur (portait le décret). Cette mesure avait p
+1 CONC our but d'atteindre principalement les familles de l'ancienne noblesse.
+1 CONT 
+1 CONT Le préfet du Nord, le _______ de l'Empire, Jean, Marie, Cécile, Valenti
+1 CONC n ___________________ pour exonérer une portion notable des jeunes homme
+1 CONC s nobles ou prétendus tels qu'atteignait cet acte désespéré de l'empereu
+1 CONC r, imaginèrent et mirent à exécution un odieux moyen. Ce fut de prendr
+1 CONC e dans les trois classes si injustement appelées, ceux des conscrits qu
+1 CONC i voulaient se faire remplacer. Le conseil de révision refusa leur rempl
+1 CONC açant et les fit partir comme garde d'honneur en exemption des appelé
+1 CONC s à former le contingent du département. Cette mesure extraordinairemen
+1 CONC t hardie de la part de ces autorités prouve à quel point de désorganisat
+1 CONC ion l'administration impériale était tombée.
+1 CONT 
+1 CONT L'honnête maire de Lille, noble de la veille, me désigna comme apte à ce
+1 CONC tte honorable distinction et ajoutant la particule "De" à mon nom, joign
+1 CONC it effrontément la dérision à l'imposture. Je résistai avec énergie, j'i
+1 CONC ntimidai par les menaces dans son cabinet, le malheureux préfet beaucou
+1 CONC p plus sot que méchant. Je ne craignis pas de signaler dans la réunion d
+1 CONC es conscrits devant le conseil l'acte prodigieusement arbitraire du préf
+1 CONC et, Mon exaspération commençait à faire impression sur mes compagnons vi
+1 CONC ctimes ou effrayés de l'exemple d'insubordination que je donnais ; alor
+1 CONC s le préfet et le commandant de gendarmerie me firent sortir de la sall
+1 CONC e du conseil et me faisant entrer dans un salon, cherchèrent à me persua
+1 CONC der des avantages d'entrer au service avec le rang de sous-lieutenant. V
+1 CONC oyant ma ferme résolution, ils m'ajournèrent et quand les opérations d
+1 CONC u conseil furent terminées on reçut enfin mon remplaçant.
+1 CONT 
+1 CONT J'étais donc remplacé à l'armée, j'avais déjà un remplaçant dans la gard
+1 CONC e nationale sédentaire. Du train dont marchaient les choses je n'étais r
+1 CONC ien moins que rassuré pour un prochain avenir ; déjà l'on parlait de mob
+1 CONC iliser de nouveaux bataillons de gardes nationales formés des célibatair
+1 CONC es jusqu'à 40 ans. Le mariage était à peu près le seul refuge, je songea
+1 CONC i donc à me marier promptement.
+1 CONT 
+1 CONT La guerre presque continuelle qui durait depuis 21 ans avait rendu les h
+1 CONC ommes valides très rares. Les jeunes filles devenaient vieilles filles t
+1 CONC out en maudissant l'empereur. Les mères se désespéraient ; se marier ava
+1 CONC ntageusement était donc facile aux jeunes gens que le sort avait épargné
+1 CONC s. Plusieurs offres me furent faites indirectement par des personnes off
+1 CONC icieuses et honorables. Les prêtres alors ne se mêlaient point de mariag
+1 CONC e et les religieuses étaient inconnues.
+1 CONT 
+1 CONT Voulant, dans l'intérêt de ma famille, conserver toute ma liberté d'acti
+1 CONC on, en dehors de l'examen de mes futurs beaux-parents, je résolus de pre
+1 CONC ndre pour compagne, une femme étrangère à LILLE. Je croyais alors avoi
+1 CONC r touché le cœur d'une jeune personne aimable et gracieuse. J'avais san
+1 CONC s prévention plus d'une raison de croire qu'elle m'accepterait pour épou
+1 CONC x. Après mûre réflexion bien qu'il m'en coûtât je renonçai à ce projet d
+1 CONC 'union qui me souriait tant et voici pourquoi : la jeune personne avai
+1 CONC t pour père un brave homme, honnête, savoisien qui arrivé très pauvr
+1 CONC e à PARIS avait su par son industrie se faire déjà à cette époque une be
+1 CONC lle fortune qui depuis devint considérable. Comme le commun des hommes i
+1 CONC l oubliait assez volontiers son origine et voulait pour sa fille un homm
+1 CONC e riche. Sa femme avait une ambition au moins égale. Il me montrait pour
+1 CONC tant de l'affection et sa femme me traitait avec une certaine distinctio
+1 CONC n en égard à mon âge peut-être aussi à cause de mon âge : 25 ans et quel
+1 CONC ques avantages physiques. Peut-être bien aurais-je réussi à force de per
+1 CONC sévérance mais le temps et les circonstances me pressaient. Bref je me r
+1 CONC ésignai et tournai mon cœur d'un autre côté, La jeune fille bien intéres
+1 CONC sante, épousa plus tard sans beaucoup d'amour, je pense, un homme de 4
+1 CONC 0 ans, divorcé ayant lui-même une fille bonne à marier mais riche et qu
+1 CONC i augmenta considérablement sa fortune tout en arrivant aux honneurs pol
+1 CONC itiques, Il était jaloux et défiant : je n'ai jamais ouï dire toutefoi
+1 CONC s qu'elle fût malheureuse.
+1 CONT 
+1 CONT Les événements marchaient à pas de géant. La bataille de LÜTZEN et de BA
+1 CONC UTZEN venaient d'avoir lieu, les bruits les plus sinistres étaient les p
+1 CONC récurseurs des funestes journées de LEIPZIG, Il paraissait sage de se me
+1 CONC ttre promptement à l'abri par le mariage du danger qui menaçait tous le
+1 CONC s hommes jeunes et valides, Et pourtant cette action, la plus important
+1 CONC e la vie, demande de la réflexion et doit être faite avec prudence. For
+1 CONC t de mon caractère, je ne redoutais pas cette action importante de la vi
+1 CONC e. À 25 ans d'ailleurs, bien que réfléchi, on manque rarement d'une cert
+1 CONC aine assurance qui du reste il faut le reconnaître assure souvent le suc
+1 CONC cès dans maintes situations de notre existence.
+1 CONT 
+1 CONT Mon père était lié d'intérêt et d'amitié avec Monsieur Jacques SAPIN, ma
+1 CONC rchand de charbon et propriétaire à JEMMAPES J'avais vu sa fille aînée u
+1 CONC ne seule fois pendant qu'elle était en pension au couvent d'ESQUERMES, m
+1 CONC on père m'en avait souvent entretenu, louant la douceur de son caractère
+1 CONC , sa candeur, et sa gentillesse. En contractant cette alliance je n'avai
+1 CONC s pas à craindre la morgue ou les fâcheux procédés de ma nouvelle famill
+1 CONC e pour les miens objet constant de ma tendre sollicitude. Je priai mon b
+1 CONC rave père d'aller demander la main de Mademoiselle Adélaïde. Il fut heur
+1 CONC eux de cette mission et partit plein de confiance. Il réussit près des p
+1 CONC arents sous la réserve toute naturelle que je saurai plaire à leur jeun
+1 CONC e personne. À mon tour je me mis en route pour JEMMAPES, en me rendant a
+1 CONC imable autant que je pus et charmé d'ailleurs des qualités préconisées p
+1 CONC ar mon père, je demandai et j'obtins la permission de renouveler les vis
+1 CONC ites aussi souvent que je le pourrai. Ce voyage 255 km demandait alors t
+1 CONC oute une grande journée. Je fis ma cour 5 à 6 fois et notre mariage fu
+1 CONC t arrêté et fixé au 28 Juillet 1813.
+1 CONT 
+1 CONT Je ne m'étais pas préoccupé de la question d'argent et mon père en faisa
+1 CONC nt connaître ma position avait eu la discrétion trop grande de ne poin
+1 CONC t s'enquérir de la quotité de la dot que ferait le père SAPIN. En sort
+1 CONC e qu'en partant pour me marier j'ignorais complètement ma future positio
+1 CONC n de fortune. Le contrat se fit la veille de la cérémonie qui nous engag
+1 CONC eait à toujours. La réunion des grands parents (mon père seul m'accompag
+1 CONC nait) eut lieu chez Maître GAM à MONS, mari d'une tante qui avait en gra
+1 CONC nde partie élevé Adélaïde. Ce Monsieur GAM était à plus d'un titre un ho
+1 CONC mme peu recommandable, il était peu scrupuleux en affaires. Il s'était m
+1 CONC ontré envers moi très aimable, insinuant, avec une sorte de bonhomie qu
+1 CONC i avait su me plaire et m'inspirer de la confiance. Je ne le connaissai
+1 CONC s pas. Réunis dans le salon de Madame GAM qui occupait un grand hôtel d
+1 CONC e la rue de Vimy, j'étais près de ma future, mon père et mon ami Monsieu
+1 CONC r ROELANS étaient là. Le notaire fit la lecture du contrat dont les clau
+1 CONC ses n'avaient pas été débattues à l'avance ni la dot stipulée. J'appri
+1 CONC s que Monsieur SAPIN donnait 10.000 FR à sa fille. Il avait 6 enfants, s
+1 CONC a fortune dépassait 400.000 FR, il le disait et c'était vrai. Il aurai
+1 CONC t donc pu sans se gêner doter ses enfants de 25.000 FR au moins. Je ne c
+1 CONC onnais rien de plus lâche dans la vie privée qu'une retraite devant un
+1 CONC e question d'argent dans la position délicate où je me trouvais, Aussi j
+1 CONC 'atteste le ciel que cette pensée ne traversa même pas mon esprit. Mai
+1 CONC s j'eus à me plaindre d'une surprise bien coupable de la part de son not
+1 CONC aire. Monsieur GAM de concert avec son notaire ne fit point mention dan
+1 CONC s son contrat de mon apport personnel. Évidemment il avait été chargé pa
+1 CONC r mon beau-père de préparer la rédaction de mon contrat de mariage et ce
+1 CONC tte omission frauduleuse se doit lui être imputée.
+1 CONT 
+1 CONT Bien des années après, alors que Monsieur GAM n'existait plus, je demand
+1 CONC ai et j'obtins sans peine de mes beaux-parents une déclaration écrite qu
+1 CONC e l'omission dont je pouvais avoir à souffrir devait disparaître en prés
+1 CONC ence de la déclaration qu'ils faisaient librement.
+1 CONT 
+1 CONT Aussitôt après mon mariage le 1er Août 1813, un acte de Société fut sign
+1 CONC é entre Monsieur E. ROELAND et moi. Sa durée était de trois ans. Mon app
+1 CONC ort était seulement de 25.000 FR néanmoins malgré la disproportion ave
+1 CONC c celui de mon associé, les bénéfices devaient se partager par moitié. I
+1 CONC ls ne furent rien moins que considérables, cette période de 3 années aya
+1 CONC nt été désastreuse. En effet, de 1813 à 1816 la FRANCE fut soumise aux p
+1 CONC lus grands malheurs. Elle eut après les funestes journées de LEIPZIG
+1 CONC , à subir l'invasion de son territoire, à soutenir une lutte désespéré
+1 CONC e contre toutes les armées de l'EUROPE. Vaincue au commencement de 181
+1 CONC 4 dans ces derniers héroïques efforts un traité honteux lui fut imposé
+1 CONC . Elle respirait à peine, guérissant lentement ses profondes blessures q
+1 CONC uand le retour de NAPOLÉON, un an après son abdication, vint la jeter da
+1 CONC ns de nouveaux bouleversements. Le désastre de WATERLOO vint mettre le c
+1 CONC omble à nos malheurs. La FRANCE est cruellement humiliée, elle eut à nou
+1 CONC rrir à solder les innombrables armées de la sainte alliance, une contrib
+1 CONC ution de guerre énorme lui fut imposée, l'occupation d'une partie de so
+1 CONC n territoire par 150.000 prétendus alliés devait affliger pendant 5 an
+1 CONC s les yeux des malheureux français. Pour combler la mesure de nos maux l
+1 CONC 'épouvantable disette de 1816/1817 vint nous accabler. Le commerce anéan
+1 CONC ti par tant de calamités amena la ruine de beaucoup de négociants, d'ind
+1 CONC ustriels, conséquence forcée d'une aussi déplorable situation. Cependan
+1 CONC t nous fûmes assez heureux pour traverser sans trop de sinistre cette pé
+1 CONC riode de calamités. Toutefois quelques milliers de déficit à l'inventair
+1 CONC e de 1816 terme de notre Société, décida Monsieur ROELANS à se retirer
+1 CONC . Au terme de notre contrat, il devait en se retirant me laisser 50.00
+1 CONC 0 FR pendant 15 ans aux intérêts de 5 %. Sans autres garanties que ma si
+1 CONC gnature et celle de ma femme. Cette confiance que j'ai méritée sans dout
+1 CONC e ne me rendit pas moins le très obligé de mon ami et commanda ma reconn
+1 CONC aissance. Je me fais un vrai plaisir de consigner ici toute ma gratitude
+1 CONC . La jeunesse est confiante et généreuse, la vieillesse est trop souven
+1 CONC t égoïste et méfiante ; 30 ans plus tard, alors que j'offrais plus de ga
+1 CONC ranties pécuniaires je n'aurai probablement pas obtenu cette marque de c
+1 CONC onfiance. Ainsi sont faits les hommes.
+1 CONT 
+1 CONT Au mois d'Août 1816, année de misère bien grande et de souffrance moral
+1 CONC e et physique, je me trouvai donc seul avec un avoir bien modeste à la t
+1 CONC ête d'une fabrique qui par son ancienneté et sa bonne réputation n'étai
+1 CONC t pas sans importance. Confiant dans mon travail et mon activité j'envis
+1 CONC ageai l'avenir avec sécurité bien que nos charges fussent grandes. Ma je
+1 CONC une femme élevée avec des principes d'ordre et d'économie ne montra jama
+1 CONC is la moindre véléité de frivolité, de luxe, de toilette ou autres. Nou
+1 CONC s vécûmes très modestement, notre mobilier était si simple que 15 ans ap
+1 CONC rès notre mariage, notre cheminée était encore dépourvue de cartel. Et n
+1 CONC ous étions heureux. Je n'eus jamais l'ambition d'une grande fortune. Mo
+1 CONC n seul désir, celui que j'eus l'ineffable bonheur d'obtenir bien jeune
+1 CONC , fut l'indépendance. Il ne faut pas beaucoup d'argent à cela ; le carac
+1 CONC tère en fait tous les frais ou à peu près. Ainsi, aidé de ma compagne, d
+1 CONC ans la mesure de ses forces, j'élevai convenablement notre jeune famille
+1 CONC , j'acquittai avec joie les quelques dettes que mon honorable père avai
+1 CONC t été forcé de contracter pour subvenir aux besoins de ses enfants et ap
+1 CONC rès 42 ans, nous nous retirâmes des affaires pour nous livrer au repos e
+1 CONC n attendant le calme éternel.
+1 CONT 
+1 CONT Dieu a béni notre longue union et sans savoir ce que nous réserve d'anné
+1 CONC es à vivre, je lui demande ardemment la grâce de nous les accorder exemp
+1 CONC te des peines de cœur en nous-mêmes et en nos enfants.
+1 CONT 
+1 CONT Ces notes ont été écrites couramment et pour ainsi dire d'un seul jet e
+1 CONC n deux matinées. Je me propose de les relire et de les corriger et peut-
+1 CONC être de les augmenter de quelques souvenirs. Cependant, comme il m'a tou
+1 CONC jours considérablement coûté de copier ce que j'avais écrit, je pourrai
+1 CONC s bien n'en rien faire. Par précaution donc et dans la crainte que la mo
+1 CONC rt me surprenne, je les mets sous enveloppe cachetée.
+0 @N0017@ NOTE https://archivesdepartementales.lenord.fr/ark:/33518/tlp4fvwb382n/e
+1 CONC dd99464-998b-45ed-9ce1-9cc03ea12f4b
+0 @N0018@ NOTE https://archivesdepartementales.lenord.fr/ark:/33518/2rbzp7t89qjm/4
+1 CONC db3fda3-6413-4eed-ba86-edb1d765ce2c
+0 @N0019@ NOTE https://archivesdepartementales.lenord.fr/ark:/33518/kf10tm96cwxq/c
+1 CONC 50d9e5c-57a2-46ce-93fe-70f4e913db26
+0 @N0020@ NOTE https://archivesdepartementales.lenord.fr/ark:/33518/vgkm3c8zhnp2/3
+1 CONC 771d31e-97b0-47dc-a7b8-77bc307cb39a
+0 @N0021@ NOTE https://archives.aisne.fr/ark:/63271/vta81fd353e4a62c05f/daogrp/0/1
+1 CONC 5
+0 @N0022@ NOTE https://archives.aisne.fr/ark:/63271/vta052ea5bf10b1c3b3/daogrp/0/5
+1 CONC 0
+0 @N0023@ NOTE https://archivesdepartementales.lenord.fr/ark:/33518/mq62gcfb0w7s/4
+1 CONC fa9d008-5674-41f4-b4de-c4d0519cfe75
+0 @N0024@ NOTE https://archivesdepartementales.lenord.fr/ark:/33518/6dmb9psl8x14/0
+1 CONC 1ac8a29-9b59-4d4b-af7b-be4ad053ea61
+0 @N0025@ NOTE https://archivesdepartementales.lenord.fr/ark:/33518/mvd5kjqnlw4r/8
+1 CONC 8c9dd25-5cac-451f-b417-c8cc9db7e37d
+0 @N0026@ NOTE D'après Cyril Saint-Léger : Leur maison a été vendu, sans doute apr
+1 CONC ès le décès de Claude. En échange d'un appartement pour Anny dans l'imme
+1 CONC uble qui l'a remplacé.
+0 @N0027@ NOTE D'après Cyril Saint-Léger : 
+1 CONT Dixit Agnès Wattinne, Madelaine Droulers, à la mort de son mari est part
+1 CONC i au couvent en donnant la moitié de sa fortune à celui-ci. Elle est res
+1 CONC tée quelques années et elle a quitté le couvent car elle ne supportait p
+1 CONC as. Elle a ensuite entretenu un prêtre, en tant que secrétaire / homme d
+1 CONC e confiance à l'année. Elle a fini sa vie à Cannes.
+0 @N0028@ NOTE Madeleine Droulers à hérité de son père de 1 000 000 de francs ver
+1 CONC s 1900. Ca représente aujourd'hui 17 000 000 d'euros
+0 @N0029@ NOTE https://archivesdepartementales.lenord.fr/ark:/33518/3qxg8rklhmj5/f
+1 CONC 07e43f4-0930-4475-b245-10cb6695e278
+0 @N0030@ NOTE https://archivesdepartementales.lenord.fr/ark:/33518/078vjrsltq2z/d
+1 CONC 9318dd4-3219-4b10-bb6d-e0aa5da39664
+0 @N0031@ NOTE Il aimait les voitures de courses. Il avait fait au moins une cours
+1 CONC e automobile.
+1 CONT 
+1 CONT Cyril : pendant la guerre, il était conducteur de chars ... mais pas sû
+1 CONC r ...
+0 @N0032@ NOTE Marie Claire : Pendant la guerre, nous étions sur Paris avec maman
+1 CONC . 
+0 @N0033@ NOTE Le lou Cavaou (Cap d'Antibes) a été vendu 1 000 000 de francs ver
+1 CONC s 1974 au bras droit du Shah d'Iran (dixit Sonia 02/12/2025)
+0 @O0000@ OBJE
+1 FILE /home/arnaud/Documents/Genealogie/Individus/SAINT-LEGER Philippe (1787)/Photos/Tableau de Philippe.jpeg
+2 FORM jpeg
+2 TITL Tableau de Philippe
+1 CHAN
+2 DATE 15 OCT 2025
+3 TIME 16:58:05
+0 @O0001@ OBJE
+1 FILE /home/arnaud/Documents/Genealogie/Individus/SAINT-LEGER Claude (1897)/Actes/1943-04-01Mobilisation différée - Alger.jpg
+2 FORM jpg
+2 TITL 1943-04-01Mobilisation différée - Alger
+1 CHAN
+2 DATE 15 OCT 2025
+3 TIME 16:26:31
+0 @O0002@ OBJE
+1 FILE /home/arnaud/Documents/Genealogie/Individus/SAINT-LEGER Claude (1897)/Actes/1897-03-27 Acte de batême - Claude Saint-Léger.jpg
+2 FORM jpg
+2 TITL 1897-03-27 Acte de batême - Claude Saint-Léger
+1 CHAN
+2 DATE 15 OCT 2025
+3 TIME 16:58:18
+0 @O0003@ OBJE
+1 FILE /home/arnaud/Documents/Genealogie/Individus/SAINT-LEGER Claude (1897)/Actes/1897-03-24 Acte de naissance de Claude Saint-Léger.jpg
+2 FORM jpg
+2 TITL 1897-03-24 Acte de naissance de Claude Saint-Léger
+1 CHAN
+2 DATE 15 OCT 2025
+3 TIME 16:58:27
+0 @O0004@ OBJE
+1 FILE /home/arnaud/Documents/Genealogie/Individus/SAINT-LEGER Claude (1897)/Actes/1917-04-06 Rapport militaire sur l’évasion de De La Valette = Claude Saint-Léger (1915-1917) - 32° régiment des dragons.jpg
+2 FORM jpg
+2 TITL 1917-04-06 Rapport militaire sur l’évasion de De La Valette = Claude Sai
+3 CONC nt-Léger (1915-1917) - 32° régiment des dragons
+1 CHAN
+2 DATE 15 OCT 2025
+3 TIME 16:58:35
+0 @O0005@ OBJE
+1 FILE /home/arnaud/Documents/Genealogie/Individus/SAINT-LEGER Claude (1897)/Actes/1918-10-17 Citation à l’Ordre de la 166° Division d’Infanterie - De La Valette Claude = Claude Saint-Léger.jpg
+2 FORM jpg
+2 TITL 1918-10-17 Citation à l’Ordre de la 166° Division d’Infanterie - De La V
+3 CONC alette Claude = Claude Saint-Léger
+1 CHAN
+2 DATE 15 OCT 2025
+3 TIME 16:58:42
+0 @O0006@ OBJE
+1 FILE /home/arnaud/Documents/Genealogie/Individus/SAINT-LEGER Claude (1897)/Actes/1918-11-18 Citation à l’Ordre de la 166° Division d’Infanterie - De La Valette Claude = Claude Saint-Léger.jpg
+2 FORM jpg
+2 TITL 1918-11-18 Citation à l’Ordre de la 166° Division d’Infanterie - De La V
+3 CONC alette Claude = Claude Saint-Léger
+1 CHAN
+2 DATE 15 OCT 2025
+3 TIME 16:58:49
+0 @O0007@ OBJE
+1 FILE /home/arnaud/Documents/Genealogie/Individus/SAINT-LEGER Claude (1897)/Actes/1923-01-24 Extrait de décret présidentiel - nomination au grade de sous-lieutenant de réserve.jpg
+2 FORM jpg
+2 TITL 1923-01-24 Extrait de décret présidentiel - nomination au grade de sous-
+3 CONC lieutenant de réserve
+1 CHAN
+2 DATE 15 OCT 2025
+3 TIME 16:59:23
+0 @O0008@ OBJE
+1 FILE /home/arnaud/Documents/Genealogie/Individus/SAINT-LEGER Claude (1897)/Actes/1927-04-27 Ordre du régiment extrait du Journal Officiel (J.O.) - Promotion au grade de lieutenant.jpg
+2 FORM jpg
+2 TITL 1927-04-27 Ordre du régiment extrait du Journal Officiel (J.O.) - Promot
+3 CONC ion au grade de lieutenant
+1 CHAN
+2 DATE 15 OCT 2025
+3 TIME 16:59:30
+0 @O0009@ OBJE
+1 FILE /home/arnaud/Documents/Genealogie/Individus/SAINT-LEGER Claude (1897)/Actes/1943-06-03 Ordre d'appel sous les drapaux - Alger.pdf
+2 FORM pdf
+2 TITL 1943-06-03 Ordre d'appel sous les drapaux - Alger
+1 CHAN
+2 DATE 15 OCT 2025
+3 TIME 16:42:28
+0 @O0010@ OBJE
+1 FILE /home/arnaud/Documents/Genealogie/Individus/SAINT-LEGER Claude (1897)/Actes/1943-06-03 Ordre d'appel sous les drapaux - Alger.pdf
+2 FORM pdf
+2 TITL 1943-06-03 Ordre d'appel sous les drapaux - Alger
+1 CHAN
+2 DATE 15 OCT 2025
+3 TIME 16:42:41
+0 @O0015@ OBJE
+1 FILE /home/arnaud/Documents/Genealogie/Individus/SAINT-LEGER Claude (1897)/Actes/1918-11 ? Brouillon de demande de sursis Claude Saint-Léger.pdf
+2 FORM pdf
+2 TITL 1918-11 ? Brouillon de demande de sursis Claude Saint-Léger
+1 CHAN
+2 DATE 15 OCT 2025
+3 TIME 16:59:38
+0 @O0017@ OBJE
+1 FILE /home/arnaud/Documents/Genealogie/Individus/SAINT-LEGER Claude (1897)/Actes/1918-11 ? Brouillon de demande de sursis Claude Saint-Léger.pdf
+2 FORM pdf
+2 TITL 1918-11 ? Brouillon de demande de sursis Claude Saint-Léger
+1 CHAN
+2 DATE 14 OCT 2025
+3 TIME 12:29:10
+0 @O0018@ OBJE
+1 FILE /home/arnaud/Documents/Genealogie/Individus/SAINT-LEGER Claude (1897)/Actes/1941-10-15 Document de libération du Front-Stalag 204 (Amiens).jpg
+2 FORM jpg
+2 TITL 1941-10-15 Document de libération du Front-Stalag 204 (Amiens)
+1 CHAN
+2 DATE 14 OCT 2025
+3 TIME 18:55:35
+0 @O0019@ OBJE
+1 FILE /home/arnaud/Documents/Genealogie/Individus/SAINT-LEGER Claude (1897)/Actes/1942-10-13 Laissez-passer Lille-Paris.pdf
+2 FORM pdf
+2 TITL 1942-10-13 Laissez-passer Lille-Paris
+1 CHAN
+2 DATE 14 OCT 2025
+3 TIME 19:18:59
+0 @O0020@ OBJE
+1 FILE /home/arnaud/Documents/Genealogie/Individus/SAINT-LEGER Claude (1897)/Actes/1942-10-30 Sauf-conduit Marseille - Alger.jpg
+2 FORM jpg
+2 TITL 1942-10-30 Sauf-conduit Marseille - Alger
+1 CHAN
+2 DATE 14 OCT 2025
+3 TIME 19:32:13
+0 @O0021@ OBJE
+1 FILE /home/arnaud/Documents/Genealogie/Individus/SAINT-LEGER Claude (1897)/Actes/1942-10-30 Sauf-conduit Marseille - Alger.jpg
+2 FORM jpg
+2 TITL 1942-10-30 Sauf-conduit Marseille - Alger
+1 CHAN
+2 DATE 14 OCT 2025
+3 TIME 19:32:27
+0 TRLR

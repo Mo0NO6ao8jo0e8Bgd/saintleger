@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPY5DZ4740"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YPY5DZ4740');
+    </script>
+
+    <meta charset="UTF-8">
+    <title>Famille Saint-Léger / Wattinne</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+
+    <meta name="description" content="Site de généalogie consacré à la famille Saint-Léger et aux familles apparentées. Récits, arbres, photos et archives depuis Philippe Saint-Léger (1787) jusqu'à Hugues Capet.">
+    <meta name="keywords" content="généalogie, famille Saint-Léger, Wattinne, arbre généalogique, histoire familiale, ancêtres, Hugues Capet, Nord de la France, Lille">
+    <meta name="author" content="Arnaud Saint-Léger">
+
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp…) -->
+    <meta property="og:type"        content="website">
+    <meta property="og:url"         content="https://saintleger.org/">
+    <meta property="og:title"       content="Famille Saint-Léger / Wattinne">
+    <meta property="og:description" content="Site de généalogie consacré à la famille Saint-Léger et aux familles apparentées. Découvrez l'histoire de nos ancêtres et notre arbre généalogique.">
+    <meta property="og:image"       content="https://saintleger.org/photos/Philippe.png">
+    <meta property="og:locale"      content="fr_FR">
+    <meta property="og:site_name"   content="Généalogie famille Saint-Léger / Wattinne">
+
+    <!-- Twitter / X Cards -->
+    <meta name="twitter:card"        content="summary_large_image">
+    <meta name="twitter:title"       content="Famille Saint-Léger / Wattinne">
+    <meta name="twitter:description" content="Site de généalogie consacré à la famille Saint-Léger et aux familles apparentées. Découvrez l'histoire de nos ancêtres et notre arbre généalogique.">
+    <meta name="twitter:image"       content="https://saintleger.org/photos/Philippe.png">
+
+    <!-- Données structurées JSON-LD (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Généalogie famille Saint-Léger / Wattinne",
+      "url": "https://saintleger.org/",
+      "description": "Site de généalogie consacré à la famille Saint-Léger et aux familles apparentées.",
+      "inLanguage": "fr-FR",
+      "author": {
+        "@type": "Person",
+        "name": "Arnaud Saint-Léger"
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Généalogie de la famille Saint-Léger",
+        "description": "Histoire et généalogie de la famille Saint-Léger / Wattinne depuis Philippe Saint-Léger né en 1787 jusqu'à Hugues Capet (939)."
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://saintleger.org/recherche.html?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- Favicon, canonical -->
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="canonical" href="https://saintleger.org/">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /* Photo flottante à droite sur PC */
+        .photo-float {
+            float: right;
+            margin: 0 0 12px 20px;
+            width: 200px; /* largeur fixe pour aligner photo et légende */
+            text-align: center;
+        }
+        .photo-individu {
+            width: 200px !important;
+            height: auto !important;
+            display: block;
+        }
+        .legende-individu {
+            width: 200px !important;
+            max-width: 200px !important;
+            margin: 0.3em 0 0 !important;
+            text-align: center;
+            display: block;
+            box-sizing: border-box;
+            padding: 0 !important; /* annule le padding de .figure-caption */
+        }
+        /* Annuler les règles globales img pour les photos de la page d'accueil */
+        .photo-float img {
+            max-width: 200px !important;
+            width: 200px !important;
+            margin: 0 !important; /* annule le margin:14px de img global */
+        }
+        .bloc-individu {
+            overflow: hidden; /* clearfix pour le float */
+            margin-bottom: 1em;
+        }
+        /* Mobile : float désactivé, photo centrée en dessous */
+        @media (max-width: 640px) {
+            .photo-float {
+                float: none;
+                margin: 1em auto 0;
+                display: block;
+            }
+            .photo-individu  { width: 160px !important; }
+            .legende-individu { width: 160px; }
+        }
+        .rubrique {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            margin-bottom: 10px;
+        }
+        .rubrique-text { flex: 1; }
+        .rubrique-title {
+            font-weight: 500;
+            margin-bottom: 2px;
+        }
+        .rubrique-desc {
+            color: #666;
+        }
+        @media (max-width: 480px) {
+            .photo-individu  { width: 120px !important; }
+            .legende-individu { width: 120px; }
+            .rubrique { flex-direction: column; align-items: flex-start; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- HEADER et MENU -->
+<div id="header"></div>
+<div id="menu"></div>
+
+<!-- Fil d'Ariane -->
+<div class="breadcrumb">
+    Accueil
+</div>
+
+<!-- Contenu principal -->
+<div class="content">
+
+    <h1 style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;">Bienvenue sur le site de la Famille Saint-Léger / Wattinne</h1>
+
+    <h2>Bienvenue sur le site de la Famille Saint-Léger / Wattinne</h2>
+
+    <div class="bloc-individu">
+      <figure class="photo-float">
+        <img src="photos/Philippe.png" alt="Philippe Saint-Léger" class="photo-individu">
+        <figcaption class="figure-caption legende-individu"><a href="/individus/SAINT-LEGER_Philippe_1787.html" class="wikilink" data-tooltip="Arrière arrière grand père de Claude. Le point de départ de la branche Saint-Léger. Né en 1787, juste avant la révolution Française. Filateur au 32 rue des Tours. Président des banquets de la Réforme">Philippe Saint-Léger</a></figcaption>
+      </figure>
+      <p><b>Philippe est né en 1787</b>, juste avant la révolution française. Par son travail, son engagement politique et son investissement industriel, il a changé sa destinée. Non seulement la sienne, mais aussi la destinée et l'histoire de la famille sur des générations !</p>
+      <div class="doc-card"><div class="doc-title"><a href="/individus/SAINT-LEGER_Philippe_1787.html" class="wikilink" data-tooltip="Arrière arrière grand père de Claude. Le point de départ de la branche Saint-Léger. Né en 1787, juste avant la révolution Française. Filateur au 32 rue des Tours. Président des banquets de la Réforme">Philippe Saint-Léger</a></div>
+        <div class="doc-buttons"><a class="doc-btn" href="individus/SAINT-LEGER_Philippe_1787/Recits/2025-_Biographie_de_Philippe_Saint-Leger.html">📖 Lire</a></div>
+      </div>
+    </div>
+
+    <div class="bloc-individu">
+      <figure class="photo-float">
+        <img src="photos/Claude.png" alt="Claude Saint-Léger, Thérès, Francine, Nicole" class="photo-individu">
+        <figcaption class="figure-caption legende-individu"><a href="/individus/SAINT-LEGER_Claude_1897.html" class="wikilink" data-tooltip="Claude Saint-Leger (1897), mari d'Agnès (Anny) Wattinne">Claude Saint-Léger</a>, Thérès, Francine, Nicole</figcaption>
+      </figure>
+      <p><b>4 générations plus tard, Claude</b>, fut un héros de la 1° et de la 2 guerre mondiale et un grand industriel, comme ses pères.</p>
+      <div class="doc-card"><div class="doc-title"><a href="/individus/SAINT-LEGER_Claude_1897.html" class="wikilink" data-tooltip="Claude Saint-Leger (1897), mari d'Agnès (Anny) Wattinne">Claude Saint-Léger</a> - 1° guerre mondiale</div>
+        <div class="doc-buttons"><a class="doc-btn" href="individus/SAINT-LEGER_Claude_1897/Recits/2025-_Biographie_de_Claude_Saint-Leger_-_1_guerre_mondiale.html">📖 Lire</a></div>
+      </div>
+      <div class="doc-card"><div class="doc-title"><a href="/individus/SAINT-LEGER_Claude_1897.html" class="wikilink" data-tooltip="Claude Saint-Leger (1897), mari d'Agnès (Anny) Wattinne">Claude Saint-Léger</a> - entre deux guerres</div>
+        <div class="doc-buttons"><a class="doc-btn" href="individus/SAINT-LEGER_Claude_1897/Recits/2025-_Biographie_de_Claude_Saint-Leger_-_Lentre_deux_guerres.html">📖 Lire</a></div>
+      </div>
+      <div class="doc-card"><div class="doc-title"><a href="/individus/SAINT-LEGER_Claude_1897.html" class="wikilink" data-tooltip="Claude Saint-Leger (1897), mari d'Agnès (Anny) Wattinne">Claude Saint-Léger</a> - La seconde guerre mondiale</div>
+        <div class="doc-buttons"><a class="doc-btn" href="individus/SAINT-LEGER_Claude_1897/Recits/2025-_Biographie_de_Claude_Saint-Leger_-_Seconde_guerre_mondiale.html">📖 Lire</a></div>
+      </div>
+    </div>
+
+
+    <div class="bloc-individu">
+      <figure class="photo-float">
+        <a href="https://www.lulu.com/fr/shop/arnaud-saint-l%C3%A9ger/histoire-de-la-famille-de-claude-saint-l%C3%A9ger-et-agn%C3%A8s-wattinne-tome-1/hardcover/product-jemnn9v.html?page=1&pageSize=4" target="_blank">
+        <img src="photos/Le_Livre.png" alt="Commander le livre">
+        <figcaption class="figure-caption"><b>Commander le livre broché A4 sur Lulu.com</b></figcaption>
+        </a>
+      </figure>
+    <p>Leur histoire, ainsi que l'histoire des branches qui sont venues enrichir notre famille à chaque mariage, vient fonder et nourrir notre propre histoire personnelle.</p>
+    <p>Au fil des générations et des mariages, la famille remonte jusqu'au Moyen-Âge — et même jusqu'à <b><a href="/individus/CAPET_Hugues.html" class="wikilink" data-tooltip="Hugues Capet, Roi de France">Hugues Capet</a></b>, premier roi des Francs, né en 939. Ce site rassemble <b>récits, mémoires, correspondances et photos</b> de famille sur plus de <b>10 siècles d'histoire</b>.</p>
+    </div>
+ 
+
+    <div style="background-color: #f5f5f5; border-radius: 10px; padding: 16px 20px; margin: 1.5em 0;">
+    <h3 style="margin-top:0;">Explorer le site</h3>
+
+    <div class="rubrique">
+      <div class="rubrique-text">
+        <div class="rubrique-title">📖 Les récits</div>
+        <div class="rubrique-desc">Mémoires, biographies et journaux rédigés par les membres de la famille depuis 1787.</div>
+      </div>
+      <a class="menu-item" href="recits/index.html"><span class="icon">📖</span><span class="label">Récits</span></a>
+    </div>
+
+    <div class="rubrique">
+      <div class="rubrique-text">
+        <div class="rubrique-title">📷 Les photos</div>
+        <div class="rubrique-desc">Albums de famille de 1912 à nos jours : portraits, événements et lieux de vie.</div>
+      </div>
+      <a class="menu-item" href="photos/index.html"><span class="icon">📷</span><span class="label">Photos</span></a>
+    </div>
+
+    <div class="rubrique">
+      <div class="rubrique-text">
+        <div class="rubrique-title">🌳 Les arbres généalogiques</div>
+        <div class="rubrique-desc">Arbres cliquables et roues des ancêtres, de <a href="/individus/SAINT-LEGER_Claude_1897.html" class="wikilink" data-tooltip="Claude Saint-Leger (1897), mari d'Agnès (Anny) Wattinne">Claude Saint-Léger</a> jusqu'à <a href="/individus/CAPET_Hugues.html" class="wikilink" data-tooltip="Hugues Capet, Roi de France">Hugues Capet</a>.</div>
+      </div>
+      <a class="menu-item" href="arbres/index.html"><span class="icon">🌳</span><span class="label">Arbres</span></a>
+    </div>
+
+    <div class="rubrique">
+      <div class="rubrique-text">
+        <div class="rubrique-title">🏠 Les lieux</div>
+        <div class="rubrique-desc">Résidences, châteaux, villas et entreprises liés à la famille dans le Nord de la France.</div>
+      </div>
+      <a class="menu-item" href="lieux/index.html"><span class="icon">🏠</span><span class="label">Lieux</span></a>
+    </div>
+
+    <div class="rubrique">
+      <div class="rubrique-text">
+        <div class="rubrique-title">👤 Les individus</div>
+        <div class="rubrique-desc">Fiches généalogiques de chaque membre de la famille, avec arbre, documents et photos.</div>
+      </div>
+      <a class="menu-item" href="individus/index.html"><span class="icon">👤</span><span class="label">Individus</span></a>
+    </div>
+
+    </div><!-- fin bloc Explorer le site -->
+
+</div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<script>
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    const html = await res.text();
+    const el = document.getElementById(id);
+    el.innerHTML = html;
+
+    el.querySelectorAll("script").forEach(oldScript => {
+        const newScript = document.createElement("script");
+        if (oldScript.src) {
+            newScript.src = oldScript.src;
+            newScript.async = false;
+        } else {
+            newScript.textContent = oldScript.textContent;
+        }
+        document.body.appendChild(newScript);
+        oldScript.remove();
+    });
+
+    if (callback) callback();
+}
+
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return;
+    const link = document.createElement("a");
+    link.href = "mailto:arnaudsaintleger@gmail.com";
+    link.textContent = "Contact";
+    el.replaceWith(link);
+}
+
+loadHTML("header", "partials/header.html");
+loadHTML("menu", "partials/menu.html");
+loadHTML("footer", "partials/footer.html", activateEmailLink);
+</script>
+
+</body>
+</html>

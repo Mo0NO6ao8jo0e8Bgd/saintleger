@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPY5DZ4740"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YPY5DZ4740');
+    </script>
+
+    <meta charset="UTF-8">
+    <title>Recherche — Généalogie famille Saint-Léger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, follow">
+    <meta name="author" content="Arnaud Saint-Léger">
+
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- HEADER et MENU -->
+<div id="header" class="no-print"></div>
+<div id="menu" class="no-print"></div>
+
+<!-- Fil d'Ariane -->
+<div class="breadcrumb no-print">
+    <a href="index.html">Accueil</a> &gt; Recherche
+</div>
+
+<!-- Contenu -->
+<div class="content" data-pagefind-ignore>
+
+    <h2>Résultats de recherche</h2>
+
+    <div id="search-page-box">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input type="search" id="search-page-input" placeholder="Rechercher…" autocomplete="off">
+    </div>
+
+    <div id="search-page-meta"></div>
+    <div id="search-page-results"></div>
+    <div id="search-page-pagination"></div>
+
+</div>
+
+<!-- FOOTER -->
+<div id="footer" class="no-print"></div>
+
+<style>
+#search-page-box {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    padding: 0.5rem 1rem;
+    max-width: 480px;
+    margin-bottom: 1.5rem;
+}
+
+#search-page-input {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    width: 100%;
+    background: transparent;
+}
+
+#search-page-meta {
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 1rem;
+}
+
+.result-item {
+    border-bottom: 1px solid #eee;
+    padding: 0.8rem 0;
+}
+
+.result-item a {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+}
+
+.result-item a:hover {
+    text-decoration: underline;
+}
+
+.result-item .result-url {
+    font-size: 0.78rem;
+    color: #888;
+    margin: 0.1rem 0 0.3rem;
+}
+
+.result-item .result-excerpt {
+    font-size: 0.88rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.result-item .result-excerpt mark {
+    background: #fff3b0;
+    border-radius: 2px;
+    padding: 0 2px;
+}
+
+#search-page-pagination {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+}
+
+#search-page-pagination button {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: white;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+#search-page-pagination button.active {
+    background: #3a5f7d;
+    color: white;
+    border-color: #3a5f7d;
+}
+
+#search-page-pagination button:hover:not(.active) {
+    background: #f0f0f0;
+}
+</style>
+
+<script>
+async function loadHTML(id, url, callback) {
+    const res = await fetch(url);
+    document.getElementById(id).innerHTML = await res.text();
+    if (callback) callback();
+}
+
+function activateEmailLink() {
+    const el = document.getElementById("email-contact");
+    if (!el) return;
+    const link = document.createElement("a");
+    link.href = "mailto:saintleger.org@gmail.com";
+    link.textContent = "Contact";
+    el.replaceWith(link);
+}
+
+loadHTML("header", "partials/header3.html", () => {
+    // Initialisation Pagefind dans le header (champ de recherche rapide)
+    import("/pagefind/pagefind.js").then(async (pf) => {
+        await pf.init();
+        window._pagefind = pf;
+        initSearchPage();
+    });
+});
+loadHTML("menu", "partials/menu3.html");
+loadHTML("footer", "partials/footer3.html", activateEmailLink);
+</script>
+
+<script>
+const PER_PAGE = 10;
+let allResults = [];
+let currentPage = 1;
+
+async function initSearchPage() {
+    const params = new URLSearchParams(window.location.search);
+    const q = params.get("q") || "";
+    const input = document.getElementById("search-page-input");
+    input.value = q;
+
+    // Mettre à jour l'URL et relancer la recherche à chaque frappe
+    input.addEventListener("input", () => {
+        const newQ = input.value.trim();
+        const url = new URL(window.location);
+        url.searchParams.set("q", newQ);
+        window.history.replaceState({}, "", url);
+        runSearch(newQ);
+    });
+
+    if (q.length >= 2) {
+        await runSearch(q);
+    }
+}
+
+async function runSearch(q) {
+    const meta = document.getElementById("search-page-meta");
+    const resultsEl = document.getElementById("search-page-results");
+    const pagination = document.getElementById("search-page-pagination");
+
+    if (q.length < 2) {
+        meta.textContent = "";
+        resultsEl.innerHTML = "";
+        pagination.innerHTML = "";
+        return;
+    }
+
+    meta.textContent = "Recherche en cours…";
+    resultsEl.innerHTML = "";
+    pagination.innerHTML = "";
+
+    const pf = window._pagefind;
+    const search = await pf.search(q);
+    allResults = search.results;
+    currentPage = 1;
+
+    meta.textContent = `${allResults.length} résultat${allResults.length !== 1 ? "s" : ""} pour « ${q} »`;
+
+    await renderPage(currentPage);
+    renderPagination();
+}
+
+async function renderPage(page) {
+    const resultsEl = document.getElementById("search-page-results");
+    resultsEl.innerHTML = "";
+
+    const start = (page - 1) * PER_PAGE;
+    const slice = allResults.slice(start, start + PER_PAGE);
+    const items = await Promise.all(slice.map(r => r.data()));
+
+    if (items.length === 0) {
+        resultsEl.innerHTML = `<p style="color:#999">Aucun résultat.</p>`;
+        return;
+    }
+
+    items.forEach(item => {
+        const div = document.createElement("div");
+        div.className = "result-item";
+        const title = item.meta?.title || "Sans titre";
+        const url = item.url;
+        const excerpt = item.excerpt || "";
+        div.innerHTML = `
+            <a href="${url}">${title}</a>
+            <div class="result-url">${url}</div>
+            <div class="result-excerpt">${excerpt}</div>
+        `;
+        resultsEl.appendChild(div);
+    });
+}
+
+function renderPagination() {
+    const pagination = document.getElementById("search-page-pagination");
+    pagination.innerHTML = "";
+    const totalPages = Math.ceil(allResults.length / PER_PAGE);
+    if (totalPages <= 1) return;
+
+    for (let i = 1; i <= totalPages; i++) {
+        const btn = document.createElement("button");
+        btn.textContent = i;
+        if (i === currentPage) btn.classList.add("active");
+        btn.addEventListener("click", async () => {
+            currentPage = i;
+            await renderPage(currentPage);
+            renderPagination();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+        pagination.appendChild(btn);
+    }
+}
+</script>
+
+</body>
+</html>
