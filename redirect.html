@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPY5DZ4740"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YPY5DZ4740');
+    </script>
+    
+    <meta charset="UTF-8">
+    <title>Famille Saint-Léger / Wattinne</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css?v=1">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    
+    <meta charset="UTF-8">
+    <title>Redirection ou erreur 404</title>
+    <script>
+        // Charger le mappage des URLs
+        fetch('/mapping.js')
+            .then(response => response.text())
+            .then(data => {
+                eval(data); // Charge les correspondances
+
+                // Récupérer le chemin actuel
+                const currentPath = window.location.pathname.substring(1);
+
+                // Vérifier si le chemin est dans le mappage
+                if (pathMapping && pathMapping[currentPath]) {
+                    // Rediriger vers le vrai chemin
+                    window.location.replace('/' + pathMapping[currentPath]);
+                } else {
+                    // Afficher une vraie erreur 404
+                    document.body.innerHTML = `
+                        <h1>Erreur 404 : Page non trouvée</h1>
+                        <p>La page que vous cherchez n'existe pas.</p>
+                        <p><a href="/">Retour à l'accueil</a>.</p>
+                        <p>Si vous pensiez accéder à une page spécifique, vérifiez l'URL ou <a href="mailto:saintleger.org@gmail.com">contactez-moi</a>.</p>
+                    `;
+                }
+            })
+            .catch(error => {
+                console.error("Erreur de chargement du mappage :", error);
+                // Afficher une erreur générique si le mappage ne charge pas
+                document.body.innerHTML = `
+                    <h1>Erreur</h1>
+                    <p>Une erreur est survenue. <a href="/">Retour à l'accueil</a>.</p>
+                `;
+            });
+    </script>
+    
+</head>
+<body>
+
+  <h1>404 – Page introuvable</h1>
+  <p>La page demandée n’existe pas.</p>
+  <p><a href="/">Retour à l’accueil</a></p>
+
+</body>
+</html>
+

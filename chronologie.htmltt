@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Chronologie – Claude Saint-Léger</title>
+
+<style>
+body {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    background: #fff;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #4b79a1, #283e51);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.content {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+h2 {
+    border-left: 6px solid #4b79a1;
+    padding-left: 12px;
+}
+
+h3 {
+    margin-top: 40px;
+    border-left: 6px solid #4b79a1;
+    padding-left: 10px;
+}
+
+h4 {
+    margin: 20px 0 10px;
+    color: #283e51;
+}
+
+/* CONTEXTE */
+.contexte {
+    background: #2f2f2f;
+    color: #fff;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+    font-style: italic;
+    border-radius: 4px;
+}
+
+/* EVENEMENTS */
+.event {
+    padding: 8px 12px;
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+}
+
+.perso {
+    border-radius: 12px;
+}
+
+.pro {
+    border-radius: 2px;
+    border-left: 6px solid;
+    background: linear-gradient(135deg, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+}
+
+/* INDIVIDU */
+.i-claude {
+    background-color: #dceeff;
+    border-left-color: #3b73a8;
+}
+
+.nom {
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Claude Saint-Léger</h1>
+    <p>Chronologie synthétique</p>
+</header>
+
+<div class="content">
+<h2>Chronologie</h2>
+
+<h3>1897</h3>
+<h4>Mars</h4>
+
+<div class="event perso i-claude">
+    <span class="nom">Claude Saint-Léger</span> — Naissance (24/03/1897)
+</div>
+
+<div class="event perso i-claude">
+    <span class="nom">Claude Saint-Léger</span> — Baptême (27/03/1897)
+</div>
+
+<h3>1914</h3>
+<h4>Août</h4>
+
+<div class="contexte">Mobilisation générale</div>
+<div class="contexte">L’Allemagne déclare la guerre à la France</div>
+
+<h3>1915</h3>
+<h4>Août</h4>
+
+<div class="event pro i-claude">
+    <span class="nom">Claude Saint-Léger</span> — Évadé de Lille, traverse la frontière belgo-hollandaise à la nage pour rejoindre la France via l’Angleterre
+</div>
+
+<h4>Octobre</h4>
+
+<div class="event pro i-claude">
+    <span class="nom">Claude Saint-Léger</span> — Engagé volontaire au 32ᵉ Régiment de Dragons (n° 3420)
+</div>
+
+<h3>1916</h3>
+<h4>Avril</h4>
+
+<div class="event pro i-claude">
+    <span class="nom">Claude Saint-Léger</span> — Départ au front
+</div>
+
+<h4>Juillet</h4>
+<div class="contexte">Bataille de la Somme</div>
+
+<h3>1918</h3>
+<h4>Août</h4>
+
+<div class="event pro i-claude">
+    <span class="nom">Claude Saint-Léger</span> — Au front au 26ᵉ Bataillon de chasseurs à pieds
+</div>
+
+<div class="contexte">Bataille d’Amiens</div>
+
+<h4>Novembre</h4>
+<div class="contexte">Armistice</div>
+
+<h3>1923</h3>
+<h4>Janvier</h4>
+
+<div class="event pro i-claude">
+    <span class="nom">Claude Saint-Léger</span> — Directeur des Établissements Agache
+</div>
+
+<h4>Juin</h4>
+
+<div class="event perso i-claude">
+    <span class="nom">Claude Saint-Léger</span> — Mariage avec Agnès Wattinne à Pecq
+</div>
+
+<h3>1939</h3>
+<h4>Septembre</h4>
+<div class="contexte">La France déclare la guerre à l’Allemagne</div>
+
+<h3>1944</h3>
+<h4>Juin</h4>
+<div class="contexte">Débarquement allié en Normandie</div>
+
+<div class="event pro i-claude">
+    <span class="nom">Claude Saint-Léger</span> — Débarquement avec les troupes françaises à Ouistreham
+</div>
+
+<h4>Décembre</h4>
+<div class="event pro i-claude">
+    <span class="nom">Claude Saint-Léger</span> — Mort en service commandé (14/12/1944)
+</div>
+
+<h3>1945</h3>
+<h4>Mai</h4>
+<div class="contexte">Fin de la guerre</div>
+
+</div>
+</body>
+</html>

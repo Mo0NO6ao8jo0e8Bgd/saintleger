@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPY5DZ4740"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-YPY5DZ4740');
+    </script>
+    
+    
+    <meta charset="UTF-8">
+    <title>Page privé - Famille Saint-Léger / Wattinne</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css?v=1">
+    <meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+
+<!-- HEADER et MENU -->
+<div id="header"></div>
+<div id="menu"></div>
+
+<!-- Fil d’Ariane -->
+<div class="breadcrumb">
+    <a href="../index.html">Accueil</a> &gt; Page privé
+</div>
+
+<!-- Contenu principal -->
+<div class="content">
+    <h2>Vous êtes sur la page un peu privé de notre site</h2>
+    <p>Voici les roues généalogiques. La roue ascendante permet de connaître les parents de vos parents ...</br>
+    Les roues descendantes vous donnent les enfants des enfants ... avec toutes vos cousines et cousins ;-)</br>
+    <i>Cette page n'est pas accessible depuis la partie public du site, pour respecter votre vie privé</i>
+    </p>
+    
+    
+    <div class="doc-card"><div class="doc-title">Roue des ascendants de Claude et Agnès</div><div class="doc-buttons">
+        <a class="doc-btn" href="Roue asc. 6G fratrie SAINT-LÉGER-WATTINNE.html" target="_blank">📎 Roue des ascendants</a>
+    </div></div>
+    
+    <div class="doc-card"><div class="doc-title">Roue des descendants de Claude et Agnès</div><div class="doc-buttons">
+        <a class="doc-btn" href="Roue desc. 9G fratrie SAINT-LÉGER-.html" target="_blank">📎 Roues des descendants</a>
+    </div></div>
+    
+    <div class="doc-card"><div class="doc-title">Roue des enfants de Claude et Agnès</div><div class="doc-buttons">
+        <a class="doc-btn" href="Roue desc. 9G Thérèse.html" target="_blank">📎 Thérèse</a>
+        <a class="doc-btn" href="Roue desc. 9G Nicole.html" target="_blank">📎 Nicole</a>
+        <a class="doc-btn" href="Roue desc. 9G Francine.html" target="_blank">📎 Francine</a>
+        <a class="doc-btn" href="Roue desc. 9G Denis.html" target="_blank">📎 Denis</a>
+        <a class="doc-btn" href="Roue desc. 9G Chantal.html" target="_blank">📎 Chantal</a>
+    </div></div>
+    
+</div>
+
+<!-- FOOTER -->
+<div id="footer"></div>
+
+<!-- JS pour inclure header, menu et footer -->
+<script>
+function loadHTML(id, url) {
+    return fetch(url)
+        .then(res => {
+            if (!res.ok) throw new Error("HTTP " + res.status);
+            return res.text();
+        })
+        .then(html => {
+            document.getElementById(id).innerHTML = html;
+        })
+        .catch(err => console.error("Erreur chargement partial:", err));
+}
+
+// Chargement asynchrone des partials
+Promise.all([
+    loadHTML("header", "../partials/header.html"),
+    loadHTML("menu", "../partials/menu.html"),
+    loadHTML("footer", "../partials/footer.html")
+]).then(() => {
+    // Une fois le footer chargé, on transforme "Contact"
+    const user = "arnaudsaintleger";
+    const domain = "gmail.com";
+    const email = user + "@" + domain;
+
+    const span = document.getElementById("email-contact");
+    if (span) {
+        const link = document.createElement("a");
+        link.href = "mailto:" + email;
+        link.textContent = "Contact";
+        span.replaceWith(link);
+    }
+});
+</script>
+
+</body>
+</html>
+
+
